@@ -1,0 +1,14 @@
+---
+layout: post
+title: mobility-fw 1.0a6
+joomla_id: 3502
+joomla_url: "-sp-1934979626"
+date: 2005-11-28 13:54:00.000000000 +01:00
+author: Administrator
+excerpt: "Thanks to Andras we have a new mobility-fw release containing all the bug-fixes
+  for OMNeT++ 3.2. The new version can be downloaded <a href=\"http://sourceforge.net/project/showfiles.php?group_id=109505\">here</a>.\r<br><br>\rThis
+  release is only a bug-fix release. We are currently working on the 2.0a1 release,
+  which should be out by the end of this year and will contain many improvements."
+category: Software
+---
+Thanks to Andras we have a new mobility-fw release containing all the bug-fixes for OMNeT++ 3.2. The new version can be downloaded <a href="http://sourceforge.net/project/showfiles.php?group_id=109505">here</a>.<br><br>This release is only a bug-fix release. We are currently working on the 2.0a1 release, which should be out by the end of this year and will contain many improvements.

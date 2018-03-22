@@ -1,0 +1,13 @@
+---
+layout: post
+title: IP-Suite
+joomla_id: 3594
+joomla_url: "-sp-245735443"
+date: 2003-01-01 01:00:15.000000000 +01:00
+author: Administrator
+excerpt: 'IP-suite and other protocol models in the CVS Model Repository at the <a
+  href="http://www-int.etec.uni-karlsruhe.de/">Institut für Nachrichtentechnik</a>,
+  University of Karlsruhe. Home page: <a href="http://cvs-int.etec.uni-karlsruhe.de/omnetpp">http://cvs-int.etec.uni-karlsruhe.de/omnetpp</a>'
+category: News
+---
+IP-suite and other protocol models in the CVS Model Repository at the <a href="http://www-int.etec.uni-karlsruhe.de/">Institut für Nachrichtentechnik</a>, University of Karlsruhe. Home page: <a href="http://cvs-int.etec.uni-karlsruhe.de/omnetpp">http://cvs-int.etec.uni-karlsruhe.de/omnetpp</a>

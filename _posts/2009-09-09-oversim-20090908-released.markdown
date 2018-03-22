@@ -1,0 +1,20 @@
+---
+layout: post
+title: OverSim-20090908 released
+joomla_id: 3651
+joomla_url: oversim-20090908-released
+date: 2009-09-09 11:53:39.000000000 +02:00
+author: Administrator
+excerpt: '<i>From Ingmar Baumgart:</i> I''m happy to announce the new OverSim snapshot
+  release 20090908. You can download OverSim-20090908 and the patched INET framework
+  from <a target="_blank" mce_href="http://www.oversim.org/wiki/OverSimDownload" href="http://www.oversim.org/wiki/OverSimDownload">http://www.oversim.org/wiki/OverSimDownload</a>.<br
+  /><br />These are the changes since the 20090320 release:<br />&nbsp; - New Python
+  scripts for postprocessing and plotting<br />&nbsp; - New application layer multicast
+  protocol NICE<br />&nbsp; - GNP/NPS network coordinate system<br />&nbsp; - Hotspot
+  roaming model for simplegameclient<br />&nbsp; - DHT: support for multiple entries
+  with the same key<br />&nbsp; - Underlays: Added support for asymmetric channels<br
+  />&nbsp; - Several API and INI FILE CHANGES - check your files!<br />&nbsp; - Many
+  other bugfixes and enhancements (take a look at doc/ChangeLog)<br /><br mce_bogus="1">'
+category: Software
+---
+<i>From Ingmar Baumgart:</i> I'm happy to announce the new OverSim snapshot release 20090908. You can download OverSim-20090908 and the patched INET framework from <a target="_blank" mce_href="http://www.oversim.org/wiki/OverSimDownload" href="http://www.oversim.org/wiki/OverSimDownload">http://www.oversim.org/wiki/OverSimDownload</a>.<br /><br />These are the changes since the 20090320 release:<br />&nbsp; - New Python scripts for postprocessing and plotting<br />&nbsp; - New application layer multicast protocol NICE<br />&nbsp; - GNP/NPS network coordinate system<br />&nbsp; - Hotspot roaming model for simplegameclient<br />&nbsp; - DHT: support for multiple entries with the same key<br />&nbsp; - Underlays: Added support for asymmetric channels<br />&nbsp; - Several API and INI FILE CHANGES - check your files!<br />&nbsp; - Many other bugfixes and enhancements (take a look at doc/ChangeLog)<br /><br mce_bogus="1">

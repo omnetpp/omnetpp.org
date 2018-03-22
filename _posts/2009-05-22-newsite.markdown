@@ -1,0 +1,32 @@
+---
+layout: post
+title: Welcome to the new OMNeT++ Community Website
+joomla_id: 3639
+joomla_url: newsite
+date: 2009-05-22 13:51:08.000000000 +02:00
+author: Administrator
+excerpt: Dear OMNeT++ Users,<br /><br />Welcome to the new, redesigned OMNeT++ community
+  site. The old, Geeklog-based website infrastructure has served us in the last 6
+  years, but its age has started to show, and had to be replaced. The new website
+  is based on Joomla, and we hope it will solve all our previous problems. A few things
+  you should now:<br /><br /><ul><li>We have removed all the unused services. Calendars,
+  polls, Web links are gone.</li><li>The forum was also dropped, as it was mostly
+  a write-only medium, and the new mailing list will double as a forum too.<br /></li><li>The
+  content of the site is mostly the same (we converted almost all content), but we
+  have reorganized the site navigation a bit.<br /></li><li>A bibtex-based Publication
+  Database was added for keeping track of OMNeT++ related papers. We made a good effort
+  to collect publications from several online libraries and collections, but we don't
+  know about the coverage. Please help us getting up-to-date by checking that it contains
+  all your publications! You can submit the missing ones via a web form.<br /></li><li>A
+  Model Catalog was added to gather all OMNeT++ models in a single place.</li><li>User
+  accounts were not taken over from the old site. <b>Please re-register</b> on the
+  new site if you wish.</li><li>We moved the mailing list to Google Groups. This allows
+  you to follow the discussion via XML feeds, write to the group from the web directly,
+  browse and search the archive in threaded mode. We have moved the old member list,
+  however if you have recently subscribed to the omnetpp list, you may have to re-subscribe.
+  The mailing list's address has changed, but the old list address still forwards
+  to the new e-mail address. We are sorry for any inconvenience.</li><li>As a registered
+  user, you will be able to submit news items, new models and publications.<br /></li></ul>
+category: Articles
+---
+Dear OMNeT++ Users,<br /><br />Welcome to the new, redesigned OMNeT++ community site. The old, Geeklog-based website infrastructure has served us in the last 6 years, but its age has started to show, and had to be replaced. The new website is based on Joomla, and we hope it will solve all our previous problems. A few things you should now:<br /><br /><ul><li>We have removed all the unused services. Calendars, polls, Web links are gone.</li><li>The forum was also dropped, as it was mostly a write-only medium, and the new mailing list will double as a forum too.<br /></li><li>The content of the site is mostly the same (we converted almost all content), but we have reorganized the site navigation a bit.<br /></li><li>A bibtex-based Publication Database was added for keeping track of OMNeT++ related papers. We made a good effort to collect publications from several online libraries and collections, but we don't know about the coverage. Please help us getting up-to-date by checking that it contains all your publications! You can submit the missing ones via a web form.<br /></li><li>A Model Catalog was added to gather all OMNeT++ models in a single place.</li><li>User accounts were not taken over from the old site. <b>Please re-register</b> on the new site if you wish.</li><li>We moved the mailing list to Google Groups. This allows you to follow the discussion via XML feeds, write to the group from the web directly, browse and search the archive in threaded mode. We have moved the old member list, however if you have recently subscribed to the omnetpp list, you may have to re-subscribe. The mailing list's address has changed, but the old list address still forwards to the new e-mail address. We are sorry for any inconvenience.</li><li>As a registered user, you will be able to submit news items, new models and publications.<br /></li></ul>

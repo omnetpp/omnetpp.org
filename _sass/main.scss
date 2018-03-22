@@ -1,67 +1,80 @@
 @charset "utf-8";
 
-h1, h2, h3, h4, h5, h6 {
-    -webkit-font-smoothing: antialiased;
+// Color
+@import "materialize/components/color-variables";
+@import "materialize/components/color-classes";
+
+// Variables;
+@import "materialize/components/variables";
+
+/* card customization */
+.download-cards .card .card-content { padding: 1rem; }
+.download-cards .card .card-content time { position: relative; top: -8px; }
+.download-list .collapsible-body { padding: 1rem; }
+.download-list .collapsible-item p { margin: 0; }
+.download-list .collapsible-item .card-content { padding: 1rem 0 0 0; }
+.download-list .collapsible-item { background-color: color("grey", "lighten-3"); }
+.download-list .collapsible-header { padding: 0.7rem; }
+
+ul.collapsible>li.collapsible-item { list-style-type: none; }
+.content ul.tabs, .content ul.collapsible { padding-left: 0; }
+
+/* inside the content we need the default ul/li behavior */
+.content ul { padding-left: 20px; }
+.content ul>li { list-style-type: disc; }
+.content ul ul>li { list-style-type: circle; }
+
+.white-underlined-link a { color: white; text-decoration: underline; }
+
+/* sticky footer - keep the footer at bottom regardless of content size  */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
-.icon-block {
-  padding: 0 15px;
+.content { flex: 1 0 auto; }
+
+nav a.brand-logo {
+    color: $primary-color;
+    font-family: trebuchet ms,sans-serif;
+    font-weight: bold;
+    padding-left: 15px;
 }
-.icon-block .material-icons {
-	font-size: inherit;
+.banner {
+    font-family: trebuchet ms,sans-serif;
+    background-image: url('/images/bluepuzzle.jpg');
+    background-size: 100%;
+    background-position: center;
+    text-shadow: 0px 0px 10px black;
+    padding: 15px;
+    margin: 24px 0 24px 0px;
 }
-.shadow-demo {
-    background-color: #26a69a;
-    width: 100px;
-    height: 100px;
-    margin: 20px auto;
+.banner .featured-projects {
+    color: black;
+    background: rgba(255,255,255,0.6);
+    margin: 0px;
+    padding: 5px 15px 10px 15px;
 }
-h1.page-title {
+.news {
+    padding-left: 16px;
+}
+.news-item {
+    padding-bottom: 2.5em;
+}
+.post-header .title {
+    font-size: 1.5em;
     font-weight: 500;
-    font-size: 2.3em;
-    text-align: center;
-    color: #29b6f6;
 }
-.col.grid-example {
-    border: 1px solid #eee;
-    margin: 7px 0;
-    text-align: center;
-    line-height: 50px;
-    font-size: 28px;
-    background-color: tomato;
-    color: white;
-    padding: 0;
+time {
+    color: #808080;
+    font-size: 0.7rem;
+    line-height: 2.5;
 }
-.collection .collection-item.avatar {
-    padding-right: 30px;
-}
-.last-post {
-    padding: 10px 0 15px;
-}
-.last-post .collection .collection-item.avatar>.date-post {
-    position: absolute;
-    width: 54px;
-    height: 54px;
-    overflow: hidden;
-    left: 10px;
-    display: inline-block;
-    padding: 16px 0;
-    vertical-align: middle;
-    background: #ad1457;
-    color: #fff;
-    text-align: center;
-}
-.txt-center {
-    text-align: center;
-}
-.post-header h1.post-title {
-    color: #29b6f6;
-    font-size: 2.8em;
-    font-weight: 800;
-}
-.post-header time {
-    color: #cacaca;
-    font-size: 0.9em;
-}
-p.rss-subscribe {
-    margin: 0;
+
+/* make the front page container 70% width if the lines would be too long to read */
+.frontcontainer { width: 70%; }
+@media only screen and (max-width : 1600px) {
+    .frontcontainer {
+        width: 100% !important;
+    }
 }

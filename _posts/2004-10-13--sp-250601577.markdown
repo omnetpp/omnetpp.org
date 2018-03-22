@@ -1,0 +1,19 @@
+---
+layout: post
+title: INET Framework 20041007
+joomla_id: 3537
+joomla_url: "-sp-250601577"
+date: 2004-10-13 08:19:50.000000000 +02:00
+author: Administrator
+excerpt: '<P>This is the&nbsp;first release of the <EM>INET Framework for OMNeT++</EM>,
+  a simulation package for TCP, IP, MPLS and related protocols, a new incarnation
+  of&nbsp;IPSuite. INET now has support for&nbsp;Ethernet network interfaces in IP
+  hosts and router --&nbsp;implementation of this feature was boosted by a good and
+  extensive patch from Emin Ilker Cetinbas. MPLS also works now, with&nbsp;packet
+  contents and internal tables made fully inspectable in Tkenv.&nbsp;<STRONG>Requires
+  OMNeT++ 3.0a8</STRONG>. Several other improvements are listed on the download page:
+  [<A href="index.php?option=com_docman&task=doc_details&gid=2132">Download</A>] See
+  also:[<A href="http://whale.hit.bme.hu/~andras/misc/INET-20041007-doc">On-line Documentation</A>]</P>'
+category: Software
+---
+<P>This is the&nbsp;first release of the <EM>INET Framework for OMNeT++</EM>, a simulation package for TCP, IP, MPLS and related protocols, a new incarnation of&nbsp;IPSuite. INET now has support for&nbsp;Ethernet network interfaces in IP hosts and router --&nbsp;implementation of this feature was boosted by a good and extensive patch from Emin Ilker Cetinbas. MPLS also works now, with&nbsp;packet contents and internal tables made fully inspectable in Tkenv.&nbsp;<STRONG>Requires OMNeT++ 3.0a8</STRONG>. Several other improvements are listed on the download page: [<A href="index.php?option=com_docman&task=doc_details&gid=2132">Download</A>] See also:[<A href="http://whale.hit.bme.hu/~andras/misc/INET-20041007-doc">On-line Documentation</A>]</P>

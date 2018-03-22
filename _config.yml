@@ -1,11 +1,15 @@
-title: Starter Template
-author: Panoramedia
-email: panoramedia@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  A Site Starter Materialize Templates for Jekyll
+title: OMNeT++ Discrete Event Simulator
+author: OMNeT++ Dev Team
+email: omnetpp@googlegroups.com
 
-twitter_username: macrod68
-github_username:  macrod68
+twitter_username: omnetpp
+github_username:  omnetpp
+excerpt_separator: <!--more-->
+google_analytics: UA-240922-2
 
 sass:
     style: compressed
+
+plugins:
+    - jekyll-paginate
+    - jekyll-redirect-from

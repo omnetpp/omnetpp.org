@@ -1,0 +1,19 @@
+---
+layout: post
+title: INET Framework 20100323 snapshot released
+joomla_id: 3659
+joomla_url: inet20100323
+date: 2010-03-24 13:41:16.000000000 +01:00
+author: Administrator
+excerpt: '<meta http-equiv="content-type" content="text/html; charset=utf-8"><span
+  class="Apple-style-span" style="color: rgb(0, 0, 0); font-family: arial, sans-serif;
+  line-height: normal; font-size: 13px; border-collapse: collapse; "><div>This is
+  just a short announcement about the availability of the INET 20100323 stable shanpshot
+  release. The tarball contains the automatically generated documentation and can
+  be downloaded from the github project site:&nbsp;<a href="http://github.com/inet-framework/inet/downloads"
+  target="_blank" style="color: rgb(42, 93, 176); ">http://github.com/inet-<wbr>framework/inet/downloads</a></div><div><br
+  /></div><div>The enhancements and additions since the latest tagged release (20090909)
+  are ...</div><div><br /></div><div>'
+category: Software
+---
+<meta http-equiv="content-type" content="text/html; charset=utf-8"><span class="Apple-style-span" style="color: rgb(0, 0, 0); font-family: arial, sans-serif; line-height: normal; font-size: 13px; border-collapse: collapse; "><div>This is just a short announcement about the availability of the INET 20100323 stable shanpshot release. The tarball contains the automatically generated documentation and can be downloaded from the github project site:&nbsp;<a href="http://github.com/inet-framework/inet/downloads" target="_blank" style="color: rgb(42, 93, 176); ">http://github.com/inet-<wbr>framework/inet/downloads</a></div><div><br /></div><div>The enhancements and additions since the latest tagged release (20090909) are ...</div><div><br /></div><div><br /></div><div><div>INET-20100323</div><div>-------------</div><div>- added "label" annotations to gates and modules to support the adaptive palette</div><div>&nbsp;&nbsp;filtering and gate matching in the connection chooser (OMNeT++ 4.1).</div><div><br /></div><div>- updated SCTP implementation by Michael Tuexen, Irene Ruengeler and</div><div>&nbsp;&nbsp;Thomas Dreibholz</div><div><br /></div><div>- added support for Sam Jensen's Network Simulation Cradle,</div><div>&nbsp;&nbsp;<a href="http://www.wand.net.nz/~stj2/nsc/" target="_blank" style="color: rgb(42, 93, 176); ">http://www.wand.net.nz/~<wbr>stj2/nsc/</a>, which makes real-world TCP stacks available.</div><div>&nbsp;&nbsp;in simulations. Currently NSC supports the FreeBSD, OpenBSD, lwIP and Linux.</div><div>&nbsp;&nbsp;stacks. The TCP_NSC module (transport/tcp_nsc) is a drop-in replacement for the.</div><div>&nbsp;&nbsp;normal TCP module (transport/tcp), and can be activated with a single parameter.</div><div>&nbsp;&nbsp;setting in StandardHost. See src/transport/tcp_nsc, 3rdparty/README, and.</div><div>&nbsp;&nbsp;examples/inet/<wbr>tcpclientserver.</div><div><br /></div><div>- added TCP SACK and New Reno implementation by Thomas Reschka. The original TCP.</div><div>&nbsp;&nbsp;version is still available as TCP_old. See src/transport/tcp/ChangeLog for details.</div></div></span>

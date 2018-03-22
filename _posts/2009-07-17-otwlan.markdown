@@ -1,0 +1,38 @@
+---
+layout: post
+title: 'Announcement: oTWLAN – a tool to simulate tactical ad-hoc networks'
+joomla_id: 3648
+joomla_url: otwlan
+date: 2009-07-17 12:51:10.000000000 +02:00
+author: Administrator
+excerpt: "<p><i><span style=\"font-size: small; font-style: italic;\"><span lang=\"EN-GB\">oTWLAN</span></span></i><span
+  lang=\"EN-GB\"> models a wireless ad-hoc network, which supports multi-level\r\nprecedence
+  and preemption (MLPP) over a DSSS radio. This open source project\r\nfacilitates
+  throughput/delay performance study through a GUI based user\r\ninterface. <i style=\"font-style:
+  italic;\" mce_style=\"font-style: italic;\">oTWLAN</i> has many\r\nsimilar characteristics
+  to WLAN (IEEE 802.11) but also provides a 100kbps radio\r\nchannel for enlarged
+  radio coverage, relaying of traffic for increased service\r\ncoverage area and priority
+  handling of user traffic. The latter is especially\r\nimportant for military and
+  emergency network. The simulator has been developed\r\nwithin the GOSIKT project
+  at the Norwegian Defence Research Establishment where\r\nwe study the performance
+  of PKI over tactical ad-hoc networks. Chapter 2 in the\r\nuser manual included in
+  this open source project illustrates the usage of the\r\nsimulator while other chapters
+  describe the network protocols implemented. <br /></span></p><p><span lang=\"EN-GB\"></span><span
+  lang=\"EN-GB\">Later versions of this project will be published on\r\n<a href=\"http://sourceforge.net/projects/otwlan/\"
+  mce_href=\"http://sourceforge.net/projects/otwlan/\" target=\"_blank\">http://sourceforge.net/<wbr
+  />projects/otwlan/</a></span></p>"
+category: Software
+---
+<p><i><span style="font-size: small; font-style: italic;"><span lang="EN-GB">oTWLAN</span></span></i><span lang="EN-GB"> models a wireless ad-hoc network, which supports multi-level
+precedence and preemption (MLPP) over a DSSS radio. This open source project
+facilitates throughput/delay performance study through a GUI based user
+interface. <i style="font-style: italic;" mce_style="font-style: italic;">oTWLAN</i> has many
+similar characteristics to WLAN (IEEE 802.11) but also provides a 100kbps radio
+channel for enlarged radio coverage, relaying of traffic for increased service
+coverage area and priority handling of user traffic. The latter is especially
+important for military and emergency network. The simulator has been developed
+within the GOSIKT project at the Norwegian Defence Research Establishment where
+we study the performance of PKI over tactical ad-hoc networks. Chapter 2 in the
+user manual included in this open source project illustrates the usage of the
+simulator while other chapters describe the network protocols implemented. <br /></span></p><p><span lang="EN-GB"></span><span lang="EN-GB">Later versions of this project will be published on
+<a href="http://sourceforge.net/projects/otwlan/" mce_href="http://sourceforge.net/projects/otwlan/" target="_blank">http://sourceforge.net/<wbr />projects/otwlan/</a></span></p>

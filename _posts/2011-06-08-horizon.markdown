@@ -1,0 +1,21 @@
+---
+layout: post
+title: Horizon – Scalable Parallel Network Simulation
+joomla_id: 3690
+joomla_url: horizon
+date: 2011-06-08 11:27:21.000000000 +02:00
+author: Administrator
+excerpt: "<p>Horizon is a parallel simulation extension of OMNeT++ that focuses on
+  multicore and/or multiprocessor machines. Horizon employs a centralized (master-worker)
+  parallel event execution scheme which uses a conservative synchronization algorithm.
+  This synchronization scheme is based on a new modeling paradigm that annotates discrete
+  events with <i>durations</i> in order to create an opportunity for parallel processing.
+  Horizon was originally written for OMNeT++ 3.3, and has been ported to 4.x recently.</p>\r\n\r\n<p>Horizon
+  home page: <a target=\"_blank\" href=\"http://www.comsys.rwth-aachen.de/research/projects/horizon/\"
+  mce_href=\"http://www.comsys.rwth-aachen.de/research/projects/horizon/\">http://www.comsys.rwth-aachen.de/research/projects/horizon/</a><br
+  mce_bogus=\"1\"></p>"
+category: Software
+---
+<p>Horizon is a parallel simulation extension of OMNeT++ that focuses on multicore and/or multiprocessor machines. Horizon employs a centralized (master-worker) parallel event execution scheme which uses a conservative synchronization algorithm. This synchronization scheme is based on a new modeling paradigm that annotates discrete events with <i>durations</i> in order to create an opportunity for parallel processing. Horizon was originally written for OMNeT++ 3.3, and has been ported to 4.x recently.</p>
+
+<p>Horizon home page: <a target="_blank" href="http://www.comsys.rwth-aachen.de/research/projects/horizon/" mce_href="http://www.comsys.rwth-aachen.de/research/projects/horizon/">http://www.comsys.rwth-aachen.de/research/projects/horizon/</a><br mce_bogus="1"></p>

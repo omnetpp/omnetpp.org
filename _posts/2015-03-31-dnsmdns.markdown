@@ -1,0 +1,16 @@
+---
+layout: post
+title: DNS / mDNS model for INET
+joomla_id: 3730
+joomla_url: dnsmdns
+date: 2015-03-31 13:08:12.000000000 +02:00
+author: Super User
+excerpt: <p>Andreas Rain has released a DNS / mDNS model for INET. Main features include
+  DNS (<a href="https://tools.ietf.org/html/rfc1035" target="_blank">RFC 1035</a>),
+  the experimental <a href="https://netfuture.ch/2014/12/stateless-dns/" target="_blank">stateless
+  DNS</a>, mDNS (multicast DNS, <a href="http://tools.ietf.org/html/rfc6762" target="_blank">RFC
+  6762</a>), mDNS privacy. See the <a href="https://saenridanra.github.io/omnetpp-dns-extension/"
+  target="_blank">web  site</a> for detailed information and link to the github repository.</p>
+category: Software
+---
+<p>Andreas Rain has released a DNS / mDNS model for INET. Main features include DNS (<a href="https://tools.ietf.org/html/rfc1035" target="_blank">RFC 1035</a>), the experimental <a href="https://netfuture.ch/2014/12/stateless-dns/" target="_blank">stateless DNS</a>, mDNS (multicast DNS, <a href="http://tools.ietf.org/html/rfc6762" target="_blank">RFC 6762</a>), mDNS privacy. See the <a href="https://saenridanra.github.io/omnetpp-dns-extension/" target="_blank">web  site</a> for detailed information and link to the github repository.</p>

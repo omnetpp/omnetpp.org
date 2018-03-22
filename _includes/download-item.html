@@ -1,0 +1,63 @@
+<li class="collapsible-item">
+    <div style="position: relative;">
+        <div class="collapsible-header">{{ item.name }}
+            {% if item.date %}&nbsp;<time>({{ item.date }})</time>{% endif %}
+        </div>
+        <div class="right" style="padding: 0.5rem; position: absolute; top: 0; right: 0;" >
+            {% unless item.tabs %}
+            {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn-small" style="margin-left: 10px"><i class="material-icons right">language</i>Website</a>{% endif %}
+            {% if item.torrent-url %}<a href="{{ item.torrent-url }}" class="waves-effect blue-grey btn-small" style="margin-left: 10px"><i class="material-icons right">cloud_download</i>Torrent</a>{% endif %}
+            {% if item.download-url %}<a href="{{ item.download-url }}" class="waves-effect waves-light green btn-small" style="margin-left: 10px"><i class="material-icons right">file_download</i>Download</a>{% endif %}
+            {% endunless %}
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="collapsible-body">
+    {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+    {% if item.more-url %}<a href="{{ item.more-url }}" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Read more</a>{% endif %}
+    {% unless item.tabs %}
+    <p>
+      {% if item.filesize %}Size:&nbsp;{{item.filesize | divided_by: 1048576}}MB&nbsp;&nbsp;{% endif %}
+      {% if item.md5 %}MD5:&nbsp;{{item.md5}}&nbsp;&nbsp;{% endif %}
+      {% if item.sha1 %}SHA1:&nbsp;{{item.sha1}}&nbsp;&nbsp;{% endif %}
+    </p>
+      {% if item.ipfs %}<p><a class="black-text" style="text-decoration: underline;" href="https://docs.ipfs.io/introduction/install/" target="_blank">IPFS</a>: {{item.ipfs}}</p>{% endif %}
+    {% endunless %}
+
+    {% if item.tabs %}
+    <div class="card-tabs">
+       <ul class="tabs tabs-transparent tabs-fixed-width">
+    {% for tab in item.tabs %}
+         <li class="tab">
+           <a href="#{{item.id}}_{{tab.id}}">
+           {% if tab.id == "linux" %}<i class="fab fa-linux fa-lg"></i>&nbsp;LINUX{% endif %}
+           {% if tab.id == "windows" %}<i class="fab fa-windows fa-lg"></i>&nbsp;WINDOWS{% endif %}
+           {% if tab.id == "macos" %}<i class="fab fa-apple fa-lg"></i>&nbsp;MAC OS{% endif %}
+           {% if tab.id == "core" %}<i class="fas fa-file-archive"></i>&nbsp;CORE (Without IDE){% endif %}
+           {% if tab.name %}{{tab.name}}{% endif %}
+           </a>
+         </li>
+    {% endfor %}
+       </ul>
+    </div>
+    <div class="card-content"  sytle="padding: ">
+   {% for tab in item.tabs %}
+       <div id="{{item.id}}_{{tab.id}}">
+           {% if tab.download-url %}<a href="{{ tab.download-url }}" class="waves-effect waves-light green btn right" style="margin-left: 10px"><i class="material-icons right">file_download</i>Download</a>{% endif %}
+           {% if tab.torrent-url %}<a href="{{ tab.torrent-url }}" class="waves-effect blue-grey btn right" style="margin-left: 10px"><i class="material-icons right">cloud_download</i>Torrent</a>{% endif %}
+           {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn right" style="margin-left: 10px"><i class="material-icons right">language</i>Website</a>{% endif %}
+           {% if tab.filesize%}<p>Size: {{tab.filesize | divided_by: 1048576}}MB</p>{% endif %}
+           {% if tab.md5 %}<p>MD5: {{tab.md5}}</p>{% endif %}
+           {% if tab.sha1 %}<p>SHA1: {{tab.sha1}}</p>{% endif %}
+           {% if tab.ipfs %}<p><a class="black-text" style="text-decoration: underline;" href="https://docs.ipfs.io/introduction/install/" target="_blank">IPFS</a>: {{tab.ipfs}}</p>{% endif %}
+           {% if tab.description %}<p>{{tab.description}}</p>{% endif %}
+           <div style="clear: both"></div>
+       </div>
+   {% endfor %}
+    </div>
+ {% endif %}
+
+
+
+    </div>
+</li>

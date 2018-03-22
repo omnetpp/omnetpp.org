@@ -1,0 +1,12 @@
+---
+layout: post
+title: Queues-0.1
+joomla_id: 3622
+joomla_url: "-sp-1518937192"
+date: 2001-02-05 21:41:06.000000000 +01:00
+author: Administrator
+excerpt: Queues-0.1 from Nick van Foreest was uploaded to the contrib site. The package
+  contains a 9-page tutorial for OMNeT++ -- the best starting point for learning OMNeT++!
+category: Software
+---
+Queues-0.1 from Nick van Foreest was uploaded to the contrib site. The package contains a 9-page tutorial for OMNeT++ -- the best starting point for learning OMNeT++!

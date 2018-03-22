@@ -1,0 +1,13 @@
+---
+layout: post
+title: PSGen Omnet++ (Publish/Subscribe topology generator)
+joomla_id: 3506
+joomla_url: "-sp-1513271607"
+date: 2005-10-25 13:26:00.000000000 +02:00
+author: Administrator
+excerpt: <P>Robert Fach has released <STRONG>PSGen</STRONG>, a <A href="http://www.cs.bu.edu/brite/">BRITE</A>-based
+  Publish/Subscribe topology generator, which can be downloaded from the <A href="http://www1.inf.tu-dresden.de/~rf913578/psgen.html">PSGen
+  home page</A> at TU Dresden <i>(link updated on Oct 12, 2007)</i>.</P>
+category: Software
+---
+<P>Robert Fach has released <STRONG>PSGen</STRONG>, a <A href="http://www.cs.bu.edu/brite/">BRITE</A>-based Publish/Subscribe topology generator, which can be downloaded from the <A href="http://www1.inf.tu-dresden.de/~rf913578/psgen.html">PSGen home page</A> at TU Dresden <i>(link updated on Oct 12, 2007)</i>.</P>

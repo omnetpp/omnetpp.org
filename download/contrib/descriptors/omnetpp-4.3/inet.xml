@@ -1,0 +1,8 @@
+<project name="inet"
+         version="2.2.0"
+         title="INET Framework"
+         short-description="Basic protocols and applications for Internet"
+         long-description="Provides models for communication networks, protocols, technologies and applications used on the Internet"
+         distribution-url="https://omnetpp.org/download/contrib/models/inet-2.2.0-src.tgz"
+         />
+

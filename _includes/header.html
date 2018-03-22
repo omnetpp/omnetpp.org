@@ -1,32 +1,42 @@
-<nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}">Logo</a>
+<nav class="navigator grey lighten-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}">OMNeT++</a>
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
 
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="{{ "/" | relative_url }}">Home </a></li>
-            {% if page_paths %}
-                {% for path in page_paths %}
-                    {% assign my_page = site.pages | where: "path", path | first %}
-                    {% if my_page.title %}
-                    <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                    {% endif %}
-                {% endfor %}
-            {% endif %}              
+            {% for item in site.data.menu %}
+              {% if item.submenu %}
+                <li class="{% if page.underMenu == item.name %}active{% assign activeSubmenu = item.submenu %}{% endif %}">
+                  <a class="dropdown-trigger" href="#!" data-target="menu-dropdown-{{ item.name }}">{{ item.name }}</a>
+                  <ul id="menu-dropdown-{{ item.name }}" class="dropdown-content">
+                    {% for submenuitem in item.submenu %}
+                      {% if submenuitem.separator %}
+                        <li role="presentation" class="divider"></li>
+                      {% else %}
+                        <li><a href="{{ submenuitem.link }}">{{ submenuitem.name }}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% else %}
+                <li{% if page.underMenu == item.name %} class="active"{% endif %}>
+                   <a href="{{ item.link }}">{{ item.name }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
           </ul>
 
-          <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Home</a></li>
-                            {% if page_paths %}
-                {% for path in page_paths %}
-                    {% assign my_page = site.pages | where: "path", path | first %}
-                    {% if my_page.title %}
-                    <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                    {% endif %}
-                {% endfor %}
-            {% endif %} 
-          </ul>        
+          <ul id="nav-mobile" class="sidenav">
+            {% for item in site.data.menu %}
+              {% if item.submenu %}
+              {% else %}
+                <li{% if page.underMenu == item.name %} class="active"{% endif %}>
+                   <a href="{{ item.link }}">{{ item.name }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
 
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
 </nav>

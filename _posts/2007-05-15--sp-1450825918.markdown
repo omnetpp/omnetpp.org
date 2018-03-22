@@ -1,0 +1,13 @@
+---
+layout: post
+title: OverSim-20070511 released
+joomla_id: 3480
+joomla_url: "-sp-1450825918"
+date: 2007-05-15 15:36:53.000000000 +02:00
+author: Administrator
+excerpt: <EM>From Ingmar Baumgart:</EM> <FONT size=2>I'm happy to announce the new
+  OverSim snapshot release 20070511. You can download OverSim-20070511 and the patched
+  INET framework from <A href="http://www.oversim.org/wiki/OverSimDownload">oversim.org</A>.</FONT>
+category: Software
+---
+<EM>From Ingmar Baumgart:</EM> <FONT size=2>I'm happy to announce the new OverSim snapshot release 20070511. You can download OverSim-20070511 and the patched INET framework from <A href="http://www.oversim.org/wiki/OverSimDownload">oversim.org</A>.</FONT> These are all changes from the 20070404 release: <UL><LI>New overlay protocols: Pastry, Koorde, Broose <LI>New CommonAPI calls: forward(), update(), local_lookup(), ..., new pointer to overlay module in BaseApp for CommonAPI calls, new configuration parameter "useCommonAPIforward" <LI>Fixed hop count for iterative lookups when searching nodeIds <LI>BootstrapOracle rewritten: now holds all nodes in simulation <LI>Split up NodeHandle to NodeHandle (IP, UDP-port, nodeID) and TransportAddress (IP, UDP port) <LI>Chord modules and classes renamed to Chord* <LI>Gia modules and classes renamed to Gia* <LI>Various bug fixes</LI></UL><P>&nbsp;</P>

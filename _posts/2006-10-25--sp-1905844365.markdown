@@ -1,0 +1,15 @@
+---
+layout: post
+title: OMNeT++ 3.3 released
+joomla_id: 3488
+joomla_url: "-sp-1905844365"
+date: 2006-10-25 22:11:14.000000000 +02:00
+author: Administrator
+excerpt: <P>We are happy to announce OMNeT++ version 3.3. This release brings GUI
+  enhancements in Tkenv, and several bugfixes. Thanks to everyone providing feedback
+  and suggestions! [<A href="index.php?option=com_content&view=article&id=3441">What's
+  New</A>] [<A href="index.php?option=com_docman&task=cat_view&gid=1">Download</A>]
+  </P>
+category: Software
+---
+<P>We are happy to announce OMNeT++ version 3.3. This release brings GUI enhancements in Tkenv, and several bugfixes. Thanks to everyone providing feedback and suggestions! [<A href="index.php?option=com_content&view=article&id=3441">What's New</A>] [<A href="index.php?option=com_docman&task=cat_view&gid=1">Download</A>] </P>

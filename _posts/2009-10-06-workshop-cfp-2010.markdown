@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'Call for Papers -- 3rd International Workshop on OMNeT++ '
+joomla_id: 3652
+joomla_url: workshop-cfp-2010
+date: 2009-10-06 13:16:22.000000000 +02:00
+author: Administrator
+excerpt: "<p>The CfP for the <a mce_href=\"http://www.omnet-workshop.org/2010/Authors/CallForPapers\"
+  href=\"http://www.omnet-workshop.org/2010/Authors/CallForPapers\"><b>3rd International
+  OMNeT++ Workshop</b></a> is now online. Come to <u>Malaga</u> (Spain) on March 19
+  2010, and meet other members of the OMNeT++ community to show your work, exchange
+  ideas and coordinate joint efforts.</p>\r\n<p>You can submit full or short papers
+  (up to 8 and 4 pages). All\r\naccepted papers will be indexed, and selected papers
+  will be considered\r\nfor an international journal publication. The workshop will
+  be held in\r\nconjunction with <a href=\"http://www.simutools.org/2010/\" mce_href=\"http://www.simutools.org/2010/\">SIMUTools&nbsp;2010</a>.</p>\r\n<p>Paper
+  submission deadline is <u>November 15, 2009</u>.</p>\r\n<p>[<a href=\"http://www.omnet-workshop.org/2010/Authors/CallForPapers\"
+  mce_href=\"http://www.omnet-workshop.org/2010/Authors/CallForPapers\">Call for Papers</a>]</p>"
+category: Articles
+---
+<p>The CfP for the <a mce_href="http://www.omnet-workshop.org/2010/Authors/CallForPapers" href="http://www.omnet-workshop.org/2010/Authors/CallForPapers"><b>3rd International OMNeT++ Workshop</b></a> is now online. Come to <u>Malaga</u> (Spain) on March 19 2010, and meet other members of the OMNeT++ community to show your work, exchange ideas and coordinate joint efforts.</p>
+<p>You can submit full or short papers (up to 8 and 4 pages). All
+accepted papers will be indexed, and selected papers will be considered
+for an international journal publication. The workshop will be held in
+conjunction with <a href="http://www.simutools.org/2010/" mce_href="http://www.simutools.org/2010/">SIMUTools&nbsp;2010</a>.</p>
+<p>Paper submission deadline is <u>November 15, 2009</u>.</p>
+<p>[<a href="http://www.omnet-workshop.org/2010/Authors/CallForPapers" mce_href="http://www.omnet-workshop.org/2010/Authors/CallForPapers">Call for Papers</a>]</p>

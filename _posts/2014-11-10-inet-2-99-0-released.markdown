@@ -1,0 +1,32 @@
+---
+layout: post
+title: INET 2.99.0 released
+joomla_id: 3723
+joomla_url: inet-2-99-0-released
+date: 2014-11-10 00:00:00.000000000 +01:00
+author: Super User
+excerpt: "<p>This release is a snapshot of the development that has begun in early
+  2013, and will culminate in the release of INET-3.0. The code is work in progress,
+  which means all details may still change until 3.0 is reached. This release requires
+  OMNeT++ 4.6 or later.</p>\r\n<p>The highlights of this release are: </p>\r\n<ul>\r\n<li>Network
+  layer refactoring that allows higher layer protocols (including routing protocols)
+  to be written in a network protocol agnostic manner. </li>\r\n<li>A new physical
+  layer model that builds upon the INET and MiXiM physical layers, and brings them
+  to new heights. Design goals were extreme modularity, extensibility, the ability
+  to support (and easily switch between) various levels of detail, and the ability
+  to add support for exploiting various pieces of parallel hardware.</li>\r\n<li>Extensive
+  refactoring aimed at improving code quality. It includes directory restructuring,
+  code formatting, refactoring of init stages and publish-subscribe communication,
+  and more.</li>\r\n</ul>\r\n<p>Read <a href=\"https://github.com/inet-framework/inet/blob/v2.99.0/WHATSNEW\">what's
+  new</a> and <a href=\"http://omnetpp.org/download/contrib/models/inet-2.99.0-src.tgz\">download
+  INET-2.99.0</a> now.</p>"
+category: Software
+---
+<p>This release is a snapshot of the development that has begun in early 2013, and will culminate in the release of INET-3.0. The code is work in progress, which means all details may still change until 3.0 is reached. This release requires OMNeT++ 4.6 or later.</p>
+<p>The highlights of this release are: </p>
+<ul>
+<li>Network layer refactoring that allows higher layer protocols (including routing protocols) to be written in a network protocol agnostic manner. </li>
+<li>A new physical layer model that builds upon the INET and MiXiM physical layers, and brings them to new heights. Design goals were extreme modularity, extensibility, the ability to support (and easily switch between) various levels of detail, and the ability to add support for exploiting various pieces of parallel hardware.</li>
+<li>Extensive refactoring aimed at improving code quality. It includes directory restructuring, code formatting, refactoring of init stages and publish-subscribe communication, and more.</li>
+</ul>
+<p>Read <a href="https://github.com/inet-framework/inet/blob/v2.99.0/WHATSNEW">what's new</a> and <a href="http://omnetpp.org/download/contrib/models/inet-2.99.0-src.tgz">download INET-2.99.0</a> now.</p>

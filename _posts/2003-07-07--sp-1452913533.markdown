@@ -1,0 +1,11 @@
+---
+layout: post
+title: PCS model
+joomla_id: 3578
+joomla_url: "-sp-1452913533"
+date: 2003-07-07 02:39:27.000000000 +02:00
+author: Administrator
+excerpt: 'Personal Communication Services model (auf Deutsch). Home page: <a href="http://www.cosy.sbg.ac.at/~aichhorn/diskretesimulation/OMNeT/simulation.html">http://www.cosy.sbg.ac.at/~aichhorn/diskretesimulation/OMNeT/simulation.html</a>'
+category: News
+---
+Personal Communication Services model (auf Deutsch). Home page: <a href="http://www.cosy.sbg.ac.at/~aichhorn/diskretesimulation/OMNeT/simulation.html">http://www.cosy.sbg.ac.at/~aichhorn/diskretesimulation/OMNeT/simulation.html</a> 

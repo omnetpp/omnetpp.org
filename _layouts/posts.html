@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="container latest-posts">
+    <section>
+      {{ content }}
+      <table>
+        {% for post in site.posts %}
+        <tr>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <td class="post-header"><time><i class="far fa-calendar-alt"></i>&nbsp;{{ post.date | date: date_format }}</time></td>
+          <td><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
+          </p>
+        </tr>
+        {% endfor %}
+      </table>
+    </section>
+</div>

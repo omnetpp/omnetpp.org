@@ -1,0 +1,13 @@
+---
+layout: post
+title: IPv6Suite
+joomla_id: 3577
+joomla_url: "-sp-1311327357"
+date: 2003-07-07 07:30:33.000000000 +02:00
+author: Administrator
+excerpt: "IPv6 Simulation models developed at the Center\rfor Telecommunications and
+  Information Engineering (CTIE)\rat Monash University, Australia by Eric Wu and Johnny
+  Lai,\runder the leadership of Y. Ahmet Sekercioglu.<br>\rHome page: <a href=\"http://ctieware.eng.monash.edu.au/twiki/bin/view/Simulation/IPv6Suite\">http://ctieware.eng.monash.edu.au/twiki/bin/view/Simulation/IPv6Suite</a>"
+category: News
+---
+IPv6 Simulation models developed at the Centerfor Telecommunications and Information Engineering (CTIE)at Monash University, Australia by Eric Wu and Johnny Lai,under the leadership of Y. Ahmet Sekercioglu.<br>Home page: <a href="http://ctieware.eng.monash.edu.au/twiki/bin/view/Simulation/IPv6Suite">http://ctieware.eng.monash.edu.au/twiki/bin/view/Simulation/IPv6Suite</a>

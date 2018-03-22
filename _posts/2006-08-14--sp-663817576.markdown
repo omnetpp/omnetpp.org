@@ -1,0 +1,20 @@
+---
+layout: post
+title: MF 2.0p2
+joomla_id: 3494
+joomla_url: "-sp-663817576"
+date: 2006-08-14 09:00:37.000000000 +02:00
+author: Administrator
+excerpt: "Hi, <A href=\"http://sourceforge.net/project/showfiles.php?group_id=109505\">here</A>
+  is the second preview of the mobility framework 2.0. Main enhancements (apart from
+  some minor bug fixes) are: <BR>\r<UL>\r<LI>windows make system should work know.
+  See the install directions in the README for details \r<LI>MAC OS make system added.
+  MF can be installed on MAC OS either with or without shared libraries. NOT TESTED!
+  \r<LI>802.11 should work again - at least with the basic bitrate. However, the automatic
+  bitrate adaption still crashes. \r<LI>We started to adapt the template folder to
+  MF 2.0 - not finished yet! </LI></UL>We are currently updating the documentation.
+  Once we are done with that and completed adapting the template folder we should
+  be able to release the first alpha..."
+category: Software
+---
+Hi, <A href="http://sourceforge.net/project/showfiles.php?group_id=109505">here</A> is the second preview of the mobility framework 2.0. Main enhancements (apart from some minor bug fixes) are: <BR><UL><LI>windows make system should work know. See the install directions in the README for details <LI>MAC OS make system added. MF can be installed on MAC OS either with or without shared libraries. NOT TESTED! <LI>802.11 should work again - at least with the basic bitrate. However, the automatic bitrate adaption still crashes. <LI>We started to adapt the template folder to MF 2.0 - not finished yet! </LI></UL>We are currently updating the documentation. Once we are done with that and completed adapting the template folder we should be able to release the first alpha... 

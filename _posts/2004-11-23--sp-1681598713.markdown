@@ -1,0 +1,13 @@
+---
+layout: post
+title: OMNeT++ 3.0 beta 1
+joomla_id: 3529
+joomla_url: "-sp-1681598713"
+date: 2004-11-23 16:30:14.000000000 +01:00
+author: Administrator
+excerpt: <P>This release comes with the new TicToc tutorial and also a Windows installer.
+  [<A href="index.php?option=com_docman&task=cat_view&gid=1"><FONT color=#800000>Download</FONT></A>]
+  </P>
+category: Software
+---
+<P>This release comes with the new TicToc tutorial and also a Windows installer. [<A href="index.php?option=com_docman&task=cat_view&gid=1"><FONT color=#800000>Download</FONT></A>] </P>

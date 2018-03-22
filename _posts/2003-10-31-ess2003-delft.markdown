@@ -1,0 +1,14 @@
+---
+layout: post
+title: ESS'2003, Delft
+joomla_id: 3562
+joomla_url: ess2003-delft
+date: 2003-10-31 21:50:00.000000000 +01:00
+author: Administrator
+excerpt: Two papers about parallel simulation with OMNeT++ were presented this week
+  in Delft, at the European Simulation Symposium. <a href="http://ctieware.eng.monash.edu.au/twiki/bin/view/Simulation/ParallelSimulation"
+  mce_href="http://ctieware.eng.monash.edu.au/twiki/bin/view/Simulation/ParallelSimulation">Find
+  the papers and the slides here</a>.
+category: News
+---
+Two papers about parallel simulation with OMNeT++ were presented this week in Delft, at the European Simulation Symposium. <a href="http://ctieware.eng.monash.edu.au/twiki/bin/view/Simulation/ParallelSimulation" mce_href="http://ctieware.eng.monash.edu.au/twiki/bin/view/Simulation/ParallelSimulation">Find the papers and the slides here</a>.

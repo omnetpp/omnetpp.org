@@ -1,0 +1,35 @@
+---
+layout: post
+title: HNOCS - Network on Chip Simulation Framework
+joomla_id: 3688
+joomla_url: hnocs
+date: 2011-03-09 10:43:15.000000000 +01:00
+author: Administrator
+excerpt: '<span class="Apple-style-span" style="border-collapse: collapse; font-family:
+  arial, sans-serif; font-size: 13px; color: rgb(0, 0, 0); line-height: normal; "
+  mce_style="border-collapse: collapse; font-family: arial, sans-serif; font-size:
+  13px; color: #000000; line-height: normal; ">NoC simulation is a key for NoC architectures
+  research resulting from the huge incurred cost of VLSI prototypes production using
+  modern manufacturing processes. Although several NoC simulators exist, they are
+  either proprietary or built on non standard infrastructure. HNOCS is an open-source
+  implementation of a NoC simulation framework using OMNeT++. The HNOCS framework
+  utilizes the OMNeT++ module interface feature to support runtime selection of simulation
+  modules from a library of parametrized components. For example by setting the opCalcType
+  parameter from "XY" to "XY/YX" the simulation change to use a different output port
+  selection algorithm. The models provided support heterogeneous NoC configuration
+  in terms of link capacity and number of VCs. HNOCS modules available today implement
+  wormhole switching, with round-robin or winner-takes-all arbitration. Current version
+  of HNOCS contains different router implementations: synchronous, asynchronous and
+  a full virtual output queuing (VOQ) with FIFO for each (input VC, output VC and
+  output port) tuple.<br /><br />Go to the homepage at:&nbsp;<a href="http://webee.technion.ac.il/matrics/software.html"
+  mce_href="http://webee.technion.ac.il/matrics/software.html" target="_blank" style="color:
+  rgb(0, 0, 204); " mce_style="color: #0000cc; ">http://webee.technion.ac.il/<wbr>matrics/software.html</a>&nbsp;or
+  v</span><span class="Apple-style-span" style="border-collapse: collapse; font-family:
+  arial, sans-serif; font-size: 13px; color: rgb(0, 0, 0); line-height: normal; "
+  mce_style="border-collapse: collapse; font-family: arial, sans-serif; font-size:
+  13px; color: #000000; line-height: normal; ">isit the <a href="http://www.omnetpp.org/omnetpp/doc_details/2231-inoc-network-on-chip-simulation-framework"
+  mce_href="http://www.omnetpp.org/omnetpp/doc_details/2231-inoc-network-on-chip-simulation-framework"
+  target="_self">model page</a>.</span><div><div><br /></div></div>'
+category: Software
+---
+<span class="Apple-style-span" style="border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px; color: rgb(0, 0, 0); line-height: normal; " mce_style="border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px; color: #000000; line-height: normal; ">NoC simulation is a key for NoC architectures research resulting from the huge incurred cost of VLSI prototypes production using modern manufacturing processes. Although several NoC simulators exist, they are either proprietary or built on non standard infrastructure. HNOCS is an open-source implementation of a NoC simulation framework using OMNeT++. The HNOCS framework utilizes the OMNeT++ module interface feature to support runtime selection of simulation modules from a library of parametrized components. For example by setting the opCalcType parameter from "XY" to "XY/YX" the simulation change to use a different output port selection algorithm. The models provided support heterogeneous NoC configuration in terms of link capacity and number of VCs. HNOCS modules available today implement wormhole switching, with round-robin or winner-takes-all arbitration. Current version of HNOCS contains different router implementations: synchronous, asynchronous and a full virtual output queuing (VOQ) with FIFO for each (input VC, output VC and output port) tuple.<br /><br />Go to the homepage at:&nbsp;<a href="http://webee.technion.ac.il/matrics/software.html" mce_href="http://webee.technion.ac.il/matrics/software.html" target="_blank" style="color: rgb(0, 0, 204); " mce_style="color: #0000cc; ">http://webee.technion.ac.il/<wbr>matrics/software.html</a>&nbsp;or v</span><span class="Apple-style-span" style="border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px; color: rgb(0, 0, 0); line-height: normal; " mce_style="border-collapse: collapse; font-family: arial, sans-serif; font-size: 13px; color: #000000; line-height: normal; ">isit the <a href="http://www.omnetpp.org/omnetpp/doc_details/2231-inoc-network-on-chip-simulation-framework" mce_href="http://www.omnetpp.org/omnetpp/doc_details/2231-inoc-network-on-chip-simulation-framework" target="_self">model page</a>.</span><div><div><br /></div></div>

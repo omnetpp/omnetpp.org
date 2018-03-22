@@ -1,0 +1,26 @@
+---
+layout: post
+title: Castalia 2.0 released
+joomla_id: 3637
+joomla_url: castalia2
+date: 2009-05-15 12:08:00.000000000 +02:00
+author: Administrator
+excerpt: "Castalia 2.0 (for OMNeT++ 3.x) has been released. Castalia is a\r\nsimulator
+  for Wireless Sensor Networks (WSN), Body Area Networks (BAN),\r\nand generally networks
+  of low-power embedded devices. It offers an\r\nadvanced channel model based on empirical
+  measurements that supports\r\nmobility and temporal variability. It also offers
+  many features that\r\nare often neglected in network-level simulation, such as realistic\r\nradio
+  modeling and access, node clock drift, and physical process\r\nmodeling. Castalia
+  is an expandable, modular and user-friendly\r\nsimulator with a growing research
+  community. For more info go to <a href=\"http://castalia.npc.nicta.com.au/\">http://castalia.npc.nicta.com.au</a>."
+category: Software
+---
+Castalia 2.0 (for OMNeT++ 3.x) has been released. Castalia is a
+simulator for Wireless Sensor Networks (WSN), Body Area Networks (BAN),
+and generally networks of low-power embedded devices. It offers an
+advanced channel model based on empirical measurements that supports
+mobility and temporal variability. It also offers many features that
+are often neglected in network-level simulation, such as realistic
+radio modeling and access, node clock drift, and physical process
+modeling. Castalia is an expandable, modular and user-friendly
+simulator with a growing research community. For more info go to <a href="http://castalia.npc.nicta.com.au/">http://castalia.npc.nicta.com.au</a>.

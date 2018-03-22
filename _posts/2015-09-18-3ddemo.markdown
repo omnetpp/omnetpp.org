@@ -1,0 +1,15 @@
+---
+layout: post
+title: OMNeT++ 3D Visualization Demo Published
+joomla_id: 3737
+joomla_url: 3ddemo
+date: 2015-09-18 10:06:13.000000000 +02:00
+author: Super User
+excerpt: "<p style=\"text-align: left;\">This is a short demo of the upcoming 3D visualization
+  features in OMNeT++ 5.0 using OpenSceneGraph and osgEarth.</p>\r\n<p style=\"text-align:
+  center;\"><iframe src=\"https://www.youtube.com/embed/BjxVS9ExoI0\" width=\"560\"
+  height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>"
+category: Articles
+---
+<p style="text-align: left;">This is a short demo of the upcoming 3D visualization features in OMNeT++ 5.0 using OpenSceneGraph and osgEarth.</p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/BjxVS9ExoI0" width="560" height="315" frameborder="0" allowfullscreen=""></iframe></p>
