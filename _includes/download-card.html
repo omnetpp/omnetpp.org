@@ -45,7 +45,6 @@
           {% if tab.torrent-url %}<a href="{{ tab.torrent-url }}" class="waves-effect blue-grey btn-small right" style="margin-left: 10px"><i class="material-icons right">cloud_download</i>Torrent</a>{% endif %}
           {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn-small right" style="margin-left: 10px"><i class="material-icons right">language</i>Website</a>{% endif %}
           <p>
-          {% if item.date %}<i class="far fa-calendar-alt"></i>&nbsp;{{item.date}}&nbsp;&nbsp;{% endif %}
           {% if tab.filesize%}Size:&nbsp;{{tab.filesize | divided_by: 1048576}}MB&nbsp;&nbsp;{% endif %}
           {% if tab.md5 %}MD5:&nbsp;{{tab.md5}}&nbsp;&nbsp;{% endif %}
           {% if tab.sha1 %}SHA1:&nbsp;{{tab.sha1}}&nbsp;&nbsp;{% endif %}
