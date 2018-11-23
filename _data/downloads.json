@@ -8,8 +8,8 @@
 		"tabs": [
       {
         "id": "linux",
-        "download-url": "https://ipfs.omnetpp.org/test/omnetpp-6.0pre2-src-linux.tgz",
-        "ipfs": "ipfs get /ipns/ipfs.omnetpp.org/test/omnetpp-6.0pre2-src-linux.tgz",
+        "download-url": "https://ipfs.omnetpp.org/release/test/omnetpp-6.0pre2-src-linux.tgz",
+        "ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/test/omnetpp-6.0pre2-src-linux.tgz",
         "filesize": 286763654,
         "md5": "3f0256cfc5171f5f3b3cc1bc2d87e129"
       }
@@ -27,29 +27,29 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/omnetpp-5.4.1-src-linux.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/omnetpp-5.4.1-src-linux.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-linux.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-linux.tgz",
 				"filesize": 260762901,
 				"md5": "0d65c0e156382122c47e87a4efef3996"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/omnetpp-5.4.1-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/omnetpp-5.4.1-src-windows.zip",
+				"download-url": "https://ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-windows.zip",
 				"filesize": 697388215,
 				"md5": "6245e161969eb5657a6689fa3067c640"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/omnetpp-5.4.1-src-macosx.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/omnetpp-5.4.1-src-macosx.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-macosx.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-macosx.tgz",
 				"filesize": 311422427,
 				"md5": "736433babdde9df03ee88988ab1ef79e"
 			},
 			{
 				"id": "core",
-				"download-url": "https://ipfs.omnetpp.org/release/omnetpp-5.4.1-src-core.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/omnetpp-5.4.1-src-core.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-core.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-core.tgz",
 				"filesize": 63575167,
 				"md5": "f29b6cdba2c1c07f33ea15207cf59e1a"
 			}
@@ -105,29 +105,29 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.3-src-linux.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.3-src-linux.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-linux.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-linux.tgz",
 				"filesize": 260656590,
 				"md5": "e708799838df4be861d6cc411c83b190"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.3-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.3-src-windows.zip",
+				"download-url": "https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-windows.zip",
 				"filesize": 697248558,
 				"md5": "e43977fd7f63a660b64cb5237c467cc0"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.3-src-macosx.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.3-src-macosx.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-macosx.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-macosx.tgz",
 				"filesize": 311313820,
 				"md5": "405bb2f78540c851749be0b42dd4420f"
 			},
 			{
 				"id": "core",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.3-src-core.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.3-src-core.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-core.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-core.tgz",
 				"filesize": 63519997,
 				"md5": "4014c938c03a96308ee3e925cdcd5206"
 			}
@@ -145,29 +145,29 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.2.1-src-linux.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.2.1-src-linux.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-linux.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-linux.tgz",
 				"filesize": 260290099,
 				"md5": "4c73e5a3e23ab12fb3b9d3689e2a8429"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.2.1-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.2.1-src-windows.zip",
+				"download-url": "https://ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-windows.zip",
 				"filesize": 689701593,
 				"md5": "a58bebfbbf011f05a08dd13dcda1358d"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.2.1-src-macosx.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.2.1-src-macosx.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-macosx.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-macosx.tgz",
 				"filesize": 304505991,
 				"md5": "b9c8f55f8143afb5e57b0ae370773c57"
 			},
 			{
 				"id": "core",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.2.1-src-core.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.2.1-src-core.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-core.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-core.tgz",
 				"filesize": 64089911,
 				"md5": "a6685fc414ca86748edbbcfa1e7d0532"
 			}
@@ -185,29 +185,29 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.2-src-linux.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.2-src-linux.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-linux.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-linux.tgz",
 				"filesize": 259874717,
 				"md5": "be819337e162b0b8613c3efcda8da65e"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.2-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.2-src-windows.zip",
+				"download-url": "https://ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-windows.zip",
 				"filesize": 689248933,
 				"md5": "7c438dd2ebe7c1989bfd1d7af5b2ae64"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.2-src-macosx.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.2-src-macosx.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-macosx.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-macosx.tgz",
 				"filesize": 304102327,
 				"md5": "d4555fe3970bf2ef3d23241035cb4830"
 			},
 			{
 				"id": "core",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.2-src-core.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.2-src-core.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-core.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-core.tgz",
 				"filesize": 64115731,
 				"md5": "758ac528bbe146e1f6cef9faa26751fb"
 			}
@@ -225,29 +225,29 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.1.1-src-linux.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.1.1-src-linux.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-linux.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-linux.tgz",
 				"filesize": 249562636,
 				"md5": "eb7aab92f62314f4df060b5af399cddd"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.1.1-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.1.1-src-windows.zip",
+				"download-url": "https://ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-windows.zip",
 				"filesize": 542281882,
 				"md5": "47f047884595eb5899fe2cb56c111d9a"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.1.1-src-macosx.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.1.1-src-macosx.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-macosx.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-macosx.tgz",
 				"filesize": 293787253,
 				"md5": "09702381e63d0659a588cf8fba245c46"
 			},
 			{
 				"id": "core",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.1.1-src-core.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.1.1-src-core.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-core.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-core.tgz",
 				"filesize": 62720937,
 				"md5": "332ce2c9a695bc9d1a7d7167b9d526c4"
 			}
@@ -265,29 +265,29 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.1-src-linux.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.1-src-linux.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-linux.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-linux.tgz",
 				"filesize": 249333440,
 				"md5": "0b043d2872b04d5f1c0850f717665901"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.1-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.1-src-windows.zip",
+				"download-url": "https://ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-windows.zip",
 				"filesize": 542021830,
 				"md5": "0a0bae8e0b4f6654bc11fd83632e1e2a"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.1-src-macosx.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.1-src-macosx.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-macosx.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-macosx.tgz",
 				"filesize": 293546194,
 				"md5": "e0fbfcbd3a7fb91f54514b4b9dfc6185"
 			},
 			{
 				"id": "core",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.1-src-core.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.1-src-core.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-core.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-core.tgz",
 				"filesize": 62524985,
 				"md5": "7f30d5009e1b530552d7b58ec4c0b35f"
 			}
@@ -305,22 +305,22 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.0-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.0-src.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src.tgz",
 				"filesize": 217153019,
 				"md5": "91f9540077d719e693610d70244d8661"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.0-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.0-src-windows.zip",
+				"download-url": "https://ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-windows.zip",
 				"filesize": 541802007,
 				"md5": "0a71bfa770a772acd7e92e484c7c5fc0"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-5.0-src-macosx.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-5.0-src-macosx.tgz",
+				"download-url": "https://ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-macosx.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-macosx.tgz",
 				"filesize": 259115847,
 				"md5": "ea79eb182d9fd41cdb46ca1977b2c5d0"
 			}
@@ -337,18 +337,18 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.6-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.6-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.6-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.6-src-windows.zip"
+				"download-url": "https://ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src-windows.zip"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.6-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.6-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src.tgz"
 			}
 		]
   },
@@ -364,18 +364,18 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.5-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.5-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.5-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.5-src-windows.zip"
+				"download-url": "https://ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src-windows.zip"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.5-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.5-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src.tgz"
 			}
 		]
   },
@@ -390,18 +390,18 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.4.1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.4.1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.4.1-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.4.1-src-windows.zip"
+				"download-url": "https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src-windows.zip"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.4.1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.4.1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz"
 			}
 		]
   },
@@ -416,18 +416,18 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.4-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.4-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.4-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.4-src-windows.zip"
+				"download-url": "https://ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src-windows.zip"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.4-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.4-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz"
 			}
 		]
   },
@@ -442,18 +442,18 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.3.1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.3.1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.3.1-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.3.1-src-windows.zip"
+				"download-url": "https://ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src-windows.zip"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.3.1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.3.1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src.tgz"
 			}
 		]
   },
@@ -469,18 +469,18 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.3-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.3-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.3-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.3-src-windows.zip"
+				"download-url": "https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src-windows.zip"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.3-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.3-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz"
 			}
 		]
   },
@@ -495,18 +495,18 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.2.2-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.2.2-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.2.2-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.2.2-src-windows.zip"
+				"download-url": "https://ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src-windows.zip"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.2.2-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.2.2-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src.tgz"
 			}
 		]
   },
@@ -521,18 +521,18 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.2.1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.2.1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.2.1-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.2.1-src-windows.zip"
+				"download-url": "https://ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src-windows.zip"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.2.1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.2.1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz"
 			}
 		]
   },
@@ -541,24 +541,24 @@
 		"featured": false,
 		"date": "2012-01-23",
 		"name": "OMNeT++ 4.2",
-		"description": "We're happy to announce the release of OMNeT++ 4.2.1, a maintenance release of OMNeT++ 4.2. This release contains bug fixes only. Read the ChangeLog (after the More link) to see what 4.2.1/4.2 has to offer compared to version 4.1",
+		"description": "We're happy to announce the release of OMNeT++ 4.2.",
 		"more-url": "/software/2011/11/17/omnet-42-released",
 		"category": "omnetpp",
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.2-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.2-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.2-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.2-src-windows.zip"
+				"download-url": "https://ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src-windows.zip"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.2-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.2-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src.tgz"
 			}
 		]
   },
@@ -573,18 +573,18 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.1-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.1-src-windows.zip"
+				"download-url": "https://ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src-windows.zip"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src.tgz"
 			}
 		]
   },
@@ -599,18 +599,18 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.0p1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.0p1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.0-src-windows.zip",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.0-src-windows.zip"
+				"download-url": "https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0-src-windows.zip",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.0/omnetpp-4.0-src-windows.zip"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-4.0p1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-4.0p1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz"
 			}
 		]
   },
@@ -625,18 +625,18 @@
 		"tabs": [
 			{
 				"id": "linux",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-3.3p1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-3.3p1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/3.3/omnetpp-3.3p1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/3.3/omnetpp-3.3p1-src.tgz"
 			},
 			{
 				"id": "windows",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-3.3-win32.exe",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-3.3-win32.exe"
+				"download-url": "https://ipfs.omnetpp.org/release/3.3/omnetpp-3.3-win32.exe",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/3.3/omnetpp-3.3-win32.exe"
 			},
 			{
 				"id": "macos",
-				"download-url": "https://ipfs.omnetpp.org/release/old/omnetpp-3.3p1-src.tgz",
-				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/old/omnetpp-3.3p1-src.tgz"
+				"download-url": "https://ipfs.omnetpp.org/release/3.3/omnetpp-3.3p1-src.tgz",
+				"ipfs": "ipfs get /ipns/ipfs.omnetpp.org/release/3.3/omnetpp-3.3p1-src.tgz"
 			}
 		]
   },
