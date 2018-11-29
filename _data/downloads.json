@@ -644,14 +644,7 @@
     "name": "OMNeT++ 3.2 and earlier releases",
     "description": "For archival purposes and for internet archeologists, ancient versions of OMNeT++ are available as a direct download from the IPFS gateway website.",
     "category": "omnetpp",
-    "download-url": "https://ipfs.omnetpp.org/release/old"
-  },
-  {
-    "name": "OMNeT++ 2.3b1 Precompiled DEMOs for Windows",
-    "description": "If you just want to have a quick look, you can download a demo package which contains the sample simulations (executable &amp; source) and the graphical editor.",
-    "date": "2003-05-21",
-    "category": "omnetpp",
-    "download-url": "https://ipfs.omnetpp.org/release/old/oppdemo-2.3b1.zip"
+    "website-url": "https://ipfs.omnetpp.org/release/old"
   },
 
   {
