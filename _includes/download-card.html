@@ -1,6 +1,6 @@
 <div class="card">
     <div class="card-content">
-        <div class="left"><span class="card-title">{{ item.name }}</span>
+        <div class="left"><span class="card-title">{{ item.title }}</span>
           {% if item.date %}<time style=""><i class="far fa-calendar-alt"></i>&nbsp;{{item.date}}</time>&nbsp;&nbsp;{% endif %}
         </div>
         <div class="right">
@@ -11,7 +11,7 @@
         {% endunless %}
         </div>
         <div style="clear: both;"></div>
-        {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+        {% if item.content %}<p>{{ item.content }}</p>{% endif %}
         {% if item.more-url %}<a href="{{ item.more-url }}" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Read more</a>{% endif %}
         {% unless item.tabs %}
         <p>

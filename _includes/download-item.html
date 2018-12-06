@@ -1,6 +1,6 @@
 <li class="collapsible-item">
     <div style="position: relative;">
-        <div class="collapsible-header">{{ item.name }}
+        <div class="collapsible-header">{{ item.title }}
             {% if item.date %}&nbsp;<time>({{ item.date }})</time>{% endif %}
         </div>
         <div class="right" style="padding: 0.5rem; position: absolute; top: 0; right: 0;" >
@@ -13,7 +13,7 @@
         <div style="clear: both;"></div>
     </div>
     <div class="collapsible-body">
-    {% if item.description %}<p>{{ item.description }}</p>{% endif %}
+    {% if item.content %}<p>{{ item.content }}</p>{% endif %}
     {% if item.more-url %}<a href="{{ item.more-url }}" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Read more</a>{% endif %}
     {% unless item.tabs %}
     <p>

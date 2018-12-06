@@ -1,0 +1,2463 @@
+#! /bin/sh
+
+cat > 'omnetpp60pre2.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 6.0 - Preview 2 - (Linux)
+date: 2018-08-09
+category: test
+featured:
+download-url:
+website-url:
+more-url:
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/test/omnetpp-6.0pre2-src-linux.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/test/omnetpp-6.0pre2-src-linux.tgz
+  filesize: 286763654
+  md5: 3f0256cfc5171f5f3b3cc1bc2d87e129
+---
+This is a preview release demonstrating our completely revamped charting solution in the IDE. It is now completely based on Python3, with support for displaying Matplotlib charts right inside the IDE, accessing simulation results in the form of Pandas DataFrames, and using the built-in (older) charts from Python. Analysis files (.anf) created by older versions of the IDE (and vice versa) cannot be opened by this release, because the internal model changed substantially.
+
+Samples:
+
+  Added a new sample (pythoncharts) that contains the documentation, and some sample analysis files for the new Python-based plotting, using the data from the resultfiles sample.
+
+IDE:
+
+  A completely rewritten Charts interface in the Analysis Tool.
+
+ Some of the most important changes in the Analysis Tool compared to the first similar preview release:
+
+  PyDev ( http://www.pydev.org/ ) is now integrated into the OMNeT++ IDE. It provides a more usable editing experience for the chart scripts - without having to use external .py files. It includes syntax highlighting, autocomplete suggestions, documentation tooltips, 'go to definition' functionality and more.
+  The chart scripts can now be 'live-edited'. Whenever the script changes in the source editor, it is executed again, and the chart is updated accordingly.
+  The standard output of the chart scripts is now printed in a proper Console, as one would expect.
+  Most Python runtime errors are now marked in the script editor and the Problems view.
+
+Other changes, not related to the Analysis Tool:
+
+  Tkenv, and all references to it, has been removed.
+  Many deprecated classes and member functions in the simulation library have also been removed.
+  The `--msg6` option of the message compiler is now turned on by default.
+  The IDE now uses the GTK3 SWT backend. This means that for the built-in web browser engine to work, different WebKit-GTK packages need to be installed - `libwebkitgtk-3.0-0` instead of `libwebkitgtk-1.0-0`.
+
+Some known issues with the new Analysis Tool:
+
+  The first time the IDE is started, an error marker saying 'Python not configured' might appear under every open project. This should disappear once an .anf file is opened.
+  An empty window named 'PartRenderingEngine's limbo' (that cannot be closed), might appear on first startup, when the first project is opened. This is Eclipse bug #473278 ( https://bugs.eclipse.org/bugs/show_bug.cgi?id=473278 ). This window closes when the IDE is closed, and does not appear again on further startups.
+  The splitter between the chart source and the chart itself, after it has been moved, sometimes gets stuck, and cannot be grabbed again. This is most likely an SWT bug. Resize the editor (vertically) to fix it.
+  There aren't any autocompletion suggestions for the built-in `results` or `chart` objects yet.
+  The interpreter configuration of PyDev is not used for running chart scripts. The first available `python3` program (in $PATH) is used, regardless of the PyDev configuration.
+  Clicking on an error marker in the Problems view does not reveal the corresponding chart in the editor.
+  The debugging capabilities of PyDev cannot be used on chart scripts.
+  Some runtime Python errors (especially ones occurring during rendering, or in custom event handlers) are not caught and marked in the editor. They are sometimes printed in the Console of the chart.
+   Analysis files (.anf) created with any older version still cannot be opened.
+   When a visual property of a built-in chart (i.e. one not using matplotlib) is edited using the dialog, its new value is instantly applied, even if the script should have overwritten it with a different value. The correct value (the one set programmatically by the script) is applied the next time the chart is refreshed (the script is executed).
+_END_
+
+
+
+cat > 'omnetpp541.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 5.4.1
+date: 2018-06-29
+category: omnetpp-current
+featured: true
+download-url:
+website-url:
+more-url: /software/2018/06/29/omnet-5-4-1-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-linux.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-linux.tgz
+  filesize: 260762901
+  md5: 0d65c0e156382122c47e87a4efef3996
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-windows.zip
+  filesize: 697388215
+  md5: 6245e161969eb5657a6689fa3067c640
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-macosx.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-macosx.tgz
+  filesize: 311422427
+  md5: 736433babdde9df03ee88988ab1ef79e
+
+- id: core
+  download-url: https://ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-core.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-core.tgz
+  filesize: 63575167
+  md5: f29b6cdba2c1c07f33ea15207cf59e1a
+
+
+---
+This release contains last-minute features and improvements, mostly motivated by the upcoming INET 4 release. Highlights are the typename and exists() operators in NED; nan and inf keywords in NED; support for logarithmic units like dB, dBW, dBm, dBV, dBmV. Qtenv has also gained much more powerful just-in-time debugging capabilities than before.
+_END_
+
+
+
+cat > 'inet.md' << '_END_'
+---
+layout: download
+title: INET Framework
+date:
+category: models
+featured: true
+download-url: https://github.com/inet-framework/inet/releases
+website-url: https://inet.omnetpp.org/
+more-url: https://inet.omnetpp.org/Introduction
+
+---
+
+INET Framework is an open-source model library for the OMNeT++ simulation environment. It provides protocols, agents and other models for researchers and students working with communication networks. INET is especially useful when designing and validating new protocols, or exploring new or exotic scenarios.
+
+INET contains models for the Internet stack (TCP, UDP, IPv4, IPv6, OSPF, BGP, etc.), wired and wireless link layer protocols (Ethernet, PPP, IEEE 802.11, etc), support for mobility, MANET protocols, DiffServ, MPLS with LDP and RSVP-TE signalling, several application models, and many other protocols and components.
+
+Several other simulation frameworks take INET as a base, and extend it into specific directions, such as vehicular networks, overlay/peer-to-peer networks, or LTE.
+
+_END_
+
+
+
+cat > 'Veins.md' << '_END_'
+---
+layout: download
+title: Veins
+date:
+category: models
+featured: true
+download-url: https://veins.car2x.org/download/
+website-url: https://veins.car2x.org
+more-url:
+
+---
+Veins is an open source Inter-Vehicular Communication (IVC) simulation framework composed of an event-based network simulator and a road traffic microsimulation model.
+_END_
+
+
+
+cat > 'Core4INET.md' << '_END_'
+---
+layout: download
+title: Core4INET
+date:
+category: models
+featured: true
+download-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Download
+website-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Background
+more-url:
+
+---
+CoRE4INET is an extension to the INET-Framework for the event-based simulation of real-time Ethernet in the OMNEST/OMNeT++ simulation system. Currently CoRE4INET supports:
+  TTEthernet (AS6802)
+  IEEE 802.1 Audio Video Bridging (AVB) / Time-Sensitive Networking (TSN)
+  IEEE 802.1Q / IEEE P802.1p VLANs and Priorities
+
+_END_
+
+
+
+cat > 'SimuLTE.md' << '_END_'
+---
+layout: download
+title: SimuLTE
+date:
+category: models
+featured: true
+download-url: https://github.com/inet-framework/simulte
+website-url: https://simulte.com/
+more-url:
+
+---
+
+LTE user plane simulation model, compatible with the INET Framework.
+Features:
+  eNodeB and UE models
+  Form-based configuration editor
+
+_END_
+
+
+
+cat > 'omnetpp53.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 5.3
+date: 2018-04-12
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2018/04/12/omnet-5-3-released.html
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-linux.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-linux.tgz
+  filesize: 260656590
+  md5: e708799838df4be861d6cc411c83b190
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-windows.zip
+  filesize: 697248558
+  md5: e43977fd7f63a660b64cb5237c467cc0
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-macosx.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-macosx.tgz
+  filesize: 311313820
+  md5: 405bb2f78540c851749be0b42dd4420f
+
+- id: core
+  download-url: https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-core.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-core.tgz
+  filesize: 63519997
+  md5: 4014c938c03a96308ee3e925cdcd5206
+
+
+---
+Highlights of this release are an improved message compiler (required for INET 4), much improved histogram support, a more powerful cMessagePrinter API and its implementation in Qtenv, and better support for smooth animation in Qtenv.
+_END_
+
+
+
+cat > 'omnetpp521.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 5.2.1
+date: 2017-12-11
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2017/12/12/omnet-5-2-1-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-linux.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-linux.tgz
+  filesize: 260290099
+  md5: 4c73e5a3e23ab12fb3b9d3689e2a8429
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-windows.zip
+  filesize: 689701593
+  md5: a58bebfbbf011f05a08dd13dcda1358d
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-macosx.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-macosx.tgz
+  filesize: 304505991
+  md5: b9c8f55f8143afb5e57b0ae370773c57
+
+- id: core
+  download-url: https://ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-core.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.2.1/omnetpp-5.2.1-src-core.tgz
+  filesize: 64089911
+  md5: a6685fc414ca86748edbbcfa1e7d0532
+
+
+---
+Highlights of this release are the fine-tuning of result recording and processing (especially around weighted statistics); many bug fixes and improvements in Qtenv; makefile changes to allow DEBUG and RELEASE builds of models to co-exist, and several related changes in the IDE.
+_END_
+
+
+
+cat > 'omnetpp52.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 5.2
+date: 2017-10-02
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2017/10/05/omnet-5-2-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-linux.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-linux.tgz
+  filesize: 259874717
+  md5: be819337e162b0b8613c3efcda8da65e
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-windows.zip
+  filesize: 689248933
+  md5: 7c438dd2ebe7c1989bfd1d7af5b2ae64
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-macosx.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-macosx.tgz
+  filesize: 304102327
+  md5: d4555fe3970bf2ef3d23241035cb4830
+
+- id: core
+  download-url: https://ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-core.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.2/omnetpp-5.2-src-core.tgz
+  filesize: 64115731
+  md5: 758ac528bbe146e1f6cef9faa26751fb
+
+
+---
+Highlights of this release are the fine-tuning of result recording and processing (especially around weighted statistics); many bug fixes and improvements in Qtenv; makefile changes to allow DEBUG and RELEASE builds of models to co-exist, and several related changes in the IDE.
+_END_
+
+
+
+cat > 'omnetpp511.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 5.1.1
+date: 2017-05-10
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2017/04/03/omnet-5-1-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-linux.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-linux.tgz
+  filesize: 249562636
+  md5: eb7aab92f62314f4df060b5af399cddd
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-windows.zip
+  filesize: 542281882
+  md5: 47f047884595eb5899fe2cb56c111d9a
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-macosx.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-macosx.tgz
+  filesize: 293787253
+  md5: 09702381e63d0659a588cf8fba245c46
+
+- id: core
+  download-url: https://ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-core.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.1.1/omnetpp-5.1.1-src-core.tgz
+  filesize: 62720937
+  md5: 332ce2c9a695bc9d1a7d7167b9d526c4
+
+
+---
+This release significantly improves and builds upon functionality introduced in version 5.0, and also raises the bar in other areas.
+_END_
+
+
+
+cat > 'omnetpp51.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 5.1
+date: 2017-03-31
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2017/04/03/omnet-5-1-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-linux.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-linux.tgz
+  filesize: 249333440
+  md5: 0b043d2872b04d5f1c0850f717665901
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-windows.zip
+  filesize: 542021830
+  md5: 0a0bae8e0b4f6654bc11fd83632e1e2a
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-macosx.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-macosx.tgz
+  filesize: 293546194
+  md5: e0fbfcbd3a7fb91f54514b4b9dfc6185
+
+- id: core
+  download-url: https://ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-core.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.1/omnetpp-5.1-src-core.tgz
+  filesize: 62524985
+  md5: 7f30d5009e1b530552d7b58ec4c0b35f
+
+
+---
+This release significantly improves and builds upon functionality introduced in version 5.0, and also raises the bar in other areas.
+_END_
+
+
+
+cat > 'omnetpp50.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 5.0
+date: 2016-04-14
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2016/04/15/omnet-5-0-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src.tgz
+  filesize: 217153019
+  md5: 91f9540077d719e693610d70244d8661
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-windows.zip
+  filesize: 541802007
+  md5: 0a71bfa770a772acd7e92e484c7c5fc0
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-macosx.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-macosx.tgz
+  filesize: 259115847
+  md5: ea79eb182d9fd41cdb46ca1977b2c5d0
+
+
+---
+
+Release 5.0 is a result of development effort of nearly two years. This is a major release that introduces significant new features compared to the last 4.x version, for example the Canvas API (2D graphics), OpenSceneGraph-based 3D graphics support, improved logging, a new Qt-based runtime environment that will eventually replace Tkenv, and much more.
+
+We have also taken the opportunity of the major release to improve several corners of the OMNeT++ API, and also to get rid of deprecated functionality. For porting models from OMNeT++ 4.x, see doc/API-changes.txt which lists all changes, with hints on how to update the model code.
+
+_END_
+
+
+
+cat > 'omnetpp46.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 4.6
+date: 2014-12-02
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2014/12/02/omnet-4-6-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src-windows.zip
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src.tgz
+  filesize:
+  md5:
+
+
+---
+Highlights of this release: models are now compiled as C++11 sources; upgrade of the Windows toolchain to MSYS2 and the latest MinGW; the debut of opp_test; and the rewrite of opp_msgc as part of nedtool. It also contains several bug fixes.
+_END_
+
+
+
+cat > 'omnetpp45.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 4.5
+date: 2014-07-16
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2014/07/16/omnet-4-5-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src-windows.zip
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src.tgz
+  filesize:
+  md5:
+
+
+---
+The focus of version 4.5 was to improve the usability of the Graphical Runtime Environment (Tkenv). The Tkenv GUI has been redesigned for single-window mode to improve usability and user experience. Tkenv has also received a new, modern look and feel, due to the use of the Ttk widgets and a custom Ttk theme.
+_END_
+
+
+
+cat > 'omnetpp441.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 4.4.1
+date: 2014-03-10
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2014/03/09/omnet-441-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src-windows.zip
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz
+  filesize:
+  md5:
+
+
+---
+This is a bugfix release for OMNeT++ 4.4. The focus of version 4.4 was to improve compatibility with the latest operating system and compilers releases. It also introduced features that help you debug and verify your simulation models more efficiently.
+_END_
+
+
+
+cat > 'omnetpp44.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 4.4
+date: 2014-02-21
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2014/01/15/omnet-44-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src-windows.zip
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz
+  filesize:
+  md5:
+
+
+---
+The focus of this update is to improve compatibility with the latest operating system and compilers releases. It also introduces features that help you debug and verify your simulation models more efficiently.
+_END_
+
+
+
+cat > 'omnetpp431.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 4.3.1
+date: 2013-09-21
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2013/09/17/omnet-431-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src-windows.zip
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src.tgz
+  filesize:
+  md5:
+
+
+---
+The focus of this update is to help first-time users get familiar with OMNeT++ by showing them introductory information and offering to install the INET Framework. In addition, the update also contains some bug fixes and smaller improvements to the Simulation IDE; there is no change in the simulation kernel and tools.
+_END_
+
+
+
+cat > 'omnetpp43.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 4.3
+date: 2013-09-16
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2013/04/02/omnet43release
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src-windows.zip
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
+  filesize:
+  md5:
+
+
+---
+This release contains several bugfixes and usability improvements compared to 4.2.2. Among other improvements, indexing of big C++ projects got considerably faster and it is now possible to create scalar statistics from other statistic values. Read the ChangeLog (after the More link) to see the complete list what 4.3 has to offer compared to version 4.2.
+_END_
+
+
+
+cat > 'omnetpp422.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 4.2.2
+date: 2013-04-03
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2012/03/26/omnet-422-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src-windows.zip
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2.2/omnetpp-4.2.2-src.tgz
+  filesize:
+  md5:
+
+
+---
+This is the second maintenance release of version 4.2 of the OMNeT++ platform. See the bugtracker for fixed bugs. Please check the Visual ChangeLog and the list of all changes since 4.1 (click 'more'). Detailed installation instructions: Install Guide (pdf).
+_END_
+
+
+
+cat > 'omnetpp421.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 4.2.1
+date: 2012-03-28
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2012/01/18/omnet-421-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src-windows.zip
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz
+  filesize:
+  md5:
+
+
+---
+We're happy to announce the release of OMNeT++ 4.2.1, a maintenance release of OMNeT++ 4.2. This release contains bug fixes only. Read the ChangeLog (after the More link) to see what 4.2.1/4.2 has to offer compared to version 4.1
+_END_
+
+
+
+cat > 'omnetpp42.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 4.2
+date: 2012-01-23
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2011/11/17/omnet-42-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src-windows.zip
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2/omnetpp-4.2-src.tgz
+  filesize:
+  md5:
+
+
+---
+We're happy to announce the release of OMNeT++ 4.2.
+_END_
+
+
+
+cat > 'omnetpp41.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 4.1
+date: 2010-06-15
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2010/06/13/omnet-41-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src-windows.zip
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src.tgz
+  filesize:
+  md5:
+
+
+---
+This is the 4.1 release of the OMNeT++ platform. This package is for Windows, and contains the MinGW C++ compiler. Please check the Visual ChangeLog and the list of all changes since 4.0 (click 'more'). Detailed installation instructions: Install Guide (pdf).
+
+
+_END_
+
+
+
+cat > 'omnetpp40.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 4.0
+date: 2009-03-12
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2009/03/12/omnet-40-released
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0-src-windows.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.0/omnetpp-4.0-src-windows.zip
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz
+  filesize:
+  md5:
+
+
+---
+This is a major revision of the whole simulation platform, with fundamental changes in nearly every component. With the new Eclipse-based IDE, greatly enhanced NED language and simulation kernel, and tons of other improvements, 4.0 is guaranteed to redefine the way you do simulations with OMNeT++, and it will open up new horizons.
+_END_
+
+
+
+cat > 'omnetpp33p1.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 3.3p1
+date: 2008-10-24
+category: omnetpp
+featured: false
+download-url:
+website-url:
+more-url: /software/2006/10/25/sp-1905844365
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/release/3.3/omnetpp-3.3p1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/3.3/omnetpp-3.3p1-src.tgz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/release/3.3/omnetpp-3.3-win32.exe
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/3.3/omnetpp-3.3-win32.exe
+  filesize:
+  md5:
+
+- id: macos
+  download-url: https://ipfs.omnetpp.org/release/3.3/omnetpp-3.3p1-src.tgz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/3.3/omnetpp-3.3p1-src.tgz
+  filesize:
+  md5:
+
+
+---
+This release brings GUI enhancements in Tkenv, and several bugfixes.
+_END_
+
+
+
+cat > 'OMNeT++ 3.2 and earlier releases.md' << '_END_'
+---
+layout: download
+title: OMNeT++ 3.2 and earlier releases
+date:
+category: omnetpp
+featured:
+download-url:
+website-url: https://ipfs.omnetpp.org/release/old
+more-url:
+
+---
+For archival purposes and for internet archeologists, ancient versions of OMNeT++ are available as a direct download from the IPFS gateway website.
+_END_
+
+
+
+cat > 'DNS mDSN model for INET.md' << '_END_'
+---
+layout: download
+title: DNS / mDSN model for INET
+date: 2015-03-31
+category: models
+featured:
+download-url: https://github.com/saenridanra/inet-dns-extension
+website-url:
+more-url:
+
+---
+
+This extension provides classes and functions to simulate DNS and mDNS traffic witin INET.
+_END_
+
+
+
+cat > 'Precision Time Protocol for INET.md' << '_END_'
+---
+layout: download
+title: Precision Time Protocol for INET
+date: 2015-03-31
+category: models
+featured:
+download-url: https://github.com/martinlevesque/ptp-plusplus
+website-url:
+more-url:
+
+---
+
+A Precision Time Protocol (PTP) module for OMNeT++ INET 2.6. Allows to measure the PTP accuracy under different configurations and traffic loads, using any INET components (routers, etc.). PTP is implemented as a UDP application.
+
+Author: Martin Levesque
+
+_END_
+
+
+
+cat > 'Cell Communication Signaling Project.md' << '_END_'
+---
+layout: download
+title: Cell Communication Signaling Project
+date: 2014-06-20
+category: models
+featured:
+download-url: https://github.com/dhuertas/cell-signaling/archive/master.zip
+website-url: https://github.com/dhuertas/cell-signaling
+more-url:
+
+---
+CellSignaling is a research project from GRXCA group at BarcelonaTECH, Polytechnic University of Catalonia, developed to study cell signaling communications at a molecular scale. It has been used to evaluate diffusion-based communication channels using calcium ions. It also features a 3D, web based visualization component based on webGL.
+_END_
+
+
+
+cat > 'rplugin.md' << '_END_'
+---
+layout: download
+title: R plugin for reading OMNeT++ result files (source)
+date: 2014-06-06
+category: tools
+featured:
+download-url:
+website-url:
+more-url:
+tabs:
+- id: linux
+  download-url: https://ipfs.omnetpp.org/tools/omnetpp_0.6-1.tar.gz
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/tools/omnetpp_0.6-1.tar.gz
+  filesize:
+  md5:
+
+- id: windows
+  download-url: https://ipfs.omnetpp.org/tools/omnetpp_0.6-1.zip
+  ipfs: ipfs get /ipns/ipfs.omnetpp.org/tools/omnetpp_0.6-1.zip
+  filesize:
+  md5:
+
+
+---
+
+This is a plugin for R that allows you to load result files generated by OMNeT++
+
+INSTALLATION:
+
+  $ R CMD INSTALL omnetpp_0.6-1.tar.gz
+
+  NOTE: You may need to install the 'reshape' package before installing omnetpp.
+
+  > install.packages("reshape")
+
+_END_
+
+
+
+cat > 'Controller Area Network (CAN) model.md' << '_END_'
+---
+layout: download
+title: Controller Area Network (CAN) model
+date: 2014-04-28
+category: models
+featured:
+download-url: https://sites.google.com/site/yutakaertl/files/can-model-0.1.0.zip?attredirects=0&d=1
+website-url: https://sites.google.com/site/yutakaertl/omnetpp_canmodel
+more-url:
+
+---
+
+Features:
+  A simulation model for CAN (Controller Area Network) for OMNeT++.
+  CAN message router is supported. By using this model, CAN-CAN gateways can be simulated easily.
+
+Limitations: Unfortunately, the error frame of the CAN protocol is not supported in the current version. (Will be supported in upcoming one)
+Requires at least:  OMNeT++ 4.4.1 and INET-Framework 2.3.0
+_END_
+
+
+
+cat > 'StreetlightSim.md' << '_END_'
+---
+layout: download
+title: StreetlightSim
+date: 2014-04-04
+category: models
+featured:
+download-url: http://www.streetlightsim.ecs.soton.ac.uk/downloadform.php
+website-url: http://www.streetlightsim.ecs.soton.ac.uk/
+more-url:
+
+---
+StreetlightSim is a research project at the Pervasive Systems Centre, University of Southampton which is developed specifically to evaluate Autonomous and Adaptive Street Lighting Schemes based on Road User's presence detection over wireless sensor networks (WSN).  StreetlightSim has been used to evaluate the performance of various street lighting schemes based on an actual streetlight network in terms of their energy efficiency and utility (a performance metric to measure the usefulness of street lighting to road users)
+_END_
+
+
+
+cat > 'SelfSimMGI.md' << '_END_'
+---
+layout: download
+title: SelfSimMGI
+date: 2014-04-04
+category: models
+featured:
+download-url: https://drive.google.com/file/d/0B2vVBHBr4WGObjF0TW9UT1dSLWs/edit?usp=sharing
+website-url:
+more-url:
+
+---
+This model is a useful  modification of the well-known self-similar traffic model “M/G/∞ Input”. The package is designed for the analysis of real WAN  traffic  traces, identification of model parameters and generation of a synthetic  traffic, which is close to real one by a number of characteristics simultaneously. These characteristics include traffic value probability distribution, normalized auto-correlation function and Hurst parameter.
+_END_
+
+
+
+cat > 'NETA: NETwork Attacks Framework for OMNeT++.md' << '_END_'
+---
+layout: download
+title: NETA - NETwork Attacks Framework for OMNeT++
+date: 2014-01-22
+category: models
+featured:
+download-url: https://github.com/robertomagan/neta_v1/releases
+website-url: https://nesg.ugr.es/index.php/en/neta-2
+more-url:
+
+---
+NETwork Attacks (NETA) is a framework devised to simulate attacks in heterogeneous networks using OMNeT++ and the INET-Framework. NETA is aimed to be an useful tool in the network security field. This tool could make easy to demonstrate the effectiveness of defense security techniques or solutions against network attacks as well as for comparing the capabilities of different defense techniques.
+_END_
+
+
+
+cat > 'OS3 The Open Source Satellite Simulator.md' << '_END_'
+---
+layout: download
+title: OS³: The Open Source Satellite Simulator
+date: 2013-08-14
+category: models
+featured:
+download-url: https://github.com/inet-framework/cni-os3
+website-url: http://www-os3.kn.e-technik.tu-dortmund.de
+more-url:
+
+---
+
+OS³, the Open Source Satellite Simulator, was developed as a framework for simulating various kinds of satellite-based communication, based on OMNeT++. The aim was to create a platform that makes evaluating satellite communication protocols as easy as possible. OS³ is also be able to automatically import real satellite tracks and weather data to simulate conditions at a certain point in the past or in the future, and offer powerful visualization.
+
+OS³ enables a comfortable and thorough analysis of complex screnarios which may be infeasible to test in reality. Starting anywhere from calculating attenuation losses for earth-bound receivers up to complex mobility scenarios, the variety of topics is only limited by creativity. For example, users are able to test new protocols or satellite orbits and evaluate the resulting performance pertaining to SNR, bit error rate, packet loss, round trip time, jitter, reachability, and other measures.
+
+_END_
+
+
+
+cat > 'CometOS.md' << '_END_'
+---
+layout: download
+title: CometOS
+date: 2013-07-08
+category: models
+featured:
+download-url: https://github.com/CometOS/CometOS
+website-url: https://www.ti5.tuhh.de/research/sensornet/cometos/
+more-url:
+
+---
+CometOS is a component-based, extensible, tiny operating system for wireless networks. It is written in C++ and highly inspired by OMNeT++'s communication paradigm. It allows the execution of protocols within the OMNeT++ simulation environment as well as on resource-restricted platforms such as wireless sensor nodes.
+_END_
+
+
+
+cat > 'Adversarial Queueing Theory model.md' << '_END_'
+---
+layout: download
+title: Adversarial Queueing Theory model
+date: 2013-07-08
+category: models
+featured:
+download-url: https://disco.cs.uni-kl.de/index.php/downloads/category/9-aqt
+website-url: https://disco.cs.uni-kl.de/index.php/projects/aqtmodel
+more-url:
+
+---
+Adversarial models of traffic generation replace probabilistic assumptions by considering the deterministic worst-case.
+_END_
+
+
+
+cat > 'HECIOS - Parallel Virtual File System Simulator.md' << '_END_'
+---
+layout: download
+title: HECIOS - Parallel Virtual File System Simulator
+date: 2013-06-05
+category: models
+featured:
+download-url: https://github.com/bws/HECIOS
+website-url:
+more-url:
+
+---
+HECIOS provides an extensible simulation package well-suited for performing quantitative evaluation of research topics in parallel I/O.
+_END_
+
+
+
+cat > 'DenaCast.md' << '_END_'
+---
+layout: download
+title: DenaCast
+date: 2013-06-05
+category: models
+featured:
+download-url: https://github.com/aarizaq/Denacast
+website-url:
+more-url:
+
+---
+
+DenaCast is an open-source peer-to-peer video streaming framework for the OMNeT++ simulation environment.
+
+New in this release:
+  Bugs are fixed in statistics
+  New Data structure for video buffer
+  Dynamic Chunk structure
+  Error recovery (FEC & ARQ)
+  Better mesh creation
+  Easy to add new mesh structure
+  New buffer map structure
+  GoP data structure is removed
+
+_END_
+
+
+
+cat > 'iCanCloud.md' << '_END_'
+---
+layout: download
+title: iCanCloud
+date: 2013-06-05
+category: models
+featured:
+download-url: https://sourceforge.net/projects/icancloudsim/
+website-url: https://www.arcos.inf.uc3m.es/old/icancloud/Home.html
+more-url:
+
+---
+iCanCloud is a simulation platform aimed to model and simulate cloud computing systems, which is targeted to those users who deal closely with those kinds of systems. The main objective of iCanCloud is to predict the trade-offs between cost and performance of a given set of applications executed in a specific hardware, and then provide to users useful information about such costs. However, iCanCloud can be used by a wide range of users, from basic active users to developers of large distributed applications.
+_END_
+
+
+
+cat > 'InfiniBand Flit Level Model.md' << '_END_'
+---
+layout: download
+title: InfiniBand Flit Level Model
+date: 2013-06-19
+category: models
+featured:
+download-url: https://ipfs.omnetpp.org/models/ib_flit_sim.19_03_13.tgz
+website-url: http://www.mellanox.com/page/omnet
+more-url:
+
+---
+
+This Mellanox-contributed InfiniBand simulation model is modeling the data-path of hosts and switches at the flit transfer level. The model can be used to estimate network performance under configurable hardware capabilities, timing and topologies.
+
+This model is different from previous released model in several ways:
+
+1. It is a port to 4.2.2 version.
+
+2. It uses module interfaces to allow for plugging in multiple implementations of the forwarding (output port selection) module
+
+3. Some more statistics add
+
+4. New IB wire speed are defined (40/56 Gbps)
+
+The models provided, do not indicate in their parameters default values nor in their code the exact capabilities or micro-architecture of Mellanox products.
+
+_END_
+
+
+
+cat > 'ANSA - Automated Network Simulation and Analysis.md' << '_END_'
+---
+layout: download
+title: ANSA - Automated Network Simulation and Analysis
+date:
+category: models
+featured: true
+download-url: https://github.com/kvetak/ANSA
+website-url: https://ansa.omnetpp.org/
+more-url:
+
+---
+This project exploits discrete simulation of a network for automated analysis of security properties. Network topology is formally built using nodes (e.g., routers) and links. Nodes include network interfaces with IP addresses, filtering rules (express using ACLs), and routing processes. Using automated simulation with changing configuration (links going up and down), dynamic behaviour of the network is observed and analyzed. The goal is to find out weak points of the network design and configuration.
+_END_
+
+
+
+cat > 'RINASim (Recursive InterNetwork Architecture).md' << '_END_'
+---
+layout: download
+title: RINASim (Recursive InterNetwork Architecture)
+date:
+category: models
+featured: true
+download-url: https://github.com/kvetak/RINA
+website-url: https://rinasim.omnetpp.org/
+more-url:
+
+---
+RINASim is a stand-alone framework for OMNeT++ discrete event simulator environment. RINASim is coded from scratch and independent on another library. The main purpose is to offer the community with reliable and the most up-to-date tool (in the sense of RINA specification compliance) for simulating RINA-based computer networks. RINASim at its current state represents an entirely working implementation of the simulation environment for RINA. The simulator contains all mechanisms of RINA according to the current specification.
+_END_
+
+
+
+cat > 'VNS - Vehicular Networks Simulator.md' << '_END_'
+---
+layout: download
+title: VNS - Vehicular Networks Simulator
+date: 2013-05-06
+category: models
+featured:
+download-url: https://github.com/enriquefynn/libvns
+website-url: http://www.dcc.fc.up.pt/~rjf/vns
+more-url: /software/2013/05/06/vns-released
+
+---
+VNS is a simulation framework that completely integrates the mobility and network components in a transparent and efficient way, reducing the overhead of communication and synchronization between different simulators. VNS provides bi-directionally interaction between a microscopic mobility model and network simulators such as OMNeT++
+_END_
+
+
+
+cat > 'INETMANET 3.x.md' << '_END_'
+---
+layout: download
+title: INETMANET 3.x
+date:
+category: models
+featured:
+download-url: https://github.com/aarizaq/inetmanet-3.x
+website-url:
+more-url:
+
+---
+INETMANET is a fork of the INET Framework 3.x branch, containing additional adhoc routing protocols and other models written by the community.
+_END_
+
+
+
+cat > 'INETMANET 4.x.md' << '_END_'
+---
+layout: download
+title: INETMANET 4.x
+date:
+category: models
+featured: true
+download-url: https://github.com/aarizaq/inetmanet-4.x
+website-url:
+more-url:
+
+---
+INETMANET is a fork of the INET Framework 4.x branch, containing additional adhoc routing protocols and other models written by the community.
+_END_
+
+
+
+cat > 'MiXiM.md' << '_END_'
+---
+layout: download
+title: MiXiM
+date: 2013-04-22
+category: models-dep
+featured:
+download-url: http://mixim.sourceforge.net
+website-url:
+more-url:
+
+---
+DEPRECATED - use INET Framework instead. All featuress of MiXiM have been merged into INET 3.x
+MiXiM is an OMNeT++ modeling framework created for mobile and fixed wireless networks (wireless sensor networks, body area networks, ad-hoc networks, vehicular networks, etc.). It offers detailed models of radio wave propagation, interference estimation, radio transceiver power consumption and wireless MAC protocols (e.g. Zigbee).
+_END_
+
+
+
+cat > 'Castalia.md' << '_END_'
+---
+layout: download
+title: Castalia
+date: 2013-10-30
+category: models
+featured:
+download-url: https://github.com/boulis/Castalia
+website-url:
+more-url:
+
+---
+Castalia is a simulator for Wireless Sensor Networks (WSN), Body Area Networks (BAN) and generally networks of low-power embedded devices. It is developed in the Networked Systems theme at NICTA, since 2007. Castalia is used by researchers and developers to test their distributed algorithms and/or protocols in realistic wireless channel and radio models, with a realistic node behaviour especially relating to access of the radio. Castalia's salient features include: model for temporal variation of path loss, fine-grain interference and RSSI calculation, physical process modeling, node clock drift, and several popular MAC protocols implemented. Castalia is highly parametric. It provides tools to help run large parametric simulation studies,  process and visualize the results.
+_END_
+
+
+
+cat > 'OppBSD 4.0.md' << '_END_'
+---
+layout: download
+title: OppBSD 4.0
+date: 2013-04-15
+category: models
+featured:
+download-url: https://svn.tm.kit.edu/trac/OppBSD/downloads
+website-url: https://svn.tm.kit.edu/trac/OppBSD
+more-url:
+
+---
+OppBSD integrates essential parts of the real FreeBSD networking stack into OMNeT++ as a simulation model. Every simulated host (or router) runs its own copy of the FreeBSD kernel's networking stack. Consequently, the simulation model is very accurate, i.e., almost behaving like a real implementation. Release 4.0 works with OMNeT++ v4.3 (alternatively v4.1, v4.2) and provides IPv6 support. Presently, the package covers the full TCP/IP stack including IPv4, IPv6, UDP, TCP, ICMP, ICMPv6, ARP, ND, sockets and Ethernet frames.
+_END_
+
+
+
+cat > 'EbitSim.md' << '_END_'
+---
+layout: download
+title: EbitSim
+date: 2012-01-30
+category: models
+featured:
+download-url: http://github.com/pedromanoel/EbitSim
+website-url:
+more-url:
+
+---
+
+The EbitSim is an enhanced BitTorrent simulation with the following features:
+  Multiple concurrent swarm
+  Multiple trackers
+  Timeslice processing model
+  A thousand nodes simulated
+  Use of the INET Framework
+  Modular model to allow easy configuration
+For now, this model does not come with documentation other than the comments on the code.
+
+
+_END_
+
+
+
+cat > 'OMNeT++ Workshop 2011 Code Contribution Papers and Presentation Slides.md' << '_END_'
+---
+layout: download
+title: OMNeT++ Workshop 2011 Code Contribution Papers and Presentation Slides
+date: 2011-06-08
+category: models
+featured:
+download-url: https://ipfs.omnetpp.org/docs/workshop/OMNeT_WS2011_CodeContributions.rar
+website-url: https://summit.omnetpp.org/archive/2011/
+more-url:
+
+---
+
+Papers and presentations for the Code Contributions track of the OMNeT++ Workshop 2011:
+  Implementation of the B-MAC Protocol for WSN in MiXiM - Anna Förster
+  Integration of OMNeT++ Hybrid TDM/WDM-PON Models into INET Framework - Kyeong Soo Kim
+  RTP Simulation under OMNeT++: Problems and Solutions - Pantelis Stampoulis and Panayotis Fouliras
+  Two simple tools for testing wireless communication modules in OMNeT++ - Laura Marie Feeney
+
+_END_
+
+
+
+cat > 'HNOCS - Network on Chip Simulation Framework.md' << '_END_'
+---
+layout: download
+title: HNOCS - Network on Chip Simulation Framework
+date: 2011-09-15
+category: models
+featured:
+download-url: https://github.com/yanivbi/HNOCS
+website-url:
+more-url:
+
+---
+NoC simulation is a key for NoC architectures research resulting from the huge incurred cost of VLSI prototypes production using modern manufacturing processes. Although several NoC simulators exist, they are either proprietary or built on non standard infrastructure. HNOCS is an open-source implementation of a NoC simulation framework using OMNeT++. The HNOCS framework utilizes the OMNeT++ module interface feature to support runtime selection of simulation modules from a library of parametrized components. For example by setting the opCalcType parameter from 'XY' to 'XY/YX' the simulation change to use a different output port selection algorithm. The models provided support heterogeneous NoC configuration in terms of link capacity and number of VCs. HNOCS modules available today implement wormhole switching, with round-robin or winner-takes-all arbitration. Current version of HNOCS contains different router implementations: synchronous, asynchronous and a full virtual output queuing (VOQ) with FIFO for each (input VC, output VC and output port) tuple.
+_END_
+
+
+
+cat > 'mCoA++: Multiple Care of Address Registration for xMIPv6.md' << '_END_'
+---
+layout: download
+title: mCoA++ - Multiple Care of Address Registration for xMIPv6
+date: 2010-12-01
+category: models
+featured:
+download-url: https://github.com/bmsousa/mCoAplus
+website-url: http://mcoa.dei.uc.pt
+more-url:
+
+---
+MCoA enables the registration of multiple care of addresses for Mobile IPv6 nodes. mCoA++ is an implementation for OMNeT++ that extends xMIPv6 simulation model. The code is contributed by Bruno Sousa and Marco Silva from Laboratory of Communications and Telematics (LCT) of University of Coimbra, in Portugal.
+_END_
+
+
+
+cat > 'INET-HNRL.md' << '_END_'
+---
+layout: download
+title: INET-HNRL
+date: 2010-12-01
+category: models
+featured:
+download-url: https://github.com/kyeongsoo/inet-hnrl
+website-url: https://github.com/kyeongsoo/inet-hnrl/wiki/INET-HNRL:-Models-for-Hybrid-Networking-Research
+more-url:
+
+---
+
+This is a new fork of INET Framework developed for hybrid networking research. The INET-HNRL provides new models in both optical and wireless networking areas and their hybrid. Currently, the following models and research frameworks have been implemented:
+  Models for the hybrid TDM/WDM-PON under the SUCCESS-HPON architecture
+  Framework for the equivalent circuit rate (ECR)-based study of next-generation optical access (NGOA) architectures
+
+Author: Kyeong Soo (Joseph) Kim
+
+_END_
+
+
+
+cat > 'Google Earth Demo.md' << '_END_'
+---
+layout: download
+title: Google Earth Demo
+date: 2010-07-23
+category: models-dep
+featured:
+download-url: https://ipfs.omnetpp.org/models/google-earth-demo.tgz
+website-url: http://www.youtube.com/watch?v=cFPJPVh3ouQ
+more-url:
+
+---
+DEPRECATED - OMNeT++ now supports osg and osgEarth for 3D visualization.
+
+This is a demo for visualizing a simulation using Google Earth. There is a video of this demo running as well on YouTube (see home page)
+
+This download is for OMNeT++ 4.1 only -- later versions [will] contain this demo as an example simulation.
+
+The demo simulates a wireless mobile ad-hoc network. The model contains a number of mobile nodes (cars) that move about randomly over a 2km-by-2km area. The nodes have identical radios, with a transmission range of about 500m; for simplicity, we assume that the area covered by each radio is a perfect circle. When two modes move within range of each other, they can communicate with each other, forming a (usually disconnected) ad-hoc network. The purpose of the simulation study could be to measure how long it takes to disseminate some piece of information to all nodes of the network. The communication itself is not modeled in this demo.
+
+Visualization shows the mobile nodes themselves (a 3D car model), their recent trails, their transmission ranges (semi-transparent filled circles on the terrain), and the current connectivity of the network (cars that are closer than 500m are connected with a white line).
+
+_END_
+
+
+
+cat > 'PhoenixSim.md' << '_END_'
+---
+layout: download
+title: PhoenixSim
+date: 2010-07-09
+category: models-old
+featured:
+download-url:
+website-url: http://lightwave.ee.columbia.edu/?s=research&p=phoenixsim
+more-url:
+
+---
+
+PhoenixSim (Photonic and Electronic Network Integration and Execution Simulator) is a simulation environment for designing and analyzing the performance of photonic interconnection networks, developed by the Lightwave Research Laboratory at Columbia University in the City of New York.
+
+PhoenixSim enables detailed studies of electronic networks, photonic networks, and hybrid networks (ones that leverage a combination of both technology domains). The simulator is highly extensible and is currently being used within the Lightwave Research Laboratory on projects for the design of on- and off-Chip photonic communications for multi-processor systems, and the design of nanophotonic optical broadband switches (NOBS).
+
+Currently, the simulator supports the ability to model and characterize many important properties of photonic interconnection networks including propagation delay, insertion loss, extinction ratio, spectral resonant profiles, area occupation, and energy dissipation. Moreover, future extensions will support the modeling of thermal variations, optical nonlinearities, as well as three-dimensional integration. In the realm of electronics, the simulator includes a router model that can be used to model advanced electronic networks and hybrid networks.
+
+_END_
+
+
+
+cat > 'Ethernet Passive Optical Network (EPON).md' << '_END_'
+---
+layout: download
+title: Ethernet Passive Optical Network (EPON)
+date: 2010-04-21
+category:
+featured:
+download-url: http://sourceforge.net/projects/omneteponmodule/
+website-url:
+more-url:
+
+---
+This is a basic implementation of Ethernet Passive Optical Network by Andreas B. OLT and ONU modules are defined and they both suport one or multiple LLIDs. MPCP protocol has been implemented on OLT and ONU models to assign LLIDs dynamically.  Since it is under development, many features may be missing.
+_END_
+
+
+
+cat > 'VoIPTool for INET.md' << '_END_'
+---
+layout: download
+title: VoIPTool for INET
+date: 2010-11-07
+category: models-dep
+featured:
+download-url: https://github.com/kirankishore/voiptool
+website-url:
+more-url:
+
+---
+DEPRECATED - This is already integrated into INET 3.x
+A realistic VoIP traffic generation and evaluation tool for OMNeT++ and the INET Framework, by Martin Renwanz & Mathias Bohge.
+_END_
+
+
+
+cat > 'HIPSim++.md' << '_END_'
+---
+layout: download
+title: HIPSim++
+date: 2010-02-01
+category: models
+featured:
+download-url: https://ipfs.omnetpp.org/models/inet-hipsim-v1030.tgz
+website-url: http://www.ict-optimix.eu/index.php/HIPSim
+more-url:
+
+---
+Host Identity Protocol (HIP) Simulation Framework for INET/OMNeT++ 4.x
+_END_
+
+
+
+cat > 'GT-ITM Topologies for OMNeT++ and OverSim.md' << '_END_'
+---
+layout: download
+title: GT-ITM Topologies for OMNeT++ and OverSim
+date: 2009-12-20
+category: tools
+featured:
+download-url: https://mm.aueb.gr/research/GTITM-OMNeT4/GTITM-OMNeT4.0-OverSim-MMlab.tar.gz
+website-url: https://mm.aueb.gr/research/GTITM-OMNeT4/
+more-url:
+
+---
+
+A complete set of tools for the conversion of network topologies following the Georgia Tech Internet Topology Model (GT-ITM) to the InetUnderlay model used by OverSim Framework.
+
+_END_
+
+
+
+cat > 'oTWLAN.md' << '_END_'
+---
+layout: download
+title: oTWLAN
+date: 2009-07-17
+category: models
+featured:
+download-url: https://sourceforge.net/projects/otwlan/files/
+website-url:
+more-url:
+
+---
+oTWLAN is a tool to simulate ad-hoc networks. The project facilitates throughput/delay performance study through a GUI based user interface. oTWLAN supports relaying, priority handling of user traffic and the data rates 100k, 1M and 10Mbps. This model requires OMNeT++ 3.3 and INET-20061020
+_END_
+
+
+
+cat > 'SimDistribution.md' << '_END_'
+---
+layout: download
+title: SimDistribution
+date: 2009-06-11
+category: tools
+featured:
+download-url: http://simdistribution.sourceforge.net/installation/index.html
+website-url: http://simdistribution.sourceforge.net/
+more-url:
+
+---
+SimDistribution is a GUI for distribution of OMNeT++ [3.x] simulations on different computers. This software includes server and simulation management and uses Java SWT and Web Services.
+_END_
+
+
+
+cat > 'JResultWriter-0.9.md' << '_END_'
+---
+layout: download
+title: JResultWriter-0.9
+date: 2009-06-06
+category: tools
+featured:
+download-url: https://ipfs.omnetpp.org/tools/omnetpp-jresultwriter-0.9.zip
+website-url:
+more-url:
+
+---
+JResultWriter is a Java library for recording simulation results in OMNeT++ 4.0 vector and scalar file format (.vec/.sca; see the OMNeT++ Manual), for use in 3rd party Java-based simulators. Simulation results can be evaluated with the OMNeT++ IDE. Author: Andras Varga.
+_END_
+
+
+
+cat > 'Quagga for INET Framework.md' << '_END_'
+---
+layout: download
+title: Quagga for INET Framework
+date: 2009-06-06
+category: models
+featured:
+download-url: https://github.com/inet-framework/inet-quagga
+website-url:
+more-url:
+
+---
+This is a port of the Quagga routing daemon into the INET Framework. Quagga-based routers in a simulated network are configured using normal quagga config files. Author: Vojta Janota. Ported to OMNeT++ 4.0 by Andras Varga.
+_END_
+
+
+
+cat > 'xMIPv6.md' << '_END_'
+---
+layout: download
+title: xMIPv6
+date: 2009-06-06
+category: models-dep
+featured:
+download-url: https://github.com/zarrar/xMIPv6/
+website-url:
+more-url:
+
+---
+DEPRECATED - this is now part of the INET Framework.
+xMIPv6 is an extensible Mobile IPv6 simulation model, based on the INET Framework.
+
+  xMIPv6 has been implemented with strict conformance to IETF’s  Mobile IPv6 (MIPv6) protocol (RFC 3775), and its accuracy and reliability has been validated against a real Linux based MIPv6 test bed.
+
+Authors: Faqir Zarrar Yousaf (TU Dortmund) and Christian Bauer (DLR).
+
+_END_
+
+
+
+cat > 'JSimpleModule-4.0-1.md' << '_END_'
+---
+layout: download
+title: JSimpleModule-4.0-1
+date: 2009-05-31
+category: tools
+featured:
+download-url: https://ipfs.omnetpp.org/tools/jsimplemodule-opp4.0-1.tgz
+website-url:
+more-url:
+
+---
+This is an extension that makes it possible to write OMNeT++ simple modules in Java. Java and C++-based simple modules can be freely mixed in simulations. Integration is not seamless though, there are limitations as to what OMNeT++ features are available, as well special coding rules to obey in the Java code. This release is for OMNeT++ version 4.0 precisely, and will not work with other versions.
+_END_
+
+
+
+cat > 'CDNSim.md' << '_END_'
+---
+layout: download
+title: CDNSim
+date: 2009-05-29
+category: models-old
+featured:
+download-url:
+website-url: https://sourceforge.net/projects/cdnsim/
+more-url:
+
+---
+CDNSim is a simulation model for Content Distribution Networks (CDNs), built on OMNeT++ 3.x and a modified INET Framework.
+_END_
+
+
+
+cat > 'Numbat.md' << '_END_'
+---
+layout: download
+title: Numbat
+date: 2013-04-22
+category: models
+featured:
+download-url: https://github.com/tomaszmrugalski/numbat
+website-url: http://klub.com.pl/numbat/
+more-url:
+
+---
+The goal of this project is to implement Mobile WiMax, IPv6 autoconfiguration (with focus on DHCPv6) and some of the mobility related mechanisms in the OMNeT++ environment.
+_END_
+
+
+
+cat > 'HttpTools.md' << '_END_'
+---
+layout: download
+title: HttpTools
+date: 2010-02-25
+category: models-dep
+featured:
+download-url: https://code.google.com/p/omnet-httptools/
+website-url:
+more-url:
+
+---
+DEPRECATED - merged into INET Framework.
+
+The purpose of this project is to create a set of components for HTTP traffic simulation in the OMNeT++ discrete event simulator, by Kristjan Jonsson.
+
+_END_
+
+
+
+cat > 'SIMCAN.md' << '_END_'
+---
+layout: download
+title: SIMCAN
+date: 2013-04-22
+category: models
+featured:
+download-url: http://antares.sip.ucm.es/cana/simcan/download.html
+website-url: http://antares.sip.ucm.es/cana/simcan/
+more-url:
+
+---
+The main goal of SIMCAN is to simulate large complex storage networks. Moreover, with this simulator, high performance applications can be modelled in large distributed environments. Thus, SIMCAN can be used for evaluating and predicting the impact of high performance applications on overall system performance.
+_END_
+
+
+
+cat > 'SimSANs.md' << '_END_'
+---
+layout: download
+title: SimSANs
+date: 2009-05-18
+category: models
+featured:
+download-url: https://www.simsans.org/Downloads/download.htm
+website-url: https://www.simsans.org/
+more-url:
+
+---
+
+SimSANs, Simulating Storage Area Networks, is a Data Center Storage Networking design and simulation tool. It is especially useful in infrastructure design and performance analysis of modern Fibre Channel (and FCoE) based data center storage networks.
+
+_END_
+
+
+
+cat > 'U2Q.md' << '_END_'
+---
+layout: download
+title: U2Q
+date: 2009-05-18
+category: tools
+featured:
+download-url: https://net.cs.uni-bonn.de/wg/cs/applications/u2q/#Download
+website-url: https://iv.cs.uni-bonn.de/wg/cs/applications/u2q/
+more-url:
+
+---
+U2Q is a tool that allows developers to estimate the performance of a system prior to prototypes based on UML models only.
+_END_
+
+
+
+cat > 'SimProcTC.md' << '_END_'
+---
+layout: download
+title: SimProcTC
+date: 2009-05-18 11:09:18
+category: tools
+featured:
+download-url: https://www.uni-due.de/~be0001/omnetpp/#Download
+website-url: https://www.uni-due.de/~be0001/omnetpp/
+more-url:
+
+---
+
+SimProcTC is a model-independent, flexible tool-chain for the setup, parallel run execution, results aggregation and data analysis for OMNeT++ 3.x. It is based on GNU R and RSerPool.
+
+_END_
+
+
+
+cat > 'SimpleBus.md' << '_END_'
+---
+layout: download
+title: SimpleBus
+date: 2003-07-07
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/SimpleBus-1.0-src.tgz
+website-url:
+more-url:
+
+---
+A generic bus module which implements propagation delay modelling, data rate modelling and optional collision modeling.
+OBSOLETED BY BUS MODEL IN THE ETHERNET PACKAGE.
+_END_
+
+
+
+cat > 'File System Simulation.md' << '_END_'
+---
+layout: download
+title: File System Simulation
+date: 2003-07-07
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/FSS-1.1-src.tgz
+website-url:
+more-url:
+
+---
+A simulation of the components involved in a file system
+implementation.
+Author: Joel Sherrill
+_END_
+
+
+
+cat > 'Personal Communication Services (PCS).md' << '_END_'
+---
+layout: download
+title: Personal Communication Services (PCS)
+date: 2003-07-07
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/PCS-1.0-src.tgz
+website-url:
+more-url:
+
+---
+Implementation of the model described in the paper "Asynchronous Parallel Discrete Event Simulation" by Lin and Fishwick, 1995
+_END_
+
+
+
+cat > 'Simple GSM simulation.md' << '_END_'
+---
+layout: download
+title: Simple GSM simulation
+date: 2003-07-07
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/GSM-1.0-src.tgz
+website-url:
+more-url:
+
+---
+A very simple simulation of a GSM network. OBSOLETE, NOT MAINTAINED.
+
+--
+Author: Norbert Kardos, Laszlo Magori
+License: GPL
+Requires: OMNeT++ 2.0b5
+Date: Oct 22, 2000
+
+
+This is a simulation of a GSM network.
+
+Documentation is only available in Hungarian.
+_END_
+
+
+
+cat > 'EtherDemo.md' << '_END_'
+---
+layout: download
+title: EtherDemo
+date: 2003-07-07
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/EtherDemo-1.1-src.tgz
+website-url:
+more-url:
+
+---
+A simple Ethernet simulation for OMNeT++. NOTE THAT NOW THERE IS A MORE ADVANCED ETHERNET MODEL. THIS ONE DOES NOT COMPILE WITH OMNET++ 3.0 VERSIONS.
+_END_
+
+
+
+cat > 'Fisheye State Routing.md' << '_END_'
+---
+layout: download
+title: Fisheye State Routing
+date: 2002-04-21
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/FSR-20021124-src.tgz
+website-url:
+more-url:
+
+---
+Implementation of the draft-ietf-manet-fsr-01 and 02 internet drafts.
+The model was written by Marc Bechler at TU Braunschweig, Institute of Operating Systems and Computer Networks (IBR).
+_END_
+
+
+
+cat > 'SCSI Bus.md' << '_END_'
+---
+layout: download
+title: SCSI Bus
+date: 2003-07-07
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/SCSI-20021124-src.tgz
+website-url:
+more-url:
+
+---
+SCSI bus model. Not maintained and seriously out of date.
+_END_
+
+
+
+cat > 'IP-Suite (20040812).md' << '_END_'
+---
+layout: download
+title: IP-Suite (20040812)
+date: 2004-08-12
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/IPSuite-20040812-src.tgz
+website-url:
+more-url:
+
+---
+The Internet Protocol Suite contains IPv4, TCP, UDP models, and support for QoS.
+Author: Klaus Wehrle, Jochen Reber, Dirk Holzhausen, Volker Boehm, Verena Kahmann, Ulrich Kaage et al.
+License: GPL
+_END_
+
+
+
+cat > 'Real-time Transport Protocol (RTP).md' << '_END_'
+---
+layout: download
+title: Real-time Transport Protocol (RTP)
+date: 2002-11-24
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/RTP-20021124-src.tgz
+website-url:
+more-url:
+
+---
+RTP v2 (RFC 1889) models, based on the IP-Suite. THIS PACKAGE HAS BEEN INTEGRATED INTO THE INET FRAMEWORK.
+Author: Matthias Oppitz
+License: GPL
+_END_
+
+
+
+cat > 'Queues.md' << '_END_'
+---
+layout: download
+title: Queues
+date: 2008-01-08
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/Queues-2.1-src.tgz
+website-url:
+more-url:
+
+---
+Queues is a queueing network tutorial and basic queueing library for OMNeT++. NOTE: This package is now part of the standard OMNeT++ distribution.
+_END_
+
+
+
+cat > 'OMNeT++ export for BRITE 2.1.md' << '_END_'
+---
+layout: download
+title: OMNeT++ export for BRITE 2.1
+date: 2009-05-19
+category: tools
+featured:
+download-url: https://ipfs.omnetpp.org/tools/brite21-omnetpp-patch.tgz
+website-url:
+more-url:
+
+---
+
+Adds NED export to the BRITE topology generator (http://www.cs.bu.edu/brite)
+
+Usage: Download BRITE from www.cs.bu.edu/brite/, untar it, cd into its directory, then run the following command: patch -p 1 < brite21-omnetpp.patch
+If you're running Windows, you can get patch.exe from e.g. UnxUtils or Cygwin.
+
+_END_
+
+
+
+cat > 'PAWiS.md' << '_END_'
+---
+layout: download
+title: PAWiS
+date: 2009-05-22
+category: models-old
+featured:
+download-url: http://pawis.sourceforge.net/
+website-url:
+more-url:
+
+---
+PAWiS is an OMNeT++-based simulation framework for the optimization of wireless sensor networks (WSN). The simulator has been developed within the PAWiS project at the Institute of Computer Technology, University of Technology, Vienna. WSNs require nodes with exceptionally low power consumption, yet have to drive sensors and radio communication. Common optimization approaches concentrate on modules to make every module as good as possible, but this approach only reveals local optima. In contrast, the PAWiS Framework targets on cross layer and cross module optimization to find global optimum.
+_END_
+
+
+
+cat > 'ReaSE.md' << '_END_'
+---
+layout: download
+title: ReaSE
+date: 2009-05-22
+category: models
+featured:
+download-url: https://projekte.tm.uka.de/trac/ReaSE/
+website-url:
+more-url:
+
+---
+
+The ReaSE framework provides a graphical user interface for generation of ned files including a realistic topology and necessary traffic generation entities. In addition, OMNeT++ and the INET framework are extended in a way that hierarchical routing and traffic generation are enabled within a user's simulation model.
+
+
+ReaSE is developed at the Institute of Telematics, University of Karlsruhe. This tool is actively developed and open to feedback and contributions. If you have any questions regarding ReaSE, feel free to contact the authors.
+
+_END_
+
+
+
+cat > 'oProbe (for OMNeT++ 3.x).md' << '_END_'
+---
+layout: download
+title: oProbe (for OMNeT++ 3.x)
+date: 2009-05-18
+category: tools
+featured:
+download-url: http://sourceforge.net/projects/oprobe
+website-url:
+more-url:
+
+---
+
+The mission of the oProbe open source project is to provide an instrument that produces statistically sound results at known quality. Stochastic sampling from a network of queues demands both confidence and correlation control.
+
+An important design goal is to be compatible with the OMNeT++ 3.3 framework without introducing changes to this code, as well as making it easy for existing simulators to make use of oProbe. The oProbe project introduces a probe module, which is a new simple module in the context of OMNeT++. A probe is the instrument that applies a controlled stochastic sampling technique. The probe module may have any number of probes. The oProbe project supports different interface levels according to the functionality required. Based on the FIFO queue example included in the sample directory in OMNeT++, the oProbe project provides example code on how the software can be used by existing or upcoming OMNeT++ based simulators.
+
+_END_
+
+
+
+cat > 'InfiniBand.md' << '_END_'
+---
+layout: download
+title: InfiniBand
+date: 2007-07-26
+category: models
+featured:
+download-url: https://ipfs.omnetpp.org/models/ib_macro_model.tgz
+website-url:
+more-url:
+
+---
+This is an InfiniBand model with support for the IB flow control scheme, Arbitration over multiple VLs, and routing
+based on Linear Forwarding Tables. Contributed by Eitan Zahavi, Mellanox Technologies Ltd.
+_END_
+
+
+
+cat > 'CSharpSimpleModule-0.4.md' << '_END_'
+---
+layout: download
+title: CSharpSimpleModule-0.4
+date: 2009-05-19
+category: tools
+featured:
+download-url: https://ipfs.omnetpp.org/tools/csharpsimplemodule-0.4.tbz
+website-url:
+more-url:
+
+---
+This package complements JSimpleModule: while JSimpleModule lets you write OMNeT++ simple modules in Java, CSharpSimpleModule does the same for C#. (The code is also based on JSimpleModule.) CSharpSimpleModule was developed by Andreas Lagemann, Distributed Systems / Operating Systems Group, TU Cottbus, Germany. This work is part of the SPP1140 'Basissoftware für Selbstorganisierende Infrastrukturen für Vernetzte Mobile Systeme' project of the DFG (Deutsche Forschungsgemeinschaft).
+_END_
+
+
+
+cat > 'OverSim.md' << '_END_'
+---
+layout: download
+title: OverSim
+date: 2012-12-06
+category: models
+featured:
+download-url: http://www.oversim.org/wiki/OverSimDownload
+website-url: http://www.oversim.org/
+more-url:
+
+---
+
+OverSim is an open-source overlay network simulation framework for the OMNeT++/OMNEST simulation environment. The simulator contains several models for structured (e.g. Chord) and unstructured (e.g. GIA) peer-to-peer protocols.
+
+OverSim is developed at the Institute of Telematics, Universität Karlsruhe (TH) within the scope of the ScaleNet project funded by the German Federal Ministry of Education and Research. The simulator is actively developed and open to contributions. If you have any questions regarding OverSim, please send an email to the mailing list.
+
+_END_
+
+
+
+cat > 'NesCT.md' << '_END_'
+---
+layout: download
+title: NesCT
+date: 2009-05-22
+category: models-old
+featured:
+download-url: http://nesct.sourceforge.net/
+website-url:
+more-url:
+
+---
+NesCT allows you to simulate TinyOS-based sensor networks with OMNeT++. Technically, it translates TinyOS applications written in the NesC languange to C++ simulation code.
+_END_
+
+
+
+cat > 'SolarLEACH.md' << '_END_'
+---
+layout: download
+title: SolarLEACH
+date: 2006-04-06
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/SolarLEACH-1.01.tgz
+website-url:
+more-url:
+
+---
+This is a simulation of LEACH (Low-Energy Adaptive Clustering Hierarchy), a well-known cluster-based protocol for sensor networks with an extension to make it solar-aware. THIS 1.01 VERSION FIXES A CRASH FOUND IN THE ORIGINAL RELEASE.
+
+This simulation was created for the following paper:
+
+  Thiemo Voigt, Hartmut Ritter, Jochen Schiller, Adam Dunkels, and Juan
+  Alonso. Solar-aware Clustering in Wireless Sensor Networks. In
+  Proceedings of the Ninth IEEE Symposium on Computers and Communications,
+  June 2004.
+
+  http://www.sics.se/~thiemo/iscc2004Final.pdf
+
+  Abstract:
+  "Energy conservation plays a crucial in wireless sensor
+  networks since such networks are designed to be placed in
+  hostile and non-accessible areas. While battery-driven sensors
+  will run out of battery sooner or later, the use of renewable
+  energy sources such as solar power or gravitation
+  may extend the lifetime of a sensor network. We propose to
+  utilize solar power in wireless sensor networks and extend
+  LEACH, a well-known cluster-based protocol for sensor networks
+  to become solar-aware. The presented simulation
+  results show that making LEACH solar-aware significantly
+  extends the lifetime of sensor networks."
+_END_
+
+
+
+cat > 'ChSim.md' << '_END_'
+---
+layout: download
+title: ChSim
+date: 2006-03-31
+category: models-old
+featured:
+download-url: https://cs.uni-paderborn.de/fileadmin/informatik/fg/cn/Bilder_Projekte_old/ChSim-introduction-tkn-09-2006.pdf
+website-url:
+more-url:
+
+---
+Chsim, created at University Paderborn, is an OMNet++ simulation model  which generates channel state values (1/attenuation) in dB for a single wireless cell. This cell includes one base station and N terminals, each terminal can have M unidirectional links to the base station. For each of these links channel state values can be generated in the time and frequency domain. These values can be written to a file or processed in own simulation modules. The simulator includes several mobility and channel models. [The download link points to the project page]
+_END_
+
+
+
+cat > 'WDM Simulator.md' << '_END_'
+---
+layout: download
+title: WDM Simulator
+date: 2006-03-311
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/WDM-0.9-src.tgz
+website-url:
+more-url:
+
+---
+
+This is a simulator for WDM networks, built using OMNet++3.0 on WinXP.
+It was written for my dissertation. I am going to graduate soon,
+and I thought about sharing it with others who want to realize
+similar simulations.
+
+The network structure built is HORNET (Hybrid Opto-electronic Ring
+NETwork) which is proposed by Stanford University [1,2].
+
+There are several (no more than 100) nodes in the fiber optic network.
+They are connected in a ring. Every one of them owns a
+certain unique wavelength as its address wavelength. So the
+network can be thought as a WDMA (Wavelength Division Multiple
+Access) one. Also, a situation where several nodes share the same
+wavelength is allowed. Of course, it is makes sense for the number of
+wavelengths to be bigger than that of nodes. The whole network is
+divided to slots ring, a packet can be transferred to all other nodes
+in every wavelength per time slot.
+
+Chao Xiong, March 2006.
+
+[1] I.M.White et al., 'A Summary of HORNET Project: A Next-Generation
+Metropolitan Area Network', IEEE JSAC, vol.21, no.9, Nov.2003, pp.1478-94
+
+[2] I.M.White, 'A New Architecture and Technologies for High-Capacity-Next-Generation
+Metropolitan Networks', Ph.D.dissertation, Stanford University, 2002
+
+_END_
+
+
+
+cat > 'FIELDBUS.md' << '_END_'
+---
+layout: download
+title: FIELDBUS
+date: 2005-09-29
+category: models-old
+featured:
+download-url:
+website-url: https://sourceforge.net/projects/fieldbus.berlios/
+more-url:
+
+---
+FIELDBUS is a simulation framework for industrial control networks. The main goal is the performance analysis and evaluation of communication protocols and network configurations of control networks.
+_END_
+
+
+
+cat > 'AdHocSim.md' << '_END_'
+---
+layout: download
+title: AdHocSim
+date: 2009-05-19
+category: models
+featured:
+download-url: https://ipfs.omnetpp.org/models/adHocSim-1.1-src.tgz
+website-url:
+more-url:
+
+---
+
+Nicola Concer's simulator for ad-hoc networks. Implements AODV protocol and several mobility models. This version (1.1) has been updated to work with OMNeT++ 3.0. Please be aware that the model has no standards compliance and has not undergone validation.
+
+This is a simulator of an ad hoc network originally developed using OMNeT++ v2.2.
+
+This project is a part of the thesis I made with prof.Donatiello and
+dott.Bononi of the Bologna University's Computer Science department.
+
+The main features implemented are:
+
+* each host is modeled by a compound module that contains
+  - a physical level model
+  - a MAC level
+  - a routing model that implements AODV standard draft v.10
+  - a mobility model that can use one of the following algorithm
+  o random walk
+  o restricted random walk
+  o random direction
+  o random waypoint
+  o pursuit model
+  o normal markovian mobility model
+
+* each host moves following an independent mobility algorithm
+
+* communication links are set up and disposed dynamically
+
+* each link can be unidirectional or bi-directional depending on the
+  transmission power of each host
+
+Source code and documentation is available on the web site (click 'Thesis').
+
+Nicola Concer
+
+Updated for OMNeT++ 3.0 Andras Varga Jan 2005.
+
+_END_
+
+
+
+cat > 'Centralized Network model based on Hiperlan 2.md' << '_END_'
+---
+layout: download
+title: Centralized Network model based on Hiperlan/2
+date: 2003-11-04
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/hiperlan-centralized-0.9-src.tgz
+website-url:
+more-url:
+
+---
+Author: Imanol Martinez Coca
+Telecommunications Department, Mondragon University
+Loramendi 4, 20500 Arrasate (Gipuzkoa), Spain
+_END_
+
+
+
+cat > 'Ethernet (0.95).md' << '_END_'
+---
+layout: download
+title: Ethernet (0.95)
+date: 2003-05-18
+category: models-old
+featured:
+download-url: http://ctieware.eng.monash.edu.au/twiki/pub/Simulation/EtherNet/Ethernet-0.95-src.tgz
+website-url:
+more-url:
+
+---
+NOTE: THIS PACKAGE HAS BEEN MERGED INTO THE INET FRAMEWORK. FURTHER VERSIONS WILL NOT BE DISTRIBUTED SEPARATELY, ONLY AS PART OF INET. It is still possible to use EtherMAC etc. without the rest of the INET framework.
+Ethernet, Fast Ethernet and Gigabit Ethernet model. Includes MAC, LLC, switch, hub and bus models.  Version 0.95 adds auto MAC address assignment, auto-configuration of transmission rate and duplex/half duplex mode, support for all frame types (Ethernet II, 802.3 with LLC, 802.3 with SNAP), and uses OMNeT++ 3.0a4's controlInfo(). Sports a demo model with about 8000 computers and 900 switches and hubs, mixing all kinds of Ethernet technologies.
+Compatible with OMNeT++ 2.3p1 and 3.0a4 up. For use with 3.0a6 and up, supplied omnetpp.ini files have to be revised because changed meaning of '*' (see 3.0a6 release notes).
+_END_
+
+
+
+cat > 'Mobility Framework for OMNeT++ 3.x.md' << '_END_'
+---
+layout: download
+title: Mobility Framework for OMNeT++ 3.x
+date: 2007-01-12
+category: models-old
+featured:
+download-url:
+website-url: http://mobility-fw.sourceforge.net/
+more-url:
+
+---
+DEPRECATED: This model have been merged into the INET Framework
+Supports wireless and mobile simulations within OMNeT++. The core framework implements the support for node mobility, dynamic connection management and a wireless channel model. Additionally the core framework provides basic modules that can be derived in order to implement own modules. With this concept a programmer can easily develop own protocol implementations for the Mobility Framework (MF) without having to deal with the necessary interface and interoperability stuff.
+_END_
+
+
+
+cat > 'VideoInterface.md' << '_END_'
+---
+layout: download
+title: VideoInterface
+date: 2004-11-03
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/VideoInterface-opp30-20041103-src.tgz
+website-url:
+more-url:
+
+---
+This is the code from http://trace.eas.asu.edu/tracesim/tracesim.html, updated for OMNeT++ 3.0, reindented a little bit, and very long function split up (more such refactoring will be needed). Still has some file reading problem .
+_END_
+
+
+
+cat > 'Antnet (4.0).md' << '_END_'
+---
+layout: download
+title: Antnet (4.0)
+date: 2009-05-18
+category: models-old
+featured:
+download-url: https://ipfs.omnetpp.org/models/antnet-4.0-src.zip
+website-url:
+more-url:
+
+---
+The model implements an Ant-based routing algorithms (AntNet-CL and AntNet-CO) proposed by G. Di Caro and M. Dorigo. This model version works with omnetpp 3.0a3 and up.
+
+AntNet was proposed by Gianni Di Caro & Marco Dorigo in [1] . In AntNet the
+network state is monitored through two ant agents: Forward_Ant and
+Backward_Ant. A Forward_Ant agent is launched at regular intervals from a
+source to a certain destination. It uses the same queues as data packets to
+monitor the real traffic situation. Forward_Ant agent is equipped with a
+stack memory on which the address and entrance time of each node on its
+path are pushed. Once the Forward_Ant agent reaches its destination it
+creates a Backward_Ant agent and transfers all information to it.
+Backward_Ant visits the same nodes as Forward_Ant in reverse order and
+modifies the entries in the routing tables based on the trip time from the
+nodes to the destination. At each node the average trip time, the best trip
+time and the variance of the trip times for each destination are
+maintained. The trip time values are calculated by taking the difference of
+entrance times of two subsequent nodes pushed onto the stack. Backward_Ant
+agent uses the system priority queues so that it disseminates the
+information to the nodes as soon as possible.
+
+However, the authors later on renamed AntNet as AntNet-CL and proposed
+another version of it in [2] namely AntNet-CO. AntNet-CO uses the concepts
+of flying ants in which forward moving Forward_Ant agent does not have to
+wait in the normal queues to determine the queuing delay rather they use an
+estimation model described in [2] to estimate the delay. Consequently, the
+routing information quickly spreads in the network.
+
+In this implementation of AntNet one could get the behavior of both
+algorithms through a simple #define. The implementation has been tested and
+works with Windows XP and MSVC6.0 and Omnetpp3.0a3.
+
+The steps are following
+1. Open protocolParameters.h file
+2. Go to line 38 that has #define _FLYINGANTS
+3. If you are interested in compiling AntNet-CL, then comment this line
+4. If you are interested in compiling AntNet-CO, then simply remove the
+  // from the beginning of this line.
+5. Rest everything remains the same
+6. Please ensure that Omnet++ is installed and all of its
+  libararies and bin are in the path.
+7. type 'opp_nmakemake -u Cmdenv' in the directory where you unzipped the antNet4.0.zip
+8. type 'nmake -f Makefile.vc depend'
+9. type 'nmake -f Makefile.vc'
+10. Congratulations:) you have compiled the program.
+
+In this implementation the most important files that are of interest are
+1. AntNest.cc
+2. Router.cc
+
+In AntNest.cc, the handling forward and backward ants is implemented. I
+have tried to have implemented the concepts in this regard as discussed in
+[1]. The parameters that are of interest could be given via omnet.ini file.
+In Router.cc, i have just catered for the service time due to queues.
+
+Enjoy working with AntNet and thanks to Gianni and Dorigo for the wonderful
+routing algrithm.
+
+In case of any problems please contact Muddassar Farooq muddassar.farooq@cs.uni-dortmund.de
+
+[1] G. Di Caro and M. Dorigo. AntNet: Distributed Stigmergetic Control
+for Communications Networks. Journal of Artificial Intelligence Research, 9:317--365, 1998
+
+[2] G. Di Caro and M. Dorigo. Two ant colony algorithms for best-effort routing in datagram networks.
+In Y. Pan, S. G. Akl, and K. Li, editors, Proceedings of the Tenth IASTED International Conference on
+Parallel and Distributed Computing and Systems (PDCS'98), pages 541--546. IASTED/ACTA Press, Anheim, 1998.
+_END_
