@@ -1,13 +1,18 @@
-<li class="collapsible-item">
+<li class="collapsible-item {{ item.tags }}">
     <div style="position: relative;">
-        <div class="collapsible-header">{{ item.title }}
-            {% if item.date %}&nbsp;<time>({{ item.date }})</time>{% endif %}
+        <div class="collapsible-header">{{ item.title }}&nbsp;
+            <time>({{ item.date | strip }}{% if item.date and item.years-active %},
+                {% endif %}{{ item.years-active | strip }}{% if item.date or item.years-active %},
+                {% endif %}{{ item.tags | strip }})
+            </time>
         </div>
         <div class="right" style="padding: 0.5rem; position: absolute; top: 0; right: 0;" >
             {% unless item.tabs %}
             {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn-small" style="margin-left: 10px"><i class="material-icons right">language</i>Website</a>{% endif %}
+            {% if item.github-url %}<a href="{{ item.github-url }}" target="_blank" class="waves-effect blue-grey darken-3 btn-small" style="margin-left: 10px"><i class="fab fa-github right"></i>GitHub</a>{% endif %}
             {% if item.torrent-url %}<a href="{{ item.torrent-url }}" class="waves-effect blue-grey btn-small" style="margin-left: 10px"><i class="material-icons right">cloud_download</i>Torrent</a>{% endif %}
-            {% if item.download-url %}<a href="{{ item.download-url }}" class="waves-effect waves-light green btn-small" style="margin-left: 10px"><i class="material-icons right">file_download</i>Download</a>{% endif %}
+            {% if item.download-file-url %}<a href="{{ item.download-file-url }}" class="waves-effect waves-light green btn-small" style="margin-left: 10px"><i class="material-icons right">file_download</i>Download</a>{% endif %}
+            {% if item.download-page-url %}<a href="{{ item.download-page-url }}" target="_blank" class="waves-effect waves-light green btn-small" style="margin-left: 10px"><i class="material-icons right">folder</i>Download</a>{% endif %}
             {% endunless %}
         </div>
         <div style="clear: both;"></div>
@@ -43,9 +48,11 @@
     <div class="card-content">
    {% for tab in item.tabs %}
        <div id="{{item.id}}_{{tab.id}}">
-           {% if tab.download-url %}<a href="{{ tab.download-url }}" class="waves-effect waves-light green btn right" style="margin-left: 10px"><i class="material-icons right">file_download</i>Download</a>{% endif %}
-           {% if tab.torrent-url %}<a href="{{ tab.torrent-url }}" class="waves-effect blue-grey btn right" style="margin-left: 10px"><i class="material-icons right">cloud_download</i>Torrent</a>{% endif %}
            {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn right" style="margin-left: 10px"><i class="material-icons right">language</i>Website</a>{% endif %}
+           {% if item.github-url %}<a href="{{ item.github-url }}" target="_blank" class="waves-effect blue-grey darken-3 btn-small" style="margin-left: 10px"><i class="fab fa-github right"></i>GitHub</a>{% endif %}
+           {% if tab.torrent-url %}<a href="{{ tab.torrent-url }}" class="waves-effect blue-grey btn right" style="margin-left: 10px"><i class="material-icons right">cloud_download</i>Torrent</a>{% endif %}
+           {% if tab.download-file-url %}<a href="{{ tab.download-file-url }}" class="waves-effect waves-light green btn right" style="margin-left: 10px"><i class="material-icons right">file_download</i>Download</a>{% endif %}
+           {% if tab.download-page-url %}<a href="{{ tab.download-page-url }}" target="_blank" class="waves-effect waves-light green btn right" style="margin-left: 10px"><i class="material-icons right">folder</i>Download</a>{% endif %}
            {% if tab.filesize%}<p>Size: {{tab.filesize | divided_by: 1048576}}MB</p>{% endif %}
            {% if tab.md5 %}<p>MD5: {{tab.md5}}</p>{% endif %}
            {% if tab.sha1 %}<p>SHA1: {{tab.sha1}}</p>{% endif %}

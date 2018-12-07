@@ -1,4 +1,29 @@
-<!--  Scripts-->                                                                               
+<!--  Scripts-->
 <script src="{{ "js/jquery.min.js" | relative_url }}"></script>
 <script src="{{ "js/materialize.min.js" | relative_url }}"></script>
 <script src="{{ "js/init.js" | relative_url }}"></script>
+
+<script type="">
+function applyChipFiltering() {
+    var chips = $(".chip.blue-grey");
+    var tags = chips.map((index, element) => { return $(element).text(); }).get();
+
+    downloadItems = $("div.card").add($("li.collapsible-item"));
+    downloadItems.each((index, element) => {
+        var enable = false;
+        if (tags.length == 0)
+            enable = true;
+        else {
+            tags.forEach((tag) => {
+                if ($(element).hasClass(tag))
+                    enable = true;
+            });
+        }
+        if (enable)
+           $(element).slideDown();
+        else
+           $(element).slideUp();
+    });
+}
+</script>
+

@@ -1,0 +1,14 @@
+<ul class="collapsible popout download-list">
+
+{% assign download_pages = site.pages | where: "download","true" %}
+{% assign sorted_pages = download_pages | sort: "title" %}
+
+{% for item in sorted_pages %}
+  {% if page.category_filter == item.category or page.category_filter == nil %}
+    {% if page.featured_filter != true or item.tags contains "featured" %}
+      {% include download-item.html %}
+    {% endif %}
+  {% endif %}
+{% endfor%}
+
+</ul>

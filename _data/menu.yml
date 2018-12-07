@@ -5,4 +5,6 @@
 - name: Documentation
   link: /documentation
 - name: Simulation Models
-  link: /models
+  link: /download/models-featured
+- name: Tools and Extensions
+  link: /download/tools

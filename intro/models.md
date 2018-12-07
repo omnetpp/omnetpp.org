@@ -1,10 +1,7 @@
 ---
 layout: page
-title: Simulation Models
+title: Overview of Simulation Models
 ---
-# Simulation Models
-
-Before searching the internet, check the available [Model Catalog](/download/models).
 
 The main simulation frameworks for OMNeT++ are:
 

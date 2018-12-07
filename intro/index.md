@@ -33,6 +33,10 @@ running simulations look like.
 * utilities (makefile creation tool, etc.)
 * documentation, sample simulations, etc.
 
+## Models
+
+An overview of available simulation models and model frameworks can be found [here](models).
+
 ## Platforms
 
 OMNeT++ runs on Windows, Linux, macOS, and other Unix-like systems.
