@@ -1,4 +1,5 @@
 ---
+id: R-plugin
 download: true
 layout: download-details
 title: R plugin for reading OMNeT++ result files (source)
@@ -21,7 +22,7 @@ INSTALLATION:
 
   $ R CMD INSTALL omnetpp_0.6-1.tar.gz
 
-  NOTE: You may need to install the 'reshape' package before installing omnetpp.
+NOTE: You may need to install the 'reshape' package before installing omnetpp.
 
   > install.packages("reshape")
 

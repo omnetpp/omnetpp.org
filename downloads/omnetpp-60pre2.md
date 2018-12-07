@@ -1,4 +1,5 @@
 ---
+id: omnetpp-60pre2
 download: true
 layout: download-details
 title: OMNeT++ 6.0 - Preview 2 - (Linux)
