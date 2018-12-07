@@ -2,7 +2,7 @@
 download: true
 layout: download-details
 title: INETMANET 3.x
-date:
+sortkey: "2030-06-01"
 category: models
 download-url: https://github.com/aarizaq/inetmanet-3.x
 ---

@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OMNeT++ 6.0 - Preview 2 - (Linux)
 date: 2018-08-09
+sortkey: "2018-08-09"
 category: test
 tabs:
 - id: linux

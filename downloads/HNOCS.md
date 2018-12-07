@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: HNOCS - Network on Chip Simulation Framework
 date: 2011-09-15
+sortkey: "2011-09-15"
 category: models
 download-url: https://github.com/yanivbi/HNOCS
 ---

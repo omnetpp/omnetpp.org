@@ -2,7 +2,7 @@
 download: true
 layout: download-details
 title: INETMANET 4.x
-date:
+sortkey: "2030-06-01"
 category: models
 featured: true
 download-url: https://github.com/aarizaq/inetmanet-4.x

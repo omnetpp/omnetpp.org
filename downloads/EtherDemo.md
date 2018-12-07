@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: EtherDemo
 date: 2003-07-07
+sortkey: "2003-07-07"
 category: models-old
 download-url: https://ipfs.omnetpp.org/models/EtherDemo-1.1-src.tgz
 ---

@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: VideoInterface
 date: 2004-11-03
+sortkey: "2004-11-03"
 category: models-old
 download-url: https://ipfs.omnetpp.org/models/VideoInterface-opp30-20041103-src.tgz
 ---

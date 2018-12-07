@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: Castalia
 date: 2013-10-30
+sortkey: "2013-10-30"
 category: models
 download-url: https://github.com/boulis/Castalia
 ---

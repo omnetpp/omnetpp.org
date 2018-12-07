@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: SolarLEACH
 date: 2006-04-06
+sortkey: "2006-04-06"
 category: models-old
 download-url: https://ipfs.omnetpp.org/models/SolarLEACH-1.01.tgz
 ---

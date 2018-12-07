@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: Ethernet (0.95)
 date: 2003-05-18
+sortkey: "2003-05-18"
 category: models-old
 download-url: http://ctieware.eng.monash.edu.au/twiki/pub/Simulation/EtherNet/Ethernet-0.95-src.tgz
 ---

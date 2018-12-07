@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: DenaCast
 date: 2013-06-05
+sortkey: "2013-06-05"
 category: models
 download-url: https://github.com/aarizaq/Denacast
 ---

@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: InfiniBand
 date: 2007-07-26
+sortkey: "2007-07-26"
 category: models
 download-url: https://ipfs.omnetpp.org/models/ib_macro_model.tgz
 ---

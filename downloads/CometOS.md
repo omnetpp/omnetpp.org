@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: CometOS
 date: 2013-07-08
+sortkey: "2013-07-08"
 category: models
 download-url: https://github.com/CometOS/CometOS
 website-url: https://www.ti5.tuhh.de/research/sensornet/cometos/

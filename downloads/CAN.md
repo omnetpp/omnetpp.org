@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: Controller Area Network (CAN) model
 date: 2014-04-28
+sortkey: "2014-04-28"
 category: models
 download-url: https://sites.google.com/site/yutakaertl/files/can-model-0.1.0.zip?attredirects=0&d=1
 website-url: https://sites.google.com/site/yutakaertl/omnetpp_canmodel

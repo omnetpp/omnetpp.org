@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: PAWiS
 date: 2009-05-22
+sortkey: "2009-05-22"
 category: models-old
 download-url: http://pawis.sourceforge.net/
 ---

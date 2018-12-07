@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OMNeT++ 5.4.1
 date: 2018-06-29
+sortkey: "2018-06-29"
 category: omnetpp-current
 featured: true
 more-url: /software/2018/06/29/omnet-5-4-1-released

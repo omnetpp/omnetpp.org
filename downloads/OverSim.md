@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OverSim
 date: 2012-12-06
+sortkey: "2012-12-06"
 category: models
 download-url: http://www.oversim.org/wiki/OverSimDownload
 website-url: http://www.oversim.org/

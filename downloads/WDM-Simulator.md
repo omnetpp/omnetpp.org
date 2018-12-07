@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: WDM Simulator
 date: 2006-03-311
+sortkey: "2006-03-311"
 category: models-old
 download-url: https://ipfs.omnetpp.org/models/WDM-0.9-src.tgz
 ---

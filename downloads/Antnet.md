@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: Antnet (4.0)
 date: 2009-05-18
+sortkey: "2009-05-18"
 category: models-old
 download-url: https://ipfs.omnetpp.org/models/antnet-4.0-src.zip
 ---

@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OS³ - The Open Source Satellite Simulator
 date: 2013-08-14
+sortkey: "2013-08-14"
 category: models
 download-url: https://github.com/inet-framework/cni-os3
 website-url: http://www-os3.kn.e-technik.tu-dortmund.de

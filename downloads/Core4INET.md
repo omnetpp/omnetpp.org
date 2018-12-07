@@ -2,7 +2,7 @@
 download: true
 layout: download-details
 title: Core4INET
-date:
+sortkey: "2030-06-01"
 category: models
 featured: true
 download-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Download

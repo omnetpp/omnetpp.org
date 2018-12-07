@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: SelfSimMGI
 date: 2014-04-04
+sortkey: "2014-04-04"
 category: models
 download-url: https://drive.google.com/file/d/0B2vVBHBr4WGObjF0TW9UT1dSLWs/edit?usp=sharing
 ---

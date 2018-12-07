@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OMNeT++ 4.3.1
 date: 2013-09-21
+sortkey: "2013-09-21"
 category: omnetpp
 more-url: /software/2013/09/17/omnet-431-released
 tabs:

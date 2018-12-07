@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: MiXiM
 date: 2013-04-22
+sortkey: "2013-04-22"
 category: models-dep
 download-url: http://mixim.sourceforge.net
 ---

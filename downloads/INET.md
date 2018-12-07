@@ -2,7 +2,7 @@
 download: true
 layout: download-details
 title: INET Framework
-date:
+sortkey: "2030-12-01"
 category: models
 featured: true
 download-url: https://github.com/inet-framework/inet/releases

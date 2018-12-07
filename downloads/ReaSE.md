@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: ReaSE
 date: 2009-05-22
+sortkey: "2009-05-22"
 category: models
 download-url: https://projekte.tm.uka.de/trac/ReaSE/
 ---

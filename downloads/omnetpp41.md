@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OMNeT++ 4.1
 date: 2010-06-15
+sortkey: "2010-06-15"
 category: omnetpp
 more-url: /software/2010/06/13/omnet-41-released
 tabs:

@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: Google Earth Demo
 date: 2010-07-23
+sortkey: "2010-07-23"
 category: models-dep
 download-url: https://ipfs.omnetpp.org/models/google-earth-demo.tgz
 website-url: http://www.youtube.com/watch?v=cFPJPVh3ouQ

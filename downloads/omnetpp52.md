@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OMNeT++ 5.2
 date: 2017-10-02
+sortkey: "2017-10-02"
 category: omnetpp
 more-url: /software/2017/10/05/omnet-5-2-released
 tabs:

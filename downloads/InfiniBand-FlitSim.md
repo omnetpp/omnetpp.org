@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: InfiniBand Flit Level Model
 date: 2013-06-19
+sortkey: "2013-06-19"
 category: models
 download-url: https://ipfs.omnetpp.org/models/ib_flit_sim.19_03_13.tgz
 website-url: http://www.mellanox.com/page/omnet

@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: U2Q
 date: 2009-05-18
+sortkey: "2009-05-18"
 category: tools
 download-url: https://net.cs.uni-bonn.de/wg/cs/applications/u2q/#Download
 website-url: https://iv.cs.uni-bonn.de/wg/cs/applications/u2q/

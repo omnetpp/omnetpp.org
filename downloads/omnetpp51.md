@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OMNeT++ 5.1
 date: 2017-03-31
+sortkey: "2017-03-31"
 category: omnetpp
 more-url: /software/2017/04/03/omnet-5-1-released
 tabs:

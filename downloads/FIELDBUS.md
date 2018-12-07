@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: FIELDBUS
 date: 2005-09-29
+sortkey: "2005-09-29"
 category: models-old
 website-url: https://sourceforge.net/projects/fieldbus.berlios/
 ---

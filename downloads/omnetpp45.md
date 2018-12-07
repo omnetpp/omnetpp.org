@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OMNeT++ 4.5
 date: 2014-07-16
+sortkey: "2014-07-16"
 category: omnetpp
 more-url: /software/2014/07/16/omnet-4-5-released
 tabs:

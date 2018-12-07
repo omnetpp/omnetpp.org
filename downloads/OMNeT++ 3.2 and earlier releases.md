@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OMNeT++ 3.2 and earlier releases
 date: 2013-04-22
+sortkey: "2013-04-22"
 category: omnetpp
 website-url: https://ipfs.omnetpp.org/release/old
 ---

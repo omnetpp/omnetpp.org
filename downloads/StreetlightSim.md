@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: StreetlightSim
 date: 2014-04-04
+sortkey: "2014-04-04"
 category: models
 download-url: http://www.streetlightsim.ecs.soton.ac.uk/downloadform.php
 website-url: http://www.streetlightsim.ecs.soton.ac.uk/

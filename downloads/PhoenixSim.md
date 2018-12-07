@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: PhoenixSim
 date: 2010-07-09
+sortkey: "2010-07-09"
 category: models-old
 website-url: http://lightwave.ee.columbia.edu/?s=research&p=phoenixsim
 ---

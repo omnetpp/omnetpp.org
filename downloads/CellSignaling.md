@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: Cell Communication Signaling Project
 date: 2014-06-20
+sortkey: "2014-06-20"
 category: models
 download-url: https://github.com/dhuertas/cell-signaling/archive/master.zip
 website-url: https://github.com/dhuertas/cell-signaling

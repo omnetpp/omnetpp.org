@@ -2,7 +2,7 @@
 download: true
 layout: download-details
 title: RINASim (Recursive InterNetwork Architecture)
-date:
+sortkey: "2030-03-01"
 category: models
 featured: true
 download-url: https://github.com/kvetak/RINA

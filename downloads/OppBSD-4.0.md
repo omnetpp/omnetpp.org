@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OppBSD 4.0
 date: 2013-04-15
+sortkey: "2013-04-15"
 category: models
 download-url: https://svn.tm.kit.edu/trac/OppBSD/downloads
 website-url: https://svn.tm.kit.edu/trac/OppBSD

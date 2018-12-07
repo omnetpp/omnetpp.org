@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OMNeT++ 5.2.1
 date: 2017-12-11
+sortkey: "2017-12-11"
 category: omnetpp
 more-url: /software/2017/12/12/omnet-5-2-1-released
 tabs:

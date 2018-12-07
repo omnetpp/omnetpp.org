@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: SIMCAN
 date: 2013-04-22
+sortkey: "2013-04-22"
 category: models
 download-url: http://antares.sip.ucm.es/cana/simcan/download.html
 website-url: http://antares.sip.ucm.es/cana/simcan/

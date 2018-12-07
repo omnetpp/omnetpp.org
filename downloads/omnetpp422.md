@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: OMNeT++ 4.2.2
 date: 2013-04-03
+sortkey: "2013-04-03"
 category: omnetpp
 more-url: /software/2012/03/26/omnet-422-released
 tabs:
