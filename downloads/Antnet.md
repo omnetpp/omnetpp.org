@@ -38,7 +38,8 @@ In this implementation of AntNet one could get the behavior of both
 algorithms through a simple #define. The implementation has been tested and
 works with Windows XP and MSVC6.0 and Omnetpp3.0a3.
 
-The steps are following
+The steps are following:
+
 1. Open protocolParameters.h file
 2. Go to line 38 that has #define _FLYINGANTS
 3. If you are interested in compiling AntNet-CL, then comment this line
@@ -53,6 +54,7 @@ The steps are following
 10. Congratulations:) you have compiled the program.
 
 In this implementation the most important files that are of interest are
+
 1. AntNest.cc
 2. Router.cc
 

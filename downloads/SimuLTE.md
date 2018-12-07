@@ -11,6 +11,6 @@ website-url: https://simulte.com/
 
 LTE user plane simulation model, compatible with the INET Framework.
 Features:
-  eNodeB and UE models
-  Form-based configuration editor
+- eNodeB and UE models
+- Form-based configuration editor
 

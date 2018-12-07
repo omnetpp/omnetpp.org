@@ -9,5 +9,7 @@ download-url: https://ipfs.omnetpp.org/models/RTP-20021124-src.tgz
 ---
 
 RTP v2 (RFC 1889) models, based on the IP-Suite. THIS PACKAGE HAS BEEN INTEGRATED INTO THE INET FRAMEWORK.
+
 Author: Matthias Oppitz
+
 License: GPL
