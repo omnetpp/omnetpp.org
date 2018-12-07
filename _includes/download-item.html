@@ -40,7 +40,7 @@
     {% endfor %}
        </ul>
     </div>
-    <div class="card-content"  sytle="padding: ">
+    <div class="card-content">
    {% for tab in item.tabs %}
        <div id="{{item.id}}_{{tab.id}}">
            {% if tab.download-url %}<a href="{{ tab.download-url }}" class="waves-effect waves-light green btn right" style="margin-left: 10px"><i class="material-icons right">file_download</i>Download</a>{% endif %}

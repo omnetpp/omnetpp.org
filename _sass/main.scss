@@ -9,9 +9,10 @@
 
 /* card customization */
 .download-cards .card .card-content { padding: 1rem; }
+.download-cards .card .card-content p { margin: 0.5rem 0; }
 .download-cards .card .card-content time { position: relative; top: -8px; }
-.download-list .collapsible-body { padding: 1rem; }
-.download-list .collapsible-item p { margin: 0; }
+.download-list .collapsible-body { padding: 0.5rem 1rem; }
+.download-list .collapsible-item p { margin: 0.5rem 0; }
 .download-list .collapsible-item .card-content { padding: 1rem 0 0 0; }
 .download-list .collapsible-item { background-color: color("grey", "lighten-3"); }
 .download-list .collapsible-header { padding: 0.7rem; }
