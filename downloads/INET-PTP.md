@@ -8,7 +8,9 @@ category: models
 download-url: https://github.com/martinlevesque/ptp-plusplus
 ---
 
-A Precision Time Protocol (PTP) module for OMNeT++ INET 2.6. Allows to measure the PTP accuracy under different configurations and traffic loads, using any INET components (routers, etc.). PTP is implemented as a UDP application.
+A Precision Time Protocol (PTP) module for OMNeT++ INET 2.6. Allows to measure
+the PTP accuracy under different configurations and traffic loads, using any
+INET components (routers, etc.). PTP is implemented as a UDP application.
 
 Author: Martin Levesque
 

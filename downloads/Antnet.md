@@ -8,7 +8,8 @@ category: models-old
 download-url: https://ipfs.omnetpp.org/models/antnet-4.0-src.zip
 ---
 
-The model implements an Ant-based routing algorithms (AntNet-CL and AntNet-CO) proposed by G. Di Caro and M. Dorigo. This model version works with omnetpp 3.0a3 and up.
+The model implements an Ant-based routing algorithms (AntNet-CL and AntNet-CO)
+proposed by G. Di Caro and M. Dorigo. This model version works with omnetpp 3.0a3 and up.
 
 AntNet was proposed by Gianni Di Caro & Marco Dorigo in [1] . In AntNet the
 network state is monitored through two ant agents: Forward_Ant and

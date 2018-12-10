@@ -33,4 +33,6 @@ tabs:
   md5: 4014c938c03a96308ee3e925cdcd5206
 ---
 
-Highlights of this release are an improved message compiler (required for INET 4), much improved histogram support, a more powerful cMessagePrinter API and its implementation in Qtenv, and better support for smooth animation in Qtenv.
+Highlights of this release are an improved message compiler (required for INET
+4), much improved histogram support, a more powerful cMessagePrinter API and its
+implementation in Qtenv, and better support for smooth animation in Qtenv.

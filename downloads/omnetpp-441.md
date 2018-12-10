@@ -21,4 +21,7 @@ tabs:
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz
 ---
 
-This is a bugfix release for OMNeT++ 4.4. The focus of version 4.4 was to improve compatibility with the latest operating system and compilers releases. It also introduced features that help you debug and verify your simulation models more efficiently.
+This is a bugfix release for OMNeT++ 4.4. The focus of version 4.4 was to
+improve compatibility with the latest operating system and compilers releases.
+It also introduced features that help you debug and verify your simulation
+models more efficiently.

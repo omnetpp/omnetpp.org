@@ -34,4 +34,8 @@ tabs:
   md5: f29b6cdba2c1c07f33ea15207cf59e1a
 ---
 
-This release contains last-minute features and improvements, mostly motivated by the upcoming INET 4 release. Highlights are the typename and exists() operators in NED; nan and inf keywords in NED; support for logarithmic units like dB, dBW, dBm, dBV, dBmV. Qtenv has also gained much more powerful just-in-time debugging capabilities than before.
+This release contains last-minute features and improvements, mostly motivated by
+the upcoming INET 4 release. Highlights are the typename and exists() operators
+in NED; nan and inf keywords in NED; support for logarithmic units like dB, dBW,
+dBm, dBV, dBmV. Qtenv has also gained much more powerful just-in-time debugging
+capabilities than before.

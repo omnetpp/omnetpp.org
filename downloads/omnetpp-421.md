@@ -21,4 +21,6 @@ tabs:
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz
 ---
 
-We're happy to announce the release of OMNeT++ 4.2.1, a maintenance release of OMNeT++ 4.2. This release contains bug fixes only. Read the ChangeLog (after the More link) to see what 4.2.1/4.2 has to offer compared to version 4.1
+We're happy to announce the release of OMNeT++ 4.2.1, a maintenance release of
+OMNeT++ 4.2. This release contains bug fixes only. Read the ChangeLog (after the
+More link) to see what 4.2.1/4.2 has to offer compared to version 4.1

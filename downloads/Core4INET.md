@@ -9,7 +9,8 @@ download-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Download
 website-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Background
 ---
 
-CoRE4INET is an extension to the INET-Framework for the event-based simulation of real-time Ethernet in the OMNEST/OMNeT++ simulation system. 
+CoRE4INET is an extension to the INET-Framework for the event-based simulation
+of real-time Ethernet in the OMNEST/OMNeT++ simulation system.
 
 Currently CoRE4INET supports:
 - TTEthernet (AS6802)

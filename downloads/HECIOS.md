@@ -8,4 +8,5 @@ category: models
 download-url: https://github.com/bws/HECIOS
 ---
 
-HECIOS provides an extensible simulation package well-suited for performing quantitative evaluation of research topics in parallel I/O.
+HECIOS provides an extensible simulation package well-suited for performing
+quantitative evaluation of research topics in parallel I/O.

@@ -21,4 +21,7 @@ tabs:
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.5/omnetpp-4.5-src.tgz
 ---
 
-The focus of version 4.5 was to improve the usability of the Graphical Runtime Environment (Tkenv). The Tkenv GUI has been redesigned for single-window mode to improve usability and user experience. Tkenv has also received a new, modern look and feel, due to the use of the Ttk widgets and a custom Ttk theme.
+The focus of version 4.5 was to improve the usability of the Graphical Runtime
+Environment (Tkenv). The Tkenv GUI has been redesigned for single-window mode to
+improve usability and user experience. Tkenv has also received a new, modern
+look and feel, due to the use of the Ttk widgets and a custom Ttk theme.

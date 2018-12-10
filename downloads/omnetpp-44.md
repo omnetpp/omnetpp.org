@@ -21,4 +21,6 @@ tabs:
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz
 ---
 
-The focus of this update is to improve compatibility with the latest operating system and compilers releases. It also introduces features that help you debug and verify your simulation models more efficiently.
+The focus of this update is to improve compatibility with the latest operating
+system and compilers releases. It also introduces features that help you debug
+and verify your simulation models more efficiently.

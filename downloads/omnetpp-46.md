@@ -21,4 +21,6 @@ tabs:
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src.tgz
 ---
 
-Highlights of this release: models are now compiled as C++11 sources; upgrade of the Windows toolchain to MSYS2 and the latest MinGW; the debut of opp_test; and the rewrite of opp_msgc as part of nedtool. It also contains several bug fixes.
+Highlights of this release: models are now compiled as C++11 sources; upgrade of
+the Windows toolchain to MSYS2 and the latest MinGW; the debut of opp_test; and
+the rewrite of opp_msgc as part of nedtool. It also contains several bug fixes.

@@ -7,4 +7,5 @@ category: models
 download-url: https://github.com/aarizaq/inetmanet-3.x
 ---
 
-INETMANET is a fork of the INET Framework 3.x branch, containing additional adhoc routing protocols and other models written by the community.
+INETMANET is a fork of the INET Framework 3.x branch, containing additional
+adhoc routing protocols and other models written by the community.

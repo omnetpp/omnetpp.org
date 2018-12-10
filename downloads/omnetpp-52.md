@@ -33,4 +33,7 @@ tabs:
   md5: 758ac528bbe146e1f6cef9faa26751fb
 ---
 
-Highlights of this release are the fine-tuning of result recording and processing (especially around weighted statistics); many bug fixes and improvements in Qtenv; makefile changes to allow DEBUG and RELEASE builds of models to co-exist, and several related changes in the IDE.
+Highlights of this release are the fine-tuning of result recording and
+processing (especially around weighted statistics); many bug fixes and
+improvements in Qtenv; makefile changes to allow DEBUG and RELEASE builds of
+models to co-exist, and several related changes in the IDE.

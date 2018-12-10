@@ -21,4 +21,8 @@ tabs:
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3.1/omnetpp-4.3.1-src.tgz
 ---
 
-The focus of this update is to help first-time users get familiar with OMNeT++ by showing them introductory information and offering to install the INET Framework. In addition, the update also contains some bug fixes and smaller improvements to the Simulation IDE; there is no change in the simulation kernel and tools.
+The focus of this update is to help first-time users get familiar with OMNeT++
+by showing them introductory information and offering to install the INET
+Framework. In addition, the update also contains some bug fixes and smaller
+improvements to the Simulation IDE; there is no change in the simulation kernel
+and tools.

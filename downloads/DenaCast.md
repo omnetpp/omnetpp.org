@@ -8,7 +8,8 @@ category: models
 download-url: https://github.com/aarizaq/Denacast
 ---
 
-DenaCast is an open-source peer-to-peer video streaming framework for the OMNeT++ simulation environment.
+DenaCast is an open-source peer-to-peer video streaming framework for the
+OMNeT++ simulation environment.
 
 New in this release:
 - Bugs are fixed in statistics

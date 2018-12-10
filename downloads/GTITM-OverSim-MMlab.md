@@ -9,5 +9,7 @@ download-url: https://mm.aueb.gr/research/GTITM-OMNeT4/GTITM-OMNeT4.0-OverSim-MM
 website-url: https://mm.aueb.gr/research/GTITM-OMNeT4/
 ---
 
-A complete set of tools for the conversion of network topologies following the Georgia Tech Internet Topology Model (GT-ITM) to the InetUnderlay model used by OverSim Framework.
+A complete set of tools for the conversion of network topologies following the
+Georgia Tech Internet Topology Model (GT-ITM) to the InetUnderlay model used by
+OverSim Framework.
 

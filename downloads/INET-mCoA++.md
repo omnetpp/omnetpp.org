@@ -9,4 +9,7 @@ download-url: https://github.com/bmsousa/mCoAplus
 website-url: http://mcoa.dei.uc.pt
 ---
 
-MCoA enables the registration of multiple care of addresses for Mobile IPv6 nodes. mCoA++ is an implementation for OMNeT++ that extends xMIPv6 simulation model. The code is contributed by Bruno Sousa and Marco Silva from Laboratory of Communications and Telematics (LCT) of University of Coimbra, in Portugal.
+MCoA enables the registration of multiple care of addresses for Mobile IPv6
+nodes. mCoA++ is an implementation for OMNeT++ that extends xMIPv6 simulation
+model. The code is contributed by Bruno Sousa and Marco Silva from Laboratory of
+Communications and Telematics (LCT) of University of Coimbra, in Portugal.

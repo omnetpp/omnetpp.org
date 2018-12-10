@@ -33,4 +33,5 @@ tabs:
   md5: 332ce2c9a695bc9d1a7d7167b9d526c4
 ---
 
-This release significantly improves and builds upon functionality introduced in version 5.0, and also raises the bar in other areas.
+This release significantly improves and builds upon functionality introduced in
+version 5.0, and also raises the bar in other areas.

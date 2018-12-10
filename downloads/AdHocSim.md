@@ -8,7 +8,10 @@ category: models
 download-url: https://ipfs.omnetpp.org/models/adHocSim-1.1-src.tgz
 ---
 
-Nicola Concer's simulator for ad-hoc networks. Implements AODV protocol and several mobility models. This version (1.1) has been updated to work with OMNeT++ 3.0. Please be aware that the model has no standards compliance and has not undergone validation.
+Nicola Concer's simulator for ad-hoc networks. Implements AODV protocol and
+several mobility models. This version (1.1) has been updated to work with
+OMNeT++ 3.0. Please be aware that the model has no standards compliance and has
+not undergone validation.
 
 This is a simulator of an ad hoc network originally developed using OMNeT++ v2.2.
 

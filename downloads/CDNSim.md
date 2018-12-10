@@ -8,4 +8,5 @@ category: models-old
 website-url: https://sourceforge.net/projects/cdnsim/
 ---
 
-CDNSim is a simulation model for Content Distribution Networks (CDNs), built on OMNeT++ 3.x and a modified INET Framework.
+CDNSim is a simulation model for Content Distribution Networks (CDNs), built on
+OMNeT++ 3.x and a modified INET Framework.

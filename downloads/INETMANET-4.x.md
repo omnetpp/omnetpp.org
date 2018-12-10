@@ -8,4 +8,5 @@ featured: true
 download-url: https://github.com/aarizaq/inetmanet-4.x
 ---
 
-INETMANET is a fork of the INET Framework 4.x branch, containing additional adhoc routing protocols and other models written by the community.
+INETMANET is a fork of the INET Framework 4.x branch, containing additional
+adhoc routing protocols and other models written by the community.

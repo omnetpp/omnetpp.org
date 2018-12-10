@@ -9,4 +9,6 @@ download-url: https://github.com/tomaszmrugalski/numbat
 website-url: http://klub.com.pl/numbat/
 ---
 
-The goal of this project is to implement Mobile WiMax, IPv6 autoconfiguration (with focus on DHCPv6) and some of the mobility related mechanisms in the OMNeT++ environment.
+The goal of this project is to implement Mobile WiMax, IPv6 autoconfiguration
+(with focus on DHCPv6) and some of the mobility related mechanisms in the
+OMNeT++ environment.

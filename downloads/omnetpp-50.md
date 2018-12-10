@@ -27,7 +27,14 @@ tabs:
   md5: ea79eb182d9fd41cdb46ca1977b2c5d0
 ---
 
-Release 5.0 is a result of development effort of nearly two years. This is a major release that introduces significant new features compared to the last 4.x version, for example the Canvas API (2D graphics), OpenSceneGraph-based 3D graphics support, improved logging, a new Qt-based runtime environment that will eventually replace Tkenv, and much more.
+Release 5.0 is a result of development effort of nearly two years. This is a
+major release that introduces significant new features compared to the last 4.x
+version, for example the Canvas API (2D graphics), OpenSceneGraph-based 3D
+graphics support, improved logging, a new Qt-based runtime environment that will
+eventually replace Tkenv, and much more.
 
-We have also taken the opportunity of the major release to improve several corners of the OMNeT++ API, and also to get rid of deprecated functionality. For porting models from OMNeT++ 4.x, see doc/API-changes.txt which lists all changes, with hints on how to update the model code.
+We have also taken the opportunity of the major release to improve several
+corners of the OMNeT++ API, and also to get rid of deprecated functionality. For
+porting models from OMNeT++ 4.x, see doc/API-changes.txt which lists all
+changes, with hints on how to update the model code.
 

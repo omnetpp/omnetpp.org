@@ -8,7 +8,9 @@ category: models-old
 download-url: https://ipfs.omnetpp.org/models/SolarLEACH-1.01.tgz
 ---
 
-This is a simulation of LEACH (Low-Energy Adaptive Clustering Hierarchy), a well-known cluster-based protocol for sensor networks with an extension to make it solar-aware. THIS 1.01 VERSION FIXES A CRASH FOUND IN THE ORIGINAL RELEASE.
+This is a simulation of LEACH (Low-Energy Adaptive Clustering Hierarchy), a
+well-known cluster-based protocol for sensor networks with an extension to make
+it solar-aware. THIS 1.01 VERSION FIXES A CRASH FOUND IN THE ORIGINAL RELEASE.
 
 This simulation was created for the following paper:
 
