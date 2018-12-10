@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: VNS - Vehicular Networks Simulator
-date: 2013-05-06
-sortkey: "2013-05-06"
+years-active: 2013-2014
 category: models
-download-url: https://github.com/enriquefynn/libvns
+tags: framework omnetpp4
+github-url: https://github.com/enriquefynn/libvns
 website-url: http://www.dcc.fc.up.pt/~rjf/vns
 more-url: /software/2013/05/06/vns-released
 ---
@@ -14,4 +14,9 @@ VNS is a simulation framework that completely integrates the mobility and
 network components in a transparent and efficient way, reducing the overhead of
 communication and synchronization between different simulators. VNS provides
 bi-directionally interaction between a microscopic mobility model and network
-simulators such as OMNeT++
+simulators such as OMNeT++.
+
+VNS was developed by Ricardo Fernandes at DCC-FCUP and Instituto de
+Telecomunicações, Porto, supported by the Portuguese Foundation for Science and
+Technology (FCT) under the doctoral grant (SFRH/BD/61676/2009).
+

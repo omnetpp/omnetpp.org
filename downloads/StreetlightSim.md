@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: StreetlightSim
-date: 2014-04-04
-sortkey: "2014-04-04"
+years-active: 2014-2015
 category: models
-download-url: http://www.streetlightsim.ecs.soton.ac.uk/downloadform.php
+tags: standalone omnetpp4
+download-page-url: http://www.streetlightsim.ecs.soton.ac.uk/downloadform.php
 website-url: http://www.streetlightsim.ecs.soton.ac.uk/
 ---
 
@@ -16,3 +16,11 @@ wireless sensor networks (WSN).  StreetlightSim has been used to evaluate the
 performance of various street lighting schemes based on an actual streetlight
 network in terms of their energy efficiency and utility (a performance metric to
 measure the usefulness of street lighting to road users)
+
+Features:
+- Based on OMNeT++ and SUMO.
+- A customisable road traffic pattern which is described by the road traffic
+  distribution according to different times of day and annual average daily
+  traffic flow (AADF).
+- Ease of extension to different streetlight networks using OpenStreetMap and JOSM.
+

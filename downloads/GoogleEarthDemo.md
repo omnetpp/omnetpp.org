@@ -2,20 +2,19 @@
 download: true
 layout: download-details
 title: Google Earth Demo
-date: 2010-07-23
-sortkey: "2010-07-23"
-category: models-dep
-download-url: https://ipfs.omnetpp.org/models/google-earth-demo.tgz
+years-active: 2010
+category: models
+tags: standalone omnetpp4
+download-file-url: https://ipfs.omnetpp.org/models/google-earth-demo.tgz
 website-url: http://www.youtube.com/watch?v=cFPJPVh3ouQ
 ---
 
-DEPRECATED - OMNeT++ now supports osg and osgEarth for 3D visualization.
-
 This is a demo for visualizing a simulation using Google Earth. There is a video
-of this demo running as well on YouTube (see home page)
+of this demo running as well on YouTube (see home page).
 
-This download is for OMNeT++ 4.1 only -- later versions [will] contain this demo
-as an example simulation.
+This download is for OMNeT++ 4.1 only -- later versions contained this demo
+as an example simulation. Note that the Google Earth based visualization has been
+replaced by 3D visualization using OSG and osgEarth in recent OMNeT++ versions.
 
 The demo simulates a wireless mobile ad-hoc network. The model contains a number
 of mobile nodes (cars) that move about randomly over a 2km-by-2km area. The

@@ -2,10 +2,11 @@
 download: true
 layout: download-details
 title: PhoenixSim
-date: 2010-07-09
-sortkey: "2010-07-09"
-category: models-old
-website-url: http://lightwave.ee.columbia.edu/?s=research&p=phoenixsim
+years-active: 2010
+category: models
+tags: framework omnetpp4
+website-url: https://lightwave.ee.columbia.edu/?s=research&p=past_projects
+github-url: https://github.com/lebiednik/PhoenixSim
 ---
 
 PhoenixSim (Photonic and Electronic Network Integration and Execution Simulator)
@@ -29,3 +30,4 @@ three-dimensional integration. In the realm of electronics, the simulator
 includes a router model that can be used to model advanced electronic networks
 and hybrid networks.
 
+Note: the original project web page is no longer online.

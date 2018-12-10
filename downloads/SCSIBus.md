@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: SCSI Bus
-date: 2003-07-07
-sortkey: "2003-07-07"
-category: models-old
-download-url: https://ipfs.omnetpp.org/models/SCSI-20021124-src.tgz
+years-active: 2002
+category: models
+tags: standalone omnetpp2
+download-file-url: https://ipfs.omnetpp.org/models/SCSI-20021124-src.tgz
 ---
 
-SCSI bus model. Not maintained and seriously out of date.
+SCSI bus model.

@@ -1,11 +1,11 @@
 ---
 download: true
 layout: download-details
-title: Antnet (4.0)
-date: 2009-05-18
-sortkey: "2009-05-18"
-category: models-old
-download-url: https://ipfs.omnetpp.org/models/antnet-4.0-src.zip
+title: Antnet
+years-active: 2003-2005
+category: models
+tags: standalone omnetpp3
+download-file-url: https://ipfs.omnetpp.org/models/antnet-4.0-src.zip
 ---
 
 The model implements an Ant-based routing algorithms (AntNet-CL and AntNet-CO)
@@ -42,7 +42,7 @@ works with Windows XP and MSVC6.0 and Omnetpp3.0a3.
 The steps are following:
 
 1. Open protocolParameters.h file
-2. Go to line 38 that has #define _FLYINGANTS
+2. Go to line 38 that has #define _FLYINGANTSbg
 3. If you are interested in compiling AntNet-CL, then comment this line
 4. If you are interested in compiling AntNet-CO, then simply remove the
   // from the beginning of this line.

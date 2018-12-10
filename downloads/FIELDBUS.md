@@ -2,9 +2,9 @@
 download: true
 layout: download-details
 title: FIELDBUS
-date: 2005-09-29
-sortkey: "2005-09-29"
-category: models-old
+years-active: 2005
+category: models
+tags: standalone omnetpp3
 website-url: https://sourceforge.net/projects/fieldbus.berlios/
 ---
 

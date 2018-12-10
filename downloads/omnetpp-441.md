@@ -9,15 +9,15 @@ category: omnetpp
 more-url: /software/2014/03/09/omnet-441-released
 tabs:
 - id: linux
-  download-url: https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz
+  download-file-url: https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz
 
 - id: windows
-  download-url: https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src-windows.zip
+  download-file-url: https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src-windows.zip
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src-windows.zip
 
 - id: macos
-  download-url: https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz
+  download-file-url: https://ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4.1/omnetpp-4.4.1-src.tgz
 ---
 

@@ -2,12 +2,15 @@
 download: true
 layout: download-details
 title: Ethernet Passive Optical Network (EPON)
-date: 2010-04-21
-sortkey: "2010-04-21"
-download-url: http://sourceforge.net/projects/omneteponmodule/
+years-active: 2010
+category: models
+tags: standalone omnetpp4
+download-page-url: http://sourceforge.net/projects/omneteponmodule/
 ---
 
-This is a basic implementation of Ethernet Passive Optical Network by Andreas B.
-OLT and ONU modules are defined and they both suport one or multiple LLIDs. MPCP
-protocol has been implemented on OLT and ONU models to assign LLIDs dynamically.
-Since it is under development, many features may be missing.
+This is a basic implementation of (1G) Ethernet Passive Optical Network (EPON)
+for OMNeT++ 4.1. OLT and ONU modules are provided. MPCP protocol has been
+implemented to assign LLIDs dynamically based on a global service configuration
+module. Service differentiation is based on 802.1Q VLANs (included). Basic
+implementation for both polling and non-polling DBAs is included (fixed
+allocation per ONU in both cases).

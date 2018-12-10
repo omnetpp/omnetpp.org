@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: WDM Simulator
-date: 2006-03-311
-sortkey: "2006-03-311"
-category: models-old
-download-url: https://ipfs.omnetpp.org/models/WDM-0.9-src.tgz
+years-active: 2006
+category: models
+tags: standalone omnetpp3
+download-file-url: https://ipfs.omnetpp.org/models/WDM-0.9-src.tgz
 ---
 
 This is a simulator for WDM networks, built using OMNet++3.0 on WinXP.

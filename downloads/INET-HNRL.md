@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: INET-HNRL
-date: 2010-12-01
-sortkey: "2010-12-01"
+years-active: 2008-
 category: models
-download-url: https://github.com/kyeongsoo/inet-hnrl
+tags: inet3 inet2 inet1 omnetpp5 omnetpp4
+github-url: https://github.com/kyeongsoo/inet-hnrl
 website-url: https://github.com/kyeongsoo/inet-hnrl/wiki/INET-HNRL:-Models-for-Hybrid-Networking-Research
 ---
 

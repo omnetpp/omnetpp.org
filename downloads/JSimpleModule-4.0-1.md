@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: JSimpleModule-4.0-1
-date: 2009-05-31
-sortkey: "2009-05-31"
+years-active: 2009
 category: tools
-download-url: https://ipfs.omnetpp.org/tools/jsimplemodule-opp4.0-1.tgz
+tags: omnetpp4
+download-file-url: https://ipfs.omnetpp.org/tools/jsimplemodule-opp4.0-1.tgz
 ---
 
 This is an extension that makes it possible to write OMNeT++ simple modules in

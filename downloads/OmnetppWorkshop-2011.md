@@ -3,9 +3,8 @@ download: true
 layout: download-details
 title: OMNeT++ Workshop 2011 Code Contribution Papers and Presentation Slides
 date: 2011-06-08
-sortkey: "2011-06-08"
-category: models
-download-url: https://ipfs.omnetpp.org/docs/workshop/OMNeT_WS2011_CodeContributions.rar
+tags: workshop-slides TODO
+download-file-url: https://ipfs.omnetpp.org/docs/workshop/OMNeT_WS2011_CodeContributions.rar
 website-url: https://summit.omnetpp.org/archive/2011/
 ---
 

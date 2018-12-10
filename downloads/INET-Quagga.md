@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: Quagga for INET Framework
-date: 2009-06-06
-sortkey: "2009-06-06"
+years-active: 2005-2009
 category: models
-download-url: https://github.com/inet-framework/inet-quagga
+tags: inet1 omnetpp4 omnetpp3
+github-url: https://github.com/inet-framework/inet-quagga
 ---
 
 This is a port of the Quagga routing daemon into the INET Framework.

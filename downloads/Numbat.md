@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: Numbat
-date: 2013-04-22
-sortkey: "2013-04-22"
+years-active: 2006-2013
 category: models
-download-url: https://github.com/tomaszmrugalski/numbat
+tags: framework omnetpp4 omnetpp3
+github-url: https://github.com/tomaszmrugalski/numbat
 website-url: http://klub.com.pl/numbat/
 ---
 

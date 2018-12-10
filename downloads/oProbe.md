@@ -1,11 +1,11 @@
 ---
 download: true
 layout: download-details
-title: oProbe (for OMNeT++ 3.x)
-date: 2009-05-18
-sortkey: "2009-05-18"
+title: oProbe
+years-active: 2008
 category: tools
-download-url: http://sourceforge.net/projects/oprobe
+tags: omnetpp3
+download-page-url: https://sourceforge.net/projects/oprobe
 ---
 
 The mission of the oProbe open source project is to provide an instrument that

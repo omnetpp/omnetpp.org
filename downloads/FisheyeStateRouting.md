@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: Fisheye State Routing
-date: 2002-04-21
-sortkey: "2002-04-21"
-category: models-old
-download-url: https://ipfs.omnetpp.org/models/FSR-20021124-src.tgz
+years-active: 2002
+category: models
+tags: standalone omnetpp2
+download-file-url: https://ipfs.omnetpp.org/models/FSR-20021124-src.tgz
 ---
 
 Implementation of the draft-ietf-manet-fsr-01 and 02 internet drafts. The model

@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: JResultWriter-0.9
-date: 2009-06-06
-sortkey: "2009-06-06"
+years-active: 2009
 category: tools
-download-url: https://ipfs.omnetpp.org/tools/omnetpp-jresultwriter-0.9.zip
+tags: omnetpp4
+download-file-url: https://ipfs.omnetpp.org/tools/omnetpp-jresultwriter-0.9.zip
 ---
 
 JResultWriter is a Java library for recording simulation results in OMNeT++ 4.0

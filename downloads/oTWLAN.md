@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: oTWLAN
-date: 2009-07-17
-sortkey: "2009-07-17"
+years-active: 2009-2010
 category: models
-download-url: https://sourceforge.net/projects/otwlan/files/
+tags: omnetpp3 inet1
+download-page-url: https://sourceforge.net/projects/otwlan/files/
 ---
 
 oTWLAN is a tool to simulate ad-hoc networks. The project facilitates

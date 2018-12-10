@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: SolarLEACH
-date: 2006-04-06
-sortkey: "2006-04-06"
-category: models-old
-download-url: https://ipfs.omnetpp.org/models/SolarLEACH-1.01.tgz
+years-active: 2006
+category: models
+tags: standalone omnetpp3
+download-file-url: https://ipfs.omnetpp.org/models/SolarLEACH-1.01.tgz
 ---
 
 This is a simulation of LEACH (Low-Energy Adaptive Clustering Hierarchy), a

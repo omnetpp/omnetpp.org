@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: VoIPTool for INET
-date: 2010-11-07
-sortkey: "2010-11-07"
-category: models-dep
-download-url: https://github.com/kirankishore/voiptool
+years-active: 2010
+category: models
+tags: merged omnetpp4 inet1
+github-url: https://github.com/kirankishore/voiptool
 ---
 
 DEPRECATED - This is already integrated into INET 3.x.

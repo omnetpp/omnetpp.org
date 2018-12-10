@@ -2,12 +2,12 @@
 download: true
 layout: download-details
 title: File System Simulation
-date: 2003-07-07
-sortkey: "2003-07-07"
-category: models-old
-download-url: https://ipfs.omnetpp.org/models/FSS-1.1-src.tgz
+years-active: 2003-2004
+category: models
+tags: standalone omnetpp2
+download-file-url: https://ipfs.omnetpp.org/models/FSS-1.1-src.tgz
 ---
 
 A simulation of the components involved in a file system implementation.
-
-Author: Joel Sherrill
+This is one of the earliest models written for OMNeT++.
+Author: Joel Sherrill.

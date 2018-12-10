@@ -3,8 +3,10 @@ download: true
 layout: download-details
 title: INETMANET 3.x
 sortkey: "2030-06-01"
+years-active: 2005-
 category: models
-download-url: https://github.com/aarizaq/inetmanet-3.x
+tags: framework inet3 omnetpp5 omnetpp4
+github-url: https://github.com/aarizaq/inetmanet-3.x
 ---
 
 INETMANET is a fork of the INET Framework 3.x branch, containing additional

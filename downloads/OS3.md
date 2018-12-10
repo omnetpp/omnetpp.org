@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: OS³ - The Open Source Satellite Simulator
-date: 2013-08-14
-sortkey: "2013-08-14"
+years-active: 2013-2015
 category: models
-download-url: https://github.com/inet-framework/cni-os3
+tags: inet3 omnetpp5 omnetpp4
+github-url: https://github.com/inet-framework/cni-os3
 website-url: http://www-os3.kn.e-technik.tu-dortmund.de
 ---
 
@@ -24,3 +24,4 @@ protocols or satellite orbits and evaluate the resulting performance pertaining
 to SNR, bit error rate, packet loss, round trip time, jitter, reachability, and
 other measures.
 
+OS³ was developed at the Communication Networks Institute, TU Dortmund, Germany.

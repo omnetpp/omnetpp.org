@@ -9,15 +9,15 @@ category: omnetpp
 more-url: /software/2013/04/02/omnet43release
 tabs:
 - id: linux
-  download-url: https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
+  download-file-url: https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
 
 - id: windows
-  download-url: https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src-windows.zip
+  download-file-url: https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src-windows.zip
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src-windows.zip
 
 - id: macos
-  download-url: https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
+  download-file-url: https://ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
 ---
 

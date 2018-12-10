@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: InfiniBand
-date: 2007-07-26
-sortkey: "2007-07-26"
+years-active: 2007
 category: models
-download-url: https://ipfs.omnetpp.org/models/ib_macro_model.tgz
+tags: standalone omnetpp3
+download-file-url: https://ipfs.omnetpp.org/models/ib_macro_model.tgz
 ---
 
 This is an InfiniBand model with support for the IB flow control scheme,

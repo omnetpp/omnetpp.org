@@ -1,11 +1,11 @@
 ---
 download: true
 layout: download-details
-title: OppBSD 4.0
-date: 2013-04-15
-sortkey: "2013-04-15"
+title: OppBSD
+years-active: 2005-2012
 category: models
-download-url: https://svn.tm.kit.edu/trac/OppBSD/downloads
+tags: standalone omnetpp4 omnetpp3
+download-page-url: https://svn.tm.kit.edu/trac/OppBSD/downloads
 website-url: https://svn.tm.kit.edu/trac/OppBSD
 ---
 

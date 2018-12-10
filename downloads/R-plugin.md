@@ -4,15 +4,16 @@ download: true
 layout: download-details
 title: R plugin for reading OMNeT++ result files (source)
 date: 2014-06-06
-sortkey: "2014-06-06"
+years-active: 2014 TODO
 category: tools
+tags: TODO
 tabs:
 - id: linux
-  download-url: https://ipfs.omnetpp.org/tools/omnetpp_0.6-1.tar.gz
+  download-file-url: https://ipfs.omnetpp.org/tools/omnetpp_0.6-1.tar.gz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/tools/omnetpp_0.6-1.tar.gz
 
 - id: windows
-  download-url: https://ipfs.omnetpp.org/tools/omnetpp_0.6-1.zip
+  download-file-url: https://ipfs.omnetpp.org/tools/omnetpp_0.6-1.zip
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/tools/omnetpp_0.6-1.zip
 ---
 

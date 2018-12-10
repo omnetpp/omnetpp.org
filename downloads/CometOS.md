@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: CometOS
-date: 2013-07-08
-sortkey: "2013-07-08"
+years-active: 2012-2017
 category: models
-download-url: https://github.com/CometOS/CometOS
+tags: standalone omnetpp5 omnetpp4
+github-url: https://github.com/CometOS/CometOS
 website-url: https://www.ti5.tuhh.de/research/sensornet/cometos/
 ---
 

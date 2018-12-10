@@ -2,14 +2,15 @@
 download: true
 layout: download-details
 title: HttpTools
-date: 2010-02-25
-sortkey: "2010-02-25"
-category: models-dep
-download-url: https://code.google.com/p/omnet-httptools/
+years-active: 2009-2010
+category: models
+tags: omnetpp4 inet1 merged
+download-page-url: https://code.google.com/archive/p/omnet-httptools/downloads
+webpage-url: https://code.google.com/archive/p/omnet-httptools/
 ---
 
-DEPRECATED - merged into INET Framework.
-
 The purpose of this project is to create a set of components for HTTP traffic
-simulation in the OMNeT++ discrete event simulator, by Kristjan Jonsson.
+simulation in the OMNeT++ discrete event simulator. Author: by Kristjan Jonsson.
+
+HttpTools has been merged into INET Framework.
 

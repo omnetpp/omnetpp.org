@@ -3,9 +3,9 @@ download: true
 layout: download-details
 title: CSharpSimpleModule-0.4
 date: 2009-05-19
-sortkey: "2009-05-19"
 category: tools
-download-url: https://ipfs.omnetpp.org/tools/csharpsimplemodule-0.4.tbz
+tags: TODO
+download-file-url: https://ipfs.omnetpp.org/tools/csharpsimplemodule-0.4.tbz
 ---
 
 This package complements JSimpleModule: while JSimpleModule lets you write

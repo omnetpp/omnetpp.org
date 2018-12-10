@@ -2,10 +2,11 @@
 download: true
 layout: download-details
 title: PAWiS
-date: 2009-05-22
-sortkey: "2009-05-22"
-category: models-old
-download-url: http://pawis.sourceforge.net/
+years-active: 2005-2008
+category: models
+tags: framework omnetpp3
+website-url: http://pawis.sourceforge.net/
+download-page-url: https://sourceforge.net/projects/pawis/files/latest/download
 ---
 
 PAWiS is an OMNeT++-based simulation framework for the optimization of wireless
@@ -16,3 +17,4 @@ sensors and radio communication. Common optimization approaches concentrate on
 modules to make every module as good as possible, but this approach only reveals
 local optima. In contrast, the PAWiS Framework targets on cross layer and cross
 module optimization to find global optimum.
+

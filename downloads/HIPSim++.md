@@ -2,11 +2,15 @@
 download: true
 layout: download-details
 title: HIPSim++
-date: 2010-02-01
-sortkey: "2010-02-01"
+years-active: 2010
 category: models
-download-url: https://ipfs.omnetpp.org/models/inet-hipsim-v1030.tgz
+tags: omnetpp4 inet1
+download-file-url: https://ipfs.omnetpp.org/models/inet-hipsim-v1030.tgz
 website-url: http://www.ict-optimix.eu/index.php/HIPSim
 ---
 
-Host Identity Protocol (HIP) Simulation Framework for INET/OMNeT++ 4.x
+HIPSim++ is a Host Identity Protocol (HIP) implementation for INET/OMNeT++,
+developed to provide a flexible toolset for testing and validation of HIP and
+its extensions. HIPSim++ is fully OMNeT++ 4.x compatible as it is built on the
+top of the 20090325 version of INET , and also uses the xMIPv6 additions created
+at the Dortmund University of Technology.

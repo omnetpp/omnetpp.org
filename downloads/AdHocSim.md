@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: AdHocSim
-date: 2009-05-19
-sortkey: "2009-05-19"
+years-active: 2001-2003,2005
 category: models
-download-url: https://ipfs.omnetpp.org/models/adHocSim-1.1-src.tgz
+tags: standalone omnetpp3
+download-file-url: https://ipfs.omnetpp.org/models/adHocSim-1.1-src.tgz
 ---
 
 Nicola Concer's simulator for ad-hoc networks. Implements AODV protocol and
@@ -24,13 +24,13 @@ The main features implemented are:
   - a physical level model
   - a MAC level
   - a routing model that implements AODV standard draft v.10
-  - a mobility model that can use one of the following algorithm
-  o random walk
-  o restricted random walk
-  o random direction
-  o random waypoint
-  o pursuit model
-  o normal markovian mobility model
+  - a mobility model that can use one of the following algorithms
+        o random walk
+        o restricted random walk
+        o random direction
+        o random waypoint
+        o pursuit model
+        o normal markovian mobility model
 
 * each host moves following an independent mobility algorithm
 
@@ -40,8 +40,6 @@ The main features implemented are:
   transmission power of each host
 
 Source code and documentation is available on the web site (click 'Thesis').
-
-Nicola Concer
 
 Updated for OMNeT++ 3.0 Andras Varga Jan 2005.
 

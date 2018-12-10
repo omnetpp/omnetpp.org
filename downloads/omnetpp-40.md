@@ -9,15 +9,15 @@ category: omnetpp
 more-url: /software/2009/03/12/omnet-40-released
 tabs:
 - id: linux
-  download-url: https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz
+  download-file-url: https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz
 
 - id: windows
-  download-url: https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0-src-windows.zip
+  download-file-url: https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0-src-windows.zip
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.0/omnetpp-4.0-src-windows.zip
 
 - id: macos
-  download-url: https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz
+  download-file-url: https://ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.0/omnetpp-4.0p1-src.tgz
 ---
 

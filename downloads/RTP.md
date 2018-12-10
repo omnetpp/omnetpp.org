@@ -2,13 +2,14 @@
 download: true
 layout: download-details
 title: Real-time Transport Protocol (RTP)
-date: 2002-11-24
-sortkey: "2002-11-24"
-category: models-old
-download-url: https://ipfs.omnetpp.org/models/RTP-20021124-src.tgz
+years-active: 2002
+category: models
+tags: standalone omnetpp2 merged
+download-file-url: https://ipfs.omnetpp.org/models/RTP-20021124-src.tgz
 ---
 
-RTP v2 (RFC 1889) models, based on the IP-Suite. THIS PACKAGE HAS BEEN INTEGRATED INTO THE INET FRAMEWORK.
+RTP v2 (RFC 1889) models, based on the IP-Suite. THIS PACKAGE HAS BEEN
+INTEGRATED INTO THE INET FRAMEWORK.
 
 Author: Matthias Oppitz
 

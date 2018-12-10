@@ -2,10 +2,11 @@
 download: true
 layout: download-details
 title: NesCT
-date: 2009-05-22
-sortkey: "2009-05-22"
-category: models-old
-download-url: http://nesct.sourceforge.net/
+years-active: 2006-2014
+category: models
+tags: standalone omnetpp4 omnetpp3
+website-url: http://nesct.sourceforge.net/
+download-page-url: https://sourceforge.net/projects/nesct/files/
 ---
 
 NesCT allows you to simulate TinyOS-based sensor networks with OMNeT++.

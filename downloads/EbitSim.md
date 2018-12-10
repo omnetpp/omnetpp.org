@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: EbitSim
-date: 2012-01-30
-sortkey: "2012-01-30"
+years-active: 2012
 category: models
-download-url: http://github.com/pedromanoel/EbitSim
+tags: omnetpp4 inet1
+github-url: https://github.com/pedromanoel/EbitSim
 ---
 
 The EbitSim is an enhanced BitTorrent simulation with the following features:

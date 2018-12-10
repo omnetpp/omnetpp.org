@@ -2,10 +2,10 @@
 download: true
 layout: download-details
 title: ReaSE
-date: 2009-05-22
-sortkey: "2009-05-22"
+years-active: 2008-2011
 category: models
-download-url: https://projekte.tm.uka.de/trac/ReaSE/
+tags: inet2 inet1 omnetpp4 omnetpp3
+website-url: https://projekte.tm.uka.de/trac/ReaSE/
 ---
 
 The ReaSE framework provides a graphical user interface for generation of ned

@@ -2,11 +2,10 @@
 download: true
 layout: download-details
 title: Ethernet
-date: 2003-05-18
-sortkey: "2003-05-18"
+years-active: 2003
 category: models
-tags: TODO standalone
-download-url: http://ctieware.eng.monash.edu.au/twiki/pub/Simulation/EtherNet/Ethernet-0.95-src.tgz
+tags: standalone omnetpp3 omnetpp2
+download-file-url: http://ctieware.eng.monash.edu.au/twiki/pub/Simulation/EtherNet/Ethernet-0.95-src.tgz
 ---
 
 NOTE: THIS PACKAGE HAS BEEN MERGED INTO THE INET FRAMEWORK. FURTHER VERSIONS

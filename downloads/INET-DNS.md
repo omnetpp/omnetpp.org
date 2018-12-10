@@ -2,10 +2,11 @@
 download: true
 layout: download-details
 title: DNS / mDNS model for INET
-date: 2015-03-31
-sortkey: "2015-03-31"
+years-active: 2014-2015
 category: models
-download-url: https://github.com/saenridanra/inet-dns-extension
+tags: omnetpp4 inet3
+github-url: https://github.com/saenridanra/inet-dns-extension
 ---
 
-This extension provides classes and functions to simulate DNS and mDNS traffic witin INET.
+This extension provides models to simulate DNS and mDNS (multicast DNS)
+traffic within INET. Author: Andreas Rain, University of Konstanz
