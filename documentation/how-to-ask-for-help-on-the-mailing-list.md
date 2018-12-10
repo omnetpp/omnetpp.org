@@ -2,6 +2,7 @@
 layout: page
 title: How to ask for help on the mailing list
 ---
+
 **Before sending off your post:**
 
 * **Make sure the solution is not already on the web.** This is your own interest, because if it\\'s already there you don't have to wait for the reply. Where to look: README, INSTALL and other doc in the package in queston; the manual; the Installation issues page on the web; mailing list archives, etc.

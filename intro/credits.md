@@ -7,7 +7,6 @@ date: 2009-04-28 12:53:41.000000000 +02:00
 author: Administrator
 category: Static pages
 ---
-# Credits
 
 OMNeT++ has been developed by András Varga.
 

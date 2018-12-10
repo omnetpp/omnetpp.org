@@ -2,7 +2,6 @@
 layout: page
 title: Simulation with OMNeT++
 ---
-# Simulation with OMNeT++
 
 Here's a quick overview how you would use OMNeT++:
 

@@ -2,7 +2,6 @@
 layout: page
 title: Tutorial Videos
 ---
-<h1>Tutorial Videos</h1>
 
 <div class="row">
   <div class="col s12 m6 l6">

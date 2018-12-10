@@ -2,7 +2,6 @@
 layout: page
 title: Screenshots
 ---
-<h1>Screenshots</h1>
 
 <table border="0" align="center">
 <tbody>

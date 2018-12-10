@@ -3,7 +3,6 @@ layout: page
 title: OMNeT++ documentation
 underMenu: Documentation
 ---
-# OMNeT++ documentation
 
 ## Introductions
 
