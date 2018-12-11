@@ -4,7 +4,7 @@ layout: download-details
 title: Ethernet
 years-active: 2003
 category: models
-tags: standalone omnetpp3 omnetpp2
+tags: standalone omnetpp3 omnetpp2 merged
 download-file-url: http://ctieware.eng.monash.edu.au/twiki/pub/Simulation/EtherNet/Ethernet-0.95-src.tgz
 ---
 

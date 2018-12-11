@@ -1,0 +1,11 @@
+---
+download: true
+layout: download-details
+title: DataCenter
+years-active: 2013
+category: models
+tags: omnetpp4 inet2
+github-url: https://github.com/mhaitjema/DataCenter
+---
+
+A lightweight packet-level OMNeT++ simulator designed to simulate large FatTree data center networks.

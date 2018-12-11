@@ -1,7 +1,7 @@
 ---
 download: true
 layout: download-details
-title: CDNSim
+title: CDNSim - Content Distribution Networks Simulator
 years-active: 2003-2006
 category: models
 tags: omnetpp3 inet1
