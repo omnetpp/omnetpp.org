@@ -8,9 +8,9 @@ To report a bug or suggest an enhancement, log in to the OMNeT++
 Bugtracker, and click Report Issue. Create an account if you do not have
 one (anonymous bug reporting is not supported). Before submitting the
 bug report, please check that the problem was not reported before by
-someone else.**[](http://dev.omnetpp.org/bugs)**
+someone else.**[](https://github.com/omnetpp/omnetpp/issues)**
 
-> **[OMNeT++ Bugtracker](http://dev.omnetpp.org/bugs)**
+> **[OMNeT++ Bugtracker](https://github.com/omnetpp/omnetpp/issues)**
 > ---------------------------------------------------------------
 
 <!--PageText-->
