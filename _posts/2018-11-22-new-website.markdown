@@ -3,7 +3,6 @@ layout: post
 title: Welcome to our New Website
 category: Article
 ---
-Dear OMNeT++ users,
 
 Welcome to our new website! We have decided to re-create the OMNeT++ website
 with a different technology, to improve its speed and usability. The new website
