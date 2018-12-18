@@ -41,5 +41,11 @@ function applyChipFiltering() {
            $(element).slideUp();
     });
 }
+
+$("div.filtertags .chip").click(function() {
+    $(this).toggleClass('blue-grey');
+    applyChipFiltering();
+});
+
 </script>
 
