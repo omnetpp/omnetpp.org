@@ -39,6 +39,15 @@ strong {
     font-weight: 600; /* Materialize's 500 gives inconsistent results across browsers */
 }
 
+.download-list .featured1 {
+    text-decoration: underline;
+}
+
+.download-list .superseded1 {
+    color: grey;
+    text-decoration: line-through;
+}
+
 nav a.brand-logo {
     color: $primary-color;
     font-family: trebuchet ms,sans-serif;

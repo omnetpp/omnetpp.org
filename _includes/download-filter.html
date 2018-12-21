@@ -1,0 +1,81 @@
+<div class="right filtertags" style="width:50%">
+  <input id="search" placeholder="Search" style="width:80%; height:2rem"
+      onkeypress="if (event.keyCode == 13 || event.which == 13) applyChipFiltering();"
+      onblur="applyChipFiltering()">
+  <i class="material-icons" style="cursor: pointer" title="Search" onclick="applyChipFiltering()">search</i>
+  <i class="material-icons" style="cursor: pointer" title="Clear" onclick="document.getElementById('search').value = '' ; applyChipFiltering()">clear</i>
+</div>
+<div class="clearfix"></div>
+
+<div class="right filtertags">
+  <div class="chip z-depth-1 waves-effect">featured</div>
+  <div class="chip z-depth-1 waves-effect">model</div>
+  <div class="chip z-depth-1 waves-effect">tool</div>
+  <div class="chip z-depth-1 waves-effect">framework</div>
+
+  <div class="chip z-depth-1 waves-effect">inet4</div>
+  <div class="chip z-depth-1 waves-effect">inet3</div>
+  <div class="chip z-depth-1 waves-effect">inet2</div>
+  <div class="chip z-depth-1 waves-effect">inet1</div>
+
+  <div class="chip z-depth-1 waves-effect">veins</div>
+
+  <div class="chip z-depth-1 waves-effect">omnetpp5</div>
+  <div class="chip z-depth-1 waves-effect">omnetpp4</div>
+  <div class="chip z-depth-1 waves-effect">omnetpp3</div>
+  <div class="chip z-depth-1 waves-effect">omnetpp2</div>
+</div>
+<div class="clearfix"></div>
+
+<!--  Scripts to make it work -->
+<script src="{{ "js/jquery.min.js" | relative_url }}"></script>
+
+<script type="">
+function applyChipFiltering() {
+    var chips = $(".chip.blue-grey");
+    var tags = chips.map((index, element) => { return $(element).text(); }).get();
+    var searchString = $("#search").val();
+
+    downloadItems = $("div.card").add($("li.collapsible-item"));
+    downloadItems.each((index, element) => {
+        var text = element.textContent;
+        var elementTags = element.dataset.tags.split(" ");
+        var enable =
+            (!searchString || text.toLowerCase().includes(searchString.toLowerCase())) &&
+
+            (!tags.includes("featured") || elementTags.includes("featured")) &&
+            (!tags.includes("model") || elementTags.includes("model")) &&
+            (!tags.includes("tool") || elementTags.includes("tool")) &&
+            (!tags.includes("framework") || elementTags.includes("framework")) &&
+
+            (
+                (!tags.includes("inet4") && !tags.includes("inet3") && !tags.includes("inet2") && !tags.includes("inet1")) ||
+                    (tags.includes("inet4") && elementTags.includes("inet4")) ||
+                    (tags.includes("inet3") && elementTags.includes("inet3")) ||
+                    (tags.includes("inet2") && elementTags.includes("inet2")) ||
+                    (tags.includes("inet1") && elementTags.includes("inet1"))
+            ) &&
+
+            (
+                (!tags.includes("omnetpp5") && !tags.includes("omnetpp4") && !tags.includes("omnetpp3") && !tags.includes("omnetpp2")) ||
+                    (tags.includes("omnetpp5") && elementTags.includes("omnetpp5")) ||
+                    (tags.includes("omnetpp4") && elementTags.includes("omnetpp4")) ||
+                    (tags.includes("omnetpp3") && elementTags.includes("omnetpp3")) ||
+                    (tags.includes("omnetpp2") && elementTags.includes("omnetpp2"))
+            ) &&
+
+            (!tags.includes("veins") || elementTags.includes("veins"));
+
+        if (enable)
+           $(element).slideDown();
+        else
+           $(element).slideUp();
+    });
+}
+
+$("div.filtertags .chip").click(function() {
+    $(this).toggleClass('blue-grey');
+    applyChipFiltering();
+});
+
+</script>

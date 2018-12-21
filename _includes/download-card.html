@@ -1,17 +1,25 @@
 <div class="card {{ item.tags }}">
     <div class="card-content">
-        <div class="left"><span class="card-title">{{ item.title }}</span>
+        {% capture titleclass %}
+            {% if item.tags contains 'featured' %}featured1{% endif %}
+            {% if item.tags contains 'merged' or item.tags contains 'superseded' %}superseded1{% endif %}
+        {% endcapture %}
+        <div class="left"><span class="card-title {{titleclass | strip}}">{{ item.title }}</span>
           {% if item.date %}<time><i class="far fa-calendar-alt"></i>&nbsp;{{item.date}}</time>&nbsp;&nbsp;{% endif %}
+          {% if item.years-active %}<time><i class="far fa-calendar-alt"></i>&nbsp;{{item.years-active}}</time>&nbsp;&nbsp;{% endif %}
+          {% if item.tags %}<time><i class="fas fa-tags"></i>&nbsp;{{item.tags}}</time>&nbsp;&nbsp;{% endif %}
         </div>
         <div class="right">
         {% unless item.tabs %}
-          {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn-small" style="margin-left: 10px"><i class="material-icons right">language</i>Website</a>{% endif %}
-          {% if item.torrent-url %}<a href="{{ item.torrent-url }}" class="waves-effect blue-grey btn-small" style="margin-left: 10px"><i class="material-icons right">cloud_download</i>Torrent</a>{% endif %}
-          {% if item.download-url %}<a href="{{ item.download-url }}" class="waves-effect waves-light green btn-small" style="margin-left: 10px"><i class="material-icons right">file_download</i>Download</a>{% endif %}
+            {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn-small" style="margin-left: 10px"><i class="material-icons right">language</i>Website</a>{% endif %}
+            {% if item.github-url %}<a href="{{ item.github-url }}" target="_blank" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="fab fa-github right"></i>GitHub</a>{% endif %}
+            {% if item.torrent-url %}<a href="{{ item.torrent-url }}" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="material-icons right">cloud_download</i>Torrent</a>{% endif %}
+            {% if item.download-file-url %}<a href="{{ item.download-file-url }}" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="material-icons right">file_download</i>Download</a>{% endif %}
+            {% if item.download-page-url %}<a href="{{ item.download-page-url }}" target="_blank" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="material-icons right">folder</i>Download</a>{% endif %}
         {% endunless %}
         </div>
         <div style="clear: both;"></div>
-        {% if item.content %} <div>{{ item.content | markdownify }}</div> {% endif %}
+        {% if item.content %}<div>{{ item.content | markdownify }}</div>{% endif %}
         {% if item.more-url %}<a href="{{ item.more-url }}" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Read more</a>{% endif %}
         {% unless item.tabs %}
         <div>

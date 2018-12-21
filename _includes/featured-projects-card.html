@@ -1,0 +1,14 @@
+<div class="featured-projects card-panel">
+    Featured Projects<br>
+    {% assign download_pages = site.pages | where: "download","true" %}
+    {% assign sorted_pages = download_pages | sort: "sortkey" %}
+    {% for item in sorted_pages %}
+      {% if page.category_filter contains item.category or page.category_filter == nil %}
+        {% if item.tags contains "featured" %}
+        <a href="{{item.url}}"><img src="{{ item.logo }}" title="{{item.logo-tooltip | default: item.title}}"
+           {% if item.logo-vertical-offset %} style="position: relative; top: {{item.logo-vertical-offset}};" {% endif %}
+           height="{{ item.logo-scale-height | default: 1 | times: 32 }}" border="0"></a>&nbsp;&nbsp;
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+</div>
