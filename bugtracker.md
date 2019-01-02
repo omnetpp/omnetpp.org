@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Reporting bugs in OMNeT++
+title: Reporting Bugs in OMNeT++
 ---
-# Reporting bugs in OMNeT++
 
 To report a bug or suggest an enhancement, log in to the OMNeT++
 Bugtracker, and click Report Issue. Create an account if you do not have

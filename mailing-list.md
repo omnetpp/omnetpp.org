@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Mailing list
+title: Mailing List
 ---
-# Mailing list
 
 The mailing list is a place where you can ask for help, share your ideas, etc. This is a googlegroups mailing list which is 
 **[archived here](http://groups.google.com/group/omnetpp/topics)**.
