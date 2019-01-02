@@ -10,6 +10,6 @@ website-url: https://veins.car2x.org
 ---
 
 Veins is an open source Inter-Vehicular Communication (IVC) simulation framework
-composed of an event-based network simulator and a road traffic microsimulation
-model. Versions before 3.0 required INET or MiXiM, later versions can be used
-without these framewroks.
+composed of an event-based network simulator (OMNeT++) and a road traffic
+simulator (SUMO), using cosimulation. Versions before 3.0 required INET or MiXiM,
+later versions can be used without these frameworks.
