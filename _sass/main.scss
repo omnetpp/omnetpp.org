@@ -35,6 +35,10 @@ body {
 }
 .content { flex: 1 0 auto; }
 
+strong {
+    font-weight: 600; /* Materialize's 500 gives inconsistent results across browsers */
+}
+
 nav a.brand-logo {
     color: $primary-color;
     font-family: trebuchet ms,sans-serif;
@@ -64,7 +68,7 @@ nav a.brand-logo {
 }
 .post-header .title {
     font-size: 1.5em;
-    font-weight: 500;
+    font-weight: 600;
 }
 time {
     color: #808080;
