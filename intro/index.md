@@ -24,23 +24,43 @@ running simulations look like.
 
 ## Components
 
-* simulation kernel library
-* NED topology description language
-* OMNeT++ IDE based on the Eclipse platform
-* GUI for simulation execution, links into simulation executable (Qtenv)
-* command-line user interface for simulation execution (Cmdenv)
-* utilities (makefile creation tool, etc.)
-* documentation, sample simulations, etc.
+The main ingredients of OMNeT++ are:
+
+* Simulation kernel library (C++)
+* The NED topology description language
+* Simulation IDE based on the Eclipse platform
+* Interactive simulation runtime GUI (Qtenv)
+* Command-line interface for simulation execution (Cmdenv)
+* Utilities (makefile creation tool, etc.)
+* Documentation, sample simulations, etc.
 
 ## Models
 
-An overview of available simulation models and model frameworks can be found [here](models).
+During the years OMNeT++ has been available, countless simulation models and
+model frameworks have been written for it by researchers in diverse areas:
+queuing, resource modeling, internet protocols, wireless networks, switched
+LANs, peer-to-peer networks, media streaming, mobile ad-hoc networks, mesh
+networks, wireless sensor networks, vehicular networks, NoCs, optical networks,
+HPC systems, cloud computing, SANs, and more. Most of these model frameworks are
+open source, developed as independent projects, and follow their own release
+cycles.
+
+The [INET Framework](http://inet.omnetpp.org) can be considered the standard
+protocol model library of OMNeT++. INET contains models for the Internet stack
+and many other protocols and components. The INET Framework is maintained by the
+OMNeT++ team for the community, utilizing patches and new models contributed by
+members of the community. Several other simulation frameworks take INET as a
+base, and extend it into specific directions, such as vehicular networks (Veins,
+CoRE), overlay/peer-to-peer networks (OverSim), or LTE (SimuLTE).
+
+We maintain a list of selected OMNeT++ models and model frameworks
+[here](/download/models-and-tools).
 
 ## Platforms
 
-OMNeT++ runs on Windows, Linux, macOS, and other Unix-like systems.
-
-The OMNeT++ IDE requires Windows, Linux, or macOS.
+The OMNeT++ simulation kernel is standard C++, and runs basically on all
+platforms where a modern C++ compiler is available. The Simulation IDE requires
+Windows, Linux, or macOS.
 
 ## Credits
 
