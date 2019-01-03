@@ -61,7 +61,3 @@ We maintain a list of selected OMNeT++ models and model frameworks
 The OMNeT++ simulation kernel is standard C++, and runs basically on all
 platforms where a modern C++ compiler is available. The Simulation IDE requires
 Windows, Linux, or macOS.
-
-## Credits
-
-OMNeT++ has been originally developed by András Varga. See [Credits, acknowledgements.](/intro/credits)
