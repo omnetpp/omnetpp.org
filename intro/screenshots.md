@@ -7,7 +7,7 @@ title: Screenshots
 <tbody>
 <tr>
 <td style="padding: 20px;" align="center" valign="top">
-<p><img class="materialboxed" data-caption="Graphical NED editor" src="/images/screenshots/ned-graphical-editor.png" alt="Graphical NED editor" width="200" height="142" /></p>
+<p><img class="materialboxed" data-caption="Graphical NED editor" src="/images/screenshots/ned-graphical-editor.png" alt="Graphical NED editor" width="200" height="137" /></p>
 <p>Graphical NED editor</p>
 </td>
 <td style="padding: 20px;" align="center" valign="top">
@@ -43,8 +43,8 @@ title: Screenshots
 <p>Bar chart</p>
 </td>
 <td style="padding: 20px;" align="center" valign="top">
-<p><img class="materialboxed" data-caption="Graphical Runtime Environment" src="/images/screenshots/tkenv-full.png" alt="Graphical Runtime Environment" width="200" height="141" border="0" /></p>
-<p>Graphical Runtime Environment</p>
+<p><img class="materialboxed" data-caption="Graphical Runtime Environment" src="/images/screenshots/qtenv-main.png" alt="Qtenv Simulation Runtime Environment" width="200" height="133" border="0" /></p>
+<p>The Qtenv simulation runtime</p>
 </td>
 </tr>
 </tbody>
