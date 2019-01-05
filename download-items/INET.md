@@ -2,7 +2,10 @@
 download: true
 layout: download-details
 title: INET Framework
-sortkey: "2030-12-01"
+logo: /images/logo/inet.png
+logo-vertical-offset: 3px
+logo-tooltip: INET Framework - Internet, LAN and MANET protocols
+sortkey: "01"
 years-active: 2003-
 category: models
 tags: featured model framework inet4 inet3 inet2 inet1 omnetpp5 omnetpp4 omnetpp3

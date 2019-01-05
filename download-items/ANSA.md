@@ -2,7 +2,11 @@
 download: true
 layout: download-details
 title: ANSA - Automated Network Simulation and Analysis
-sortkey: "2030-06-01"
+logo: /images/logo/ansa.png
+logo-scale-height: 1.5
+logo-vertical-offset: 6px
+logo-tooltip: ANSA - INET extension
+sortkey: "07"
 category: models
 years-active: 2008-
 tags: featured model framework omnetpp4 omnetpp5 inet3

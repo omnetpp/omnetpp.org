@@ -1,8 +1,10 @@
 ---
 download: true
 layout: download-details
-title: RINASim - RINA (Recursive InterNetwork Architecture) Simulator
-sortkey: "2030-03-01"
+title: RINASim - Recursive InterNetwork Architecture Simulator
+logo: /images/logo/rinasim.png
+logo-scale-height: 1.5
+sortkey: "09"
 years-active: 2015-
 category: models
 tags: featured model framework omnetpp5 omnetpp4

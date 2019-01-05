@@ -1,7 +1,10 @@
 ---
 download: true
 layout: download-details
-title: Veins
+title: Veins - Vehicles in Network Simulation
+logo: /images/logo/veins.png
+logo-scale-height: 1.1
+sortkey: "03"
 category: models
 years-active: 2006-
 tags: featured model framework omnetpp5 omnetpp4 omnetpp3 veins

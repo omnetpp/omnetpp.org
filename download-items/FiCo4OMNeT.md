@@ -2,6 +2,10 @@
 download: true
 layout: download-details
 title: FiCo4OMNeT - Fieldbus Communication for OMNeT++ (CAN, FlexRay)
+logo: /images/logo/fico4omnet.png
+logo-scale-height: 0.8
+logo-tooltip: FiCo4OMNeT - CAN, FlexRay
+sortkey: "06"
 category: models
 years-active: 2013-
 tags: featured model framework omnetpp5 omnetpp4

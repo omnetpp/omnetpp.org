@@ -2,7 +2,9 @@
 download: true
 layout: download-details
 title: Core4INET - Real-Time Ethernet protocols for INET
-sortkey: "2030-06-01"
+logo: /images/logo/core4inet.png
+logo-scale-height: 0.8
+sortkey: "05"
 category: models
 years-active: 2014-
 tags: featured model omnetpp4 omnetpp5 inet3

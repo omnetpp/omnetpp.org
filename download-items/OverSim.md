@@ -2,8 +2,11 @@
 download: true
 layout: download-details
 title: OverSim - Overlay Network Simulation Framework
+logo: /images/logo/oversim.png
+logo-scale-height: 1.1
+logo-tooltip: OverSim - Overlay / Peer-to-Peer Networks
+sortkey: "08"
 years-active: 2006-2012
-sortkey: "2012-12-06"
 category: models
 tags: featured model framework omnetpp4 inet1
 download-page-url: http://www.oversim.org/wiki/OverSimDownload
