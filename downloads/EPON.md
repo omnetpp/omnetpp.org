@@ -4,7 +4,7 @@ layout: download-details
 title: Ethernet Passive Optical Network (EPON)
 years-active: 2010
 category: models
-tags: standalone omnetpp4
+tags: model omnetpp4
 download-page-url: http://sourceforge.net/projects/omneteponmodule/
 ---
 

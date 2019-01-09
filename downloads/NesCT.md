@@ -4,7 +4,7 @@ layout: download-details
 title: NesCT
 years-active: 2006-2014
 category: models
-tags: standalone omnetpp4 omnetpp3
+tags: model omnetpp4 omnetpp3
 website-url: http://nesct.sourceforge.net/
 download-page-url: https://sourceforge.net/projects/nesct/files/
 ---

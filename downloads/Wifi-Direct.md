@@ -4,7 +4,7 @@ layout: download-details
 title: WiFi Direct for INET
 category: models
 years-active: 2017-2018
-tags: omnetpp5 inet3
+tags: model omnetpp5 inet3
 github-url: https://github.com/ashahin1/inet
 ---
 

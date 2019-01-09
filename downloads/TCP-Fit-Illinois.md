@@ -1,10 +1,10 @@
 ---
 download: true
 layout: download-details
-title: TCP-Fit-Illinois - An attempt to implement TCP-Fit and TCP-Illinois for OMNeT++ and INET
+title: TCP-Fit and TCP-Illinois models for OMNeT++ and INET
 category: models
 years-active: 2014-2015
-tags: inet2 omnetpp5
+tags: model inet2 omnetpp5
 github-url: https://github.com/SpyrosMArtel/TCP-Fit-Illinois
 ---
 

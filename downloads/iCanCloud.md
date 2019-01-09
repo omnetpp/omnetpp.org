@@ -4,7 +4,7 @@ layout: download-details
 title: iCanCloud
 years-active: 2011-2015
 category: models
-tags: omnetpp4 inet2
+tags: model omnetpp4 inet2
 download-page-url: https://sourceforge.net/projects/icancloudsim/
 website-url: https://www.arcos.inf.uc3m.es/old/icancloud/Home.html
 ---

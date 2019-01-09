@@ -4,7 +4,7 @@ layout: download-details
 title: Mobility Framework for OMNeT++ 3.x
 years-active: 2005-2007
 category: models
-tags: framework omnetpp3 superceded
+tags: model framework omnetpp3 superseded
 website-url: http://mobility-fw.sourceforge.net/
 ---
 

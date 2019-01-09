@@ -4,7 +4,7 @@ layout: download-details
 title: VoIPTool for INET
 years-active: 2010
 category: models
-tags: merged omnetpp4 inet1
+tags: model merged omnetpp4 inet1
 github-url: https://github.com/kirankishore/voiptool
 ---
 

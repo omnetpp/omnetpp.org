@@ -4,7 +4,7 @@ layout: download-details
 title: oProbe
 years-active: 2008
 category: tools
-tags: omnetpp3
+tags: tool omnetpp3
 download-page-url: https://sourceforge.net/projects/oprobe
 ---
 

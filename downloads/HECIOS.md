@@ -4,7 +4,7 @@ layout: download-details
 title: HECIOS - Parallel Virtual File System Simulator
 years-active: 2006-2009
 category: models
-tags: standalone inet1 omnetpp4 omnetpp3
+tags: model inet1 omnetpp4 omnetpp3
 github-url: https://github.com/bws/HECIOS
 ---
 

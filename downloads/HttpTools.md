@@ -4,7 +4,7 @@ layout: download-details
 title: HttpTools
 years-active: 2009-2010
 category: models
-tags: omnetpp4 inet1 merged
+tags: model omnetpp4 inet1 merged
 download-page-url: https://code.google.com/archive/p/omnet-httptools/downloads
 webpage-url: https://code.google.com/archive/p/omnet-httptools/
 ---

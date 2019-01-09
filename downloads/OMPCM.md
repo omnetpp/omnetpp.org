@@ -4,7 +4,7 @@ layout: download-details
 title: OMPCM - Palladio Component Model for OMNeT++
 category: tools
 years-active: 2012-2013
-tags: omnetpp4 inet2
+tags: tool omnetpp4 inet2
 website-url: https://sdqweb.ipd.kit.edu/wiki/OMPCM
 ---
 

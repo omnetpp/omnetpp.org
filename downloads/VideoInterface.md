@@ -4,7 +4,7 @@ layout: download-details
 title: VideoInterface
 years-active: 2004
 category: models
-tags: standalone omnetpp3
+tags: model omnetpp3
 download-file-url: https://ipfs.omnetpp.org/models/VideoInterface-opp30-20041103-src.tgz
 ---
 

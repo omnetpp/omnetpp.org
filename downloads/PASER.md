@@ -4,7 +4,7 @@ layout: download-details
 title: PASER - Position-Aware Secure and Efficient Mesh Routing
 category: models
 years-active: 2012
-tags: inet2 omnetpp4
+tags: model inet2 omnetpp4
 website-url: http://www.paser.info
 download-page-url: http://www.paser.info/index.php/downloads.html
 ---

@@ -4,7 +4,7 @@ layout: download-details
 title: CAROBS - Car Optical Burst Switching simulator
 category: models
 years-active: 2012-2016
-tags: standalone omnetpp4
+tags: model omnetpp4
 github-url: https://github.com/lejmr/carobs
 ---
 

@@ -4,7 +4,7 @@ layout: download-details
 title: PhoenixSim
 years-active: 2010
 category: models
-tags: framework omnetpp4
+tags: model framework omnetpp4
 website-url: https://lightwave.ee.columbia.edu/?s=research&p=past_projects
 github-url: https://github.com/lebiednik/PhoenixSim
 ---

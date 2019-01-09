@@ -4,8 +4,7 @@ layout: download-details
 title: Controller Area Network (CAN) model
 years-active: 2014
 category: models
-tags: omnetpp4 inet2
-download-page-url: TODO
+tags: model omnetpp4 inet2
 website-url: https://sites.google.com/site/yutakaertl/omnetpp_canmodel
 ---
 

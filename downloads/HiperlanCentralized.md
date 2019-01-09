@@ -4,7 +4,7 @@ layout: download-details
 title: Hiperlan-Centralized
 years-active: 2002-2003
 category: models
-tags: standalone omnetpp2
+tags: model omnetpp2
 download-file-url: https://ipfs.omnetpp.org/models/hiperlan-centralized-0.9-src.tgz
 ---
 

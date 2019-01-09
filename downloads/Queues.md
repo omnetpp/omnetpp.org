@@ -4,7 +4,7 @@ layout: download-details
 title: Queues
 years-active: 2008
 category: models
-tags: standalone omnetpp3 superseded
+tags: model omnetpp3 superseded
 download-file-url: https://ipfs.omnetpp.org/models/Queues-2.1-src.tgz
 ---
 

@@ -5,7 +5,7 @@ title: INETMANET 3.x
 sortkey: "2030-06-01"
 years-active: 2005-
 category: models
-tags: framework inet3 omnetpp5 omnetpp4
+tags: model framework inet3 omnetpp5 omnetpp4
 github-url: https://github.com/aarizaq/inetmanet-3.x
 ---
 

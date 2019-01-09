@@ -4,7 +4,7 @@ layout: download-details
 title: HNOCS - Network on Chip Simulation Framework
 years-active: 2011-2013, 2018
 category: models
-tags: standalone omnetpp5 omnetpp4
+tags: model framework omnetpp5 omnetpp4
 github-url: https://github.com/yanivbi/HNOCS
 website-url: http://hnocs.eew.technion.ac.il/
 ---

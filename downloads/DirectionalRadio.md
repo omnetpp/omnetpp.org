@@ -4,7 +4,7 @@ layout: download-details
 title: Directional Radio Models
 category: models
 years-active: 2009
-tags: omnetpp4 inet1
+tags: model omnetpp4 inet1
 github-url: https://github.com/jmaureir/DirectionalRadio
 ---
 

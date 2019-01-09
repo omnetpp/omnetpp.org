@@ -4,7 +4,7 @@ layout: download-details
 title: Neurogenesis - Distributed Omnet Simulation Toolchain
 years-active: 2016-2018
 category: tools
-tags: TODO
+tags: tool omnetpp5
 github-url: https://github.com/juliusf/Neurogenesis
 ---
 

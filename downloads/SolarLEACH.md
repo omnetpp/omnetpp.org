@@ -4,7 +4,7 @@ layout: download-details
 title: SolarLEACH
 years-active: 2006
 category: models
-tags: standalone omnetpp3
+tags: model omnetpp3
 download-file-url: https://ipfs.omnetpp.org/models/SolarLEACH-1.01.tgz
 ---
 

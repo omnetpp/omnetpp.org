@@ -4,7 +4,7 @@ layout: download-details
 title: NIST TESIM-OMNeT++ - Tennessee Simulator federated with OMNeT++ networking model
 category: models
 years-active: 2016-
-tags: inet2 omnetpp4
+tags: model inet2 omnetpp4
 github-url: https://github.com/usnistgov/tesim_omnetpp
 ---
 

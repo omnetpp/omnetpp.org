@@ -4,7 +4,7 @@ layout: download-details
 title: Precision Time Protocol for INET
 years-active: 2015
 category: models
-tags: inet2 omnetpp4
+tags: model inet2 omnetpp4
 github-url: https://github.com/martinlevesque/ptp-plusplus
 ---
 

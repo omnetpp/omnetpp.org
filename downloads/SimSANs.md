@@ -4,7 +4,7 @@ layout: download-details
 title: SimSANs
 years-active: 2002-2011
 category: models
-tags: standalone omnetpp4
+tags: model omnetpp4
 download-page-url: https://www.simsans.org/Downloads/download.htm
 website-url: https://www.simsans.org/
 ---

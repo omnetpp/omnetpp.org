@@ -4,7 +4,7 @@ layout: download-details
 title: SimpleBus
 years-active: 2003
 category: models
-tags: standalone omnetpp3 merged
+tags: model omnetpp3 merged
 download-file-url: https://ipfs.omnetpp.org/models/SimpleBus-1.0-src.tgz
 ---
 

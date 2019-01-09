@@ -4,7 +4,7 @@ layout: download-details
 title: WDM Simulator
 years-active: 2006
 category: models
-tags: standalone omnetpp3
+tags: model omnetpp3
 download-file-url: https://ipfs.omnetpp.org/models/WDM-0.9-src.tgz
 ---
 

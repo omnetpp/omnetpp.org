@@ -5,7 +5,7 @@ title: Core4INET
 sortkey: "2030-06-01"
 category: models
 years-active: 2014-
-tags: featured omnetpp4 omnetpp5 inet3
+tags: featured model omnetpp4 omnetpp5 inet3
 download-page-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Download
 website-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Background
 ---

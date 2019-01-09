@@ -4,7 +4,7 @@ layout: download-details
 title: crSimulator - Model for Cognitive Radio Ad hoc Network Simulations in OMNeT++
 years-active: 2013-2014
 category: models
-tags: standalone omnetpp4
+tags: model omnetpp4
 github-url: https://github.com/codesnk/crSimulator
 ---
 

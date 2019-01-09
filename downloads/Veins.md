@@ -4,7 +4,7 @@ layout: download-details
 title: Veins
 category: models
 years-active: 2006-
-tags: featured framework omnetpp5 omnetpp4 omnetpp3 veins
+tags: featured model framework omnetpp5 omnetpp4 omnetpp3 veins
 download-page-url: https://veins.car2x.org/download/
 website-url: https://veins.car2x.org
 ---

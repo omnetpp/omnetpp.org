@@ -4,7 +4,7 @@ layout: download-details
 title: AdHocSim
 years-active: 2001-2003,2005
 category: models
-tags: standalone omnetpp3
+tags: model model omnetpp3
 download-file-url: https://ipfs.omnetpp.org/models/adHocSim-1.1-src.tgz
 ---
 

@@ -4,7 +4,7 @@ layout: download-details
 title: LRE-OMNeT++ - Limited Relative Error (LRE) for OMNeT++
 category: models
 years-active: 2018-
-tags: omnetpp5
+tags: model omnetpp5
 github-url: https://github.com/ComNetsHH/LRE-OMNeT
 ---
 

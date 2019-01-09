@@ -4,7 +4,7 @@ layout: download-details
 title: Stochastic Battery
 category: models
 years-active: 2016-2017
-tags: standalone omnetpp5
+tags: model omnetpp5
 github-url: https://github.com/brandte/stochastic_battery
 ---
 

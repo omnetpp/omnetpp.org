@@ -5,8 +5,8 @@ title: DenaCast
 date: 2013-06-05
 years-active: 2013
 category: models
-tags: omnetpp4 inet2
-github-url: https://github.com/aarizaq/Denacast (TODO this is an oversim fork -- ??)
+tags: model omnetpp4 inet2
+github-url: https://github.com/aarizaq/Denacast
 ---
 
 DenaCast is an open-source peer-to-peer video streaming framework for the

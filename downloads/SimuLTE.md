@@ -4,7 +4,7 @@ layout: download-details
 title: SimuLTE
 sortkey: "2030-06-01"
 category: models
-tags: featured framework inet3 omnetpp5 omnetpp4
+tags: featured model framework inet3 omnetpp5 omnetpp4
 github-url: https://github.com/inet-framework/simulte
 website-url: https://simulte.com/
 ---

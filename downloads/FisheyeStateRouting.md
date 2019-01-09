@@ -4,7 +4,7 @@ layout: download-details
 title: Fisheye State Routing
 years-active: 2002
 category: models
-tags: standalone omnetpp2
+tags: model omnetpp2
 download-file-url: https://ipfs.omnetpp.org/models/FSR-20021124-src.tgz
 ---
 

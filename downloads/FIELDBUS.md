@@ -4,7 +4,7 @@ layout: download-details
 title: FIELDBUS
 years-active: 2005
 category: models
-tags: standalone omnetpp3
+tags: model omnetpp3
 website-url: https://sourceforge.net/projects/fieldbus.berlios/
 ---
 

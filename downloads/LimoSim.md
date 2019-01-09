@@ -4,7 +4,7 @@ layout: download-details
 title: LimoSim - Lighweight ICT-centric Vehicle Mobility Simulation
 years-active: 2016-
 category: models
-tags: inet3 omnetpp5
+tags: model inet3 omnetpp5
 github-url: https://github.com/BenSliwa/LIMoSim
 ---
 

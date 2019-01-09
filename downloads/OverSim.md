@@ -5,7 +5,7 @@ title: OverSim
 years-active: 2006-2012
 sortkey: "2012-12-06"
 category: models
-tags: framework omnetpp4 inet1
+tags: featured model framework omnetpp4 inet1
 download-page-url: http://www.oversim.org/wiki/OverSimDownload
 website-url: http://www.oversim.org/
 ---

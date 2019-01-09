@@ -4,7 +4,7 @@ layout: download-details
 title: OppBSD
 years-active: 2005-2012
 category: models
-tags: standalone omnetpp4 omnetpp3
+tags: model omnetpp4 omnetpp3
 download-page-url: https://svn.tm.kit.edu/trac/OppBSD/downloads
 website-url: https://svn.tm.kit.edu/trac/OppBSD
 ---

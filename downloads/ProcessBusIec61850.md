@@ -4,7 +4,7 @@ layout: download-details
 title: ProcessBusIec61850 - IEC61850 process bus communication (GOOSE and SV) for INET
 years-active: 2015-
 category: models
-tags: inet3 omnetpp5
+tags: model inet3 omnetpp5
 github-url: https://github.com/hectordelahoz/ProcessBusIec61850/
 ---
 

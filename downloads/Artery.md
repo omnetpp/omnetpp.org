@@ -4,7 +4,7 @@ layout: download-details
 title: Artery - OMNeT++ V2X simulation framework for ETSI ITS-G5
 years-active: 2010-
 category: models
-tags: framework omnetpp5 inet3 veins
+tags: featured model framework omnetpp5 inet3 veins
 github-url: https://github.com/riebl/artery
 ---
 

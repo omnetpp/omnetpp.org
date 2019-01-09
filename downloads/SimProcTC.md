@@ -4,7 +4,7 @@ layout: download-details
 title: SimProcTC
 years-active: 2008-2011
 category: tools
-tags: omnetpp3
+tags: tool omnetpp3
 download-page-url: https://www.uni-due.de/~be0001/omnetpp/#Download
 website-url: https://www.uni-due.de/~be0001/omnetpp/
 ---

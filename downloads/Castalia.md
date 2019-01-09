@@ -4,7 +4,7 @@ layout: download-details
 title: Castalia
 years-active: 2007-
 category: models
-tags: framework omnetpp4
+tags: model framework omnetpp4
 github-url: https://github.com/boulis/Castalia
 ---
 

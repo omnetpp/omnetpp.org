@@ -4,8 +4,8 @@ layout: download-details
 title: ChSim
 years-active: 2006
 category: models
-tags: standalone omnetpp3
-download-file-url: TODO
+tags: model omnetpp3 superseded
+website-url: https://cs.uni-paderborn.de/cn/research/research-projects/completed-projects/chsim/
 ---
 
 Chsim, created at University Paderborn, is an OMNeT++ simulation model  which
@@ -16,4 +16,4 @@ values can be generated in the time and frequency domain. These values can be
 written to a file or processed in own simulation modules. The simulator includes
 several mobility and channel models.
 
-Chsim has been superceded by MiXiM, and eventually, INET Framework.
+Chsim has been superseded by MiXiM, and eventually, INET Framework.

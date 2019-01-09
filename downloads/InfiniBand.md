@@ -4,7 +4,7 @@ layout: download-details
 title: InfiniBand
 years-active: 2007
 category: models
-tags: standalone omnetpp3
+tags: model omnetpp3
 download-file-url: https://ipfs.omnetpp.org/models/ib_macro_model.tgz
 ---
 

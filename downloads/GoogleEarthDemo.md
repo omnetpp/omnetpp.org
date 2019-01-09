@@ -4,7 +4,7 @@ layout: download-details
 title: Google Earth Demo
 years-active: 2010
 category: models
-tags: standalone omnetpp4
+tags: model omnetpp4 superseded
 download-file-url: https://ipfs.omnetpp.org/models/google-earth-demo.tgz
 website-url: http://www.youtube.com/watch?v=cFPJPVh3ouQ
 ---

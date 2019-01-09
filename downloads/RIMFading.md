@@ -4,7 +4,7 @@ layout: download-details
 title: RIMFading - Radio Irregularity Model (RIM)
 category: models
 years-active: 2016-2017
-tags: inet3 omnetpp5
+tags: model inet3 omnetpp5
 github-url: https://github.com/ComNets-Bremen/RIMFading
 --
 

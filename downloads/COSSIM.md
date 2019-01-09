@@ -4,7 +4,7 @@ layout: download-details
 title: COSSIM - CPS Simulator Framework based on OMNeT++
 years-active: 2015-2018
 category: models
-tags: omnetpp5 inet3
+tags: model omnetpp5 inet3
 website-url: http://www.cossim.org/
 github-url: https://github.com/H2020-COSSIM
 ---

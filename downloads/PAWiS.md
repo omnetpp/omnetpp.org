@@ -4,7 +4,7 @@ layout: download-details
 title: PAWiS
 years-active: 2005-2008
 category: models
-tags: framework omnetpp3
+tags: model framework omnetpp3
 website-url: http://pawis.sourceforge.net/
 download-page-url: https://sourceforge.net/projects/pawis/files/latest/download
 ---

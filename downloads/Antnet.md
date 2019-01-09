@@ -4,7 +4,7 @@ layout: download-details
 title: Antnet
 years-active: 2003-2005
 category: models
-tags: standalone omnetpp3
+tags: model omnetpp3
 download-file-url: https://ipfs.omnetpp.org/models/antnet-4.0-src.zip
 ---
 

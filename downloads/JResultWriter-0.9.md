@@ -4,7 +4,7 @@ layout: download-details
 title: JResultWriter-0.9
 years-active: 2009
 category: tools
-tags: omnetpp4
+tags: tool omnetpp4
 download-file-url: https://ipfs.omnetpp.org/tools/omnetpp-jresultwriter-0.9.zip
 ---
 

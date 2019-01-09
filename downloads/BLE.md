@@ -4,7 +4,7 @@ layout: download-details
 title: BLE - Bluetooth Low Energy model
 years-active: 2015
 category: models
-tags: omnetpp4
+tags: model omnetpp4
 website-url: http://cc.oulu.fi/~kmikhayl/BLE.html
 ---
 

@@ -4,7 +4,7 @@ layout: download-details
 title: Quagga for INET Framework
 years-active: 2005-2009
 category: models
-tags: inet1 omnetpp4 omnetpp3
+tags: model inet1 omnetpp4 omnetpp3
 github-url: https://github.com/inet-framework/inet-quagga
 ---
 

@@ -4,7 +4,7 @@ layout: download-details
 title: InfiniBand Flit Level Model
 years-active: 2004-2013
 category: models
-tags: standalone omnetpp4
+tags: model omnetpp4
 download-file-url: https://ipfs.omnetpp.org/models/ib_flit_sim.19_03_13.tgz
 ---
 

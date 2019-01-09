@@ -4,7 +4,7 @@ layout: download-details
 title: SimDistribution
 years-active: 2009
 category: tools
-tags: omnetpp3
+tags: tool omnetpp3
 download-page-url: http://simdistribution.sourceforge.net/installation/index.html
 website-url: http://simdistribution.sourceforge.net/
 ---

@@ -5,7 +5,7 @@ title: INET Framework
 sortkey: "2030-12-01"
 years-active: 2003-
 category: models
-tags: featured framework inet4 inet3 inet2 inet1 omnetpp5 omnetpp4 omnetpp3
+tags: featured model framework inet4 inet3 inet2 inet1 omnetpp5 omnetpp4 omnetpp3
 github-url: https://github.com/inet-framework/inet/releases
 website-url: https://inet.omnetpp.org/
 more-url: https://inet.omnetpp.org/Introduction

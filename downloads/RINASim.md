@@ -5,7 +5,7 @@ title: RINASim (Recursive InterNetwork Architecture)
 sortkey: "2030-03-01"
 years-active: 2015-
 category: models
-tags: featured framework omnetpp5 omnetpp4
+tags: featured model framework omnetpp5 omnetpp4
 github-url: https://github.com/kvetak/RINA
 website-url: https://rinasim.omnetpp.org/
 ---

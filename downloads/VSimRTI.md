@@ -4,7 +4,7 @@ layout: download-details
 title: VSimRTI - Smart Mobility Simulation
 category: models
 years-active: 2010-
-tags: featured framework omnetpp5
+tags: model framework omnetpp5
 download-page-url: https://www.dcaiti.tu-berlin.de/research/simulation/download/
 website-url: https://www.dcaiti.tu-berlin.de/research/simulation/
 ---

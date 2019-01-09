@@ -4,7 +4,7 @@ layout: download-details
 title: StreetlightSim
 years-active: 2014-2015
 category: models
-tags: standalone omnetpp4
+tags: model omnetpp4
 download-page-url: http://www.streetlightsim.ecs.soton.ac.uk/downloadform.php
 website-url: http://www.streetlightsim.ecs.soton.ac.uk/
 ---

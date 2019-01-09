@@ -4,7 +4,7 @@ layout: download-details
 title: Cell Communication Signaling Project
 years-active: 2013-2014
 category: models
-tags: standalone omnetpp4
+tags: model omnetpp4
 github-url: https://github.com/dhuertas/cell-signaling
 ---
 

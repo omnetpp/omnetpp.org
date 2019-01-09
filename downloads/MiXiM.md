@@ -4,7 +4,7 @@ layout: download-details
 title: MiXiM
 years-active: 2007-2011
 category: models
-tags: framework omnetpp4 omnetpp3 superseded
+tags: model framework omnetpp4 omnetpp3 superseded
 download-page-url: http://mixim.sourceforge.net
 ---
 

@@ -4,7 +4,7 @@ layout: download-details
 title: NDNOMNeT - Named Data Networking framework for OMNeT++
 category: models
 years-active: 2018-
-tags: inet3 omnetpp5
+tags: model inet3 omnetpp5
 github-url: https://github.com/amar-ox/NDNOMNeT
 ---
 

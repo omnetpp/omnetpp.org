@@ -2,9 +2,9 @@
 download: true
 layout: download-details
 title: CSharpSimpleModule-0.4
-date: 2009-05-19
+date: 2007-06-11
 category: tools
-tags: TODO
+tags: tool omnetpp3
 download-file-url: https://ipfs.omnetpp.org/tools/csharpsimplemodule-0.4.tbz
 ---
 

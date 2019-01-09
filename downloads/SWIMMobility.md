@@ -1,10 +1,10 @@
 ---
 download: true
 layout: download-details
-title: An implementation of the SWIM mobility model in OMNeT++
+title: SWIMMobility - The Small Worlds in Motion mobility model for OMNeT++ and INET
 years-active: 2016-2018
 category: models
-tags: omnetpp4 omnetpp5 inet3
+tags: model omnetpp4 omnetpp5 inet3
 github-url: https://github.com/ComNets-Bremen/SWIMMobility
 ---
 

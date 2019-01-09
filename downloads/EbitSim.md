@@ -4,7 +4,7 @@ layout: download-details
 title: EbitSim
 years-active: 2012
 category: models
-tags: omnetpp4 inet1
+tags: model omnetpp4 inet1
 github-url: https://github.com/pedromanoel/EbitSim
 ---
 

@@ -4,11 +4,11 @@ layout: download-details
 title: ReaSE
 years-active: 2008-2011
 category: models
-tags: inet2 inet1 omnetpp4 omnetpp3
+tags: model inet2 inet1 omnetpp4 omnetpp3
 website-url: https://projekte.tm.uka.de/trac/ReaSE/
 ---
 
-The ReaSE framework provides a graphical user interface for generation of ned
+The ReaSE framework provides a graphical user interface for generation of NED
 files including a realistic topology and necessary traffic generation entities.
 In addition, OMNeT++ and the INET framework are extended in a way that
 hierarchical routing and traffic generation are enabled within a user's

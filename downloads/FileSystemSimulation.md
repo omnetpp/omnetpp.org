@@ -4,7 +4,7 @@ layout: download-details
 title: File System Simulation
 years-active: 2003-2004
 category: models
-tags: standalone omnetpp2
+tags: model omnetpp2
 download-file-url: https://ipfs.omnetpp.org/models/FSS-1.1-src.tgz
 ---
 

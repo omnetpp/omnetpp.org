@@ -4,7 +4,7 @@ layout: download-details
 title: mCoA++ - Multiple Care of Address Registration for xMIPv6
 years-active: 2010-2011
 category: models
-tags: inet2 omnetpp4
+tags: model inet2 omnetpp4
 github-url: https://github.com/bmsousa/mCoAplus
 website-url: http://mcoa.dei.uc.pt
 ---

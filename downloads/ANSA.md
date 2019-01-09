@@ -5,7 +5,7 @@ title: ANSA - Automated Network Simulation and Analysis
 sortkey: "2030-06-01"
 category: models
 years-active: 2008-
-tags: featured framework omnetpp4 omnetpp5 inet3
+tags: featured model framework omnetpp4 omnetpp5 inet3
 github-url: https://github.com/kvetak/ANSA
 website-url: https://ansa.omnetpp.org/
 ---

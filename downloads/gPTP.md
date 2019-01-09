@@ -4,7 +4,7 @@ layout: download-details
 title: IEEE 802.1AS gPTP for Clock Synchronization
 category: models
 years-active: 2018
-tags: omnetpp5 inet3
+tags: model omnetpp5 inet3
 website-url: https://gitlab.amd.e-technik.uni-rostock.de/peter.danielis/gptp-implementation
 ---
 

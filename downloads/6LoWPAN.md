@@ -4,7 +4,7 @@ layout: download-details
 title: 6LoWPAN Model for OMNeT++ - Integrate It Yourself Version
 years-active: 2015-2017
 category: models
-tags: omnetpp4 inet2
+tags: model model omnetpp4 inet2
 github-url: https://github.com/michaelkirsche/6lowpan4omnet-diy
 ---
 

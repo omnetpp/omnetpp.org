@@ -4,7 +4,7 @@ layout: download-details
 title: Simple GSM simulation
 years-active: 2000
 category: models
-tags: standalone omnetpp2
+tags: model omnetpp2
 download-file-url: https://ipfs.omnetpp.org/models/GSM-1.0-src.tgz
 ---
 

@@ -4,7 +4,7 @@ layout: download-details
 title: openDSME - IEEE 802.15.4 Deterministic and Synchronous Multi-channel Extension
 years-active: 2016-
 category: models
-tags: inet4 omnetpp5
+tags: model inet4 omnetpp5
 github-url: https://github.com/openDSME/inet-dsme
 website-url: https://http://opendsme.org/
 ---

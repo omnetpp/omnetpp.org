@@ -4,7 +4,7 @@ layout: download-details
 title: OMNeT++ export for BRITE 2.1
 years-active: 2009
 category: tools
-tags: omnetpp4 inet1
+tags: tool omnetpp4 inet1
 download-file-url: https://ipfs.omnetpp.org/tools/brite21-omnetpp-patch.tgz
 ---
 

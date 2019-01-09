@@ -4,7 +4,7 @@ layout: download-details
 title: DataCenter
 years-active: 2013
 category: models
-tags: omnetpp4 inet2
+tags: model omnetpp4 inet2
 github-url: https://github.com/mhaitjema/DataCenter
 ---
 
