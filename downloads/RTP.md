@@ -1,7 +1,7 @@
 ---
 download: true
 layout: download-details
-title: Real-time Transport Protocol (RTP)
+title: RTP (Real-time Transport Protocol) model
 years-active: 2002
 category: models
 tags: model omnetpp2 merged

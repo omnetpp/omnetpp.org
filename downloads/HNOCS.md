@@ -6,7 +6,6 @@ years-active: 2011-2013, 2018
 category: models
 tags: model framework omnetpp5 omnetpp4
 github-url: https://github.com/yanivbi/HNOCS
-website-url: http://hnocs.eew.technion.ac.il/
 ---
 
 NoC simulation is a key for NoC architectures research resulting from the huge

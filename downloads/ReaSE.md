@@ -14,7 +14,4 @@ In addition, OMNeT++ and the INET framework are extended in a way that
 hierarchical routing and traffic generation are enabled within a user's
 simulation model.
 
-ReaSE is developed at the Institute of Telematics, University of Karlsruhe. This
-tool is actively developed and open to feedback and contributions. If you have
-any questions regarding ReaSE, feel free to contact the authors.
-
+ReaSE is developed at the Institute of Telematics, University of Karlsruhe.

@@ -1,7 +1,7 @@
 ---
 download: true
 layout: download-details
-title: SimSANs
+title: SimSANs - Simulating Storage Area Networks
 years-active: 2002-2011
 category: models
 tags: model omnetpp4

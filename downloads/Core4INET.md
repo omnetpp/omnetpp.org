@@ -1,7 +1,7 @@
 ---
 download: true
 layout: download-details
-title: Core4INET
+title: Core4INET - Real-Time Ethernet protocols for INET
 sortkey: "2030-06-01"
 category: models
 years-active: 2014-

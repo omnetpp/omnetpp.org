@@ -10,10 +10,15 @@ github-url: https://github.com/kvetak/ANSA
 website-url: https://ansa.omnetpp.org/
 ---
 
-This project exploits discrete simulation of a network for automated analysis of
-security properties. Network topology is formally built using nodes (e.g.,
-routers) and links. Nodes include network interfaces with IP addresses,
-filtering rules (express using ACLs), and routing processes. Using automated
-simulation with changing configuration (links going up and down), dynamic
-behaviour of the network is observed and analyzed. The goal is to find out weak
-points of the network design and configuration.
+The ANSA (Automated Network Simulation and Analysis) project
+is dedicated to the development of a variety of protocol models, based
+on RFC specifications and/or reference implementations.
+The ANSA package extends INET Framework with several protocol models.
+
+ANSA is may be publicly used as the routing/switching baseline for further
+research initiatives, i.e., in simulations proving (or disproving)
+certain aspects of networking technologies (e.g., finding bottlenecks
+and single-point of failures, configuration errors, faulty network states, etc.).
+
+ANSA is a long-term project carried out by researchers and students
+at Brno University of Technology, Czech Republic.

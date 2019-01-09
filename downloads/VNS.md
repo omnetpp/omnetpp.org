@@ -6,7 +6,6 @@ years-active: 2013-2014
 category: models
 tags: model framework omnetpp4
 github-url: https://github.com/enriquefynn/libvns
-website-url: http://www.dcc.fc.up.pt/~rjf/vns
 more-url: /software/2013/05/06/vns-released
 ---
 

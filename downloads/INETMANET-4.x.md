@@ -9,5 +9,7 @@ tags: featured model framework omnetpp5 inet4
 github-url: https://github.com/aarizaq/inetmanet-4.x
 ---
 
-INETMANET is a fork of the INET Framework 4.x branch, containing additional
-adhoc routing protocols and other models written by the community.
+INETMANET is a fork of the INET Framework 4.x branch, maintained by Alfonso
+Ariza Quintana. INETMANET is kept up-to-date with INET, and extends it
+with a number of experimental features and protocols, mainly for mobile
+ad hoc networks, many them written by Alfonso Ariza.
