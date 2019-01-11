@@ -48,6 +48,17 @@ strong {
     text-decoration: line-through;
 }
 
+@media only screen and (max-width : 800px) {
+    .download-list a {
+        >i.right {
+            margin-left: 0;
+        }
+        >span {
+            display: none;
+        }
+    }
+}
+
 nav a.brand-logo {
     color: $primary-color;
     font-family: trebuchet ms,sans-serif;
