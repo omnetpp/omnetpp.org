@@ -19,6 +19,6 @@ and porting to newer OMNeT++ or INET versions are usually welcome by the authors
 
 **Submitting.** You can submit new entries and corrections by sending a pull
 request against our download database on
-[GitHub](https://github.com/omnetpp/omnetpp.org/tree/master/downloads). If pull
+[GitHub](https://github.com/omnetpp/omnetpp.org/tree/master/download-items). If pull
 requests are not your thing, emails will also be accepted.
 
