@@ -39,8 +39,8 @@ strong {
     font-weight: 600; /* Materialize's 500 gives inconsistent results across browsers */
 }
 
-.download-list .featured1 {
-    text-decoration: underline;
+.download-list .featured1::after {
+    content: " ★";
 }
 
 .download-list .superseded1 {
@@ -74,11 +74,13 @@ nav a.brand-logo {
     padding: 15px;
     margin: 24px 0 24px 0px;
 }
+.featured-projects {
+    padding: 5px 15px 10px 15px;
+}
 .banner .featured-projects {
+    margin: 0px;
     color: black;
     background: rgba(255,255,255,0.6);
-    margin: 0px;
-    padding: 5px 15px 10px 15px;
 }
 .news {
     padding-left: 16px;
