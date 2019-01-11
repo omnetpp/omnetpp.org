@@ -11,11 +11,11 @@
         </div>
         <div class="right">
         {% unless item.tabs %}
-            {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn-small" style="margin-left: 10px"><i class="material-icons right">language</i>Website</a>{% endif %}
+            {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn-small" style="margin-left: 10px"><i class="fas fa-globe right"></i>Website</a>{% endif %}
             {% if item.github-url %}<a href="{{ item.github-url }}" target="_blank" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="fab fa-github right"></i>GitHub</a>{% endif %}
-            {% if item.torrent-url %}<a href="{{ item.torrent-url }}" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="material-icons right">cloud_download</i>Torrent</a>{% endif %}
-            {% if item.download-file-url %}<a href="{{ item.download-file-url }}" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="material-icons right">file_download</i>Download</a>{% endif %}
-            {% if item.download-page-url %}<a href="{{ item.download-page-url }}" target="_blank" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="material-icons right">folder</i>Download</a>{% endif %}
+            {% if item.torrent-url %}<a href="{{ item.torrent-url }}" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="fas fa-cloud-download-alt right"></i>Torrent</a>{% endif %}
+            {% if item.download-file-url %}<a href="{{ item.download-file-url }}" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="fas fa-download right"></i>Download</a>{% endif %}
+            {% if item.download-page-url %}<a href="{{ item.download-page-url }}" target="_blank" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="fas fa-folder-open right"></i>Download</a>{% endif %}
         {% endunless %}
         </div>
         <div style="clear: both;"></div>
@@ -49,9 +49,11 @@
     <div class="card-content">
   {% for tab in item.tabs %}
       <div id="{{item.id}}_{{tab.id}}">
-          {% if tab.download-url %}<a href="{{ tab.download-url }}" class="waves-effect waves-light green btn-small right" style="margin-left: 10px"><i class="material-icons right">file_download</i>Download</a>{% endif %}
-          {% if tab.torrent-url %}<a href="{{ tab.torrent-url }}" class="waves-effect blue-grey btn-small right" style="margin-left: 10px"><i class="material-icons right">cloud_download</i>Torrent</a>{% endif %}
-          {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn-small right" style="margin-left: 10px"><i class="material-icons right">language</i>Website</a>{% endif %}
+          {% if tab.download-file-url %}<a href="{{ tab.download-file-url }}" class="waves-effect waves-light green darken-3 btn-small right" style="margin-left: 10px"><i class="fas fa-download right"></i>Download</a>{% endif %}
+          {% if tab.download-page-url %}<a href="{{ tab.download-page-url }}" target="_blank" class="waves-effect waves-light green darken-3 btn-small right" style="margin-left: 10px"><i class="fas fa-folder-open right"></i>Download</a>{% endif %}
+          {% if tab.torrent-url %}<a href="{{ tab.torrent-url }}" class="waves-effect waves-light green darken-3 btn-small right" style="margin-left: 10px"><i class="fas fa-cloud-download-alt right"></i>Torrent</a>{% endif %}
+          {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn-small right" style="margin-left: 10px"><i class="fas fa-globe right"></i>Website</a>{% endif %}
+          {% if item.github-url %}<a href="{{ item.github-url }}" target="_blank" class="waves-effect waves-light green darken-3 btn-small right" style="margin-left: 10px"><i class="fab fa-github right"></i>GitHub</a>{% endif %}
           <div>
           {% if tab.filesize%}Size:&nbsp;{{tab.filesize | divided_by: 1048576}}MB&nbsp;&nbsp;{% endif %}
           {% if tab.md5 %}MD5:&nbsp;{{tab.md5}}&nbsp;&nbsp;{% endif %}
