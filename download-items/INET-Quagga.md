@@ -5,6 +5,7 @@ title: Quagga for INET Framework
 years-active: 2005-2009
 category: models
 tags: model inet1 omnetpp4 omnetpp3
+keywords: routing ospfv2 ospfv3 ripv1 ripv2 ripng bgp-4
 github-url: https://github.com/inet-framework/inet-quagga
 ---
 

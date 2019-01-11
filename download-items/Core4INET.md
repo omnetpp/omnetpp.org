@@ -8,6 +8,7 @@ sortkey: "05"
 category: models
 years-active: 2014-
 tags: featured model omnetpp4 omnetpp5 inet3
+keywords: as6802 ttethernet 802.1q avb srp tsn vlan 802.1p
 download-page-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Download
 website-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Background
 ---
@@ -19,4 +20,3 @@ Currently CoRE4INET supports:
 - TTEthernet (AS6802)
 - IEEE 802.1 Audio Video Bridging (AVB) / Time-Sensitive Networking (TSN)
 - IEEE 802.1Q / IEEE P802.1p VLANs and Priorities
-

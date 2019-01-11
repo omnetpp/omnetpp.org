@@ -9,6 +9,7 @@ sortkey: "01"
 years-active: 2003-
 category: models
 tags: featured model framework inet4 inet3 inet2 inet1 omnetpp5 omnetpp4 omnetpp3
+keywords: dhcp http icmp rtp sctp voip bmac lmac wsn sensor 802.1d 802.1q 802.2 802.15.4 802.11 xmac ppp vlan mobility arp diffserv icmpv6 ospfv2 gpsr ripv2 ripng rtp wireless wpan power aodv bgp-v4 dsdv dymo gpsr pim routing adhoc ldp tcp udp ipv4 ipv6 ethernet manet mpls ospf
 github-url: https://github.com/inet-framework/inet/releases
 website-url: https://inet.omnetpp.org/
 more-url: https://inet.omnetpp.org/Introduction
@@ -27,4 +28,3 @@ signalling, several application models, and many other protocols and components.
 Several other simulation frameworks take INET as a base, and extend it into
 specific directions, such as vehicular networks, overlay/peer-to-peer networks,
 or LTE.
-

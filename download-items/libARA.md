@@ -5,6 +5,7 @@ title: libARA - Routing algorithms based on the Ant Colony Optimization (ACO) me
 category: models
 years-active: 2012-2015
 tags: model inet1 omnetpp4
+keywords: antnet aco routing
 github-url: https://github.com/des-testbed/libara
 ---
 

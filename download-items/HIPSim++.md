@@ -5,6 +5,7 @@ title: HIPSim++
 years-active: 2010
 category: models
 tags: model omnetpp4 inet1
+keywords: routing xmipv6
 download-file-url: https://ipfs.omnetpp.org/models/inet-hipsim-v1030.tgz
 website-url: http://www.ict-optimix.eu/index.php/HIPSim
 ---

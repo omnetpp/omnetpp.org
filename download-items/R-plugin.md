@@ -6,6 +6,7 @@ title: R plugin for reading OMNeT++ result files
 years-active: 2010-
 category: tools
 tags: tool omnetpp4
+keywords: statistics
 github-url: https://github.com/omnetpp/omnetpp-resultfiles
 ---
 
@@ -18,4 +19,3 @@ INSTALLATION:
 NOTE: You may need to install the 'reshape' package before installing omnetpp.
 
   > install.packages("reshape")
-

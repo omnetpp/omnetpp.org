@@ -5,6 +5,7 @@ title: Stochastic Battery
 category: models
 years-active: 2016-2017
 tags: model omnetpp5
+keywords: power
 github-url: https://github.com/brandte/stochastic_battery
 ---
 
@@ -18,4 +19,3 @@ Documentation is available
 [in the repo](https://github.com/brandte/stochastic_battery/blob/master/stochastic_battery_documentation.pdf).
 
 Authors: Eike Brandt, Florian Schaffarzyk (ComNets Group, University of Bremen)
-

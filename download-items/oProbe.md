@@ -5,6 +5,7 @@ title: oProbe
 years-active: 2008
 category: tools
 tags: tool omnetpp3
+keywords: statistics
 download-page-url: https://sourceforge.net/projects/oprobe
 ---
 
@@ -22,4 +23,3 @@ interface levels according to the functionality required. Based on the FIFO
 queue example included in the sample directory in OMNeT++, the oProbe project
 provides example code on how the software can be used by existing or upcoming
 OMNeT++ based simulators.
-

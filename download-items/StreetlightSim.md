@@ -5,6 +5,7 @@ title: StreetlightSim
 years-active: 2014-2015
 category: models
 tags: model omnetpp4
+keywords: sumo wsn sensor power TODO
 download-page-url: http://www.streetlightsim.ecs.soton.ac.uk/downloadform.php
 website-url: http://www.streetlightsim.ecs.soton.ac.uk/
 ---
@@ -23,4 +24,3 @@ Features:
   distribution according to different times of day and annual average daily
   traffic flow (AADF).
 - Ease of extension to different streetlight networks using OpenStreetMap and JOSM.
-

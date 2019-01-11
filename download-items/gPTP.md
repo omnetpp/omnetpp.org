@@ -5,6 +5,7 @@ title: IEEE 802.1AS gPTP for Clock Synchronization
 category: models
 years-active: 2018
 tags: model omnetpp5 inet3
+keywords: ethernet lan timing gptp 802.1as
 website-url: https://gitlab.amd.e-technik.uni-rostock.de/peter.danielis/gptp-implementation
 ---
 
@@ -16,4 +17,3 @@ Authors: Enkhtuvshin Janchivnyambuu, Henning Puttnies and Peter Danielis, Univer
 Presented at the
 [5th OMNeT++ Community Summit, Pisa 2018](https://summit.omnetpp.org/archive/2018/)
 (slides and paper available behind the link).
-

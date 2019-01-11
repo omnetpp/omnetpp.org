@@ -5,6 +5,7 @@ title: Google Earth Demo
 years-active: 2010
 category: models
 tags: model omnetpp4 superseded
+keywords: vehicular TODO
 download-file-url: https://ipfs.omnetpp.org/models/google-earth-demo.tgz
 website-url: http://www.youtube.com/watch?v=cFPJPVh3ouQ
 ---
@@ -30,4 +31,3 @@ Visualization shows the mobile nodes themselves (a 3D car model), their recent
 trails, their transmission ranges (semi-transparent filled circles on the
 terrain), and the current connectivity of the network (cars that are closer than
 500m are connected with a white line).
-

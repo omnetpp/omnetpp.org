@@ -5,6 +5,7 @@ title: OMNeT++ export for BRITE 2.1
 years-active: 2009
 category: tools
 tags: tool omnetpp4 inet1
+keywords: TODO
 download-file-url: https://ipfs.omnetpp.org/tools/brite21-omnetpp-patch.tgz
 ---
 
@@ -15,4 +16,3 @@ Usage: Download BRITE from www.cs.bu.edu/brite/, untar it, cd into its directory
   patch -p 1 < brite21-omnetpp.patch
 
 If you're running Windows, you can get patch.exe from e.g. UnxUtils or Cygwin.
-

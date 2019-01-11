@@ -5,6 +5,7 @@ title: INETMANET 4.x
 category: models
 years-active: 2016-
 tags: model framework omnetpp5 inet4
+keywords: TODO
 github-url: https://github.com/aarizaq/inetmanet-4.x
 ---
 

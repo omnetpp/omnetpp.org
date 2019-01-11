@@ -5,6 +5,7 @@ title: RTP (Real-time Transport Protocol) model
 years-active: 2002
 category: models
 tags: model omnetpp2 merged
+keywords: rtpv2
 download-file-url: https://ipfs.omnetpp.org/models/RTP-20021124-src.tgz
 ---
 

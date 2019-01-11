@@ -5,6 +5,7 @@ title: WDM Simulator
 years-active: 2006
 category: models
 tags: model omnetpp3
+keywords: wdm optical hornet
 download-file-url: https://ipfs.omnetpp.org/models/WDM-0.9-src.tgz
 ---
 
@@ -33,4 +34,3 @@ Metropolitan Area Network', IEEE JSAC, vol.21, no.9, Nov.2003, pp.1478-94
 
 [2] I.M.White, 'A New Architecture and Technologies for High-Capacity-Next-Generation
 Metropolitan Networks', Ph.D.dissertation, Stanford University, 2002
-

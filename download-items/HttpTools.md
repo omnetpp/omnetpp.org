@@ -13,4 +13,3 @@ The purpose of this project is to create a set of components for HTTP traffic
 simulation in the OMNeT++ discrete event simulator. Author: by Kristjan Jonsson.
 
 HttpTools has been merged into INET Framework.
-

@@ -5,6 +5,7 @@ title: InfiniBand
 years-active: 2007
 category: models
 tags: model omnetpp3
+keywords: routing
 download-file-url: https://ipfs.omnetpp.org/models/ib_macro_model.tgz
 ---
 

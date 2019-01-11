@@ -5,6 +5,7 @@ title: OS³ - The Open Source Satellite Simulator
 years-active: 2013-2015
 category: models
 tags: model inet3 omnetpp5 omnetpp4
+keywords: aerospace wireless mobility satellite
 github-url: https://github.com/inet-framework/cni-os3
 website-url: http://www-os3.kn.e-technik.tu-dortmund.de
 ---

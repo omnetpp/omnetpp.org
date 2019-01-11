@@ -5,6 +5,7 @@ title: Precision Time Protocol for INET
 years-active: 2015
 category: models
 tags: model inet2 omnetpp4
+keywords: timing ptp
 github-url: https://github.com/martinlevesque/ptp-plusplus
 ---
 
@@ -13,4 +14,3 @@ the PTP accuracy under different configurations and traffic loads, using any
 INET components (routers, etc.). PTP is implemented as a UDP application.
 
 Author: Martin Levesque
-

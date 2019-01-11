@@ -5,6 +5,7 @@ title: SelfSimMGI
 years-active: 2014
 category: models
 tags: model omnetpp4
+keywords: TODO
 download-page-url: https://github.com/privalov1967/inetmanet-2.0/commit/85542f4c1f995963a6b19f787746daa37af63b82
 ---
 
@@ -17,8 +18,3 @@ distribution, normalized auto-correlation function and Hurst parameter.
 
 The original download page is no longer accessible, but the code is still available as part of
 another project on GitHub. See download URL.
-
-
-
-
-

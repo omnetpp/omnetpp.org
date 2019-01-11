@@ -5,6 +5,7 @@ title: EbitSim
 years-active: 2012
 category: models
 tags: model omnetpp4 inet1
+keywords: bittorrent p2p
 github-url: https://github.com/pedromanoel/EbitSim
 ---
 
@@ -17,5 +18,3 @@ The EbitSim is an enhanced BitTorrent simulation with the following features:
 - Modular model to allow easy configuration
 
 For now, this model does not come with documentation other than the comments on the code.
-
-

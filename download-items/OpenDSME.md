@@ -5,6 +5,7 @@ title: openDSME - IEEE 802.15.4 Deterministic and Synchronous Multi-channel Exte
 years-active: 2016-
 category: models
 tags: model inet4 omnetpp5
+keywords: sensor wsn wpan dsme 802.15.4
 github-url: https://github.com/openDSME/inet-dsme
 website-url: https://http://opendsme.org/
 ---

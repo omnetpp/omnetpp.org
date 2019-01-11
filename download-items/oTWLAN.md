@@ -5,6 +5,7 @@ title: oTWLAN - Tactial ad hoc networks
 years-active: 2009-2010
 category: models
 tags: model omnetpp3 inet1
+keywords: sensor wsn wpan wireless mlpp TODO
 download-page-url: https://sourceforge.net/projects/otwlan/files/
 website-url: https://sourceforge.net/p/otwlan/wiki/Home/
 ---

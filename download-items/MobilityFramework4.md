@@ -5,6 +5,7 @@ title: Mobility Framework for OMNeT++ 4.x
 years-active: 2009
 category: models
 tags: model framework omnetpp4 superseded
+keywords: mobility
 github-url: https://github.com/lidongming/mf-opp4
 ---
 

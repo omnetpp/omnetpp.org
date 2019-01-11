@@ -5,6 +5,7 @@ title: HECIOS - Parallel Virtual File System Simulator
 years-active: 2006-2009
 category: models
 tags: model inet1 omnetpp4 omnetpp3
+keywords: mpi ethernet
 github-url: https://github.com/bws/HECIOS
 ---
 

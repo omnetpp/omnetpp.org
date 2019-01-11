@@ -5,6 +5,7 @@ title: InfiniBand Flit Level Model
 years-active: 2004-2013
 category: models
 tags: model omnetpp4
+keywords: routing
 download-file-url: https://ipfs.omnetpp.org/models/ib_flit_sim.19_03_13.tgz
 ---
 
@@ -26,4 +27,3 @@ This model is different from previous released model in several ways:
 
 The models provided, do not indicate in their parameters default values nor in
 their code the exact capabilities or micro-architecture of Mellanox products.
-

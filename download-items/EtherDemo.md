@@ -5,6 +5,7 @@ title: EtherDemo
 date: 2003-07-07
 category: models
 tags: model omnetpp2 merged
+keywords: ethernet
 download-file-url: https://ipfs.omnetpp.org/models/EtherDemo-1.1-src.tgz
 ---
 
