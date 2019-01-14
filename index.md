@@ -41,7 +41,7 @@ layout: default
     <div class="col m12 l3">
       <div class="section">
         <a href="/intro" id="start-button" style="width: 100%; margin: 8px 0 8px 0px;" class="btn-large waves-effect waves-light omnetpp-blue accent-4">Get Started</a>
-        <a href="/download" id="download-button" style="width: 100%; margin: 8px 0 8px 0px;" class="btn-large waves-effect waves-light green">Download</a>
+        <a href="/download" id="download-button" style="width: 100%; margin: 8px 0 8px 0px;" class="btn-large waves-effect waves-light green darken-3">Download</a>
 
         <div class="card omnetpp-blue accent-4">
           <div class="card-content white-text white-underlined-link">
