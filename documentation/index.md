@@ -6,8 +6,8 @@ underMenu: Documentation
 
 ## Introductions
 
-* [**Working with OMNeT++: Flow Chart**](simulation-with-omnet)
-* [Overview of the Simulation IDE](/doc/omnetpp/IDE-Overview.pdf)
+* [Working with OMNeT++: Bird's-eye view](simulation-with-omnet)
+* [Overview of the Simulation IDE](ide-overview)
 
 ## Tutorials
 

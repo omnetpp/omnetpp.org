@@ -113,3 +113,8 @@ time {
     margin: 0 18px;
     text-align: right;
 }
+
+p.captioned_image {
+    img { display: block; margin: auto; }
+    em { display: block; text-align: center; }
+}
