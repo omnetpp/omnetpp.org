@@ -5,7 +5,7 @@ layout: download-details
 title: OMNeT++ 6.0 - Preview 2 - (Linux)
 date: 2018-08-09
 sortkey: "2018-08-09"
-category: test
+category: preview
 tabs:
 - id: linux
   download-file-url: https://ipfs.omnetpp.org/release/test/omnetpp-6.0pre2-src-linux.tgz

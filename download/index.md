@@ -5,7 +5,7 @@ category_filter: "omnetpp-current"
 ---
 <div class="row">
  <div class="col s12 m6">
-  <a href="test" class="waves-effect blue-grey btn" style="width: 100%"><i class="material-icons right">new_releases</i>&nbsp;Development Versions</a>
+  <a href="preview" class="waves-effect blue-grey btn" style="width: 100%"><i class="material-icons right">new_releases</i>&nbsp;Previews</a>
  </div>
  <div class="col s12 m6">
   <a href="old" class="waves-effect blue-grey btn" style="width: 100%"><i class="material-icons right">history</i>&nbsp;Older Versions</a>
