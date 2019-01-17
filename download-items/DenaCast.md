@@ -6,7 +6,7 @@ date: 2013-06-05
 years-active: 2013
 category: models
 tags: model omnetpp4 inet2
-keywords: p2p TODO
+keywords: p2p overlay multimedia video streaming
 github-url: https://github.com/aarizaq/Denacast
 ---
 

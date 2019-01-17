@@ -5,7 +5,7 @@ title: BLE - Bluetooth Low Energy model
 years-active: 2015
 category: models
 tags: model omnetpp4
-keywords: bluetooth wpan sensor wsn TODO
+keywords: bluetooth ble wpan mesh sensor wsn
 website-url: http://cc.oulu.fi/~kmikhayl/BLE.html
 ---
 

@@ -8,7 +8,7 @@ sortkey: "03"
 category: models
 years-active: 2006-
 tags: featured model framework omnetpp5 omnetpp4 omnetpp3 veins
-keywords: vanet vehicular adhoc ivc 802.11p 1609.4 wireless
+keywords: vanet vehicular adhoc ivc 802.11p 1609.4 wireless cosimulation
 download-page-url: https://veins.car2x.org/download/
 website-url: https://veins.car2x.org
 ---

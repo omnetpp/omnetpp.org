@@ -5,7 +5,7 @@ title: Personal Communication Services (PCS)
 years-active: 2000
 category: models
 tags: model omnetpp2
-keywords: TODO
+keywords: wireless
 download-file-url: https://ipfs.omnetpp.org/models/PCS-1.0-src.tgz
 ---
 

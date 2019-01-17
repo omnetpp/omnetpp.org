@@ -5,7 +5,7 @@ title: U2Q - UML to Queueing Network
 years-active: 2009
 category: tools
 tags: tool omnetpp4
-keywords: TODO
+keywords: uml queueing performance
 download-page-url: https://net.cs.uni-bonn.de/wg/cs/applications/u2q/#Download
 website-url: https://iv.cs.uni-bonn.de/wg/cs/applications/u2q/
 ---

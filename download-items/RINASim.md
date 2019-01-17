@@ -8,7 +8,7 @@ sortkey: "09"
 years-active: 2015-
 category: models
 tags: featured model framework omnetpp5 omnetpp4
-keywords: routing TODO
+keywords: rina network architecture
 github-url: https://github.com/kvetak/RINA
 website-url: https://rinasim.omnetpp.org/
 ---

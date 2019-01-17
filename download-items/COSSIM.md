@@ -1,19 +1,20 @@
 ---
 download: true
 layout: download-details
-title: COSSIM - CPS Simulator Framework based on OMNeT++
+title: COSSIM - Cyber-Physical Systems (CPS) Simulator Framework
 years-active: 2015-2018
 category: models
 tags: model omnetpp5 inet3
-keywords: TODO
+keywords: full-system simulator hla cosimulation
 website-url: http://www.cossim.org/
 github-url: https://github.com/H2020-COSSIM
 ---
 
 The COSSIM simulation framework is the first known open-source, high-performance
 simulator that can handle holistically system-of-systems including processors,
-peripherals and networks; such an approach is very appealing to both CPS and
-Highly Parallel Heterogeneous Systems designers and application developers.
+peripherals and networks; such an approach is very appealing to both
+Cyber-Physical Systems (CPS) and Highly Parallel Systems (HPS)
+designers and application developers.
 
 COSSIM is built on top of several well-established simulators:
 

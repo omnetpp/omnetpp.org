@@ -5,7 +5,7 @@ title: CAROBS - Car Optical Burst Switching simulator
 category: models
 years-active: 2012-2016
 tags: model omnetpp4
-keywords: obs optical grwa TODO
+keywords: optical obs sle rwa
 github-url: https://github.com/lejmr/carobs
 ---
 
@@ -17,3 +17,5 @@ In order to use a given network topology as efficiently as possible, stream-line
 effect (SLE) is used. Then combination of SLE routing and wavelength assignment
 (RWA) with grooming provided by OBS framework GRWA algorithm is proposed and
 verified. This verification was tackled by this simulator.
+
+Author: Miloš Kozák

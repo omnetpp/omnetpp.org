@@ -5,7 +5,7 @@ title: CSharpSimpleModule-0.4
 date: 2007-06-11
 category: tools
 tags: tool omnetpp3
-keywords: csharp c# TODO
+keywords: csharp c#
 download-file-url: https://ipfs.omnetpp.org/tools/csharpsimplemodule-0.4.tbz
 ---
 
