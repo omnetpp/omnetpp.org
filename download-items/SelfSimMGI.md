@@ -5,7 +5,7 @@ title: SelfSimMGI
 years-active: 2014
 category: models
 tags: model omnetpp4
-keywords: traffic-generation
+keywords: traffic generation
 download-page-url: https://github.com/privalov1967/inetmanet-2.0/commit/85542f4c1f995963a6b19f787746daa37af63b82
 ---
 

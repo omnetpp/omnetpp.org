@@ -5,7 +5,7 @@ title: EbitSim
 years-active: 2012
 category: models
 tags: model omnetpp4 inet1
-keywords: bittorrent p2p
+keywords: bittorrent, p2p
 github-url: https://github.com/pedromanoel/EbitSim
 ---
 

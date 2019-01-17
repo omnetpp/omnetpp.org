@@ -5,7 +5,7 @@ title: ProcessBusIec61850 - IEC61850 process bus communication (GOOSE and SV) fo
 years-active: 2015-
 category: models
 tags: model inet3 omnetpp5
-keywords: electrical grid process bus
+keywords: electrical, grid, process, bus
 github-url: https://github.com/hectordelahoz/ProcessBusIec61850/
 ---
 

@@ -5,7 +5,7 @@ title: Neurogenesis - Distributed OMNeT++ Simulation Toolchain
 years-active: 2016-2018
 category: tools
 tags: tool omnetpp5
-keywords: cluster-computing simulation-campaign batch-run mpi
+keywords: cluster computing, simulation campaign, batch run, mpi
 github-url: https://github.com/juliusf/Neurogenesis
 ---
 

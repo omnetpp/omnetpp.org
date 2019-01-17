@@ -5,7 +5,7 @@ title: 6LoWPAN Model for OMNeT++ - Integrate It Yourself Version
 years-active: 2015-2017
 category: models
 tags: model model omnetpp4 inet2
-keywords: wpan ipv6 802.15.4 contiki sensor wsn
+keywords: wpan, ipv6, 802.15.4, contiki, sensor, wsn
 github-url: https://github.com/michaelkirsche/6lowpan4omnet-diy
 ---
 

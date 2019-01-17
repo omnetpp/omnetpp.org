@@ -5,7 +5,7 @@ title: LimoSim - Lighweight ICT-centric Vehicle Mobility Simulation
 years-active: 2016-
 category: models
 tags: model inet3 omnetpp5
-keywords: vehicular vanet adhoc
+keywords: vehicular, vanet, adhoc
 github-url: https://github.com/BenSliwa/LIMoSim
 ---
 

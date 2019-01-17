@@ -5,7 +5,7 @@ title: OpenFlow Extension for INET Framework
 category: models
 years-active: 2013
 tags: model inet2 omnetpp4
-keywords: ethernet sdn
+keywords: ethernet, sdn
 website-url: http://www.comnet.informatik.uni-wuerzburg.de/projekte/next-generation-networks-projects/omnet/
 github-url: https://github.com/lsinfo3/ofomnet
 ---

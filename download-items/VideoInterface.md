@@ -5,7 +5,7 @@ title: VideoInterface
 years-active: 2004
 category: models
 tags: model omnetpp3
-keywords: video multimedia
+keywords: video, multimedia
 download-file-url: https://ipfs.omnetpp.org/models/VideoInterface-opp30-20041103-src.tgz
 ---
 

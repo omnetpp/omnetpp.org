@@ -5,7 +5,7 @@ title: OMNeT++ export for BRITE 2.1
 years-active: 2009
 category: tools
 tags: tool omnetpp4 inet1
-keywords: brite topology-generation
+keywords: brite, topology generation
 download-file-url: https://ipfs.omnetpp.org/tools/brite21-omnetpp-patch.tgz
 ---
 

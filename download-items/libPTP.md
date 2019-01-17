@@ -5,7 +5,7 @@ title: libPTP - Library to simulate the Precision Time Protocol (PTP, IEEE 1588)
 years-active: 2016
 category: models
 tags: model omnetpp4 inet2
-keywords: timing libptp
+keywords: timing, libptp
 github-url: https://github.com/w-wallner/libPTP
 ---
 

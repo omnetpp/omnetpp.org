@@ -5,7 +5,7 @@ title: AQTmodel - Adversarial Queueing Framework
 years-active: 2012-2017
 category: models
 tags: model omnetpp4
-keywords: traffic queueing latency packet-loss
+keywords: traffic, queueing, latency, packet loss
 download-page-url: https://disco.cs.uni-kl.de/index.php/downloads/category/9-aqt
 website-url: https://github.com/dasebe/AQTmodel/wiki
 githb-url: https://github.com/dasebe/AQTmodel

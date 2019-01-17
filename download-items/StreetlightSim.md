@@ -5,7 +5,7 @@ title: StreetlightSim
 years-active: 2014-2015
 category: models
 tags: model omnetpp4
-keywords: iot sumo wsn sensor wireless power cosimulation
+keywords: iot, sumo, wsn, sensor, wireless, power, cosimulation
 download-page-url: http://www.streetlightsim.ecs.soton.ac.uk/downloadform.php
 website-url: http://www.streetlightsim.ecs.soton.ac.uk/
 ---

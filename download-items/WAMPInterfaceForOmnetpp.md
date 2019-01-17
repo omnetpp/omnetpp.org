@@ -5,7 +5,7 @@ title: WAMPInterface - Live Monitoring and Remote Control of OMNeT++ Simulations
 years-active: 2018-
 category: tools
 tags: tool omnetpp5
-keywords: web interface gui live monitoring
+keywords: web, interface, gui, live, monitoring
 github-url: https://github.com/WAMPInterfaceForOmnetpp
 ---
 

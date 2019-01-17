@@ -5,7 +5,7 @@ title: xMIPv6
 years-active: 2009
 category: models
 tags: model merged inet2 omnetpp4
-keywords: xmipv6 ipv6
+keywords: xmipv6, ipv6
 github-url: https://github.com/zarrar/xMIPv6/
 ---
 

@@ -5,7 +5,7 @@ title: PAWiS
 years-active: 2005-2008
 category: models
 tags: model framework omnetpp3
-keywords: sensor wsn power
+keywords: sensor, wsn, power
 website-url: http://pawis.sourceforge.net/
 download-page-url: https://sourceforge.net/projects/pawis/files/latest/download
 ---

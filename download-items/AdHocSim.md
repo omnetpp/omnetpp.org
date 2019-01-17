@@ -5,7 +5,7 @@ title: AdHocSim
 years-active: 2001-2003,2005
 category: models
 tags: model model omnetpp3
-keywords: aodv adhoc manet
+keywords: aodv, adhoc, manet
 download-file-url: https://ipfs.omnetpp.org/models/adHocSim-1.1-src.tgz
 ---
 

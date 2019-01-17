@@ -5,7 +5,7 @@ title: ChSim - Channel Simulator
 years-active: 2006
 category: models
 tags: model omnetpp3 superseded
-keywords: wireless channel
+keywords: wireless, channel
 website-url: https://cs.uni-paderborn.de/cn/research/research-projects/completed-projects/chsim/
 ---
 

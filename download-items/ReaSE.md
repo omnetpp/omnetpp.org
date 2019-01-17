@@ -5,7 +5,7 @@ title: ReaSE
 years-active: 2008-2011
 category: models
 tags: model inet2 inet1 omnetpp4 omnetpp3
-keywords: traffic-generation, topology-generation
+keywords: traffic generation, topology generation
 website-url: https://projekte.tm.uka.de/trac/ReaSE/
 ---
 

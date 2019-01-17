@@ -6,7 +6,7 @@ years-active: 2012-2017
 category: models
 tags: model omnetpp5 omnetpp4
 github-url: https://github.com/CometOS/CometOS
-keywords: 802.15.4 ipv6 6lowpan rpl uart i2c rs-485 spi sensor wsn dsme http mis routing aodv gpsr wireless
+keywords: 802.15.4, ipv6, 6lowpan, rpl, uart, i2c, rs 485, spi, sensor, wsn, dsme, http, mis, routing, aodv, gpsr, wireless
 website-url: https://www.ti5.tuhh.de/research/sensornet/cometos/
 ---
 

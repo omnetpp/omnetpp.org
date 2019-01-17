@@ -5,7 +5,7 @@ title: Google Earth Demo
 years-active: 2010
 category: models
 tags: model omnetpp4 superseded
-keywords: 3d visualization terrain mobility
+keywords: 3d, visualization, terrain, mobility
 download-file-url: https://ipfs.omnetpp.org/models/google-earth-demo.tgz
 website-url: http://www.youtube.com/watch?v=cFPJPVh3ouQ
 ---

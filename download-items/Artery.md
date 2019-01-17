@@ -9,7 +9,7 @@ sortkey: "04"
 years-active: 2010-
 category: models
 tags: featured model framework omnetpp5 inet3 veins
-keywords: veins vanetza vanet car2x v2x vehicular adhoc routing its-g5
+keywords: veins, vanetza, vanet, car2x, v2x, vehicular, adhoc, routing, its g5
 github-url: https://github.com/riebl/artery
 ---
 

@@ -7,7 +7,7 @@ logo-tooltip: SimuLTE - LTE user plane protocols
 sortkey: "02"
 category: models
 tags: featured model framework inet3 omnetpp5 omnetpp4
-keywords: 3gpp wireless gsm voip
+keywords: 3gpp, wireless, gsm, voip
 github-url: https://github.com/inet-framework/simulte
 website-url: https://simulte.com/
 ---

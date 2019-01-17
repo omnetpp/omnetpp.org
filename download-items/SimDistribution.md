@@ -5,7 +5,7 @@ title: SimDistribution
 years-active: 2009
 category: tools
 tags: tool omnetpp3
-keywords: cluster-computing simulation-campaign batch-run
+keywords: cluster computing, simulation campaign, batch run
 download-page-url: http://simdistribution.sourceforge.net/installation/index.html
 website-url: http://simdistribution.sourceforge.net/
 ---

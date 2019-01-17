@@ -5,7 +5,7 @@ title: Cell Communication Signaling Project
 years-active: 2013-2014
 category: models
 tags: model omnetpp4
-keywords: biology cell signaling
+keywords: biology, cell, signaling
 github-url: https://github.com/dhuertas/cell-signaling
 ---
 

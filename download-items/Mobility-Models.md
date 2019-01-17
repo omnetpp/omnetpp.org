@@ -5,7 +5,7 @@ title: CMM and ORBIT (SOLAR) mobility models for OMNeT++
 category: models
 years-active: 2018-
 tags: model inet4 omnetpp5
-keywords: mobility cmm orbit opportunistic-networking
+keywords: mobility, cmm, orbit, opportunistic networking
 github-url: https://github.com/ComNets-Bremen/Mobility-Models
 ---
 

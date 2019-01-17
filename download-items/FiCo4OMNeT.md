@@ -9,7 +9,7 @@ sortkey: "06"
 category: models
 years-active: 2013-
 tags: featured model framework omnetpp5 omnetpp4
-keywords: vehicular canbus fieldbus flexray
+keywords: vehicular, canbus, fieldbus, flexray
 github-url: https://github.com/CoRE-RG/FiCo4OMNeT
 website-url: http://sim.core-rg.de/trac/wiki/FiCo4OMNeT_Background
 ---

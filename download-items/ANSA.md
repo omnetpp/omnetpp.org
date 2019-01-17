@@ -10,7 +10,7 @@ sortkey: "07"
 category: models
 years-active: 2008-
 tags: featured model framework omnetpp4 omnetpp5 inet3
-keywords: hsrp vrrpv2 glbp isis rip eigrp babel ripv2 ripng cdp lldp stp trill lisp pim-dm pim-sm igmpv2 igmpv3 vlan rbridge clns
+keywords: hsrp, vrrpv2, glbp, isis, rip, eigrp, babel, ripv2, ripng, cdp, lldp, stp, trill, lisp, pim dm, pim sm, igmpv2, igmpv3, vlan, rbridge, clns
 github-url: https://github.com/kvetak/ANSA
 website-url: https://ansa.omnetpp.org/
 ---

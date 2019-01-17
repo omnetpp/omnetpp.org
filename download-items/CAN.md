@@ -5,7 +5,7 @@ title: CAN (Controller Area Network) model
 years-active: 2014
 category: models
 tags: model omnetpp4 inet2
-keywords: canbus fieldbus vehicular
+keywords: canbus, fieldbus, vehicular
 website-url: https://sites.google.com/site/yutakaertl/omnetpp_canmodel
 ---
 

@@ -5,7 +5,7 @@ title: SimProcTC
 years-active: 2008-2011
 category: tools
 tags: tool omnetpp3
-keywords: cluster-computing simulation-campaign batch-run statistics
+keywords: cluster computing, simulation campaign, batch run, statistics
 download-page-url: https://www.uni-due.de/~be0001/omnetpp/#Download
 website-url: https://www.uni-due.de/~be0001/omnetpp/
 ---

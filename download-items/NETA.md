@@ -5,7 +5,7 @@ title: NETA - NETwork Attacks Framework for OMNeT++
 years-active: 2014-2017
 category: models
 tags: model omnetpp5 omnetpp4 inet2
-keywords: security attack
+keywords: security, attack
 github-url: https://github.com/robertomagan/neta_v1/releases
 website-url: https://nesg.ugr.es/index.php/en/neta-2
 ---

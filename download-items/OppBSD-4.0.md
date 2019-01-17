@@ -5,7 +5,7 @@ title: OppBSD
 years-active: 2005-2012
 category: models
 tags: model omnetpp4 omnetpp3
-keywords: ipv6 tcp ipv4 udp icmpv6 arp nd ethernet
+keywords: ipv6, tcp, ipv4, udp, icmpv6, arp, nd, ethernet
 download-page-url: https://svn.tm.kit.edu/trac/OppBSD/downloads
 website-url: https://svn.tm.kit.edu/trac/OppBSD
 ---

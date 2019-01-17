@@ -5,7 +5,7 @@ title: VSimRTI - Smart Mobility Simulation
 category: models
 years-active: 2010-
 tags: model framework omnetpp5
-keywords: mobility v2x vehicular vanet hla rti cosimulation
+keywords: mobility, v2x, vehicular, vanet, hla, rti, cosimulation
 download-page-url: https://www.dcaiti.tu-berlin.de/research/simulation/download/
 website-url: https://www.dcaiti.tu-berlin.de/research/simulation/
 ---

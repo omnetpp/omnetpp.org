@@ -5,7 +5,7 @@ title: COSSIM - Cyber-Physical Systems (CPS) Simulator Framework
 years-active: 2015-2018
 category: models
 tags: model omnetpp5 inet3
-keywords: full-system simulator hla cosimulation
+keywords: full system, simulator, hla, cosimulation
 website-url: http://www.cossim.org/
 github-url: https://github.com/H2020-COSSIM
 ---

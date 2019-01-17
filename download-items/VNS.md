@@ -5,7 +5,7 @@ title: VNS - Vehicular Networks Simulator
 years-active: 2013-2014
 category: models
 tags: model framework omnetpp4
-keywords: mobility vehicular
+keywords: mobility, vehicular
 github-url: https://github.com/enriquefynn/libvns
 more-url: /software/2013/05/06/vns-released
 ---

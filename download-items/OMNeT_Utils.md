@@ -5,7 +5,7 @@ title: Generic OMNeT++ Utilities
 category: models
 years-active: 2014-2015
 tags: model omnetpp4
-keywords: utility library
+keywords: utility, library
 github-url: https://github.com/w-wallner/OMNeT_Utils
 ---
 

@@ -5,7 +5,7 @@ title: RIMFading - Radio Irregularity Model (RIM)
 category: models
 years-active: 2016-2017
 tags: model inet3 omnetpp5
-keywords: wireless pathloss propagation
+keywords: wireless, pathloss, propagation
 github-url: https://github.com/ComNets-Bremen/RIMFading
 ---
 

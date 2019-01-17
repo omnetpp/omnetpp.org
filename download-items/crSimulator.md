@@ -5,7 +5,7 @@ title: crSimulator - Model for Cognitive Radio Ad hoc Network Simulations in OMN
 years-active: 2013-2014
 category: models
 tags: model omnetpp4
-keywords: cr wireless adhoc
+keywords: cr, wireless, adhoc
 github-url: https://github.com/codesnk/crSimulator
 ---
 

@@ -5,7 +5,7 @@ title: CAROBS - Car Optical Burst Switching simulator
 category: models
 years-active: 2012-2016
 tags: model omnetpp4
-keywords: optical obs sle rwa
+keywords: optical, obs, sle, rwa
 github-url: https://github.com/lejmr/carobs
 ---
 

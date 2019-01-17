@@ -5,7 +5,7 @@ title: SimSANs - Simulating Storage Area Networks
 years-active: 2002-2011
 category: models
 tags: model omnetpp4
-keywords: scsi fcoe san
+keywords: scsi, fcoe, san
 download-page-url: https://www.simsans.org/Downloads/download.htm
 website-url: https://www.simsans.org/
 ---

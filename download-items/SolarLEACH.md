@@ -5,7 +5,7 @@ title: SolarLEACH
 years-active: 2006
 category: models
 tags: model omnetpp3
-keywords: wireless sensor wsn power
+keywords: wireless, sensor, wsn, power
 download-file-url: https://ipfs.omnetpp.org/models/SolarLEACH-1.01.tgz
 ---
 

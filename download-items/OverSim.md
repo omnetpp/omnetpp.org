@@ -9,7 +9,7 @@ sortkey: "08"
 years-active: 2006-2012
 category: models
 tags: featured model framework omnetpp4 inet1
-keywords: p2p chord kademlia pastry gia
+keywords: p2p, chord, kademlia, pastry, gia
 download-page-url: http://www.oversim.org/wiki/OverSimDownload
 website-url: http://www.oversim.org/
 ---
