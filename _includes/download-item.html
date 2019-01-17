@@ -27,6 +27,7 @@
     <div>
         <a href="{{item.url}}" class="right"><i class="material-icons grey-text" title="Permalink">open_in_new</i></a>
         {{ item.content | markdownify }}
+        {% if item.keywords %}<p class="keywords">Keywords: {{ item.keywords }}</p>{% endif %}
     </div>
     {% if item.more-url %}<a href="{{ item.more-url }}" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Read more</a>{% endif %}
     <p>

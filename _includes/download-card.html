@@ -20,6 +20,7 @@
         </div>
         <div style="clear: both;"></div>
         {% if item.content %}<div>{{ item.content | markdownify }}</div>{% endif %}
+        {% if item.keywords %}<p class="keywords">Keywords: {{ item.keywords }}</p>{% endif %}
         {% if item.more-url %}<a href="{{ item.more-url }}" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Read more</a>{% endif %}
         {% unless item.tabs %}
         <div>
