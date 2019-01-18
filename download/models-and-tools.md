@@ -7,9 +7,7 @@ category_filter: models tools
 Here is a list of selected simulation models, model frameworks and other software available for
 OMNeT++. With a few exceptions, models have been developed by the community,
 that is, by research teams and individuals independent of the OMNeT++
-core team. Models vary in the level of completeness, maturity, and the amount of
-testing/validation received, so use them with caution. Contributions such as bug fixes
-and porting to newer OMNeT++ or INET versions are usually welcome by the authors.
+core team. Models vary in the level of completeness and maturity.
 
 {% include featured-projects-card.html %}
 
@@ -17,8 +15,14 @@ and porting to newer OMNeT++ or INET versions are usually welcome by the authors
 
 {% include download-list.html %}
 
-**Submitting.** You can submit new entries and corrections by sending a pull
-request against our download database on
+Note:
+  - **Not found what you were looking for?** Help us keep this catalog useful
+    and up to date by letting us know about missing items.
+  - **Spotted a mistake?** Let us know so we can correct it.
+  - **Are you a model or framework author?** Review the entry on your
+    model/framework, and we'll be happy to replace it with your improved version.
+
+You can send changes by submitting a **pull request** against our download database on
 [GitHub](https://github.com/omnetpp/omnetpp.org/tree/master/download-items). If pull
-requests are not your thing, emails will also be accepted.
+requests are not your thing, emails are also accepted.
 
