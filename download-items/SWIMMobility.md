@@ -5,7 +5,7 @@ title: SWIMMobility - The Small Worlds in Motion mobility model for OMNeT++ and 
 years-active: 2016-2018
 category: models
 tags: model omnetpp4 omnetpp5 inet3
-keywords: mobility, manet, adhoc
+keywords: opportunistic networking, mobility, manet, ad hoc
 github-url: https://github.com/ComNets-Bremen/SWIMMobility
 ---
 

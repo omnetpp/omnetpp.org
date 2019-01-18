@@ -5,7 +5,7 @@ title: MiXiM
 years-active: 2007-2011
 category: models
 tags: model framework omnetpp4 omnetpp3 superseded
-keywords: wsn, adhoc, wpan, wireless, 802.15.4, vehicular, power
+keywords: manet, ad hoc, mobility, wireless, wsn, sensor, wpan, 802.15.4, power
 download-page-url: http://mixim.sourceforge.net
 ---
 

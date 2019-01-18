@@ -5,7 +5,7 @@ title: PASER - Position-Aware Secure and Efficient Mesh Routing
 category: models
 years-active: 2012
 tags: model inet2 omnetpp4
-keywords: manet, adhoc, routing, mesh
+keywords: mesh, ad hoc, routing
 website-url: http://www.paser.info
 download-page-url: http://www.paser.info/index.php/downloads.html
 ---

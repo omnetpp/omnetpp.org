@@ -5,7 +5,7 @@ title: Antnet
 years-active: 2003-2005
 category: models
 tags: model omnetpp3
-keywords: adhoc, ant, routing, antnet
+keywords: ad hoc, ant, routing, antnet
 download-file-url: https://ipfs.omnetpp.org/models/antnet-4.0-src.zip
 ---
 
