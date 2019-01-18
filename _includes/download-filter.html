@@ -1,9 +1,9 @@
 <div class="right filtertags" style="width:60%">
   <input id="search" placeholder="Search" style="width:70%; height:2rem"
-      onkeypress="if (event.keyCode == 13 || event.which == 13) applyChipFiltering();"
-      onblur="applyChipFiltering()">
-  <i class="material-icons" style="cursor: pointer" title="Search" onclick="applyChipFiltering()">search</i>
-  <i class="material-icons" style="cursor: pointer" title="Clear" onclick="document.getElementById('search').value = '' ; applyChipFiltering()">clear</i>
+      onkeypress="if (event.keyCode == 13 || event.which == 13) applySearch();"
+      onblur="applySearch()">
+  <i class="material-icons" style="cursor: pointer" title="Search" onclick="applySearch()">search</i>
+  <i class="material-icons" style="cursor: pointer" title="Clear" onclick="document.getElementById('search').value = '' ; applySearch()">clear</i>
 </div>
 <div class="clearfix"></div>
 
@@ -31,7 +31,7 @@
 <script src="{{ "js/jquery.min.js" | relative_url }}"></script>
 
 <script type="">
-function applyChipFiltering() {
+function applyFiltering() {
     var chips = $(".chip.blue-grey");
     var tags = chips.map((index, element) => { return $(element).text(); }).get();
     var searchString = $("#search").val();
@@ -73,9 +73,17 @@ function applyChipFiltering() {
     });
 }
 
+function applySearch() {
+    applyFiltering();
+
+    var searchString = $("#search").val();
+    if (searchString != "")
+        ga('send', 'event', 'model-catalog', 'filter', searchString, null, null);  // note: ga() is only available when deployed, see head.html
+}
+
 $("div.filtertags .chip").click(function() {
     $(this).toggleClass('blue-grey');
-    applyChipFiltering();
+    applyFiltering();
 });
 
 </script>

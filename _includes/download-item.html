@@ -1,4 +1,5 @@
-<li class="collapsible-item" data-tags="{{ item.tags }}">
+{% assign itemId = item.url | remove: '/download-items/' | remove: '.html' %}
+<li class="collapsible-item" data-tags="{{ item.tags }}" id="{{itemId}}">
     <div style="position: relative;">
         {% capture titleclass %}
             {% if item.tags contains 'featured' %}featured1{% endif %}
