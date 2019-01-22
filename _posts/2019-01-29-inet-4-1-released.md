@@ -3,11 +3,12 @@ layout: post
 title: INET 4.1 Released
 category: Software
 ---
+
 We are happy to announce INET Framework version 4.1.0. Go ahead and 
 <a href="https://inet.omnetpp.org/Download.html" target="_blank" rel="nofollow">get it now</a>!
-
-It comes with some backward incompatible changes, a few new features, a number of smaller improvements,
-and many bug fixes. This version requires OMNeT++ 5.4.1 or later.
+It comes with some backward incompatible changes due to cleanup, a few new features, 
+a number of smaller improvements, and many bug fixes.
+This version requires OMNeT++ 5.4.1 or later.
 
 <!--more-->
 
