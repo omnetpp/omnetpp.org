@@ -1,5 +1,6 @@
 ---
 layout: default
+redirect_from: "/index.php/"
 ---
 <div class="frontcontainer row">
     <div class="col m12 l9 section">

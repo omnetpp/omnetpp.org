@@ -1,6 +1,7 @@
 ---
 layout: page
 title: What is OMNeT++?
+redirect_from: "/intro/index.php/"
 ---
 
 > **OMNeT++ is an extensible, modular, component-based C++ simulation library and framework, primarily for building

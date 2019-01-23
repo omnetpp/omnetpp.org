@@ -1,6 +1,7 @@
 ---
 layout: page
 title: OMNeT++ Downloads
+redirect_from: "/download/index.php/"
 category_filter: "omnetpp-current"
 ---
 <div class="row">
