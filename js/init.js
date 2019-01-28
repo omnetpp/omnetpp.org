@@ -11,8 +11,10 @@
     var elem = document.querySelector('.collapsible');
     var instance = M.Collapsible.init(elem, {
         onOpenEnd: function (item) {
-            var id = item.getAttribute('id');
-            ga('send', 'event', 'model-catalog', 'open', id, null, null);
+            if (typeof ga != "undefined") {  // because google analytics is disabled when running outside github pages
+                var id = item.getAttribute('id');
+                ga('send', 'event', 'model-catalog', 'open', id, null, null);
+            }
         }
     });
 
