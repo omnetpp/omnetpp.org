@@ -3,6 +3,7 @@ layout: post
 title: INET-2.6.0 Stable Release Available
 joomla_id: 3727
 joomla_url: inet-2-6-0-stable-release-available
+redirect_from: '/9-articles/software/3727-inet-2-6-0-stable-release-available'
 date: 2015-03-11 13:30:36.000000000 +01:00
 author: Super User
 excerpt: "We are happy to announce the latest stable version of the INET Framework.
