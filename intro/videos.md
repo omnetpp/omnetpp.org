@@ -22,6 +22,17 @@ title: Tutorial Videos
   <div class="col s12 m6 l6">
     <div class="card">
       <div class="card-image video-container">
+           <iframe src="https://www.youtube.com/embed/BjxVS9ExoI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media;   gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="card-content">
+          Demo of the 3D visualization capabilities introduced in OMNeT++ 5.0.
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12 m6 l6">
+    <div class="card">
+      <div class="card-image video-container">
            <iframe src="https://www.youtube.com/embed/cFPJPVh3ouQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media;   gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="card-content">
