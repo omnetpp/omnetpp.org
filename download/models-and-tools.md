@@ -22,7 +22,8 @@ Note:
   - **Are you a model or framework author?** Review the entry on your
     model/framework, and we'll be happy to replace it with your improved version.
 
-You can send changes by submitting a **pull request** against our download database on
-[GitHub](https://github.com/omnetpp/omnetpp.org/tree/master/download-items). If pull
-requests are not your thing, emails are also accepted.
+Use this [bugtracker entry](https://github.com/omnetpp/omnetpp.org/issues/1)
+to report issues or send requests. Alternatively, you can submit changes
+by creating a pull request against our
+[download database](https://github.com/omnetpp/omnetpp.org/tree/master/download-items).
 
