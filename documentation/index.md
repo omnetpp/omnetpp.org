@@ -18,15 +18,15 @@ underMenu: Documentation
 
 ## Documentation
 
-* [**Simulation Manual**](/doc/omnetpp/manual) **([pdf](doc/omnetpp/SimulationManual.pdf))**
+* [**Simulation Manual**](/doc/omnetpp/manual) **([pdf](/doc/omnetpp/SimulationManual.pdf))**
 * [**IDE User Guide (pdf)**](/doc/omnetpp/UserGuide.pdf)
 * [**API Reference**](/doc/omnetpp/api/index.html)
-* other: [Parallel Simulation API](/doc/omnetpp/parsim-api/index.html), [NEDXML API](doc/omnetpp/nedxml-api/index.html)
+* other: [Parallel Simulation API](/doc/omnetpp/parsim-api/index.html), [NEDXML API](/doc/omnetpp/nedxml-api/index.html)
 * [Install Guide (pdf)](/doc/omnetpp/InstallGuide.pdf)
 * [IDE Developer's Guide (pdf)](/doc/omnetpp/IDE-DevelopersGuide.pdf)
 * [IDE Customization Guide (pdf)](/doc/omnetpp/IDE-CustomizationGuide.pdf)
 
 ## Older versions
 
-* [OMNeT++ 4.6 Simulation Manual](/doc/omnetpp4/manual/usman.html) ([pdf](doc/omnetpp4/Manual.pdf))
+* [OMNeT++ 4.6 Simulation Manual](/doc/omnetpp4/manual/usman.html) ([pdf](/doc/omnetpp4/Manual.pdf))
 * [OMNeT++ 4.6 API Reference](/doc/omnetpp4/api/index.html)
