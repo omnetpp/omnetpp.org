@@ -3,8 +3,8 @@ download: true
 layout: download-details
 title: Artery - V2X simulation framework for ETSI ITS-G5
 logo: /images/logo/artery.png
-logo-scale-height: 1.3
-logo-vertical-offset: 3px
+logo-scale-height: 1.1
+logo-vertical-offset: 5px
 sortkey: "04"
 years-active: 2010-
 category: models
@@ -18,4 +18,4 @@ Single vehicles can be equipped with multiple ITS-G5 services through Artery's m
 which also provides common Facilities for these services.
 
 Artery started as an extension of the Veins framework but can be used
-independently nowadays. Please refer to its documentation for details about Veins.
+independently nowadays.
