@@ -8,9 +8,9 @@ logo-tooltip: OverSim - Overlay / Peer-to-Peer Networks
 sortkey: "08"
 years-active: 2006-2012
 category: models
-tags: featured model framework omnetpp4 inet1
+tags: featured model framework omnetpp4 omnetpp5 inet1 inet3
 keywords: p2p, chord, kademlia, pastry, gia
-download-page-url: http://www.oversim.org/wiki/OverSimDownload
+github-url: https://github.com/inet-framework/oversim
 website-url: http://www.oversim.org/
 ---
 
