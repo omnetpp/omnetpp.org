@@ -6,7 +6,7 @@ years-active: 2006
 category: models
 tags: model omnetpp3
 keywords: wireless, sensor, wsn, power
-download-file-url: https://ipfs.omnetpp.org/models/SolarLEACH-1.01.tgz
+download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/models/SolarLEACH-1.01.tgz
 ---
 
 This is a simulation of LEACH (Low-Energy Adaptive Clustering Hierarchy), a

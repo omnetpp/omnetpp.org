@@ -9,25 +9,25 @@ category: omnetpp
 more-url: /software/2018/04/12/omnet-5-3-released.html
 tabs:
 - id: linux
-  download-file-url: https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-linux.tgz
+  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-linux.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-linux.tgz
   filesize: 260656590
   md5: e708799838df4be861d6cc411c83b190
 
 - id: windows
-  download-file-url: https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-windows.zip
+  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-windows.zip
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-windows.zip
   filesize: 697248558
   md5: e43977fd7f63a660b64cb5237c467cc0
 
 - id: macos
-  download-file-url: https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-macosx.tgz
+  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-macosx.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-macosx.tgz
   filesize: 311313820
   md5: 405bb2f78540c851749be0b42dd4420f
 
 - id: core
-  download-file-url: https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-core.tgz
+  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-core.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-core.tgz
   filesize: 63519997
   md5: 4014c938c03a96308ee3e925cdcd5206

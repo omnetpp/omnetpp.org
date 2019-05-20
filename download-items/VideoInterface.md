@@ -6,7 +6,7 @@ years-active: 2004
 category: models
 tags: model omnetpp3
 keywords: video, multimedia
-download-file-url: https://ipfs.omnetpp.org/models/VideoInterface-opp30-20041103-src.tgz
+download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/models/VideoInterface-opp30-20041103-src.tgz
 ---
 
 This is the code from http://trace.eas.asu.edu/tracesim/tracesim.html, updated

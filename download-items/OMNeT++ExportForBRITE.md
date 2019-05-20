@@ -6,7 +6,7 @@ years-active: 2009
 category: tools
 tags: tool omnetpp4 inet1
 keywords: brite, topology generation
-download-file-url: https://ipfs.omnetpp.org/tools/brite21-omnetpp-patch.tgz
+download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/tools/brite21-omnetpp-patch.tgz
 ---
 
 Adds NED export to the BRITE topology generator (http://www.cs.bu.edu/brite)

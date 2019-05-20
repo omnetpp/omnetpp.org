@@ -9,15 +9,15 @@ category: omnetpp
 more-url: /software/2014/01/15/omnet-44-released
 tabs:
 - id: linux
-  download-file-url: https://ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz
+  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz
 
 - id: windows
-  download-file-url: https://ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src-windows.zip
+  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src-windows.zip
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src-windows.zip
 
 - id: macos
-  download-file-url: https://ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz
+  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.4/omnetpp-4.4-src.tgz
 ---
 

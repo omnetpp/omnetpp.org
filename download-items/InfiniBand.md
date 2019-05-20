@@ -6,7 +6,7 @@ years-active: 2007
 category: models
 tags: model omnetpp3
 keywords: routing
-download-file-url: https://ipfs.omnetpp.org/models/ib_macro_model.tgz
+download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/models/ib_macro_model.tgz
 ---
 
 This is an InfiniBand model with support for the IB flow control scheme,

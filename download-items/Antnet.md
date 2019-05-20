@@ -6,7 +6,7 @@ years-active: 2003-2005
 category: models
 tags: model omnetpp3
 keywords: ad hoc, ant, routing, antnet
-download-file-url: https://ipfs.omnetpp.org/models/antnet-4.0-src.zip
+download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/models/antnet-4.0-src.zip
 ---
 
 The model implements an Ant-based routing algorithms (AntNet-CL and AntNet-CO)

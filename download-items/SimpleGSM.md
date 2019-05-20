@@ -6,7 +6,7 @@ years-active: 2000
 category: models
 tags: model omnetpp2
 keywords: gsm
-download-file-url: https://ipfs.omnetpp.org/models/GSM-1.0-src.tgz
+download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/models/GSM-1.0-src.tgz
 ---
 
 A very simple simulation of a GSM network. Documentation is only available

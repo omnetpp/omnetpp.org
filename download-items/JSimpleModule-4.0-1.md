@@ -6,7 +6,7 @@ years-active: 2009
 category: tools
 tags: tool omnetpp4
 keywords: java
-download-file-url: https://ipfs.omnetpp.org/tools/jsimplemodule-opp4.0-1.tgz
+download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/tools/jsimplemodule-opp4.0-1.tgz
 ---
 
 This is an extension that makes it possible to write OMNeT++ simple modules in

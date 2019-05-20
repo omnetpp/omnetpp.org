@@ -8,7 +8,7 @@ sortkey: "2018-08-09"
 category: preview
 tabs:
 - id: linux
-  download-file-url: https://ipfs.omnetpp.org/release/test/omnetpp-6.0pre2-src-linux.tgz
+  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/test/omnetpp-6.0pre2-src-linux.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/test/omnetpp-6.0pre2-src-linux.tgz
   filesize: 286763654
   md5: 3f0256cfc5171f5f3b3cc1bc2d87e129

@@ -6,7 +6,7 @@ years-active: 2001-2003,2005
 category: models
 tags: model model omnetpp3
 keywords: aodv, ad hoc, manet, mobility, wireless
-download-file-url: https://ipfs.omnetpp.org/models/adHocSim-1.1-src.tgz
+download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/models/adHocSim-1.1-src.tgz
 ---
 
 Nicola Concer's simulator for ad-hoc networks. Implements AODV protocol and
