@@ -9,7 +9,7 @@ category: models
 years-active: 2014-
 tags: featured model omnetpp4 omnetpp5 inet3
 keywords: vehicular, automotive, ethernet, as6802, ttethernet, 802.1q, avb, srp, tsn, vlan, 802.1p
-download-page-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Download
+github-url: https://github.com/CoRE-RG/CoRE4INET
 website-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Background
 ---
 
