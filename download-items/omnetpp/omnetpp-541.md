@@ -9,25 +9,25 @@ category: omnetpp-current
 more-url: /software/2018/06/29/omnet-5-4-1-released
 tabs:
 - id: linux
-  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-linux.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.4.1/omnetpp-5.4.1-src-linux.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-linux.tgz
   filesize: 260762901
   md5: 0d65c0e156382122c47e87a4efef3996
 
 - id: windows
-  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-windows.zip
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.4.1/omnetpp-5.4.1-src-windows.zip
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-windows.zip
   filesize: 697388215
   md5: 6245e161969eb5657a6689fa3067c640
 
 - id: macos
-  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-macosx.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.4.1/omnetpp-5.4.1-src-macosx.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-macosx.tgz
   filesize: 311422427
   md5: 736433babdde9df03ee88988ab1ef79e
 
 - id: core
-  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-core.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.4.1/omnetpp-5.4.1-src-core.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-core.tgz
   filesize: 63575167
   md5: f29b6cdba2c1c07f33ea15207cf59e1a
