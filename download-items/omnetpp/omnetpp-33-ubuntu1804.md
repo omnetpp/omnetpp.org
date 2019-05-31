@@ -8,7 +8,7 @@ sortkey: "2008-10-30"
 category: omnetpp
 tabs:
 - id: linux
-  download-file-url: https://github.com/omnetpp/omnetpp/archive/omnetpp-3.3-ubuntu18.04.tar.gz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-3.3-ubuntu18.04/omnetpp-3.3-src-gcc73.tgz
 
 ---
 
