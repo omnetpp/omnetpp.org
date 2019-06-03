@@ -34,5 +34,5 @@ tabs:
 ---
 
 
-This release contains several important fixes like JDK11 compatibility, a workaround 
-for long CDT indexing times and some code changes for osgEarth 2.10.
+This release contains several important fixes like JDK 11 and osgEarth 2.10 compatibility, a workaround
+for long CDT indexing times, and several improvements in the simulation library.
