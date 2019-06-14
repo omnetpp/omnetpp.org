@@ -1,9 +1,9 @@
 ---
 layout: post
-title: OMNeT++ 5.5 Released
+title: OMNeT++ 5.5.1 Released
 category: Software
 ---
-We are happy to announce the release of OMNeT++ 5.5. This release contains several
+We are happy to announce the release of OMNeT++ 5.5.1. This release contains several
 important fixes like JDK 11 and osgEarth 2.10 compatibility, a workaround
 for long CDT indexing times, and several improvements in the simulation library.
 
