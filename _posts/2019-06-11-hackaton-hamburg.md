@@ -1,15 +1,17 @@
 ---
 layout: post
-title: OMNeT++ Summit Hackathon - Call for Proposals
+title: OMNeT++ Summit Hackathon - Call for Participation
 category: Articles
 ---
-After the great success of the first Hackathon in Pisa last year, a [similar Hackathon is again going to be organized](https://summit.omnetpp.org/2019/assets/pdf/CFP-OMNeT2019-Hackathon.pdf) together with this year's [OMNeT++ Community Summit](https://summit.omnetpp.org).
+After last year's success, [OMNeT++ Community Summit](https://summit.omnetpp.org) will also feature a Hackathon in 2019.
+The Hackathon presents a **unique opportunity to OMNeT++ users to consult and team-up with the OMNeT++ and INET developer teams**
+and fellow developers to improve the quality and interoperability of their simulation models and frameworks, and to work on other topics.
+Participants and topics will be selected based on prior written project proposals.
 
-Hackathon Date: September 04-05, 2019
+- Hackathon Date: September 04-05, 2019
+- Hackathon Proposal Deadline: August 10th, 2019
 
-Hackathon Proposal Deadline: August 10th, 2019
-
-The hackathon gives developers of simulation models and simulation frameworks the chance to consult and team-up with the OMNeT++ core developer team and fellow framework developers, in order to improve the quality and interoperability of simulation models and frameworks and to work on topics proposed by the developers themselves. Participants and topics will be selected based on prior written project proposals.
+Come and join us in Hamburg! [Click for details and ways to sign up](https://summit.omnetpp.org/2019/assets/pdf/CFP-OMNeT2019-Hackathon.pdf).
 
 <!--more-->
 
