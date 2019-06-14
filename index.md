@@ -12,7 +12,7 @@ redirect_from: "/index.php/"
         {% include featured-projects-card.html %}
       </div>
 
-      <div class="news">
+      <div class="news content">
         {% assign counter = '' %}
         {% for post in site.posts %}
         {% if counter.size < 5 %}
