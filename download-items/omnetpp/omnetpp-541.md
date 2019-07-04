@@ -26,6 +26,10 @@ tabs:
   filesize: 311422427
   md5: 736433babdde9df03ee88988ab1ef79e
 
+- id: docker
+  download-page-url: https://cloud.docker.com/u/omnetpp/repository/docker/omnetpp/omnetpp
+  description: $ docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" omnetpp/omnetpp:u18.04-5.4.1
+
 - id: core
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.4.1/omnetpp-5.4.1-src-core.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.4.1/omnetpp-5.4.1-src-core.tgz

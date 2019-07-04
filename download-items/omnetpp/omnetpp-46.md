@@ -19,6 +19,10 @@ tabs:
 - id: macos
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.6/omnetpp-4.6-src.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.6/omnetpp-4.6-src.tgz
+
+- id: docker
+  download-page-url: https://cloud.docker.com/u/omnetpp/repository/docker/omnetpp/omnetpp
+  description: $ docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" omnetpp/omnetpp:u18.04-4.6
 ---
 
 Highlights of this release: models are now compiled as C++11 sources; upgrade of

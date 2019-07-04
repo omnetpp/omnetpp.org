@@ -26,6 +26,10 @@ tabs:
   filesize: 322716630
   md5: 846192b5a6de1652e81a0ba8019436d3
 
+- id: docker
+  download-page-url: https://cloud.docker.com/u/omnetpp/repository/docker/omnetpp/omnetpp
+  description: $ docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" omnetpp/omnetpp:u18.04-5.5.1
+
 - id: core
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.5.1/omnetpp-5.5.1-src-core.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.5.1/omnetpp-5.5.1-src-core.tgz
@@ -33,6 +37,4 @@ tabs:
   md5: 8aec0eb7ed81712bfa3583a4aa87209f
 ---
 
-
-This release contains several important fixes like JDK 11 and osgEarth 2.10 compatibility, a workaround
-for long CDT indexing times, and several improvements in the simulation library.
+This release contains several important fixes like JDK 11 and osgEarth 2.10 compatibility, a workaround for long CDT indexing times, and several improvements in the simulation library.
