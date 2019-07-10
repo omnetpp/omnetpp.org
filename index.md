@@ -53,7 +53,15 @@ redirect_from: "/index.php/"
           </div>
         </div>
 
-        <div class="card blue-grey darken-4">
+        <div class="card omnetpp-blue lighten-1">
+          <div class="card-content white-text white-underlined-link">
+            <span class="card-title">Keeping Up to Date</span>
+            <p>We regularly post on Twitter.</p>
+            <i class="fab fa-twitter"></i>&nbsp;<a href="https://twitter.com/omnetpp" target="_blank">Follow us there.</a>
+          </div>
+        </div>
+
+        <div class="card omnetpp-blue accent-4">
           <div class="card-content white-text white-underlined-link">
             <span class="card-title">Tips for New Users</span>
             <p>Check out the&nbsp;<a href="https://docs.omnetpp.org/tutorials/tictoc/" target="_blank">TicToc tutorial</a>,
