@@ -16,12 +16,12 @@ co-simulation, checkpointing or using the cloud for simulation execution. The fo
 an overview for a selection of model frameworks in the ever-growing OMNeT++ ecosystem: INET, Veins, SimuLTE,
 RINASim, SEA++ and several other frameworks have dedicated chapters. The INET chapter, for example, not only
 contains an overview and practical guidance on how to assemble models for various types of networks, but, for more
-advanced use cases, it also provides guidance (including code snippets) on using the internal APIs of INET.
+advanced use cases, it also provides explanations and code snippets on using the internal APIs of INET.
 The third part of the book presents the latest advances and novel developments coming from a large research community,
 such as live monitoring and control of OMNeT++ simulations, or using Python and Pweave.
 
 We in the OMNeT++ team are proud to have contributed two chapters to the book (OMNeT++ Overview, INET Framework).
-Thank you and congratulations to the editors and fellow authors for their hard work and dedication to make this book come true!
+Thank you and congratulations to the editors and fellow authors for their hard work and dedication to make this happen!
 
 See the book's page at <a target="_blank" href="https://www.springer.com/gp/book/9783030128418">Springer</a>,
 on <a target="_blank" href="https://books.google.hu/books?id=YLeZDwAAQBAJ&lpg=PA3&ots=VWhWhin9pr">Google Books</a> (includes content preview),
