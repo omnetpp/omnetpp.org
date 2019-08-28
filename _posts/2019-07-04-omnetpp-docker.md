@@ -3,7 +3,7 @@ layout: post
 title: Official OMNeT++ Docker Containers
 category: Articles
 ---
-We are now providing official docker images for [various OMNeT++ versions on Docker Hub](https://cloud.docker.com/u/omnetpp/repository/docker/omnetpp/omnetpp). These images are useful for compiling, testing and running your model either locally or remotely in the cloud. They also provide a reproducible environment for your simulations so we highly recommend using them if you intend to publish a paper based on simulation results.
+We are now providing official docker images for [various OMNeT++ versions on Docker Hub](https://hub.docker.com/r/omnetpp/omnetpp). These images are useful for compiling, testing and running your model either locally or remotely in the cloud. They also provide a reproducible environment for your simulations so we highly recommend using them if you intend to publish a paper based on simulation results.
 
 The images are based on Ububtu 18.04 and use clang 6.0 as the compiler. OMNeT++ is built in release mode for Cmdenv execution so graphical tools are not available.
 

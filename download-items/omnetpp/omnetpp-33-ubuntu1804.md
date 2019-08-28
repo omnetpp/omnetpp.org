@@ -11,7 +11,7 @@ tabs:
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-3.3-ubuntu18.04/omnetpp-3.3-src-gcc73.tgz
 
 - id: docker
-  download-page-url: https://cloud.docker.com/u/omnetpp/repository/docker/omnetpp/omnetpp
+  download-page-url: https://hub.docker.com/r/omnetpp/omnetpp
   description: $ docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" omnetpp/omnetpp:u18.04-3.3
 ---
 

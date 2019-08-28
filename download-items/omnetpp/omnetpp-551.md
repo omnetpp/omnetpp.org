@@ -27,7 +27,7 @@ tabs:
   md5: 846192b5a6de1652e81a0ba8019436d3
 
 - id: docker
-  download-page-url: https://cloud.docker.com/u/omnetpp/repository/docker/omnetpp/omnetpp
+  download-page-url: https://hub.docker.com/r/omnetpp/omnetpp
   description: $ docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" omnetpp/omnetpp:u18.04-5.5.1
 
 - id: core
