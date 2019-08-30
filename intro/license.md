@@ -2,6 +2,7 @@
 layout: page
 title: License
 category: Static pages
+redirect_from: "/license/"
 ---
 
 _The following license governs the use of OMNeT++ in academic and educational environments. Commercial use requires a commercial license from SimulCraft Inc, [www.omnest.com](http://www.omnest.com)._
