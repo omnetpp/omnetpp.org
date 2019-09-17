@@ -7,8 +7,8 @@ date: 2014-04-28 08:29:50.000000000 +02:00
 author: Andras
 excerpt: "<p>T<a href=\"http://iste-editions.fr/products/evaluation-de-performances-par-simulation-et-analyse\"
   mce_href=\"http://iste-editions.fr/products/evaluation-de-performances-par-simulation-et-analyse\"
-  target=\"_top\"><img src=\"http://www.omnetpp.org/images/stories/chen_large.jpg\"
-  mce_src=\"http://www.omnetpp.org/images/stories/chen_large.jpg\" style=\"float:left;
+  target=\"_top\"><img src=\"/images/stories/chen_large.jpg\"
+  mce_src=\"/images/stories/chen_large.jpg\" style=\"float:left;
   margin-right: 10px\" mce_style=\"float:left; margin-right: 10px\" height=\"130\"
   width=\"86\"></a>he French publisher ISTE has recently published a book on performance
   evaluation of computer networks. Titled <i>\"Evaluation de performances par simulation
@@ -30,7 +30,7 @@ excerpt: "<p>T<a href=\"http://iste-editions.fr/products/evaluation-de-performan
   </p>"
 category: Articles
 ---
-<p>T<a href="http://iste-editions.fr/products/evaluation-de-performances-par-simulation-et-analyse" mce_href="http://iste-editions.fr/products/evaluation-de-performances-par-simulation-et-analyse" target="_top"><img src="http://www.omnetpp.org/images/stories/chen_large.jpg" mce_src="http://www.omnetpp.org/images/stories/chen_large.jpg" style="float:left; margin-right: 10px" mce_style="float:left; margin-right: 10px" height="130" width="86"></a>he French publisher ISTE has recently published a book on performance evaluation of computer networks. Titled <i>"Evaluation de performances par simulation et analyse"</i> (<span id="result_box" class="short_text" lang="en"><span class="hps">Performance Evaluation</span> <span class="hps">by</span> S<span class="hps">imulation</span> <span class="hps">and</span> <span class="hps">Analysis</span></span>) and written by Ken Chen (Université Paris 13, Sorbonne Paris Cité),
+<p>T<a href="http://iste-editions.fr/products/evaluation-de-performances-par-simulation-et-analyse" mce_href="http://iste-editions.fr/products/evaluation-de-performances-par-simulation-et-analyse" target="_top"><img src="/images/stories/chen_large.jpg" mce_src="/images/stories/chen_large.jpg" style="float:left; margin-right: 10px" mce_style="float:left; margin-right: 10px" height="130" width="86"></a>he French publisher ISTE has recently published a book on performance evaluation of computer networks. Titled <i>"Evaluation de performances par simulation et analyse"</i> (<span id="result_box" class="short_text" lang="en"><span class="hps">Performance Evaluation</span> <span class="hps">by</span> S<span class="hps">imulation</span> <span class="hps">and</span> <span class="hps">Analysis</span></span>) and written by Ken Chen (Université Paris 13, Sorbonne Paris Cité),
  the book has an emphasis on the theory and practice of simulation<span style="" class="notranslate"></span>. OMNeT++ is mentioned in the book in two forms:
 as examples illustrating various concepts (warmup period, RNG streams,
 etc.), and as a complete simulation tool (through a dedicated chapter). <i>"I found OMNeT++ very suitable for illustrating
