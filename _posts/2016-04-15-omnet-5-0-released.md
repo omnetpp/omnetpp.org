@@ -4,7 +4,7 @@ title: OMNeT++ 5.0 Released
 joomla_id: 3740
 joomla_url: omnet-5-0-released
 date: 2016-04-15 10:15:05.000000000 +02:00
-author: Super User
+author: Andras
 excerpt: "<p>We are proud to announce that after a development of nearly two years,
   OMNeT++ 5.0 is now available for download. This is a major release that introduces
   significant new features compared to the last 4.x version, for example the Canvas

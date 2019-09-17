@@ -4,7 +4,7 @@ title: OMNeT++ 4.2 released
 joomla_id: 3694
 joomla_url: omnet-42-released
 date: 2011-11-17 14:12:09.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: "<div>\r\nDear everybody, we're happy to announce the release of OMNeT++
   4.2. Please read the ChangeLog (below) to see what has changed since the 4.1 version
   and check&nbsp;the <a href=\"doc/omnetpp/ide-changelog/ide-changelog.html\" mce_href=\"doc/omnetpp/ide-changelog/ide-changelog.html\"

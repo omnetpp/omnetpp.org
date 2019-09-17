@@ -4,7 +4,7 @@ title: Vehicular Networks Simulator (VNS) released
 joomla_id: 3706
 joomla_url: vns-released
 date: 2013-05-07 00:00:00.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: '<p style="padding: 0px; margin: 20px 0px; font-family: ''Trebuchet MS'',
   ''Lucida Grande'', Verdana, Georgia, sans-serif; line-height: normal;" mce_style="padding:
   0px; margin: 20px 0px; font-family: ''Trebuchet MS'', ''Lucida Grande'', Verdana,

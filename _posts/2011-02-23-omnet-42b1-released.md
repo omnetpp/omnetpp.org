@@ -4,7 +4,7 @@ title: OMNeT++ 4.2b1 released
 joomla_id: 3686
 joomla_url: omnet-42b1-released
 date: 2011-02-23 00:00:00.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: Dear users, we've just released the first beta of OMNeT++ 4.2. Please read
   the ChangeLog carefully to see what has changed since the 4.1 version. <a href="http://www.omnetpp.org/omnetpp/cat_view/1-omnet-releases/5-test-versions"
   mce_href="http://www.omnetpp.org/omnetpp/cat_view/1-omnet-releases/5-test-versions"
@@ -164,7 +164,7 @@ for a more complete list) :
 </li></ul>
 <p>Tkenv :
 </p><ul>
-  <li>Parallel simulation: Placeholder modules are now displayed with a semitransparent 
+  <li>Parallel simulation: Placeholder modules are now displayed with a semitransparent
    icon (or if it's a rectangle or oval, with dotted border).
   </li><li>Fix (bug #248): compute coordinates (and sizes) in double and not int;
    necessary if background scaling (bgs display string tag) is set up.

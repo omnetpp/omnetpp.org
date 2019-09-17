@@ -4,7 +4,7 @@ title: 'Project Announcement: R package for OMNeT++'
 joomla_id: 3666
 joomla_url: project-announcement-r-package-for-omnet
 date: 2010-06-29 18:31:18.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "<b>This is to announce a project to develop a GNU R package for the loading,\r\nprocessing
   and plotting of the contents of OMNeT++ output vector and scalar files</b>. <a target=\"_blank\"
   mce_href=\"http://www.r-project.org\" href=\"http://www.r-project.org\">R</a> is

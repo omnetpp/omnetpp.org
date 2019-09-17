@@ -4,7 +4,7 @@ title: OMNeT++ Workshop -- Call for Participation
 joomla_id: 3687
 joomla_url: omnet-workshop-call-for-participation
 date: 2011-02-11 10:37:57.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: "<p>The program for the 4th International OMNeT++ Workshop is now <a target=\"_blank\"
   mce_href=\"http://www.omnet-workshop.org/2011/General/TechnicalProgram\" href=\"http://www.omnet-workshop.org/2011/General/TechnicalProgram\">available
   online</a>.</p>\r\n\r\n<p style=\"padding-left: 30px;\" mce_style=\"padding-left:
@@ -20,12 +20,12 @@ category: Articles
 <p>The program for the 4th International OMNeT++ Workshop is now <a target="_blank" mce_href="http://www.omnet-workshop.org/2011/General/TechnicalProgram" href="http://www.omnet-workshop.org/2011/General/TechnicalProgram">available online</a>.</p>
 
 <p style="padding-left: 30px;" mce_style="padding-left: 30px;">Early registration deadline: February 21, 2011<br />
-Workshop: March 21, 2011 (Barcelona, Spain)<br /></p><p style="">The continuing goal of this workshop is to bring together OMNeT++ 
-developers and their tools, applications and ideas. It provides a forum 
-for presentations of recent developments and novel ideas in the broad 
-area of network simulation, with focus on OMNeT++ and on the important 
-topics of integrating simulation models, coupling different simulation 
-tools and providing more accurate and more efficient modeling 
+Workshop: March 21, 2011 (Barcelona, Spain)<br /></p><p style="">The continuing goal of this workshop is to bring together OMNeT++
+developers and their tools, applications and ideas. It provides a forum
+for presentations of recent developments and novel ideas in the broad
+area of network simulation, with focus on OMNeT++ and on the important
+topics of integrating simulation models, coupling different simulation
+tools and providing more accurate and more efficient modeling
 approaches...</p>
 
 <div style="text-align: center;" mce_style="text-align: center;"><b>CALL FOR PARTICIPATION</b></div>
@@ -36,12 +36,12 @@ approaches...</p>
 </p><p style="text-align: center;" mce_style="text-align: center;">Sponsored by: ICST, CREATE-NET, ACM SIGSIM, ACM SIGMETRICS, SCS, INRIA</p>
 
 <p>OMNeT++ is a public-source, modular simulation environment with strong
-GUI support and an embeddable simulation kernel. The continuing goal of this workshop is to bring together OMNeT++ 
-developers and their tools, applications and ideas. It provides a forum 
-for presentations of recent developments and novel ideas in the broad 
-area of network simulation, with focus on OMNeT++ and on the important 
-topics of integrating simulation models, coupling different simulation 
-tools and providing more accurate and more efficient modeling 
+GUI support and an embeddable simulation kernel. The continuing goal of this workshop is to bring together OMNeT++
+developers and their tools, applications and ideas. It provides a forum
+for presentations of recent developments and novel ideas in the broad
+area of network simulation, with focus on OMNeT++ and on the important
+topics of integrating simulation models, coupling different simulation
+tools and providing more accurate and more efficient modeling
 approaches. Topics of interest include, but are not limited to:</p>
 
 <ul>

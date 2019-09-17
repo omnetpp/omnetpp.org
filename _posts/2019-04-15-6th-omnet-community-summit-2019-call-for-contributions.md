@@ -1,11 +1,12 @@
 ---
 layout: post
 title: 6th OMNeT++ Community Summit 2019 - Call for Contributions
+author: Andras
 category: Articles
 ---
 <img class="left" style="padding-right: 10px;" src="/images/stories/workshop-logo.png"/>
 The <a href="http://summit.omnetpp.org/2019/" target="_blank">6th OMNeT++ Community Summit (OMNeT++ 2019)</a> 
-will be held at the Hamburg University of Technology from Wednesday to Friday, 
+will be held at the Hamburg University of Technology from Wednesday to Friday,
 September 04-06, 2019.
 The OMNeT++ Community Summit is an open meeting with time and space
 for tutorials, discussions, coding sessions as well as presentations
@@ -21,5 +22,5 @@ discussion time than traditional talks.
 will include a hackathon event. This provides the chance for
 developers of simulation models and frameworks to consult and work together
 with OMNeT++ core developers and fellow developers to improve the quality and
-interoperability of models and frameworks. 
+interoperability of models and frameworks.
 **Project proposal deadline: August 10, 2019**.

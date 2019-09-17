@@ -4,7 +4,7 @@ title: Network Simulation Book Featuring OMNeT++
 joomla_id: 3668
 joomla_url: network-simulation-book-featuring-omnet
 date: 2010-07-05 19:49:08.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: '<a target="_blank" mce_href="http://www.springer.com/computer/communication+networks/book/978-3-642-12330-6"
   href="http://www.springer.com/computer/communication+networks/book/978-3-642-12330-6"><img
   style="float: left; margin-left: 5px; margin-right: 5px;" mce_style="float: left;

@@ -4,7 +4,7 @@ title: OMNeT++ 4.6 released
 joomla_id: 3724
 joomla_url: omnet-4-6-released
 date: 2014-12-02 14:18:03.000000000 +01:00
-author: Super User
+author: Andras
 excerpt: <p>We are happy to announce the latest version of OMNeT++. Highlights of
   this release: simulation models are now compiled as C++11 sources; we have upgraded
   the Windows toolchain to MSYS2 and the latest MinGW (this will resolve long-standing

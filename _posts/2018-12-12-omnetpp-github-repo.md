@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OMNeT++ Repository Is Now Public
+author: Andras
 category: Article
 ---
 

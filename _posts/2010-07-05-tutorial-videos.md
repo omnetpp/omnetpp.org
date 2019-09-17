@@ -4,7 +4,7 @@ title: Tutorial Videos
 joomla_id: 3667
 joomla_url: tutorial-videos
 date: 2010-07-05 10:27:35.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: '<a target="_blank" mce_href="http://www.youtube.com/view_play_list?p=EDBBAEA836A0A89E"
   href="http://www.youtube.com/view_play_list?p=EDBBAEA836A0A89E"><img style="border:
   0pt none ; float: right;" mce_style="float: right; border: 0;" src="images/stories/youtubethumb.png"

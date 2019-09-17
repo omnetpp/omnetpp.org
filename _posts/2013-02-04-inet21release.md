@@ -4,7 +4,7 @@ title: INET 2.1 released
 joomla_id: 3702
 joomla_url: inet21release
 date: 2013-02-04 00:00:00.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: <div><div>We are happy to announce the INET Framework 2.1 release. The INET
   Framework is an open-source communication networks simulation package for the OMNeT++
   simulation environment. It contains models for several wired and wireless networking

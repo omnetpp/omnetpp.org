@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'New Mailing List: omnetpp-announcements'
+author: Andras
 category: Articles
 ---
 Given the high volume of posts on the main OMNeT++ discussion list, it is easy for 

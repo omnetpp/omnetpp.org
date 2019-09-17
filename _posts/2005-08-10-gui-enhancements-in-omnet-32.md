@@ -4,7 +4,7 @@ title: GUI enhancements in OMNeT++ 3.2
 joomla_id: 3518
 joomla_url: gui-enhancements-in-omnet-32
 date: 2005-08-10 09:40:46.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "<p>OMNeT++ 3.2 will be out soon, the last preview has been uploaded to the
   download area. This article shows a few user interface enhancements in the new release.
   There are numerous non-GUI enhancements as well, you can read about them in the

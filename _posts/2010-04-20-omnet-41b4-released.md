@@ -4,7 +4,7 @@ title: OMNeT++ 4.1b4 released
 joomla_id: 3661
 joomla_url: omnet-41b4-released
 date: 2010-04-20 00:00:00.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: 'Dear users, we''ve just released the fourth (last) beta of OMNeT++ 4.1.
   This is your last chance to report issues. Please read the ChangeLog carefully to
   see what has changed since the 4.0 version or check&nbsp;the visual&nbsp;<a href="doc/omnetpp41/ide-changelog/ide-changelog.html"

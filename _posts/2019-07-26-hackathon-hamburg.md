@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OMNeT++ Summit Hackathon - Call for Participation
+author: Andras
 category: Articles
 ---
 After last year's success, [OMNeT++ Community Summit](https://summit.omnetpp.org) will also feature a Hackathon in 2019.

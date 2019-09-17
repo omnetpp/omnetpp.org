@@ -4,7 +4,7 @@ title: OverSim-20121206 released
 joomla_id: 3701
 joomla_url: announcement-oversim-20121206-release
 date: 2012-12-06 00:00:00.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: "<p>Ingmar Baumgart has announced OverSim release 20121206. You can download
   OverSim-20121206 from the <a href=\"http://www.oversim.org/wiki/OverSimDownload\"
   target=\"_blank\">download area of oversim.org</a>.</p>\r\n<p>These are the changes

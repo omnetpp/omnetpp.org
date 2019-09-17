@@ -4,7 +4,7 @@ title: OS³, the Open Source Satellite Simulator
 joomla_id: 3708
 joomla_url: os3-released
 date: 2013-08-14 14:52:47.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: '<div>The&nbsp;<span style="line-height: 1.3em;">OS³ (Open Source Satellite
   Simulator) model was ported to INET 2.1+ and is <a href="https://github.com/inet-framework/cni-os3"
   mce_href="https://github.com/inet-framework/cni-os3" target="_blank">available on

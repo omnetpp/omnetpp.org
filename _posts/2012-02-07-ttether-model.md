@@ -4,7 +4,7 @@ title: Time-Triggered Ethernet Model released
 joomla_id: 3696
 joomla_url: ttether-model
 date: 2012-02-07 10:10:23.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: '<span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size:
   13px; line-height: normal; text-align: left; background-color: rgba(255, 255, 255,
   0.917969); " mce_style="color: #222222; font-family: arial, sans-serif; font-size:

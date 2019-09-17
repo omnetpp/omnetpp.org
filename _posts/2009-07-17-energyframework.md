@@ -4,7 +4,7 @@ title: 'Announcement: Energy Framework 0.9'
 joomla_id: 3647
 joomla_url: energyframework
 date: 2009-07-17 08:24:46.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "The Communication Networks and Systems Lab at SICS is happy to announce
   version 0.9 of the Energy Framework.<br />\r\n<br />\r\nThe Energy Framework is
   a collection of modules that allows flexible and extensible modeling of battery

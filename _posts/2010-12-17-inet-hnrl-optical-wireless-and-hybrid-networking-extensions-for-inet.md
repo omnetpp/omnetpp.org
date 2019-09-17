@@ -4,7 +4,7 @@ title: 'INET-HNRL: Optical, Wireless and Hybrid Networking Extensions for INET'
 joomla_id: 3683
 joomla_url: inet-hnrl-optical-wireless-and-hybrid-networking-extensions-for-inet
 date: 2010-12-17 15:24:19.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: "<p><i>From Kyeong Soo Kim:</i> This is to announce the INET-HNRL, a new
   fork of \r\nINET Framework developed for hybrid networking research. INET-HNRL \r\nprovides
   new models in both the optical and the wireless networking areas \r\nand their hybrid.
@@ -20,9 +20,9 @@ excerpt: "<p><i>From Kyeong Soo Kim:</i> This is to announce the INET-HNRL, a ne
   mce_href=\"https://github.com/kyeongsoo/inet-hnrl\">https://github.com/kyeongsoo/inet-hnrl</a>.\r\n\r\n</p>"
 category: Software
 ---
-<p><i>From Kyeong Soo Kim:</i> This is to announce the INET-HNRL, a new fork of 
-INET Framework developed for hybrid networking research. INET-HNRL 
-provides new models in both the optical and the wireless networking areas 
+<p><i>From Kyeong Soo Kim:</i> This is to announce the INET-HNRL, a new fork of
+INET Framework developed for hybrid networking research. INET-HNRL
+provides new models in both the optical and the wireless networking areas
 and their hybrid. Currently, the following models and research frameworks have been implemented:</p>
 <ul>
 <li>Models for the hybrid TDM/WDM-PON under the SUCCESS-HPON architecture;</li>

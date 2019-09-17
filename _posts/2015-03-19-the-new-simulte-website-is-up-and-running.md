@@ -4,7 +4,7 @@ title: The New SimuLTE Website is Up and Running
 joomla_id: 3728
 joomla_url: the-new-simulte-website-is-up-and-running
 date: 2015-03-19 15:06:02.000000000 +01:00
-author: Super User
+author: Andras
 excerpt: "<p>A new website for SimuLTE has been announced by Antonio Virdis. It is
   available at <a href=\"http://simulte.com/\" target=\"_blank\" rel=\"nofollow\">simulte.com</a>
   or <a href=\"http://inet.omnetpp.org/simulte\" target=\"_blank\" rel=\"nofollow\">inet.omnetpp.org/simulte</a>. The

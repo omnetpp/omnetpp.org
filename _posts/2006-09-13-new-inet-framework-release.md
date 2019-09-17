@@ -4,7 +4,7 @@ title: New INET Framework release
 joomla_id: 3492
 joomla_url: new-inet-framework-release
 date: 2006-09-13 14:20:19.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: <p>The new INET-20060912 release features a<strong> new 802.11 model set</strong>,
   which supports both ad-hoc and infrastructure mode. It includes a new state machine-based
   MAC implementation which models the 802.11 protocol more closely, additional modules

@@ -4,7 +4,7 @@ title: INET 3.1 Released
 joomla_id: 3738
 joomla_url: inet-3-1-released
 date: 2015-10-15 15:03:43.000000000 +02:00
-author: Super User
+author: Andras
 excerpt: "<p>INET 3.1.0 is now available for download.</p>\r\n<p>Highlights:</p>\r\n<ul>\r\n<li>Added
   a modular and extensible new 802.11 MAC model.</li>\r\n<li>Added packetdrill testing
   tool for transport layer testing.</li>\r\n<li>Manet protocols in inet.routing.extras

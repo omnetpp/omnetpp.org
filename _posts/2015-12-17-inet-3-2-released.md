@@ -4,7 +4,7 @@ title: INET 3.2 Released
 joomla_id: 3739
 joomla_url: inet-3-2-released
 date: 2015-12-17 15:03:00.000000000 +01:00
-author: Super User
+author: Andras
 excerpt: "<p>For this release, we put a lot of work into refining and validating the
   new, extensible 802.11 MAC model to make it ready for replacing the old codebase.
   We used the ns-3 Wifi model for validation. This INET version, in addition to other

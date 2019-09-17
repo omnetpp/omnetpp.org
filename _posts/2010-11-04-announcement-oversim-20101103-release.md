@@ -4,7 +4,7 @@ title: 'Announcement: OverSim-20101103 release'
 joomla_id: 3678
 joomla_url: announcement-oversim-20101103-release
 date: 2010-11-04 00:00:00.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: <p>Ingmar Baumgart has announced OverSim release 20101103. It brings support
   for the ReaSE Internet topology generator, experimental support for TCP and IPv6
   in SimpleUnderlay and InetUnderlay, the N-Tree overlay protocol, recursive routing

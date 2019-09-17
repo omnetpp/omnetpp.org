@@ -4,7 +4,7 @@ title: 'INET-2.4 released '
 joomla_id: 3718
 joomla_url: inet-24-released
 date: 2014-06-13 15:03:27.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "<p>We are happy to announce the latest stable version of the INET Framework.
   Changes in this version include:</p>\r\n<ul>\r\n<li>A new AODV protocol implementation</li>\r\n<li>Added
   support for link break detection in IdealWireless (using the NF_LINK_BREAK signal)</li>\r\n<li>VoIPStream

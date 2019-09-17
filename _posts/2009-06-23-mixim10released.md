@@ -4,7 +4,7 @@ title: 'Announcement: MiXiM 1.0 released'
 joomla_id: 3642
 joomla_url: mixim10released
 date: 2009-06-23 20:46:22.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: 'The MiXiM team is happy to announce the first official MiXiM release, <b>MiXiM
   1.0</b>. <a href="http://mixim.sourceforge.net/" target="_blank" mce_href="http://mixim.sourceforge.net/">MiXiM</a>
   is an attempt to merge several OMNeT++ simulators written to support mobile and

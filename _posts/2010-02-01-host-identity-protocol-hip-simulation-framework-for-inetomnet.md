@@ -4,7 +4,7 @@ title: Host Identity Protocol (HIP) Simulation Framework for INET/OMNeT++
 joomla_id: 3657
 joomla_url: host-identity-protocol-hip-simulation-framework-for-inetomnet
 date: 2010-02-01 13:12:21.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: "<br mce_bogus=\"1\">We are proud to announce the first public release of
   <a href=\"http://www.ict-optimix.eu/index.php/HIPSim\" mce_href=\"http://www.ict-optimix.eu/index.php/HIPSim\">HIPSim++</a>,
   which is a <a href=\"http://tools.ietf.org/wg/hip/\" mce_href=\"http://tools.ietf.org/wg/hip/\">Host

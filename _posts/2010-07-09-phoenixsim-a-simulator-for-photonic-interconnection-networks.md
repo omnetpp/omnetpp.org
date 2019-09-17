@@ -4,7 +4,7 @@ title: 'PhoenixSim: A Simulator for Photonic Interconnection Networks'
 joomla_id: 3670
 joomla_url: phoenixsim-a-simulator-for-photonic-interconnection-networks
 date: 2010-07-09 11:53:42.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "<p><b><a target=\"_blank\" mce_href=\"http://lightwave.ee.columbia.edu/?s=research&amp;p=integrable_systems_and_subsystems#nobs\"
   href=\"http://lightwave.ee.columbia.edu/?s=research&amp;p=integrable_systems_and_subsystems#nobs\"><img
   alt=\"4x4 switch\" src=\"http://omnetpp.org/images/stories/phoenixsim-4x4switch.jpg\"

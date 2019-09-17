@@ -4,7 +4,7 @@ title: GT-ITM Topologies for OMNeT++ and OverSim
 joomla_id: 3654
 joomla_url: gt-itm-topologies-for-omnet-and-oversim
 date: 2009-12-20 12:13:02.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: '<span class="Apple-style-span" style="color: rgb(34, 34, 34); font-family:
   Arial, Helvetica, sans-serif; font-size: 13px; line-height: 16px; " mce_style="color:
   #222222; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height:

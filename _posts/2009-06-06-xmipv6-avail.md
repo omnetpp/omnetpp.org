@@ -4,7 +4,7 @@ title: xMIPv6 Simulation Model Available for OMNeT++ 4.0
 joomla_id: 3641
 joomla_url: xmipv6-avail
 date: 2009-06-06 09:05:00.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "<div>Thanks to the efforts of Andras Varga and Rudolf Hornig, the\r\nExtensible
   Mobile IPv6 (xMIPv6) model&nbsp;is now available for OMNeT++4.0\r\nand can be&nbsp;downloaded
   from <a href=\"http://github.com/zarrar/xMIPv6/tree/master\" mce_href=\"http://github.com/zarrar/xMIPv6/tree/master\"

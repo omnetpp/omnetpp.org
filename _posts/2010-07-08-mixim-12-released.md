@@ -4,7 +4,7 @@ title: MiXiM 1.2 Released
 joomla_id: 3669
 joomla_url: mixim-12-released
 date: 2010-07-08 21:34:40.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "<b>The MiXiM team is happy to announce the release of MiXiM 1.2 that uses
   OMNeT++ 4.1.</b> MiXiM is an OMNeT++ modeling framework created for mobile and fixed\r\nwireless
   networks (wireless sensor networks, body area networks, ad-hoc\r\nnetworks, vehicular

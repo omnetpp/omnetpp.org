@@ -4,7 +4,7 @@ title: OMNeT++ 4.4 released
 joomla_id: 3711
 joomla_url: omnet-44-released
 date: 2014-01-15 15:58:03.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: OMNeT++ 4.4 is now available for download.&nbsp;The focus of this update
   is to improve compatibility with the latest operating system and compilers releases.
   It also introduces features that help you debug and verify your simulation models
@@ -55,7 +55,7 @@ option, and it is turned off by default for now.</p></div>
     Support for programmatically adding result filters and recorders on
     signals: cResultRecorder has been revised to allow result recorders
     to be used without a corresponding @statistic attribute, e.g. they
-    can now be added to signals programmatically.    
+    can now be added to signals programmatically.
   </p>
 </li>
 <li>

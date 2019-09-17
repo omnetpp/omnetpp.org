@@ -4,7 +4,7 @@ title: NETwork Attacks (NETA) Framework for OMNeT++ released
 joomla_id: 3712
 joomla_url: neta-release
 date: 2014-01-28 18:06:23.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: 'NETwork Attacks (NETA) is a framework devised to simulate attack behaviors
   in heterogeneous networks using OMNeT++. Due to the intensive research in the field
   of network security, with this framework we try to provide an useful tool to facilitate

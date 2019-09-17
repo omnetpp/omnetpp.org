@@ -4,7 +4,7 @@ title: 'Call for Papers -- 5th International Workshop on OMNeT++ '
 joomla_id: 3692
 joomla_url: call-for-papers-5th-international-workshop-on-omnet-
 date: 2011-10-21 14:22:36.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: '<p><img src="images/stories/workshop-logo-80.png" mce_src="images/stories/workshop-logo-80.png"
   style="float: left; margin-right: 10px;" mce_style="float:left; margin-right:10px">The
   <a target="_blank" mce_href="http://www.omnet-workshop.org/2012/" href="http://www.omnet-workshop.org/2012/"><b>5th

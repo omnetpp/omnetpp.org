@@ -4,7 +4,7 @@ title: OMNeT++ 4.3.1 released
 joomla_id: 3710
 joomla_url: omnet-431-released
 date: 2013-09-17 08:44:08.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: 'OMNeT++ 4.3.1 is now available for download. With this update, we made it
   a lot easier for first-time users to get started with OMNeT++: on the first startup,
   the IDE shows some useful bits of information, and also offers installing the INET

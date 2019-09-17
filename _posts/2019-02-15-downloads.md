@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Simulation Models and Tools Catalog Revised
+author: Andras
 category: Article
 ---
 

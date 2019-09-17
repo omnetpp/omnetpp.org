@@ -4,7 +4,7 @@ title: New INET Framework release
 joomla_id: 3498
 joomla_url: new-inet-framework-release-sp-802092898
 date: 2006-03-31 17:18:31.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: <p>Release 20060330 comes out after a long (but busy) period of improving
   INET code, and integrating new components. The <strong>MPLS, RSVP-TE and LDP models</strong>
   have been revised and mostly rewritten by Vojta Janota. Dynamic routing (OSPFv2

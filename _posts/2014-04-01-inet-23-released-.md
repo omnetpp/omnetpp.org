@@ -4,7 +4,7 @@ title: 'INET-2.3 released '
 joomla_id: 3715
 joomla_url: inet-23-released-
 date: 2014-04-01 09:07:10.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: We are happy to announce the release of INET Framework 2.3. This version
   adds spanning tree support to Ethernet switches (both STP and RSTP), several new
   routing protocols (RIP, GPSR, DYMO), a NetFilter hook API to facilitate the implementation

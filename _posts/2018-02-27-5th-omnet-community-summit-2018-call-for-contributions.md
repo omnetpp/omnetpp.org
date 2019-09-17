@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 5th OMNeT++ Community Summit 2018 - Call for Contributions
+author: Andras
 category: Articles
 ---
 <img class="left" style="padding-right: 10px;" src="/images/stories/workshop-logo.png"/>

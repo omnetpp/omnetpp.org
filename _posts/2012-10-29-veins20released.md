@@ -4,7 +4,7 @@ title: VEINS 2.0 released
 joomla_id: 3699
 joomla_url: veins20released
 date: 2012-10-29 00:00:00.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: <div>The Veins project team have announced Veins 2.0, the latest version
   of their vehicular network simulation framework for OMNeT++. Veins is an open source
   Inter-Vehicular Communication (IVC) simulation framework composed of an event-based

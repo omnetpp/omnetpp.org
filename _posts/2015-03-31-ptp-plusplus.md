@@ -4,7 +4,7 @@ title: 'PTP++: Precision Time Protocol for INET'
 joomla_id: 3729
 joomla_url: ptp-plusplus
 date: 2015-03-31 12:52:15.000000000 +02:00
-author: Super User
+author: Andras
 excerpt: <p>A Precision Time Protocol (PTP) module for OMNeT++ INET 2.6 has been announced
   by Martin Levesque. The model allows one to measure the PTP accuracy under different
   configurations and traffic loads, using any INET components (routers, etc.). PTP

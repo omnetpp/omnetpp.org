@@ -4,7 +4,7 @@ title: OppBSD 4.0 released
 joomla_id: 3705
 joomla_url: announcement-oppbsd-40-released
 date: 2013-04-15 13:48:22.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "<p>OppBSD integrates essential parts of the real FreeBSD\r\nnetworking stack
   into<span style=\"mso-spacerun:yes\" mce_style=\"mso-spacerun:yes\"> </span>OMNeT++
   as a\r\nsimulation model. Every simulated host (or router) runs its own copy of

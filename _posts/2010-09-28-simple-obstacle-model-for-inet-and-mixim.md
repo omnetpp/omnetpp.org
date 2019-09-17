@@ -4,7 +4,7 @@ title: Simple Obstacle Model for INET and MiXiM
 joomla_id: 3674
 joomla_url: simple-obstacle-model-for-inet-and-mixim
 date: 2010-09-28 12:35:48.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: <i>From Christoph Sommer:</i> We've now prepared and uploaded the codebase
   of our <b>"Computationally Inexpensive Empirical Model of IEEE 802.11p Radio Shadowing
   in Urban Environments"</b> for public consumption. The obstacle model lives at <a

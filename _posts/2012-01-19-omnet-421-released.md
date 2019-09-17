@@ -4,7 +4,7 @@ title: OMNeT++ 4.2.1 released
 joomla_id: 3695
 joomla_url: omnet-421-released
 date: 2012-01-19 00:00:00.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: "<div>\r\nWe're happy to announce the release of OMNeT++ 4.2.1, a maintenance
   release of OMNeT++ 4.2. This release contains <a href=\"http://tinyurl.com/omnetpp421-fixes\"
   mce_href=\"http://tinyurl.com/omnetpp421-fixes\" target=\"_blank\">bug fixes</a>

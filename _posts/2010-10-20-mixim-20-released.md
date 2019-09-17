@@ -4,7 +4,7 @@ title: MiXiM 2.0 Released, Contains Support for INET Integration
 joomla_id: 3676
 joomla_url: mixim-20-released
 date: 2010-10-20 00:00:00.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "<p>The MiXiM team has released MiXiM 2.0. The main highlight of this release\r\nis
   MiXiM - INET Framework integration. MiXiM 2.0 contains a \"Mixnet\"\r\nexample simulation
   that demonstrates how one can use MiXiM network interface\r\ncards (NICs) together

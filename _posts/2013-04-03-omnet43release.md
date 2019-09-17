@@ -4,7 +4,7 @@ title: OMNeT++ 4.3 released
 joomla_id: 3704
 joomla_url: omnet43release
 date: 2013-04-03 00:00:00.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: <p>OMNeT++ 4.3 final version is now available for download. This release
   contains several bugfixes and usability improvements compared to 4.2.2. Among other
   improvements, indexing of big C++ projects got considerably faster and it is now

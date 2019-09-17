@@ -4,7 +4,7 @@ title: VoIPTool 2.0 released
 joomla_id: 3680
 joomla_url: voiptool-ported-to-omnet-4
 date: 2010-11-07 00:00:00.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: 'This is to announce VoIPTool 2.0, a realistic VoIP traffic generation and
   evaluation tool for the INET Framework and OMNeT++ 4.1. The package is an evolution
   of <a target="_blank" mce_href="http://www.tkn.tu-berlin.de/research/omnetVoipTool/"

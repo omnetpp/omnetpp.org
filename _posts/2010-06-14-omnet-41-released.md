@@ -4,7 +4,7 @@ title: OMNeT++ 4.1 released
 joomla_id: 3664
 joomla_url: omnet-41-released
 date: 2010-06-14 00:00:00.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "<div>\r\nDear everybody, we're happy to announce the release of OMNeT++
   4.1. Please read the ChangeLog (below) to see what has changed since the 4.0 version
   and check&nbsp;the <a href=\"doc/omnetpp41/ide-changelog/ide-changelog.html\" mce_href=\"doc/omnetpp41/ide-changelog/ide-changelog.html\"
@@ -208,7 +208,7 @@ result-recording-modes now has support for optional recording modes (those
    with "+" or "-" (for "add" and "remove", respectively). A lone "-" disables
    all recording modes. Some examples:
 <pre>**.result-recording-modes = default,+vector,-histogram
-**.result-recording-modes = all,-vector 
+**.result-recording-modes = all,-vector
 **.result-recording-modes=last</pre>
    The first one selects non-optional recording modes plus records everything
    as output vector, but disables histogram recording. The second one selects

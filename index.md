@@ -20,7 +20,12 @@ redirect_from: "/index.php/"
           {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
           <div class="post-header">
             <div class="title">{{ post.title | escape }}</div>
-            <div><time><i class="far fa-calendar-alt"></i>&nbsp;{{ post.date | date: date_format }}</time></div>
+            <div class="post-meta">
+              <time><i class="far fa-calendar-alt"></i>&nbsp;{{ post.date | date: date_format }}</time>
+              {% if post.author %}
+                • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>
+              {% endif %}
+            </div>
           </div>
 
           {% if post.excerpt != post.content %}

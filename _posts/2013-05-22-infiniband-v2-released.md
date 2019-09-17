@@ -4,7 +4,7 @@ title: InfiniBand Flit Level Model (v2) released
 joomla_id: 3707
 joomla_url: infiniband-v2-released
 date: 2013-05-22 00:00:00.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: '<span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif;
   font-size: 13.333333015441895px; line-height: 16px;">This Mellanox-contributed <a
   href="http://www.mellanox.com/page/omnet" mce_href="http://www.mellanox.com/page/omnet"

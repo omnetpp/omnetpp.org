@@ -4,7 +4,7 @@ title: 'New Veins Extensions: Plexe (for platooning) and Veins LTE'
 joomla_id: 3725
 joomla_url: new-veins-extensions-plexe-for-platooning-and-veins-lte
 date: 2014-12-11 11:25:17.000000000 +01:00
-author: Super User
+author: Andras
 excerpt: "<p><i style=\"line-height: 15.8080005645752px;\">From Christoph Sommer:</i><span
   style=\"line-height: 15.8080005645752px;\"> Two new extensions for Veins have been
   presented at this year's VNC conference:</span></p>\r\n<ul style=\"line-height:

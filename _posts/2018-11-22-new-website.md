@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome to our New Website
+author: Andras
 category: Article
 ---
 

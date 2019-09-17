@@ -4,7 +4,7 @@ title: OMNeT++ 5.0b1 released
 joomla_id: 3726
 joomla_url: omnet-5-0b1-released
 date: 2015-03-11 13:20:23.000000000 +01:00
-author: Super User
+author: Andras
 excerpt: "<p>\r\nWe are happy to announce the first preview release of OMNeT++ 5.0.
   The main\r\nhighlights of this release are extended logging facilities, and the
   new Canvas API\r\nthat allows your model to draw freely on the surface of a module.\r\n</p>\r\n<p>\r\nThis

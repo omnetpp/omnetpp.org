@@ -4,7 +4,7 @@ title: SZTAKI Grid Portal for Simulations
 joomla_id: 3646
 joomla_url: grid-portal-announcement
 date: 2009-07-14 09:36:05.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "The <a href=\"http://www.lpds.sztaki.hu/gasuc/\" target=\"_blank\" mce_href=\"http://www.lpds.sztaki.hu/gasuc/\">GASuC</a>
   team at the Laboratory of Parallel and Distributed System (<a href=\"http://www.lpds.sztaki.hu/\"
   target=\"_blank\" mce_href=\"http://www.lpds.sztaki.hu/\">LPDS</a>), MTA SZTAKI

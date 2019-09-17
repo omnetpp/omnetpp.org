@@ -4,7 +4,7 @@ title: INET 2.5 released
 joomla_id: 3721
 joomla_url: inet-2-5-released
 date: 2014-10-31 16:01:56.000000000 +01:00
-author: Super User
+author: Andras
 excerpt: "<p>We are happy to announce the latest stable version of the INET Framework.
   This version contains very few changes compared to 2.4 to make INET compile under
   C++11.</p>\r\n<div>\r\n<div>\r\n<ul>\r\n<li>made the codebase compile in C++11 mode.

@@ -4,7 +4,7 @@ title: OMNeT++ 4.4.1 released
 joomla_id: 3713
 joomla_url: omnet-441-released
 date: 2014-03-10 00:00:00.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: 'OMNeT++ 4.4.1 is now available for download.&nbsp;<span style="color: rgb(34,
   34, 34); font-family: Arial, Helvetica, sans-serif; font-size: 13.333333015441895px;
   line-height: 16px;">This is a bugfix release for OMNeT++ 4.4. The focus of version
@@ -56,7 +56,7 @@ option, and it is turned off by default for now.</p></div>
     Support for programmatically adding result filters and recorders on
     signals: cResultRecorder has been revised to allow result recorders
     to be used without a corresponding @statistic attribute, e.g. they
-    can now be added to signals programmatically.    
+    can now be added to signals programmatically.
   </p>
 </li>
 <li>

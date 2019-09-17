@@ -1,6 +1,7 @@
 ---
 layout: post
 title: OMNeT++ "Ecosystem Book" Published
+author: Andras
 category: Articles
 ---
 
@@ -20,7 +21,8 @@ advanced use cases, it also provides explanations and code snippets on using the
 The third part of the book presents the latest advances and novel developments coming from a large research community,
 such as live monitoring and control of OMNeT++ simulations, or using Python and Pweave.
 
-We in the OMNeT++ team are proud to have contributed two chapters to the book (OMNeT++ Overview, INET Framework).
+We in the OMNeT++ team are proud to have contributed two chapters to the book
+(OMNeT++ Overview -- Andras Varga, INET Framework -- Levente Meszaros, Andras Varga).
 Thank you and congratulations to the editors and fellow authors for their hard work and dedication to make this happen!
 
 See the book's page at <a target="_blank" href="https://www.springer.com/gp/book/9783030128418">Springer</a>,

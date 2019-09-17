@@ -4,7 +4,7 @@ title: New (unstable) IPSuite and OMNeT++ releases
 joomla_id: 3552
 joomla_url: new-unstable-ipsuite-and-omnet-releases
 date: 2004-03-22 22:26:00.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: A revised IPSuite (<a href="index.php?option=com_docman&task=doc_details&gid=2142">snapshot
   20040322</a>) has been made available. It requires OMNeT++ 3.0 alpha 3 which has
   also just been released. Read on to learn what's new in IPSuite... 

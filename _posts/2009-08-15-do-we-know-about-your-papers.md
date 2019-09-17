@@ -4,7 +4,7 @@ title: Do we know about your papers?
 joomla_id: 3649
 joomla_url: do-we-know-about-your-papers
 date: 2009-08-15 20:22:27.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "As you may have noticed, we have recently expanded our <a href=\"/publications\"
   mce_href=\"/publications\">Publications</a> database. First of all, it should now
   contain nearly all OMNeT++-related papers, from the beginnings until a few months

@@ -4,7 +4,7 @@ title: INET 3.0 Released
 joomla_id: 3734
 joomla_url: inet-3-released
 date: 2015-06-25 11:54:56.000000000 +02:00
-author: Super User
+author: Andras
 excerpt: "<p>INET 3.0.0 is now available for download. This release contains a lot
   of new features and fixes compared to 2.6. Please read the <a href=\"https://github.com/inet-framework/inet/blob/v3.0.0/WHATSNEW\">what’s
   new</a> file carefully to see all the changes in detail. This release is not source

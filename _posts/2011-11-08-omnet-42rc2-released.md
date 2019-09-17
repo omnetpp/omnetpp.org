@@ -4,7 +4,7 @@ title: OMNeT++ 4.2rc2 released (final RC)
 joomla_id: 3693
 joomla_url: omnet-42rc2-released
 date: 2011-11-08 14:37:51.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: We've just released the <b>second (and final) release candidate</b> of OMNeT++
   4.2. Please read the ChangeLog carefully to see what has changed since the 4.1 version.
   Please <a href="http://bugs.omnetpp.org" mce_href="http://bugs.omnetpp.org">report

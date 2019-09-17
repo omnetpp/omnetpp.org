@@ -4,7 +4,7 @@ title: 'CALL FOR PAPERS: 1st OMNeT++ Community Summit '
 joomla_id: 3714
 joomla_url: omnetpp-summit-2014
 date: 2014-03-27 10:20:38.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: '<div><img style="float:left; margin-right: 10px" mce_style="float:left;
   margin-right: 10px" src="http://www.omnetpp.org/images/stories/workshop-logo-80.png"
   mce_src="http://www.omnetpp.org/images/stories/workshop-logo-80.png" height="79"

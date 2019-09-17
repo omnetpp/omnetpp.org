@@ -4,7 +4,7 @@ title: INET 3.4 Released
 joomla_id: 3742
 joomla_url: inet-3-4-released
 date: 2016-06-17 14:54:00.000000000 +02:00
-author: Super User
+author: Andras
 excerpt: "<p>We are happy to announce the latest version of the INET Framework. INET
   3.4 requires OMNeT++ 5.0 or later.</p>\r\n<p>One of the highlights of this release
   is a Wireless Tutorial (<a href=\"http://omnetpp.org/doc/inet/api-current/tutorials/wireless\">also

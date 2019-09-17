@@ -4,7 +4,7 @@ title: Google Earth Demo
 joomla_id: 3672
 joomla_url: google-earth-demo
 date: 2010-07-23 07:35:07.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "<a target=\"_blank\" mce_href=\"http://www.youtube.com/watch?v=cFPJPVh3ouQ\"
   href=\"http://www.youtube.com/watch?v=cFPJPVh3ouQ\"><img src=\"http://omnetpp.org/images/stories/youtube-googledemo-thumb.jpg\"
   mce_src=\"http://omnetpp.org/images/stories/youtube-googledemo-thumb.jpg\" style=\"border:

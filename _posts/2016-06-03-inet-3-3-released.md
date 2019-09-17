@@ -4,7 +4,7 @@ title: INET 3.3 Released
 joomla_id: 3741
 joomla_url: inet-3-3-released
 date: 2016-06-03 14:54:36.000000000 +02:00
-author: Super User
+author: Andras
 excerpt: "<p>This release contains mostly bugfixes and some enhancements to the Ethernet,
   SCTP and Packetdrill models. It is still compatible with both OMNeT++ 4.6 and 5.0.
   Future INET versions will work only with OMNeT++ 5.0 or later.</p>\r\n<p>Read the <a

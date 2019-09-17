@@ -4,7 +4,7 @@ title: OMNeT++ 4.0 released
 joomla_id: 3448
 joomla_url: omnet-40-released
 date: 2009-03-12 08:44:00.000000000 +01:00
-author: Administrator
+author: Andras
 excerpt: After more than 3 years of intense work of the team, 8 beta releases and
   two release candidates, OMNeT++ 4.0 has been finally released. (We'd like to take
   the opportunity to congratulate ourselves for this great achievement! :) With the

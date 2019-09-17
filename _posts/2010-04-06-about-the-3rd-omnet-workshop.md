@@ -4,7 +4,7 @@ title: About the 3rd OMNeT++ Workshop
 joomla_id: 3660
 joomla_url: about-the-3rd-omnet-workshop
 date: 2010-04-06 09:25:25.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: "<p>\r\nThis year's International Workshop on OMNeT++ was held on March 19,
   2010\r\nin Torremolinos, in conjunction with SimuTools 2010 as usual. On behalf
   of the\r\nProgram and Organizing Committee we can say that the workshop was a great

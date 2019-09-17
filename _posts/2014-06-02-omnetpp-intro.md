@@ -4,7 +4,7 @@ title: OMNeT++ Intro for Beginners
 joomla_id: 3717
 joomla_url: omnetpp-intro
 date: 2014-06-02 09:38:41.000000000 +02:00
-author: Administrator
+author: Andras
 excerpt: '<span style="color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size:
   12.666666984558105px; line-height: normal;" mce_style="color: #222222; font-family:
   arial, sans-serif; font-size: 12.666666984558105px; line-height: normal;">Stuart
