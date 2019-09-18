@@ -17,7 +17,7 @@ Think about your own answer before you read on and see the replies we received..
 On the next day we had a session to discuss the results. The participants gathered in groups
 around the tables (we still had them from the ConverStations), and were given
 some time to discuss the ideas of the members within the group. When the time was up,
-an elected spokesman from each group presented the ideas for the rest of the
+an elected spokesperson from each group presented the ideas for the rest of the
 participants.
 
 The purpose of the original question was to help uncover hidden opportunities
@@ -28,8 +28,8 @@ we'd never thought of before. Here are a few, in no particular order:
 - **Travel grants.** Since the Summit has become more of an event of the OMNeT++ community and less
 a scientific conference in recent years (which is a good thing and quite unique
 among similar communities), getting funding to participate has become more
-difficult for many. Therefore, funding could be used to offer covering of travel
-and/or accomodation costs for some of the participants who need it.
+difficult for many. Therefore, funding could be used to cover travel
+and/or accommodation costs for some of the participants who need it.
 
 - **Teaching materials.** Many universities teach simulation and/or networking using OMNeT++, and jointly
 developing at least a subset of the teaching materials would make sense.
@@ -67,7 +67,7 @@ interoperable with INET, fixing a certain known bug, adding a specific
 feature, etc. Software bounties are well-known in the industry as a way
 of improving open-source software, and there are [online services](https://www.bountysource.com/)
 for managing the process. All the community needs is to define and prioritize
-the tasks we want to be done. In particulal, abandoned simulation models and frameworks
+the tasks we want to be done. In particular, abandoned simulation models and frameworks
 are quite abundant in the OMNeT++ ecosystem, due to the natural lifecycle of
 research projects in the Academia (when the research team moves on to a different
 topic and/or the participating student(s) graduate and leave, nobody is interested in
@@ -89,5 +89,5 @@ continue the discussion, and not let it die off and only come up at next year's
 Summit again. Therefore, by use of a temporary mailing list, an account was created
 on [Loomio](https://www.loomio.org), an online collaborative decision-making
 platform. Access to the Loomio OMNeT++ virtual community will be invitation-based,
-on the base of past participation and recommendation.
+based on past participation and recommendation.
 Details are being worked out -- stay tuned.
