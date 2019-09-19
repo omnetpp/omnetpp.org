@@ -14,6 +14,8 @@ in the best interest of the community, what would you do with it?"*
 Think about your own answer before you read on and see the replies we received...
 <!--more-->
 
+<img style="float: right; padding-left: 10px; height: 250px" src="/images/stories/summit2019-discussion.jpg"/>
+
 On the next day we had a session to discuss the results. The participants gathered in groups
 around the tables (we still had them from the ConverStations), and were given
 some time to discuss the ideas of the members within the group. When the time was up,
@@ -89,5 +91,6 @@ continue the discussion, and not let it die off and only come up at next year's
 Summit again. Therefore, by use of a temporary mailing list, an account was created
 on [Loomio](https://www.loomio.org), an online collaborative decision-making
 platform. Access to the Loomio OMNeT++ virtual community will be invitation-based,
-based on past participation and recommendation.
-Details are being worked out -- stay tuned.
+based on past participation and recommendation. If you'd like to join and prefer
+not to wait until you are invited, please contact the core team or one of the
+Summit organizers.
