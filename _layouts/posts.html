@@ -5,7 +5,8 @@ layout: default
     <section>
       {{ content }}
       <table>
-        {% for post in site.posts %}
+        {% assign posts = site.posts | where_exp: "post", "post.category != 'blog'" %}
+        {% for post in posts %}
         <tr>
           {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
           <td class="post-header"><time><i class="far fa-calendar-alt"></i>&nbsp;{{ post.date | date: date_format }}</time></td>

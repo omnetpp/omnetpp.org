@@ -15,7 +15,7 @@ redirect_from: "/index.php/"
       <div class="news content">
         {% assign counter = '' %}
         {% for post in site.posts %}
-        {% if counter.size < 5 %}
+        {% if counter.size < 5 and post.category != "blog" %}
         <div class="news-item">
           {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
           <div class="post-header">
@@ -63,6 +63,17 @@ redirect_from: "/index.php/"
             <span class="card-title">Keeping Up to Date</span>
             <p>We regularly post on Twitter.</p>
             <i class="fab fa-twitter"></i>&nbsp;<a href="https://twitter.com/omnetpp" target="_blank">Follow us there.</a>
+          </div>
+        </div>
+
+        <div class="card omnetpp-blue lighten-1">
+          <div class="card-content white-text white-underlined-link">
+            <span class="card-title">Developer Blog</span>
+              {% assign counter = 0 %}
+              {% for post in site.categories.blog limit: 3 %}
+                <li><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+              {% endfor %}
+              <li><a class="post-link" href="blog">More...</a></li>
           </div>
         </div>
 
