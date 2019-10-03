@@ -5,8 +5,9 @@ author: Attila
 date: 2019-09-20
 category: blog
 ---
-We wanted to make it easier for new users to try out OMNeT++, as the installation procedure is not quite as simple as
-opening a website.
+A common problem when running various OMNeT++ models is, that sometimes it's very hard to setup and prepare all dependencies
+needed by a specific model version. Apart from the trivial dependency on a specific OMNeT++ version, a model may need
+other models that introduce additional, sometimes even contradictory requirements.
 
 We started to explore what is the best way to pack all dependencies for easy deployment while also keeping the ability
 to run graphical applications. We used VirtualBox images for this purpose in the past, but those can be fairly large

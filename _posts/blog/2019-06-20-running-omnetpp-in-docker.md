@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Running OMNeT++ in Docker
+title: Creating Reproducible Simulations
 author: Rudolf
 date: 2019-06-20
 category: blog
 ---
-As OMNeT++ has several dependencies that can complicate the installation, we decided to make it available in an
-additional form. We are providing now a docker image that contains a specific version of OMNeT++ compiled in
-release mode.
+It is often a problem to reproduce a given simulation experiment even if the model source code is available. It is hard
+to recreate the environment required for older models as it may require a specific operating system, compiler and OMNeT++ version.
+To help the researchers with this task, we are providing now a docker image that contains a specific version of OMNeT++ 
+compiled in release mode.
 <!--more-->
 As this image is published on the Docker Hub registry, it is straightforward to deploy OMNeT++ on any machine that
 has Docker. The only command you need:
