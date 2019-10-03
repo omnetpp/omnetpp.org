@@ -69,11 +69,10 @@ redirect_from: "/index.php/"
         <div class="card omnetpp-blue lighten-1">
           <div class="card-content white-text white-underlined-link">
             <span class="card-title">Developer Blog</span>
-              {% assign counter = 0 %}
-              {% for post in site.categories.blog limit: 3 %}
-                <li><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
-              {% endfor %}
+              <ul class="browser-default" style="padding-left: 20px;">
+              {% include blog-summary.html %}
               <li><a class="post-link" href="blog">More...</a></li>
+              </ul>
           </div>
         </div>
 
