@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: OMNeT++ GUI in Docker
 author: Attila
 date: 2019-09-20

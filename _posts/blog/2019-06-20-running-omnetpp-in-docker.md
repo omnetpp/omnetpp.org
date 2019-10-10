@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: Creating Reproducible Simulations
 author: Rudolf
 date: 2019-06-20

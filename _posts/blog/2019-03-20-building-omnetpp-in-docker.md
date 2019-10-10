@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog-post
 title: Building an OMNeT++ Distro
 author: Rudolf
 date: 2019-03-20

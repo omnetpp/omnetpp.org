@@ -123,3 +123,9 @@ p.captioned_image {
     img { display: block; margin: auto; }
     em { display: block; text-align: center; }
 }
+
+.blog code {
+    padding: 2pt 4pt;
+    background-color: #00000020;
+    border-radius: 3pt;
+}
