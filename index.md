@@ -60,15 +60,20 @@ redirect_from: "/index.php/"
 
         <div class="card omnetpp-blue lighten-1">
           <div class="card-content white-text white-underlined-link">
-            <span class="card-title">Keeping Up to Date</span>
-            <p>We regularly post on Twitter.</p>
-            <i class="fab fa-twitter"></i>&nbsp;<a href="https://twitter.com/omnetpp" target="_blank">Follow us there.</a>
+            <span class="card-title">Staying Informed</span>
+            <p><i class="fab fa-twitter"></i>&nbsp;<a href="https://twitter.com/omnetpp" target="_blank">Follow us on Twitter.</a></p>
+            <p><i class="fab fa-youtube"></i>&nbsp;<a href="https://www.youtube.com/channel/UCgLf7rEm3MJiBOC7CiQeZJQ" target="_blank">Subscribe to our channel.</a></p>
+            <p><i class="fab fa-github"></i>&nbsp;<a href="https://github.com/omnetpp/omnetpp" target="_blank">Star the project on GitHub.</a></p>
+            <p><i class="fas fa-envelope"></i>&nbsp;omnetpp-announcements<br>
+              <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements/join" target="_blank">Subscribe</a> &nbsp;/&nbsp;
+              <a href="mailto:omnetpp-announcements@googlegroups.com">Email</a> &nbsp;/&nbsp;
+              <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements" target="_blank">Web</a></p>
           </div>
         </div>
 
         <div class="card omnetpp-blue lighten-1">
           <div class="card-content white-text white-underlined-link">
-            <span class="card-title">Developer Blog</span>
+            <span class="card-title">Blog</span>
               <ul class="browser-default" style="padding-left: 20px;">
               {% include blog-summary.html %}
               <li><a class="post-link" href="blog">More...</a></li>
@@ -89,23 +94,13 @@ redirect_from: "/index.php/"
         <div class="card omnetpp-blue accent-4">
           <div class="card-content white-text white-underlined-link">
             <span class="card-title">Asking Questions</span>
-            <p>If you have OMNeT++ related programming questions (or want to help other members of the community),
-              visit <a href="https://stackoverflow.com/questions/tagged/omnet%2b%2b" target="_blank">stackoverflow</a>
-              and use the [omnet++] tag.</p>
-          </div>
-        </div>
-
-        <div class="card omnetpp-blue accent-4">
-          <div class="card-content white-text white-underlined-link">
-            <span class="card-title">Mailing List</span>
-            <p><strong>Announcements:</strong><br><em><i class="fas fa-envelope"></i>&nbsp;omnetpp-announcements</em><br>
-              <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements/join" target="_blank">Subscribe</a> &nbsp;/&nbsp;
-              <a href="mailto:omnetpp-announcements@googlegroups.com">Email</a> &nbsp;/&nbsp;
-              <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements" target="_blank">Web</a></p>
-            <p><strong>Discussion:<br></strong><em><i class="fas fa-envelope"></i>&nbsp;omnetpp</em><br>
-              <a href="https://groups.google.com/forum/#!forum/omnetpp/join" target="_blank">Subscribe</a>
-              &nbsp;/&nbsp;<a href="mailto:omnetpp@googlegroups.com">Email</a>
-              &nbsp;/&nbsp;<a href="https://groups.google.com/forum/#!forum/omnetpp" target="_blank">Web</a></p>
+            <p><i class="fab fa-stack-overflow"></i>&nbsp;<strong>StackOverflow</strong></p>
+              <p>Use the <a href="https://stackoverflow.com/questions/tagged/omnet%2b%2b" target="_blank"><b>omnet++</b></a> tag.</p>
+              <small><p>For OMNeT++-related programming questions.</p></small>
+              <p><i class="fas fa-envelope"></i>&nbsp;<strong>Mailing list</strong></p>
+              <p><a href="https://groups.google.com/forum/#!forum/omnetpp/join" target="_blank">Subscribe</a>
+              &nbsp;/&nbsp;<a href="https://groups.google.com/forum/#!forum/omnetpp" target="_blank">Browse</a></p>
+              <small><p>For discussion and getting help from the community.</p></small>
           </div>
         </div>
 
