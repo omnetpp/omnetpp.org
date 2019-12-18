@@ -81,7 +81,7 @@ redirect_from: "/index.php/"
             <span class="card-title">Tips for New Users</span>
             <p>Check out the&nbsp;<a href="https://docs.omnetpp.org/tutorials/tictoc/" target="_blank">TicToc tutorial</a>,
               browse the <a href="/documentation">documentation</a> and the <a href="/download/models-and-tools">model catalog</a>.
-              Watch <a href="http://www.youtube.com/view_play_list?p=EDBBAEA836A0A89E" target="_blank">introductory
+              Watch <a href="https://www.youtube.com/playlist?list=PL6XXfMqxC2Ccoot_Sl6ZIMjFon4e9ifd3" target="_blank">introductory
               videos</a>, and explore the featured network simulation projects (see banner).</p>
           </div>
         </div>
