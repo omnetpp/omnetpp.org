@@ -5,7 +5,7 @@ layout: download-details
 title: OMNeT++ 5.5.1
 date: 2019-06-13
 sortkey: "2019-06-13"
-category: omnetpp-current
+category: omnetpp
 more-url: /software/2019/05/31/omnet-5-5-released
 tabs:
 - id: linux

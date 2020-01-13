@@ -1,8 +1,0 @@
-<project name="inet4"
-         version="4.1.1"
-         title="INET Framework 4"
-         short-description="Protocols and applications for Internet"
-         long-description="Provides models for communication networks, protocols, technologies and applications used on the Internet"
-         distribution-url="https://github.com/inet-framework/inet/releases/download/v4.1.1/inet-4.1.1-src.tgz"
-         />
-
