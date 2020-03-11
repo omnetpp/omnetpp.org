@@ -2,22 +2,22 @@
 id: omnetpp-60pre6
 download: true
 layout: download-details
-title: OMNeT++ 6.0 Preview 6
-date: 2020-01-03
-sortkey: "2020-01-03"
+title: OMNeT++ 6.0 Preview 7
+date: 2020-03-11
+sortkey: "2020-03-11"
 category: preview
 tabs:
 - id: linux
-  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0pre6/omnetpp-6.0pre6-src-linux.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0pre7/omnetpp-6.0pre7-src-linux.tgz
 
 - id: windows
-  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0pre6/omnetpp-6.0pre6-src-windows.zip
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0pre7/omnetpp-6.0pre7-src-windows.zip
 
 - id: macos
-  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0pre6/omnetpp-6.0pre6-src-macosx.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0pre7/omnetpp-6.0pre7-src-macosx.tgz
 
 - id: core
-  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0pre6/omnetpp-6.0pre6-src-core.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0pre7/omnetpp-6.0pre7-src-core.tgz
 ---
 This is a preview release demonstrating our completely revamped charting solution in the IDE. It is now
 completely based on Python3, with support for displaying Matplotlib charts right inside the IDE,
