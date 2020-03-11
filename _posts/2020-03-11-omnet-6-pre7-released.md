@@ -1,9 +1,9 @@
 ---
 layout: post
-title: OMNeT++ 6.0 Preview 6 Available
+title: OMNeT++ 6.0 Preview 7 Available
 category: Software
 ---
-We are happy to announce the [sixth preview version of OMNeT++ 6](/download/preview).
+We are happy to announce the [seventh preview version of OMNeT++ 6](/download/preview).
 This version contains a completely revamped charting solution in the IDE. It is
 now completely based on Python3, with support for displaying Matplotlib charts
 right inside the IDE, accessing simulation results in the form of Pandas DataFrames,
