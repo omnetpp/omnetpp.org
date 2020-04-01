@@ -4,7 +4,11 @@ layout: download-details
 title: OPS - Opportunistic Protocol Simulator
 category: models
 years-active: 2017-
-tags: model omnetpp5 inet4
+logo: /images/logo/ops.png
+logo-scale-height: 1.4
+logo-vertical-offset: -4px
+sortkey: "10"
+tags: featured model omnetpp5 inet4
 keywords: manet, mobility, opportunistic networking
 github-url: https://github.com/ComNets-Bremen/OPS
 ---
