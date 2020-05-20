@@ -1,11 +1,11 @@
 ---
-id: omnetpp-56
+id: omnetpp-561
 download: true
 layout: download-details
 title: OMNeT++ 5.6.1
 date: 2020-02-10
 sortkey: "2020-02-10"
-category: omnetpp-current
+category: omnetpp
 more-url: /software/2020/01/13/omnet-5-6-released
 tabs:
 - id: linux
