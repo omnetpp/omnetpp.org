@@ -5,7 +5,7 @@ title: JSimpleModule-4.0-1
 years-active: 2009
 category: tools
 tags: tool omnetpp4
-keywords: java
+keywords: java, language, binding
 download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/tools/jsimplemodule-opp4.0-1.tgz
 ---
 
