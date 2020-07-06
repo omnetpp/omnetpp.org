@@ -22,6 +22,24 @@ C++ land, too.)
 
 <!--more-->
 
+## The Issues
+
+Here are a few issues we have experienced at one time or another:
+
+- `std::string` (and other standard types) displayed as `<incomplete type>` in the debugger
+- seeing the internals of the class (instead of the data you are interested in) when inspecting an `std::string`, `std::vector` or other standard containers
+- seeing the `<optimised out>` message when inspecting a variable in your debug build (this happens even with `-O0`, which is supposed to disable all optimizations)
+- expression evaluation is incomplete (not all C++ syntax is supported) and unreliable (often reports errors, etc.)
+- need for step filtering: as users, we are usually not interested in debugging into the internals of the standard C++ classes
+- linking INET with full debug info taking too long
+- debugger taking a very long time to start up, due to the amount of debug info it needs to load
+- debugger not stopping at breakpoints
+- response times being too slow when debugging with `gdb`
+- not all debugger frontends being able to use `lldb` as backend
+- choice of standalone debugger (there are many, all of them with their own issues)
+
+But before we delve into the details, let's come clear with the basics.
+
 ## Debugging on Various Platforms
 
 A debugger usually consists of two parts: a frontend (UI), and a debugger backend. The backend is responsible for the actual low-level debugging tasks like starting a process, setting breakpoints, stepping in the code, querying variables etc. A frontend, on the other hand, is responsible for displaying the debugging information to the user and handling user input.
@@ -43,8 +61,8 @@ We recommend three possible debugger backends for OMNeT++. Each of them have the
   - PRO: a modern debugger with great pretty printing support, fast stepping and evaluation. Works out of the box on macOS.
   - CON: There is only a handful of frontends that support LLDB. Notably, Eclipse CDT does not support `lldb` at the moment.
 - [`rr`](https://rr-project.org/)
-  - PRO: This is an interesting special-purpose debugger. It supports execution recording and playback with forward and **reverse** execution of the application. It is a `gdb` drop-in replacement with a few additional commands for reverse execution.
-  - CON: Few frontends support it properly and `rr` itself works only on recent Intel CPUs.
+  - PRO: This is an interesting special-purpose debugger. It supports execution recording and replaying (hence the name) with forward and **reverse** execution of the application. It is a `gdb` drop-in replacement, with a few additional commands for reverse execution.
+  - CON: Few frontends support it properly, and `rr` itself works only on Intel-made CPUs made after cca. 2010.
 
 ## Debugger Frontends
 
@@ -52,7 +70,7 @@ Here are a few debugger frontends we would like to highlight:
 
 - Eclipse CDT
 
-  This is the built-in debugger in the OMNeT++ IDE. It integrates only with `gdb` (at the moment) so it inherits all the advantages and disadvantages of the `gdb` backend.
+  This is the built-in debugger in the OMNeT++ IDE. It integrates only with `gdb` (at the moment), so it inherits all the advantages and disadvantages of the `gdb` backend.
 
 - Visual Studio Code
 
@@ -71,6 +89,10 @@ Here are a few debugger frontends we would like to highlight:
 - nemiver
 
   This is a GTK-based front-end for `gdb`. It provides a reasonably complete and comfortable debugging experience on Linux systems, albeit the user interface has some annoying quirks. As the project has not received much attention from its developers for years, it is unclear when/whether those issues are going to be resolved.
+
+- KDbg
+
+  KDbg is roughly the KDE equivalent of Nemiver: a Qt-based frontend to `gdb`.
 
 ## Configuring OMNeT++ for Optimal Debugging Experience
 
