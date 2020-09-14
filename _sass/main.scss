@@ -124,8 +124,18 @@ p.captioned_image {
     em { display: block; text-align: center; }
 }
 
-.blog code {
+
+code.highlighter-rouge {
     padding: 2pt 4pt;
-    background-color: #00000020;
+    background: rgba(0,0,0,.05);
     border-radius: 3pt;
+}
+
+pre.highlight {
+    background: rgba(0,0,0,.05);
+    border-radius: 3pt;
+    color: rgba(0,0,0,.87);
+    padding: .75rem;
+    overflow: auto;
+    overflow-y: hidden;
 }
