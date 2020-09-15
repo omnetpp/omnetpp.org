@@ -15,7 +15,7 @@ redirect_from: "/index.php/"
       <div class="news content">
         {% assign counter = '' %}
         {% for post in site.posts %}
-        {% if counter.size < 5 and post.category != "blog" %}
+        {% if counter.size < 5 %}
         <div class="news-item">
           {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
           <div class="post-header">
@@ -68,16 +68,6 @@ redirect_from: "/index.php/"
               <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements/join" target="_blank">Subscribe</a> &nbsp;/&nbsp;
               <a href="mailto:omnetpp-announcements@googlegroups.com">Email</a> &nbsp;/&nbsp;
               <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements" target="_blank">Web</a></p>
-          </div>
-        </div>
-
-        <div class="card omnetpp-blue lighten-1">
-          <div class="card-content white-text white-underlined-link">
-            <span class="card-title">Blog</span>
-              <ul class="browser-default" style="padding-left: 20px;">
-              {% include blog-summary.html %}
-              <li><a class="post-link" href="blog">More...</a></li>
-              </ul>
           </div>
         </div>
 

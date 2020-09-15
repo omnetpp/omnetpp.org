@@ -26,11 +26,6 @@ underMenu: Documentation
 * [IDE Developer's Guide (pdf)](/doc/omnetpp/IDE-DevelopersGuide.pdf)
 * [IDE Customization Guide (pdf)](/doc/omnetpp/IDE-CustomizationGuide.pdf)
 
-## Developer Blogs
-
-{% include blog-summary.html %}
-<li><a class="post-link" href="/blog">More...</a></li>
-
 ## Older versions
 
 * [OMNeT++ 4.6 Simulation Manual](/doc/omnetpp4/manual/usman.html) ([pdf](/doc/omnetpp4/Manual.pdf))
