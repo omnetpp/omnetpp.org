@@ -22,6 +22,7 @@ as submission, an abstract will suffice.
 **October 5-6, 2020**. We foresee two half-day sessions.
 Format: informal presentation in small groups.
 Please send abstracts of your presentation via email
-to Prof. Anna Förster (_anna.foerster@comnets.uni-bremen.de_).<br>
-**Submission deadline: September 15, 2020**.
+to Prof. Anna Förster (_anna.foerster@comnets.uni-bremen.de_).
+**Submission deadline: <del>September 15, 2020</del>
+<span style="color:red">Extended to: September 25, 2020</span>**.
 More details will be announced later.
