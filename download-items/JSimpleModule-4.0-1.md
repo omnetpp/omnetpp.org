@@ -7,6 +7,7 @@ category: tools
 tags: tool omnetpp4
 keywords: java, language, binding
 download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/tools/jsimplemodule-opp4.0-1.tgz
+github-url: https://github.com/omnetpp/jsimplemodule
 ---
 
 This is an extension that makes it possible to write OMNeT++ simple modules in
