@@ -9,19 +9,19 @@ category: omnetpp
 more-url: /software/2016/04/15/omnet-5-0-released
 tabs:
 - id: linux
-  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.0/omnetpp-5.0-src.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src.tgz
   filesize: 217153019
   md5: 91f9540077d719e693610d70244d8661
 
 - id: windows
-  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-windows.zip
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.0/omnetpp-5.0-src-windows.zip
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-windows.zip
   filesize: 541802007
   md5: 0a71bfa770a772acd7e92e484c7c5fc0
 
 - id: macos
-  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-macosx.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.0/omnetpp-5.0-src-macosx.tgz
   ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/5.0/omnetpp-5.0-src-macosx.tgz
   filesize: 259115847
   md5: ea79eb182d9fd41cdb46ca1977b2c5d0
