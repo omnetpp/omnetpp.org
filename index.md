@@ -66,7 +66,6 @@ redirect_from: "/index.php/"
             <p><i class="fab fa-github"></i>&nbsp;<a href="https://github.com/omnetpp/omnetpp" target="_blank">Star the project on GitHub.</a></p>
             <p><i class="fas fa-envelope"></i>&nbsp;omnetpp-announcements<br>
               <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements/join" target="_blank">Subscribe</a> &nbsp;/&nbsp;
-              <a href="mailto:omnetpp-announcements@googlegroups.com">Email</a> &nbsp;/&nbsp;
               <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements" target="_blank">Web</a></p>
           </div>
         </div>
