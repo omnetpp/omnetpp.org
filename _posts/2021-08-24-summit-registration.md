@@ -52,13 +52,9 @@ The registration for the 8th OMNeT++ Community Summit 2021 is now open! The summ
 </div>
 <script>
 function handleTickInit(tick) {
-
-  var nextYear = (new Date()).getFullYear() + 1;
-  
-  Tick.count.down('2021-09-08 9:00Z+2').onupdate = function(value) {
+  Tick.count.down('2021-09-08T09:00+02:00').onupdate = function(value) {
     tick.value = value;
   };
-
 }
 </script>
 
