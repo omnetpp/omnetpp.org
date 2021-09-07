@@ -61,7 +61,7 @@ function handleTickInit(tick) {
 The summit will take place virtually on September 8-10, 2021.
 We welcome everyone even if you are not planning to present or take part actively.
 Participation is free, but participants need to register and will
-receive connection info via email. For more information visit the <a target="_blank" href="https://summit.omnetpp.org/2021/index.html#join">Summit website</a>. The registration deadline is **September 6, 2021, 23:59UTC**.
+receive connection info via email. For more information visit the <a target="_blank" href="https://summit.omnetpp.org/2021/index.html#join">Summit website</a>.  You may register up until the conference starts.
 
 <center><a href="https://forms.gle/jkkySwJTUrpUauMr7" target="_blank" class="btn-large waves-effect waves-light green darken-3">REGISTER NOW</a></center>
 
