@@ -19,6 +19,6 @@ RSPSIM (Reliable Server Pooling Simulation) is the Open Source simulation model 
 
 A detailed introduction to the model can be found in T. Dreibholz, "[Reliable Server Pooling -- Evaluation, Optimization and Extension of a Novel IETF Architecture](https://duepublico2.uni-due.de/receive/duepublico_mods_00014969)".
 
-RSPSIM had originally been started as a project at the [Institute for Experimental Mathematics](https://www.uni-due.de/mathematik/iem_en.php) of the [University of Duisburg-Essen](https://www.uni-due.de/) in Essen, Germany. It is now maintained at the [Simula Research Laboratory](https://www.simula.no/) in Oslo, Norway.
+RSPSIM had originally been started as a project at the [Institute for Experimental Mathematics](https://www.uni-due.de/mathematik/iem_en.php) of the [University of Duisburg-Essen](https://www.uni-due.de/en/index.php) in Essen, Germany. It is now maintained at the [Simula Research Laboratory](https://www.simula.no/) in Oslo, Norway.
 
 Author: [Thomas Dreibholz](https://www.uni-due.de/~be0001/), [Simula Research Laboratory](https://www.simula.no/)
