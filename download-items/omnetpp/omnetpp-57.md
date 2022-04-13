@@ -5,7 +5,7 @@ layout: download-details
 title: OMNeT++ 5.7
 date: 2021-10-06
 sortkey: "2021-10-06"
-category: omnetpp-current
+category: omnetpp
 more-url: /software/2021/10/06/omnet-5-7-released
 tabs:
 - id: linux

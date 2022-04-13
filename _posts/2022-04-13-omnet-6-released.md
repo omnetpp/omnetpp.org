@@ -1,11 +1,9 @@
 ---
 layout: post
-title: OMNeT++ 6.0 Release Candidate 2 Available
+title: OMNeT++ 6.0 Available
 category: Software
 ---
-Please welcome the [OMNeT++ 6.0 Release Candidate 2](/download/preview). OMNeT++ 6.0 is the result of more than three years of work, and includes many essential new features that we would already have a hard time without. The present changelog summarizes all changes made during the 15+ pre-releases.
-
-<!--more-->
+OMNeT++ 6.0 is the result of more than three years of work, and includes many essential new features that we would already have a hard time without. The present changelog summarizes all changes made during the 15+ pre-releases.
 
 We briefly summarize the changes below in each part of OMNeT++ before going into the details.
 
@@ -30,6 +28,8 @@ Generating documentation from NED and MSG files has been made possible from the 
 The C++ debugging experience has been made more pleasant in several ways. For example, the "Debug on Error" and "Debug Next Event" functionality in Qtenv may now invoke the integrated debugger of the Simulation IDE, which is especially useful when the simulation was launched from the IDE. The User Guide also contains a hint on how to configure simulations to invoke VS Code as debugger.
 
 Due to improvements in the toolchain and the build process, Windows users may see the linking time of large models like INET Framework to drop dramatically (1-2 orders magnitude, e.g. from several minutes to several seconds). On macOS, Apple Silicon, is currently supported with x86-64 emulation.
+
+<!--more-->
 
 Now, the details:
 
@@ -150,8 +150,7 @@ MSG:
 
   - The `@str` property causes an `str()` method to be generated; the expression to be returned from the method should be given in the value of the property.
 
-  - The `@clone` property specifies code to duplicate (one array element of) the
-    field value.
+  - The `@clone` property specifies code to duplicate (one array element of) the field value.
 
   - The `@beforeChange` class property specifies the name of a method to be called from all generated methods that mutate the object, e.g. from setters. It allows implementing objects that become immutable ("frozen") after an initial setup phase.
 
@@ -392,8 +391,7 @@ Simulation kernel / Miscellaneous:
 
   - `cMessage`: Allowed `isMessage()` to be called from subclasses.
 
-  - `cEnvir`: New result recording related methods: `recordComponentType()`,
-    `recordParameter()`.
+  - `cEnvir`: New result recording related methods: `recordComponentType()`, `recordParameter()`.
 
   - `cEnvir`: Added `getConnectionLine()`, which returns the coordinates of a connection arrow. This is for certain custom animations.
 
@@ -457,7 +455,8 @@ Runtime:
 
   - Eventlog recording: Implemented snapshot and incremental index support to increase performance and scalability. This introduces significant (breaking) changes in the `elog` file format, and adds a set of associated configuration options; see the Sequence Chart section below for details.
 
-  - Added `%<` (trim preceding whitespace) to the list of accepted directives for log prefixes.
+  - Added `%<` (trim preceding whitespace) to the list of accepted directives
+    for log prefixes.
 
   - The obsolete command-line options `-x`, `-X`, `-g`, and `-G` were removed.
 
@@ -465,7 +464,8 @@ Runtime:
 
   - Added the `-e` option, which prints the value of the given configuration option.
 
-  - `opp_run -v` output now includes the system architecture OMNeT++ was built for (e.g. `ARCH_X86_64` or `ARCH_AARCH64`).
+  - `opp_run -v` output now includes the system architecture OMNeT++ was built for
+    (e.g. `ARCH_X86_64` or `ARCH_AARCH64`).
 
   - `-h resultfilters` and `-h resultrecorders` now include the descriptions in the list of result filters and recorders.
 
@@ -483,7 +483,7 @@ Statistics recording:
 
   - Added the `autoWarmupFilter` statistic attribute that allows one to disable auto-adding the `warmup` filter to a statistic. Example:
 
-      `@statistic[foo](record=vector;autoWarmupFilter=false);`
+      @statistic[foo](record=vector;autoWarmupFilter=false);
 
     This will cause all values from the `foo` signal to be recorded, even values emitted during the warm-up period (if one is set).
 
@@ -493,17 +493,17 @@ Statistics recording:
 
     This is a crucial difference sometimes. For example, a statistic might record queue length computed as the difference of the number of messages that entered the queue and those that left it:
 
-      `@statistic[queueLen](source=count(pkIn)-count(pkOut);record=vector); //INCORRECT`
+      @statistic[queueLen](source=count(pkIn)-count(pkOut);record=vector); //INCORRECT
 
     In this case, if a warmup period is set, the result may even go negative because the `pkIn` and `pkOut` signals that arrive during the warmup period are ignored, and if `pkOut` arrives after that, we are at -1. The correct solution is to add the `warmup` filter after the difference between arrivals and departures have been computed:
 
-      `@statistic[queueLen](source=warmup(count(pkIn)-count(pkOut));autoWarmupFilter=false;record=vector); //OK`
+      @statistic[queueLen](source=warmup(count(pkIn)-count(pkOut));autoWarmupFilter=false;record=vector); //OK
 
     The `autoWarmupFilter` option exists because either location for the warmup filter (beginning or end of the chain, or even mid-chain) may make sense for certain statistics. The model author needs to decide per-statistic which one is correct.
 
-  - Added the `demux` filter, which allows splitting the stream of values arriving from a signal to multiple streams. For example, if values from a `foo` signal are tagged with the labels `first`, `second` and `third`, then the following statistics:
 
-      `@statistic[foo](record=count(demux(foo)));`
+  - Added the `demux` filter, which allows splitting the stream of values arriving from a signal to multiple streams. For example, if values from a `foo` signal are tagged with the labels `first`, `second` and `third`, then the following statistics:
+      @statistic[foo](record=count(demux(foo)));
 
     will produce three scalars: `first:foo:count(demux)`, `second:foo:count(demux)`, and `third:foo:count(demux)`. The labels are taken from the (full) name of the details object specified in the `emit()` call.
 
@@ -625,9 +625,7 @@ IDE / Analysis Tool:
 
     Common charting tasks are accessible with a few mouse clicks, via predefined Chart Templates that can be configured using dialogs. The heart of all Chart Templates is Python code that performs all of the computation and plotting. The Python code behind a chart can be viewed and freely edited using an integrated language-aware editor. Matplotlib plots appear inside the Analysis Tool's UI, and they are live (i.e. not just images): zooming, panning, and interacting with possible embedded controls in the plot all work seamlessly. IDE-native plots can also be chosen as an alternative to Matplotlib, as they provide increased scalability at the cost of being less flexible and featureful.
 
-    Special attention was paid to scalability. The UI is now easily capable of
-    dealing with at least several tens of thousands of result files, and several
-    million result items.
+    Special attention was paid to scalability. The UI is now easily capable of dealing with at least several tens of thousands of result files, and several million result items.
 
     The OMNeT++ Python API for querying, transforming and plotting simulation results is available in the form of Python packages for use in Python scripts outside the IDE as well. There is also a command-line tool (`opp_charttool`) that can "run" Analysis (anf) files e.g. for image export. `opp_charttool` can be integrated e.g. into the build process of a paper written in LaTeX.
 
@@ -776,6 +774,10 @@ Build environment:
 
   - To build OMNeT++ with Akaroa support, `WITH_AKAROA=yes` must be specified in the `configure.user` file. The configuration script no longer tries to autodetect Akaroa without the user explicitly requesting it.
 
+  - osgEarth support is now disabled by default. You must explicitly set `WITH_OSGEARTH=yes` in the `configure.user` file. Some Linux distibutions no longer include osgEarth so you may need to build it manually from sources.
+
+  - Debug builds are now compiled with -O0 for maximum debuggability. Release builds are compiled with `-O2 -ffp-contract=off` to disable fused multiply-add operations. This ensures that floating point operations will generate exactly the same results in DEBUG and RELEASE mode and their accuracy would not depend on unpredictable optimizations.
+
 Windows Support:
 
   - On Windows, the toolchain (compiler, libraries, etc.) can now be found in `tools/win32.x86_64`.
@@ -817,4 +819,4 @@ Documentation:
 
   - Converted all of our structured documents (User Guide, Install Guide, etc.) from their original source format (DocBook or AsciiDoc) to reStructuredText, except for the Simulation Manual which remains in LaTeX.
 
-[Download it here](/download/preview).
+[Download it here](/download).
