@@ -39,5 +39,8 @@ tutorials and technical articles about diverse OMNeT++-related topics. Topics in
 
 ## Older versions
 
+* [OMNeT++ 5.6 Simulation Manual](/doc/omnetpp5/manual) ([pdf](/doc/omnetpp5/SimulationManual.pdf))
+* [OMNeT++ 5.6 User Guide (pdf)](/doc/omnetpp5/UserGuide.pdf)
+* [OMNeT++ 5.6 API Reference](/doc/omnetpp5/api/index.html)
 * [OMNeT++ 4.6 Simulation Manual](/doc/omnetpp4/manual/usman.html) ([pdf](/doc/omnetpp4/Manual.pdf))
 * [OMNeT++ 4.6 API Reference](/doc/omnetpp4/api/index.html)
