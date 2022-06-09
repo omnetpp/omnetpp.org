@@ -7,7 +7,7 @@ category: models
 tags: model inet3 omnetpp5
 keywords: iot, lora, wsn, sensor, wireless
 website-url: https://flora.aalto.fi
-github-url: https://github.com/mariuszslabicki/flora
+github-url: https://github.com/florasim/flora
 ---
 
 FLoRa (Framework for LoRa) is a simulation framework for carrying out end-to-end
