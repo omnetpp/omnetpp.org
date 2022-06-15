@@ -20,3 +20,5 @@ Currently CoRE4INET supports:
 - TTEthernet (AS6802)
 - IEEE 802.1 Audio Video Bridging (AVB) / Time-Sensitive Networking (TSN)
 - IEEE 802.1Q / IEEE P802.1p VLANs and Priorities
+
+Note: INET Framework, from version 4.4, already contains support for TSN modeling, written based on the experiences of Core4INET.

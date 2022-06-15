@@ -19,3 +19,5 @@ University of Stuttgart.
 David Hellmanns, one of the simulation authors, presented NeSTiNg at the
 September 2018 IEEE 802.1 Working Group interim meeting in Oslo, Norway;
 see <http://www.ieee802.org/1/files/public/docs2018/new-hellmanns-tsn-simulator-0918-v03.pdf>
+
+Note: INET Framework, from version 4.4, already contains support for TSN modeling, written based on the experiences of NeSTiNg.
