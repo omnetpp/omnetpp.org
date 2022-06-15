@@ -9,6 +9,8 @@ We briefly summarize the changes below in each part of OMNeT++ before going into
 
 The most prominent new feature is the new Python-based Analysis Tool in the IDE. The use of Python under the hood allows for arbitrarily complex computations to be performed on the data, visualizing the result in the most appropriate form chosen from a multitude of plot types, and producing publication quality output, all while using an intuitive user interface that makes straightforward tasks easy and convenient. Custom computations and custom plots are also easily accessible. The tool is able to handle large quantities of data. The Python APIs are also available outside the IDE (e.g. for standalone scripts), and a command-line tool for viewing and exporting charts created in the IDE also exists (`opp_charttool`).
 
+<!--more-->
+
 The NED language now supports parameters that carry C++ objects as values (type `object`), which can be used to parameterize modules with structured data (e.g. nontrivial configuration), packet prototypes, function objects, etc. Structured data may come from NED functions like `readCSV()` or `readJSON()` which parse data files, or may be specified directly in NED or ini files using JSON syntax. The syntax of ini files has even been adjusted to make it more convenient to write multi-line JSON values in it. Further new functionality includes the string match operator `=~`, the "spaceship" operator `<=>`, and support for Universal Function Call Syntax (UFCS). Incompatible changes include the change in the interpretation of parameter names that are not qualified with the `this` or `parent` keywords, and the necessity to mark module parameters with `@mutable` that are allowed to be set at runtime. Embedding NED files into simulation binaries for easier dissemination has also become possible.
 
 Message descriptions (msg files) have undergone even bigger changes. An import system has been added to make the content of a msg file available in others. The generated code and class descriptors can now be widely customized via properties. Targeted C++ blocks have been introduced for injecting C++ code into various places in the generated source files. Altogether, these (and further, smaller) features facilitate writing significantly cleaner msg files, especially in large projects like INET.
@@ -29,9 +31,6 @@ The C++ debugging experience has been made more pleasant in several ways. For ex
 
 Due to improvements in the toolchain and the build process, Windows users may see the linking time of large models like INET Framework to drop dramatically (1-2 orders magnitude, e.g. from several minutes to several seconds). On macOS, Apple Silicon, is currently supported with x86-64 emulation.
 
-<!--more-->
-
-Now, the details:
 
 NED:
 
