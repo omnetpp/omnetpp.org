@@ -6,6 +6,7 @@ twitter_username: omnetpp
 github_username:  omnetpp
 excerpt_separator: <!--more-->
 google_analytics: UA-240922-2
+google_analytics4: G-QGGDS2R96M
 
 sass:
     style: compressed
