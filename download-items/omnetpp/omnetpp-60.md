@@ -5,7 +5,7 @@ layout: download-details
 title: OMNeT++ 6.0
 date: 2022-04-13
 sortkey: "2022-04-13"
-category: omnetpp-current
+category: omnetpp
 more-url: https://github.com/omnetpp/omnetpp/releases/tag/omnetpp-6.0
 tabs:
 - id: linux
