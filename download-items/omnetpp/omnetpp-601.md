@@ -29,6 +29,11 @@ tabs:
   md5: 7d89c7c8457fde74f21d24378962b753
 
 ---
+This is a maintenance release which contains more than two dozen bugfixes in
+the simulation runtime, the IDE, the Analysis Tool, the NED documentation generator 
+and Qtenv. The documentation was also updated in various places including the Install Guide. 
 
-This is a maintenance release containing several bugfixes. If you need an ARM based Linux version, please download 
-[this](https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0.1/omnetpp-6.0.1-linux-aarch64.tgz).
+An experimental AARCH64 based Linux version is available 
+[here](https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0.1/omnetpp-6.0.1-linux-aarch64.tgz).
+
+Read about the major 6.0 update [here](https://github.com/omnetpp/omnetpp/releases/tag/omnetpp-6.0).

@@ -818,4 +818,4 @@ Documentation:
 
   - Converted all of our structured documents (User Guide, Install Guide, etc.) from their original source format (DocBook or AsciiDoc) to reStructuredText, except for the Simulation Manual which remains in LaTeX.
 
-[Download it here](/download).
+Go to the [downloads page](/download).
