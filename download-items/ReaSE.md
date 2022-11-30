@@ -2,11 +2,12 @@
 download: true
 layout: download-details
 title: ReaSE
-years-active: 2008-2011
+years-active: 2008-2013
 category: models
 tags: model inet2 inet1 omnetpp4 omnetpp3
 keywords: traffic generation, topology generation
 website-url: https://projekte.tm.uka.de/trac/ReaSE/
+github-url: https://github.com/ToGaKIT/ReaSE
 ---
 
 The ReaSE framework provides a graphical user interface for generation of NED
