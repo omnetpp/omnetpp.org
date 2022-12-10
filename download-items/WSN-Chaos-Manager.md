@@ -9,4 +9,4 @@ keywords: wireless, sensor, wsn, power
 github-url: https://github.com/Agr-IoT/WSN-Chaos-Manager
 ---
 
-An automated hard faul injection tool for MANETs tested on [LEACH for OMNETPP](https://github.com/Agr-IoT/LEACH).
+An automated hard faul injection tool inspired by Chaos Engineering principles for MANETs. This tool has been tested extensively on LEACH for OMNETPP.
