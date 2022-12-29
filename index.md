@@ -61,7 +61,9 @@ redirect_from: "/index.php/"
         <div class="card omnetpp-blue lighten-1">
           <div class="card-content white-text white-underlined-link">
             <span class="card-title">Staying Informed</span>
-            <p><i class="fab fa-twitter"></i>&nbsp;<a href="https://twitter.com/omnetpp" target="_blank">Follow us on Twitter.</a></p>
+            <!--
+              <p><i class="fab fa-twitter"></i>&nbsp;<a href="https://twitter.com/omnetpp" target="_blank">Follow us on Twitter.</a></p>
+            -->
             <p><i class="fab fa-youtube"></i>&nbsp;<a href="https://www.youtube.com/channel/UCgLf7rEm3MJiBOC7CiQeZJQ" target="_blank">Subscribe to our channel.</a></p>
             <p><i class="fab fa-github"></i>&nbsp;<a href="https://github.com/omnetpp/omnetpp" target="_blank">Star the project on GitHub.</a></p>
             <p><i class="fas fa-envelope"></i>&nbsp;omnetpp-announcements<br>
@@ -90,6 +92,32 @@ redirect_from: "/index.php/"
               <p><a href="https://groups.google.com/forum/#!forum/omnetpp/join" target="_blank">Subscribe</a>
               &nbsp;/&nbsp;<a href="https://groups.google.com/forum/#!forum/omnetpp" target="_blank">Browse</a></p>
               <small><p>For discussion and getting help from the community.</p></small>
+          </div>
+        </div>
+
+        <div class="card omnetpp-blue accent-4">
+          <div class="card-content white-text white-underlined-link">
+            <span class="card-title">OMNeT++ Summits</span>
+            <p>The <a href="https://summit.omnetpp.org/" target="_blank">OMNeT++ Summit website</a> is a great resource if you want to explore what can be done with the simulator. OMNeT++ Summits are yearly online/offline events where community members present their work. </p>
+            <br/>
+            <p>Past events: 
+              <a href="https://summit.omnetpp.org/2022" target="_blank">2022</a>,
+              <a href="https://summit.omnetpp.org/2021" target="_blank">2021</a>,
+              <a href="https://summit.omnetpp.org/2020" target="_blank">2020</a>,
+              <a href="https://summit.omnetpp.org/2019" target="_blank">2019</a>,
+              <a href="https://summit.omnetpp.org/2018" target="_blank">2018</a>,
+              <a href="https://summit.omnetpp.org/2017" target="_blank">2017</a>,
+              <a href="https://summit.omnetpp.org/2016" target="_blank">2016</a>,
+              <a href="https://summit.omnetpp.org/2015" target="_blank">2015</a>,
+              <a href="https://summit.omnetpp.org/2014" target="_blank">2014</a>,
+              <a href="https://summit.omnetpp.org/2013" target="_blank">2013</a>,
+              <a href="https://summit.omnetpp.org/2012" target="_blank">2012</a>,
+              <a href="https://summit.omnetpp.org/2011" target="_blank">2011</a>,
+              <a href="https://summit.omnetpp.org/2010" target="_blank">2010</a>,
+              <a href="https://summit.omnetpp.org/2009" target="_blank">2009</a>,
+              <a href="https://summit.omnetpp.org/2008" target="_blank">2008</a>.
+            </p>
+            
           </div>
         </div>
 
