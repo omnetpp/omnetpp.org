@@ -134,7 +134,7 @@ MSG:
 
   - Field getters now return `const` reference. Separate `get..ForUpdate()` getters that return non-`const` are generated to cover uses cases when the contained value (typically an object) needs to be modified in-place.
 
-  - Added targeted `cplusplus` blocks, with the syntax of `cplusplus(<target>) {{..}}`. The target can be `h` (the generated header file -- the default), `cc` (the generated C++ file), `<classname>` (content is inserted into the declaration of the type, just before the closing curly bracket), or `<classname>::<methodname>` (content is inserted into the body of the specified method). For the last one, supported methods include the constructor, copy constructor (use `Foo&` as name), destructor, `operator=`, `copy()`, `parsimPack()`, `parsimUnpack()`, etc., and the per-field generated methods (setter, getter, etc.).
+  - Added targeted `cplusplus` blocks, with the syntax of `cplusplus(<target>) { {...} }`. The target can be `h` (the generated header file -- the default), `cc` (the generated C++ file), `<classname>` (content is inserted into the declaration of the type, just before the closing curly bracket), or `<classname>::<methodname>` (content is inserted into the body of the specified method). For the last one, supported methods include the constructor, copy constructor (use `Foo&` as name), destructor, `operator=`, `copy()`, `parsimPack()`, `parsimUnpack()`, etc., and the per-field generated methods (setter, getter, etc.).
 
   - Enum names can now be used as field type name, i.e. `int foo @enum(Foo)` can now be also written as `Foo foo`.
 

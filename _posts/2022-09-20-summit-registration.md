@@ -3,6 +3,7 @@ layout: post
 title: OMNeT++ Online Summit 2022 – Registration Open
 category: Articles
 author: Admin
+published: false
 ---
 
 The registration for the 9th OMNeT++ Community Summit 2022 is now open! The summit starts in:
