@@ -88,10 +88,15 @@ redirect_from: "/index.php/"
             <p><i class="fab fa-stack-overflow"></i>&nbsp;<strong>StackOverflow</strong></p>
               <p>Use the <a href="https://stackoverflow.com/questions/tagged/omnet%2b%2b" target="_blank"><b>omnet++</b></a> tag.</p>
               <small><p>For OMNeT++-related programming questions.</p></small>
-              <p><i class="fas fa-envelope"></i>&nbsp;<strong>Mailing list</strong></p>
+            <p><i class="fas fa-comments"></i>&nbsp;<strong>OMNeT++ Forum</strong></p>
+              <p>Visit the <a href="https://forum.omnetpp.org" target="_blank"><b>OMNeT++ Forum</b></a>.</p>
+              <small><p>For generic discussion, asking for help, etc.</p></small>
+            
+            <p><i class="fas fa-envelope"></i>&nbsp;<strong>Mailing list</strong></p>
               <p><a href="https://groups.google.com/forum/#!forum/omnetpp/join" target="_blank">Subscribe</a>
               &nbsp;/&nbsp;<a href="https://groups.google.com/forum/#!forum/omnetpp" target="_blank">Browse</a></p>
               <small><p>For discussion and getting help from the community.</p></small>
+            
           </div>
         </div>
 
