@@ -6,8 +6,9 @@
 
   ga('create', '{{ site.google_analytics }}', 'auto');
   ga('send', 'pageview');
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QGGDS2R96M"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics4 }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -15,5 +16,4 @@
 
   gtag('config', '{{ site.google_analytics4 }}');
 </script>
-</script>
-  
+
