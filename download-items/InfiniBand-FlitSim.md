@@ -6,7 +6,7 @@ years-active: 2004-2013
 category: models
 tags: model omnetpp4
 keywords: routing
-download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/models/ib_flit_sim.19_03_13.tgz
+download-file-url: https://github.com/omnetpp-models/archive/releases/download/archive/ib_flit_sim.19_03_13.tgz
 ---
 
 This Mellanox-contributed InfiniBand simulation model is modeling the data-path

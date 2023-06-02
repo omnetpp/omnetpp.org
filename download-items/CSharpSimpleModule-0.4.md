@@ -6,7 +6,7 @@ date: 2007-06-11
 category: tools
 tags: tool omnetpp3
 keywords: csharp, c#, language, binding
-download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/tools/csharpsimplemodule-0.4.tbz
+download-file-url: https://github.com/omnetpp-models/archive/releases/download/tools/csharpsimplemodule-0.4.tbz
 ---
 
 This package complements JSimpleModule: while JSimpleModule lets you write

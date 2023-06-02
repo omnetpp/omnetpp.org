@@ -6,7 +6,7 @@ years-active: 2003-2004
 category: models
 tags: model omnetpp2
 keywords: filesystem, performance
-download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/models/FSS-1.1-src.tgz
+download-file-url: https://github.com/omnetpp-models/archive/releases/download/archive/FSS-1.1-src.tgz
 ---
 
 A simulation of the components involved in a file system implementation.
