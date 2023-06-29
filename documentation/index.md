@@ -13,7 +13,7 @@ underMenu: Documentation
 
 * [**TicToc Tutorial**](https://docs.omnetpp.org/tutorials/tictoc/) is an
   introductory tutorial that guides you through the process of constructing and
-  and running simulation models. It starts from a simple model and makes it
+  running simulation models. It starts from a simple model and makes it
   progressively more sophisticated.
 
 ## Documentation
