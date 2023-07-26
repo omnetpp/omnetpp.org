@@ -58,17 +58,19 @@ redirect_from: "/index.php/"
           </div>
         </div>
 
-        <div class="card omnetpp-blue lighten-1">
+        <div class="card omnetpp-blue accent-4">
           <div class="card-content white-text white-underlined-link">
-            <span class="card-title">Staying Informed</span>
-            <!--
-              <p><i class="fab fa-twitter"></i>&nbsp;<a href="https://twitter.com/omnetpp" target="_blank">Follow us on Twitter.</a></p>
-            -->
-            <p><i class="fab fa-youtube"></i>&nbsp;<a href="https://www.youtube.com/channel/UCgLf7rEm3MJiBOC7CiQeZJQ" target="_blank">Subscribe to our channel.</a></p>
-            <p><i class="fab fa-github"></i>&nbsp;<a href="https://github.com/omnetpp/omnetpp" target="_blank">Star the project on GitHub.</a></p>
-            <p><i class="fas fa-envelope"></i>&nbsp;omnetpp-announcements<br>
-              <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements/join" target="_blank">Subscribe</a> &nbsp;/&nbsp;
-              <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements" target="_blank">Web</a></p>
+            <span class="card-title">Asking Questions</span>
+            <p><i class="fas fa-comments"></i>&nbsp;<strong>OMNeT++ Forum</strong></p>
+              <p>Visit the <a href="https://forum.omnetpp.org" target="_blank"><b>OMNeT++ Forum</b></a>.</p>
+              <small><p>For generic discussion, asking for help, etc.</p></small>
+            <p><i class="fab fa-stack-overflow"></i>&nbsp;<strong>StackOverflow</strong></p>
+              <p>Use the <a href="https://stackoverflow.com/questions/tagged/omnet%2b%2b" target="_blank"><b>omnet++</b></a> tag.</p>
+              <small><p>For OMNeT++-related programming questions.</p></small>
+            <p><i class="fas fa-envelope"></i>&nbsp;<strong>Mailing list</strong></p>
+              <p><a href="https://groups.google.com/forum/#!forum/omnetpp/join" target="_blank">Subscribe</a>
+              &nbsp;/&nbsp;<a href="https://groups.google.com/forum/#!forum/omnetpp" target="_blank">Browse</a></p>
+              <small><p>For discussion and getting help from the community.</p></small>
           </div>
         </div>
 
@@ -82,21 +84,17 @@ redirect_from: "/index.php/"
           </div>
         </div>
 
-        <div class="card omnetpp-blue accent-4">
+        <div class="card omnetpp-blue lighten-1">
           <div class="card-content white-text white-underlined-link">
-            <span class="card-title">Asking Questions</span>
-            <p><i class="fab fa-stack-overflow"></i>&nbsp;<strong>StackOverflow</strong></p>
-              <p>Use the <a href="https://stackoverflow.com/questions/tagged/omnet%2b%2b" target="_blank"><b>omnet++</b></a> tag.</p>
-              <small><p>For OMNeT++-related programming questions.</p></small>
-            <p><i class="fas fa-comments"></i>&nbsp;<strong>OMNeT++ Forum</strong></p>
-              <p>Visit the <a href="https://forum.omnetpp.org" target="_blank"><b>OMNeT++ Forum</b></a>.</p>
-              <small><p>For generic discussion, asking for help, etc.</p></small>
-            
-            <p><i class="fas fa-envelope"></i>&nbsp;<strong>Mailing list</strong></p>
-              <p><a href="https://groups.google.com/forum/#!forum/omnetpp/join" target="_blank">Subscribe</a>
-              &nbsp;/&nbsp;<a href="https://groups.google.com/forum/#!forum/omnetpp" target="_blank">Browse</a></p>
-              <small><p>For discussion and getting help from the community.</p></small>
-            
+            <span class="card-title">Staying Informed</span>
+            <!--
+              <p><i class="fab fa-twitter"></i>&nbsp;<a href="https://twitter.com/omnetpp" target="_blank">Follow us on Twitter.</a></p>
+            -->
+            <p><i class="fab fa-youtube"></i>&nbsp;<a href="https://www.youtube.com/channel/UCgLf7rEm3MJiBOC7CiQeZJQ" target="_blank">Subscribe to our channel.</a></p>
+            <p><i class="fab fa-github"></i>&nbsp;<a href="https://github.com/omnetpp/omnetpp" target="_blank">Star the project on GitHub.</a></p>
+            <p><i class="fas fa-envelope"></i>&nbsp;omnetpp-announcements<br>
+              <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements/join" target="_blank">Subscribe</a> &nbsp;/&nbsp;
+              <a href="https://groups.google.com/forum/#!forum/omnetpp-announcements" target="_blank">Web</a></p>
           </div>
         </div>
 
