@@ -8,7 +8,7 @@ logo-tooltip: INET Framework - Internet, LAN and MANET protocols
 sortkey: "01"
 years-active: 2003-
 category: models
-tags: featured model framework inet4 inet3 inet2 inet1 omnetpp5 omnetpp4 omnetpp3
+tags: featured model framework inet4 inet3 inet2 inet1 omnetpp6 omnetpp5 omnetpp4 omnetpp3
 keywords: tcp/ip, internet, lan, wan, manet, ad hoc, mobility, wpan, wsn, sensor, wireless, routing, ipv6, mipv6, diffserv, mpls, voip, ospf, bgp, rip, aodv, dsdv, dymo, gpsr, pim, ethernet, vlan, wifi, 802.11, 802.1d, 802.1q, 802.15.4, sensor mac, low-power mac
 github-url: https://github.com/inet-framework/inet/releases
 website-url: https://inet.omnetpp.org/

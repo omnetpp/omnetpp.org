@@ -4,7 +4,7 @@ layout: download-details
 title: FLoRa - Framework for LoRa
 years-active: 2017-
 category: models
-tags: model inet3 omnetpp5
+tags: model inet4 inet3 omnetpp6 omnetpp5
 keywords: iot, lora, wsn, sensor, wireless
 website-url: https://flora.aalto.fi
 github-url: https://github.com/florasim/flora
