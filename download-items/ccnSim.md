@@ -6,7 +6,7 @@ years-active: 2013-2018
 category: models
 tags: model omnetpp4
 keywords: web, caching
-website-url: https://perso.telecom-paristech.fr/drossi/code/ccnSim/
+website-url: https://nonsns.github.io/code/ccnSim/
 github-url: https://github.com/TeamRossi/ccnSim-0.4
 ---
 
@@ -35,6 +35,8 @@ ccnSim features three simulation engines:
   catalog over multiple cores. In contrast to network slicing, which would incur
   significant MPI overhead, the new technique exhibits an ideal speedup in the
   number of cores, which justify the above speedups).
+
+Parallel version: <https://github.com/TeamRossi/ccnSim-0.4-Parallel>
 
 Paper: Chiocchetti, Raffaele, Rossi, Dario and Rossini, Giuseppe, "ccnSim: an
 Highly Scalable CCN Simulator." In IEEE International Conference on

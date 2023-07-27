@@ -23,6 +23,6 @@ Technology (FCT) under the doctoral grant (SFRH/BD/61676/2009).
 *Update:* The project's [original web site](http://www.dcc.fc.up.pt/~rjf/vns/) has been
 unavailable since the author's home directory was deleted from the university server a few
 years ago. Git repositories are still available at the URLs below.
-- https://github.com/enriquefynn/libvns/
-- https://code.google.com/archive/p/libvns-omnetpp/
-- https://code.google.com/archive/p/libvns-ns3/
+- <https://github.com/enriquefynn/libvns/>
+- <https://code.google.com/archive/p/libvns-omnetpp/>
+- <https://code.google.com/archive/p/libvns-ns3/>

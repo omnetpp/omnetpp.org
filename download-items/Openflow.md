@@ -26,9 +26,9 @@ OMNeT++ 4.2.
 Porting to newer OMNeT++ and INET versions has been done by other teams in forked
 GitHub repositories:
 
-* https://github.com/inet-framework/openflow (semi-official)
-* https://github.com/CoRE-RG/openflow (OMNeT++ 5.5.1 and INET 3.6.6, also extended for use with CoRE models)
-* https://github.com/danhld/openflow (OMNeT++ 5.1 and INET-3.6.0)
+* <https://github.com/inet-framework/openflow> (semi-official)
+* <https://github.com/CoRE-RG/openflow> (OMNeT++ 5.5.1 and INET 3.6.6, also extended for use with CoRE models)
+* <https://github.com/danhld/openflow> (OMNeT++ 5.1 and INET-3.6.0)
 
 
 Original authors: Dominik Klein Michael Jarschel, Chair of Communication Networks (Informatik III),

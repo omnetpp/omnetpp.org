@@ -10,7 +10,7 @@ github-url: https://github.com/badapplexx/AFDX
 ---
 
 - The model contains only the MAC layer implementation, higher layer functions are not implemented.
-- This version is based on https://github.com/omnetpp-models/afdx
+- This version is based on <https://github.com/omnetpp-models/afdx>
 
 IMPROVEMENTS OVER LEGACY VERSION:
 
@@ -21,7 +21,7 @@ IMPROVEMENTS OVER LEGACY VERSION:
 - Integrity checking is improved
 - Multiple message source support is added with capability of customisable data rate
 - Token-bucket algorithm is added for traffic policing
-- VL-Router is updated to be using a text file as a routing table 
+- VL-Router is updated to be using a text file as a routing table
 - Simulation is updated to make it possible to modify the behaviour of the simulation and topology from *.ini file
 - New records are added to most essential blocks and a new class called NetworkStatistics is added to take care of the records
 
