@@ -9,16 +9,13 @@ category: omnetpp
 more-url: /software/2012/01/18/omnet-421-released
 tabs:
 - id: linux
-  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz
-  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.2.1/omnetpp-4.2.1-src.tgz
 
 - id: windows
-  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src-windows.zip
-  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src-windows.zip
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.2.1/omnetpp-4.2.1-src-windows.zip
 
 - id: macos
-  download-file-url: https://gateway.ipfs.io/ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz
-  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.2.1/omnetpp-4.2.1-src.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.2.1/omnetpp-4.2.1-src.tgz
 ---
 
 We're happy to announce the release of OMNeT++ 4.2.1, a maintenance release of

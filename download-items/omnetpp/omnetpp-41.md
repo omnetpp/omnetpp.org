@@ -10,15 +10,12 @@ more-url: /software/2010/06/13/omnet-41-released
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.1/omnetpp-4.1-src.tgz
-  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src.tgz
 
 - id: windows
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.1/omnetpp-4.1-src-windows.zip
-  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src-windows.zip
 
 - id: macos
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.1/omnetpp-4.1-src.tgz
-  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.1/omnetpp-4.1-src.tgz
 ---
 
 This is the 4.1 release of the OMNeT++ platform. This package is for Windows,

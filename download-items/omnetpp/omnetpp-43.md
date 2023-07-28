@@ -10,15 +10,12 @@ more-url: /software/2013/04/02/omnet43release
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.3/omnetpp-4.3-src.tgz
-  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
 
 - id: windows
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.3/omnetpp-4.3-src-windows.zip
-  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src-windows.zip
 
 - id: macos
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.3/omnetpp-4.3-src.tgz
-  ipfs: ipfs get /ipns/ipfs.omnetpp.org/release/4.3/omnetpp-4.3-src.tgz
 ---
 
 This release contains several bugfixes and usability improvements compared to
