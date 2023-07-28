@@ -14,7 +14,7 @@ excerpt: "<p>We are happy to announce the latest stable version of the INET Fram
   open-source communication networks simulation package for the OMNeT++ simulation
   environment. It contains models for several wired and wireless networking protocols,
   including UDP, TCP, SCTP, IP, IPv6, Ethernet, PPP, 802.11, MPLS, OSPF, and many
-  others.</p>\r\n<p>Visit the INET Framework website to <a href=\"http://inet.omnetpp.org/index.php?n=Main.Download\"
+  others.</p>\r\n<p>Visit the INET Framework website to <a href=\"https://github.com/inet-framework/inet/releases\"
   target=\"_blank\">download it</a>.</p>"
 category: Software
 ---
@@ -27,4 +27,4 @@ category: Software
 <li>Fixed non-conformant 802.11 WAITACK timeout computation</li>
 </ul>
 <p>INET is an open-source communication networks simulation package for the OMNeT++ simulation environment. It contains models for several wired and wireless networking protocols, including UDP, TCP, SCTP, IP, IPv6, Ethernet, PPP, 802.11, MPLS, OSPF, and many others.</p>
-<p>Visit the INET Framework website to <a href="http://inet.omnetpp.org/index.php?n=Main.Download" target="_blank">download it</a>.</p>
+<p>Visit the INET Framework website to <a href="https://github.com/inet-framework/inet/releases" target="_blank">download it</a>.</p>

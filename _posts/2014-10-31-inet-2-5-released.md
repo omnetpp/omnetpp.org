@@ -10,7 +10,7 @@ excerpt: "<p>We are happy to announce the latest stable version of the INET Fram
   C++11.</p>\r\n<div>\r\n<div>\r\n<ul>\r\n<li>made the codebase compile in C++11 mode.
   (required by OMNeT++ 4.6)</li>\r\n<li>added netperfmeter application by Thomas Dreibholz</li>\r\n</ul>\r\n</div>\r\n<div>If
   you are using OMNeT++ 4.6 or later, you must upgrade to INET 2.5. Visit the INET
-  Framework website to <a href=\"http://inet.omnetpp.org/index.php?n=Main.Download\"
+  Framework website to <a href=\"https://github.com/inet-framework/inet/releases\"
   target=\"_blank\">download it</a>.</div>\r\n</div>"
 category: Software
 ---
@@ -22,5 +22,5 @@ category: Software
 <li>added netperfmeter application by Thomas Dreibholz</li>
 </ul>
 </div>
-<div>If you are using OMNeT++ 4.6 or later, you must upgrade to INET 2.5. Visit the INET Framework website to <a href="http://inet.omnetpp.org/index.php?n=Main.Download" target="_blank">download it</a>.</div>
+<div>If you are using OMNeT++ 4.6 or later, you must upgrade to INET 2.5. Visit the INET Framework website to <a href="https://github.com/inet-framework/inet/releases" target="_blank">download it</a>.</div>
 </div>

@@ -12,7 +12,7 @@ excerpt: "<p>We are happy to announce the INET Framework 2.2 release. INET is an
   version introduces support for simulating node shutdown, crash and restart; adds
   TCP Vegas and Westwood, IdealWirelessNic, and new SCTP protocol features; and contains
   many other improvements and bug fixes. \r\n</p>\r\n\r\n<p>Visit the INET Framework
-  website to <a href=\"http://inet.omnetpp.org/index.php?n=Main.Download\" mce_href=\"http://inet.omnetpp.org/index.php?n=Main.Download\">download
+  website to <a href=\"https://github.com/inet-framework/inet/releases\" mce_href=\"https://github.com/inet-framework/inet/releases\">download
   it</a>.<br /></p>"
 category: Software
 ---
@@ -20,4 +20,4 @@ category: Software
 This version introduces support for simulating node shutdown, crash and restart; adds TCP Vegas and Westwood, IdealWirelessNic, and new SCTP protocol features; and contains many other improvements and bug fixes.
 </p>
 
-<p>Visit the INET Framework website to <a href="http://inet.omnetpp.org/index.php?n=Main.Download" mce_href="http://inet.omnetpp.org/index.php?n=Main.Download">download it</a>.<br /></p>
+<p>Visit the INET Framework website to <a href="https://github.com/inet-framework/inet/releases" mce_href="https://github.com/inet-framework/inet/releases">download it</a>.<br /></p>
