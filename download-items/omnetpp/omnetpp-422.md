@@ -19,6 +19,5 @@ tabs:
 ---
 
 This is the second maintenance release of version 4.2 of the OMNeT++ platform.
-See the bugtracker for fixed bugs. Please check the Visual ChangeLog and the
-list of all changes since 4.1 (click 'more'). Detailed installation
-instructions: Install Guide (pdf).
+See the bugtracker for fixed bugs. Click More to see the Visual ChangeLog and the
+list of all changes since 4.1.
