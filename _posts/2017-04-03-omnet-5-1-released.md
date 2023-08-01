@@ -428,5 +428,4 @@ outputscalarmanager-class="omnetpp::envir::SqliteOutputScalarManager"</pre>
 </ul>
 </div>
 </div>
-</div>
 <p>Check also the <a href="https://dev.omnetpp.org/bugs/changelog_page.php" target="_blank">bugtracker</a> to see other bugs fixed.</p>
