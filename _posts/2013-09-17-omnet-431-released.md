@@ -10,12 +10,12 @@ excerpt: 'OMNeT++ 4.3.1 is now available for download. With this update, we made
   the IDE shows some useful bits of information, and also offers installing the INET
   Framework. In addition, the update also contains some bug fixes and smaller improvements
   to the Simulation IDE. There is no change in the simulation kernel and tools. Read
-  the ChangeLog (after the More link) for details, or <a href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases"
-  mce_href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases">go
+  the ChangeLog (after the More link) for details, or <a href="/download/old"
+  mce_href="/download/old">go
   directly to the download page</a>.<br />'
 category: Software
 ---
-OMNeT++ 4.3.1 is now available for download. With this update, we made it a lot easier for first-time users to get started with OMNeT++: on the first startup, the IDE shows some useful bits of information, and also offers installing the INET Framework. In addition, the update also contains some bug fixes and smaller improvements to the Simulation IDE. There is no change in the simulation kernel and tools. Read the ChangeLog (after the More link) for details, or <a href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases" mce_href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases">go directly to the download page</a>.<br /><br />The IDE was made more friendly to first-time users:<br />
+OMNeT++ 4.3.1 is now available for download. With this update, we made it a lot easier for first-time users to get started with OMNeT++: on the first startup, the IDE shows some useful bits of information, and also offers installing the INET Framework. In addition, the update also contains some bug fixes and smaller improvements to the Simulation IDE. There is no change in the simulation kernel and tools. Read the ChangeLog (after the More link) for details, or <a href="/download/old" mce_href="/download/old">go directly to the download page</a>.<br /><br />The IDE was made more friendly to first-time users:<br />
 <ul>
 <li>When the IDE is started with an empty workspace (e.g. on first-time launch), it offers the user the following options: (1) Import the OMNeT++ sample simulations into the workspace; and (2) Download and install the INET Framework.</li>
 <li>The latter function is also available via the Help &gt; Install Simulation Models... menu item. The menu item brings up a dialog with the list of simulation models available for automated installation, and lets the user choose. Currently only the INET Framework is listed there, but it is planned to add further models.</li>

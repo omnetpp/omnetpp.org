@@ -9,12 +9,12 @@ excerpt: "<div>\r\nDear everybody, we're happy to announce the release of OMNeT+
   4.2. Please read the ChangeLog (below) to see what has changed since the 4.1 version
   and check&nbsp;the <a href=\"doc/omnetpp/ide-changelog/ide-changelog.html\" mce_href=\"doc/omnetpp/ide-changelog/ide-changelog.html\"
   target=\"_blank\">Visual ChangeLog</a>&nbsp;to see the changes in the IDE.&nbsp;<a
-  href=\"http://omnetpp.org/component/docman/cat_view/1-omnet-releases\" mce_href=\"http://omnetpp.org/component/docman/cat_view/1-omnet-releases\"
+  href=\"/download/old\" mce_href=\"/download/old\"
   target=\"_self\">Download it now</a>.\r\n</div>"
 category: Software
 ---
 <div>
-Dear everybody, we're happy to announce the release of OMNeT++ 4.2. Please read the ChangeLog (below) to see what has changed since the 4.1 version and check&nbsp;the <a href="doc/omnetpp/ide-changelog/ide-changelog.html" mce_href="doc/omnetpp/ide-changelog/ide-changelog.html" target="_blank">Visual ChangeLog</a>&nbsp;to see the changes in the IDE.&nbsp;<a href="http://omnetpp.org/component/docman/cat_view/1-omnet-releases" mce_href="http://omnetpp.org/component/docman/cat_view/1-omnet-releases" target="_self">Download it now</a>.
+Dear everybody, we're happy to announce the release of OMNeT++ 4.2. Please read the ChangeLog (below) to see what has changed since the 4.1 version and check&nbsp;the <a href="doc/omnetpp/ide-changelog/ide-changelog.html" mce_href="doc/omnetpp/ide-changelog/ide-changelog.html" target="_blank">Visual ChangeLog</a>&nbsp;to see the changes in the IDE.&nbsp;<a href="/download/old" mce_href="/download/old" target="_self">Download it now</a>.
 </div>
 
 

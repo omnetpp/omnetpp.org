@@ -10,12 +10,12 @@ excerpt: <p>OMNeT++ 4.3 final version is now available for download. This releas
   improvements, indexing of big C++ projects got considerably faster and it is now
   possible to create scalar statistics from other statistic values. Read the ChangeLog
   (after the More link) to see the complete list what 4.3 has to offer compared to
-  version 4.2 or <a href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases"
-  mce_href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases">go
+  version 4.2 or <a href="/download/old"
+  mce_href="/download/old">go
   directly to the download page</a> and test it.</p><div>
 category: Software
 ---
-<p>OMNeT++ 4.3 final version is now available for download. This release contains several bugfixes and usability improvements compared to 4.2.2. Among other improvements, indexing of big C++ projects got considerably faster and it is now possible to create scalar statistics from other statistic values. Read the ChangeLog (after the More link) to see the complete list what 4.3 has to offer compared to version 4.2 or <a href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases" mce_href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases">go directly to the download page</a> and test it.</p><div><p>IDE:</p></div><div class="sectionbody">
+<p>OMNeT++ 4.3 final version is now available for download. This release contains several bugfixes and usability improvements compared to 4.2.2. Among other improvements, indexing of big C++ projects got considerably faster and it is now possible to create scalar statistics from other statistic values. Read the ChangeLog (after the More link) to see the complete list what 4.3 has to offer compared to version 4.2 or <a href="/download/old" mce_href="/download/old">go directly to the download page</a> and test it.</p><div><p>IDE:</p></div><div class="sectionbody">
 <div class="ulist"><ul>
 <li>
 <p>

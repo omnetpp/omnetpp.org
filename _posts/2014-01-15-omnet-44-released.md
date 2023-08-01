@@ -10,12 +10,12 @@ excerpt: OMNeT++ 4.4 is now available for download.&nbsp;The focus of this updat
   It also introduces features that help you debug and verify your simulation models
   more efficiently.&nbsp;In addition, the update also contains some bug fixes and
   smaller improvements to the Simulation IDE and to the graphical runtime environment.
-  Read the ChangeLog (after the More link) for details, or <a href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases"
-  mce_href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases">go
+  Read the ChangeLog (after the More link) for details, or <a href="/download/old"
+  mce_href="/download/old">go
   directly to the download page</a>.<br />
 category: Software
 ---
-OMNeT++ 4.4 is now available for download.&nbsp;The focus of this update is to improve compatibility with the latest operating system and compilers releases. It also introduces features that help you debug and verify your simulation models more efficiently.&nbsp;In addition, the update also contains some bug fixes and smaller improvements to the Simulation IDE and to the graphical runtime environment. Read the ChangeLog (after the More link) for details, or <a href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases" mce_href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases">go directly to the download page</a>.<br />
+OMNeT++ 4.4 is now available for download.&nbsp;The focus of this update is to improve compatibility with the latest operating system and compilers releases. It also introduces features that help you debug and verify your simulation models more efficiently.&nbsp;In addition, the update also contains some bug fixes and smaller improvements to the Simulation IDE and to the graphical runtime environment. Read the ChangeLog (after the More link) for details, or <a href="/download/old" mce_href="/download/old">go directly to the download page</a>.<br />
 
 <div class="sectionbody">
 <div class="paragraph"><p>Sim:</p></div>

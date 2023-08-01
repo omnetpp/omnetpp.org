@@ -11,13 +11,13 @@ excerpt: "<div>\r\nWe're happy to announce the release of OMNeT++ 4.2.1, a maint
   only. Read the ChangeLog (after the More link) to see what 4.2.1/4.2 has to offer
   compared to version 4.1; also check&nbsp;the <a href=\"doc/omnetpp/ide-changelog/ide-changelog.html\"
   mce_href=\"doc/omnetpp/ide-changelog/ide-changelog.html\" target=\"_blank\">Visual
-  ChangeLog</a>&nbsp;to see the changes in the IDE.&nbsp;<a href=\"http://omnetpp.org/component/docman/cat_view/1-omnet-releases\"
-  mce_href=\"http://omnetpp.org/component/docman/cat_view/1-omnet-releases\" target=\"_self\">Download
+  ChangeLog</a>&nbsp;to see the changes in the IDE.&nbsp;<a href=\"/download/old\"
+  mce_href=\"/download/old\" target=\"_self\">Download
   link</a>.\r\n</div>"
 category: Software
 ---
 <div>
-We're happy to announce the release of OMNeT++ 4.2.1, a maintenance release of OMNeT++ 4.2. This release contains <a href="http://tinyurl.com/omnetpp421-fixes" mce_href="http://tinyurl.com/omnetpp421-fixes" target="_blank">bug fixes</a> only. Read the ChangeLog (after the More link) to see what 4.2.1/4.2 has to offer compared to version 4.1; also check&nbsp;the <a href="doc/omnetpp/ide-changelog/ide-changelog.html" mce_href="doc/omnetpp/ide-changelog/ide-changelog.html" target="_blank">Visual ChangeLog</a>&nbsp;to see the changes in the IDE.&nbsp;<a href="http://omnetpp.org/component/docman/cat_view/1-omnet-releases" mce_href="http://omnetpp.org/component/docman/cat_view/1-omnet-releases" target="_self">Download link</a>.
+We're happy to announce the release of OMNeT++ 4.2.1, a maintenance release of OMNeT++ 4.2. This release contains <a href="http://tinyurl.com/omnetpp421-fixes" mce_href="http://tinyurl.com/omnetpp421-fixes" target="_blank">bug fixes</a> only. Read the ChangeLog (after the More link) to see what 4.2.1/4.2 has to offer compared to version 4.1; also check&nbsp;the <a href="doc/omnetpp/ide-changelog/ide-changelog.html" mce_href="doc/omnetpp/ide-changelog/ide-changelog.html" target="_blank">Visual ChangeLog</a>&nbsp;to see the changes in the IDE.&nbsp;<a href="/download/old" mce_href="/download/old" target="_self">Download link</a>.
 </div>
 
 

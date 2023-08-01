@@ -11,12 +11,12 @@ excerpt: 'OMNeT++ 4.4.1 is now available for download.&nbsp;<span style="color: 
   4.4 was to improve compatibility with the latest operating system and compilers
   releases. It also introduced features that help you debug and verify your simulation
   models more efficiently.</span>&nbsp;Read the ChangeLog (after the More link) for
-  details, or <a href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases"
-  mce_href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases">go
+  details, or <a href="/download/old"
+  mce_href="/download/old">go
   directly to the download page</a>.<br />'
 category: Software
 ---
-OMNeT++ 4.4.1 is now available for download.&nbsp;<span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: 13.333333015441895px; line-height: 16px;">This is a bugfix release for OMNeT++ 4.4. The focus of version 4.4 was to improve compatibility with the latest operating system and compilers releases. It also introduced features that help you debug and verify your simulation models more efficiently.</span>&nbsp;Read the ChangeLog (after the More link) for details, or <a href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases" mce_href="http://omnetpp.org/component/docman/cat_view/17-downloads/1-omnet-releases">go directly to the download page</a>.<br />
+OMNeT++ 4.4.1 is now available for download.&nbsp;<span style="color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: 13.333333015441895px; line-height: 16px;">This is a bugfix release for OMNeT++ 4.4. The focus of version 4.4 was to improve compatibility with the latest operating system and compilers releases. It also introduced features that help you debug and verify your simulation models more efficiently.</span>&nbsp;Read the ChangeLog (after the More link) for details, or <a href="/download/old" mce_href="/download/old">go directly to the download page</a>.<br />
 
 <div class="sectionbody">
 <div class="paragraph"><p>Sim:</p></div>
