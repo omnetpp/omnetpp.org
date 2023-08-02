@@ -1,721 +1,980 @@
 ---
 layout: page
-title: What's New in OMNeT++/OMNEST 5.3
+title: null
 ---
-## Qtenv
 
-### Enhanced Histogram Inspectors
-
-Histogram inspector windows now show the lower and upper outliers as extra bins (gray). Setting up the bins while in the precollection phase can be forced from the toolbar.
-
-<img src="images/53-qtenv-histogram.png" width="500">
-
-### Improved Message Printer API
-
-The Message Printer API was enhanced to allow the Message Log window to display info in multiple columns.
-
-<img src="images/53-qtenv-message-printer.png" width="700">
-
-### Message Printer Configuration
-
-Columns in the Message Log window and other options can be turned on/off using a new configuration dialog.
-
-<img src="images/53-qtenv-message-printer-config.png" width="300">
-
-### ANSI Control Sequence Support
-
-Qtenv now supports ANSI control sequences for text styling: foreground/background color, and bold/italic/underline text. Styling is supported in both Message History view and Log view.
-
-<img src="images/53-qtenv-logformatting.png" width="500">
-
-### Inspector Packet Mode
-
-The Object Inspector has a new mode called Packet mode. Packet mode only shows fields that are considered packet content. You can mark fields as packet content by adding the
-
-@packetData
-
-property to the field in the message file.
-
-<img src="images/53-qtenv-packet-mode-inspector.png" width="600">
-
-### Improved Animation
-
-The controller for smooth animation has been rewritten. The new algorithm is now able to scale linearly, as long as the simulation can keep up. The usability of the Animation Parameters dialog has also been improved: now it also displays the current simulation speed. The speed display is colored red if the simulation cannot keep up with the requested animation speed.
-
-<img src="images/53-qtenv-animcontrols.png" width="250">
-
-# What's New in OMNeT++/OMNEST 5.2
-
-## Qtenv
-
-### Enhanced Animation Parameters Dialog
-
-Improved the appearance and usability of the Animation Parameters dialog.
-
-<img src="images/52-qtenv-animcontrols.png" width="600">
-
-## IDE
-
-### Automatic Configuration Switching on Launch
-
-The launcher now switches the project (and optionally all projects it depends on) to the appropriate build configuration if necessary: Run and Profile will perform RELEASE build, Debug will perform DEBUG build.
-
-<img src="images/52-ide-switchconfig.png" width="500">
-
-### Build Before Launch Configuration
-
-A new "Build before launch" section was added to the Launch config dialog, which allows you to control whether to switch build configuration automatically or to ask before the build. The scope of build can also configured; options are: "None", "This project", or "Project + dependencies".
-
-<img src="images/52-ide-buildbeforelaunch.png" width="800">
-
-### Better Progress Reporting
-
-Better progress reporting and cancellation for batch runs in the Progress View: It is now possible to cancel either individual runs or the whole batch.
-
-<img src="images/52-ide-progress.png" width="800">
-
-### Statistics Data in the Analysis Tool
-
-The Histograms tab on the Browse Data page now includes "statistics"- type results as well.  Additional columns on the page: "Kind", "SumWeights", "#Bins", "Hist.Range". "Kind" indicates whether a result item is a "statistic" or a "histogram", and whether it is weighted or unweighted.
-
-<img src="images/52-ide-histograms.png" width="800">
-
--------------------------------------------------------------
-
-# What's New in OMNeT++/OMNEST 5.1
-
-## Qtenv
-
-### Updated Toolbar
-
-The simulation time display now has digit grouping and units turned on by default for better readability. Settings can be changed in the context menu.
-
-<img src="images/51-qtenv-toolbar.png" width="800">
-
-### Packet Animation Support
-
-Improvements on built-in animations: Messages sent with a nonzero propagation delay are now animated properly (not instantaneously). Packets of nonzero length are now displayed as "strips" when transmitted on a link with a transmission rate and propagation delay. The animation of method call hierarchies now represents the call graph better.
-
-<img src="images/51-qtenv-anim1.png" width="800">
-
-### Smooth Animation API
-
-Added support for smooth custom animations. This means that simulation time is interpolated between events, and the animation can be stopped between events. The updated 'aloha' example highlights the use of the new smooth animation API. The server and all hosts now have fixed positions (still random but deterministic, and not using auto-layouting), so that their individual propagation delays can be computed. Each transmitted packet is visualized with a ring and many concentric circles, illustrating the propagation of the electromagnetic wave. The visualization is faithful, e.g. multiple signals visually overlapping at a receiver actually means a collision.
-
-<img src="images/51-qtenv-anim2.png" width="500">
-
-### Animation Parameters
-
-A new 'Animation Parameters' window has been added where one can view the current animation speed, framerate, and other metrics.
-
-<img src="images/51-qtenv-animcontrols.png" width="800">
-
-### Video Recording Support
-
-Added built-in support to record animation into a high quality video. Press the record button on the toolbar for instructions.
-
-<img src="images/51-qtenv-videorecording.png" width="600">
-
-### Histogram Inspectors
-
-Added graphical inspectors for histograms. They are enabled for any cStatistic-based histogram objects, i.e. they are currently not available for @statistic-based output histograms.
-
-<img src="images/51-qtenv-histograms.png" width="800">
-
-### Vector Inspectors
-
-Added graphical inspectors for output vectors.
-
-<img src="images/51-qtenv-vectors.png" width="800">
-
-## IDE
-
-### IDE Launcher
-
-In the Run/Debug Configurations dialog, the "OMNeT++ Simulation" form page has been revised for usability and to better support simulation campaigns. The launcher (code that schedules and actually runs the simulations and arranges feedback in the Progress view and the Console) has also been improved: The "Runs" form field now accepts a run filter expression that can refer to iteration variables. Batch execution of simulations is now controlled with two new spinner widgets ("Number of CPUs to use", "Runs per process".) The form page now allows specifying time limits for the simulation ("Simulation time limit", "CPU time limit" fields.) User interface selection uses an editable combo instead of radio buttons. Added content assist for Additional Arguments field and finally, the radio buttons have been replaced by tri-state checkboxes (with on/off/grayed states, where the grayed state means "no setting specified, let the inifile setting take effect".) The consequent space saving allowed other options to be added to the form page: "Verbose", "Stop batch on error", "Express mode", "Save stdout", "Record scalar results", "Record vector results","Record eventlog".
-
-<img src="images/51-ide-launcher.png" width="800">
-
--------------------------------------------------------------
-
-# What's New in OMNeT++/OMNEST 5.0
-
-## Tkenv
-
-### Improved Status Area
-
-The status area has been redesigned. The most prominent feature is the large displays showing the simulation time and event number on the right side of the toolbar. They display the last event when the simulation is not running, and the current event during animation. The status line below the toolbar shows information about the next event. When the simulation is running, this area switches to displaying performance data such as the current event/second value. Additional, more static or less important information has been moved to the bottom status bar.
-
-<img src="images/50-tkenv-status-area.png" width="800">
-
-### Tkenv Canvas Support
-
-Tkenv has gained support for the Canvas API, a new facility that allows one to augment simulations with graphical elements. The screenshot is from the new Canvas example simulation.
-
-<img src="images/50-tkenv-canvas.png" width="800">
-
-## Qtenv
-
-### Qtenv - A New Qt-Based Runtime Environment
-
-Qtenv has been introduced to replace the aging Tcl/Tk-based runtime environment. The Qt toolkit provides better look and feel, a richer set of features, and at the same time delivers superior performance. In 5.0, the default runtime is still Tkenv, but users can optionally start the new runtime with Qtenv. This can be achieved by adding the "-u Qtenv" option on the command line, or by selecting Qtenv in the simulation's Run/Debug configuration in IDE.
-
-<img src="images/50-qtenv-window.png" width="800">
-
-### 3D Visualization Using OpenSceneGraph and osgEarth
-
-Qtenv also allows one to visualize 3D scenes using the OpenSceneGraph and osgEarth libraries, a feature that could not be implemented using Tcl/Tk. One can switch between the 3D visualization and the traditional (2D) graphics using the module inspector's local toolbar. The screenshot shows one of the new example simulations.
-
-<img src="images/50-qtenv-3d.png" width="800">
-
-## IDE
-
-### Updated Eclipse Platform
-
-The IDE is now based on Eclipse 4.4.2 Luna and CDT 8.6.
-
-<img src="images/50-eclipse-platform.png" width="500">
-
-# What's New in OMNeT++/OMNEST 4.6
-
-## Tkenv
-
-### Improved zooming/panning support
-
-Use double click to zoom in around a point, and Shift + double click to zoom out. Use Ctrl + left mouse button to drag out a rectangle to zoom to (a.k.a. marquee zoom); right-click cancels marquee zoom. Use left mouse button for panning.
-
-<img src="images/46-tkenv-marquee-zoom.png" width="500">
-
-## IDE
-
-### Updated Eclipse Platform
-
-The IDE is now based on Eclipse 4.4 Luna and CDT 8.4.
-
-<img src="images/46-eclipse-platform.png" width="500">
-
-# What's New in OMNeT++/OMNEST 4.5
-
-## Tkenv
-
-### Tkenv Usability Improvements
-
-The Tkenv GUI has been redesigned for single-window mode to improve usability and user experience. New inspector windows can still be opened, and they are kept always above the main window.
-
-![Image](images/45-single-window.png)
-
-### New Look and Feel
-
-Tkenv has also received a new, modern look and feel, due to the use of the Ttk widgets and a custom Ttk theme. This makes a huge difference in looks on all platforms, but especially on OS X. See before (left) and after (right) screenshots.
-
-![Image](images/45-newtheme.png)
-
-### Inspector Navigation History
-
-Inspectors are no longer tied to a single object and visited objects are remembered as navigable history (back/forward/up). Local toolbars were added to the upper right corner of the inspectors with navigation and other context aware actions.
-
-![Image](images/45-inspector-nav.png)
-
-### New Message Tracing
-
-Tkenv now stores message sendings and also a clone of corresponding message objects (cMessage), and can show them in the log window. Message printer classes can be contributed to customize the content of the log lines. Switching between the module log and the message trace is possible using the local toolbar in the log inspector window.
-
-![Image](images/45-message-trace.png)
-
-### Optimized Status Area
-
-The status area is more concise now (two rows instead of three), and shows more information at the same time. A part of the status area can be turned off to free up vertical space (Ctrl+D).
-
-![Image](images/45-status-area.png)
-
-### Main Menu Cleanup
-
-We have reorganized the main menu, removed obsolete menu items and added numerous smaller improvements: additional hotkeys (Ctrl+Plus/Minus for Zoom, Ctrl+F5 Run Until, Ctrl+Q Quit); on-demand scrollbars (i.e. they are hidden when not needed); module graphics now remembers zoom level and settings per NED type; etc.
-
-![Image](images/45-menu-cleanup.png)
-
-# What's New in the OMNeT++/OMNEST 4.4 IDE
-
-## Tkenv
-
-### Animation Filtering
-
-This feature makes it possible to suppress animation of messages that you are not interested in (e.g. WLAN ACK frames, ARP exchanges, etc). Just right-click the message (either on the canvas or on the timeline), and choose "Exclude messages like '...' from animation" from the context menu. The filters can also be edited in the Simulation Options dialog.
-
-![Image](images/44-tkenv-anim-filter.png)
-
-### Debug Next Event (Ctrl+F9)
-
-This function causes the simulation program to stop in the debugger just before entering the handleMessage() call. You just need to hit "Step Into" in your debugger to debug that event.
-
-![Image](images/44-tkenv-debug-next-event.png)
-
-## IDE
-
-### Based on Eclipse 4
-
-The IDE is now based on Eclipse 4.3.1 (Kepler) and CDT 8.2.1.
-
-![Image](images/44-eclipse-platform.png)
-
-### Project-Specific Icons
-
-Images from the "images/" folder of the project and its dependencies are automatically used by the NED editor, and added to the Tkenv image path when the simulation is launched. (The per-project image path will be configurable in future versions.)
-
-![Image](images/44-project-images.png)
-
-### Attach external debugger on error
-
-The simulation kernel can invoke an external debugger on an error. The Ini file editor allows you to specify the options related to the just-in-time debugging feature.
-
-![Image](images/44-ini-attach-debugger.png)
-
-# What's New in the OMNeT++/OMNEST 4.3.1 IDE
-
-## More friendly to first-time users
-
-### "First Steps" Dialog
-
-When the IDE is started with an empty workspace (e.g. on first-time launch), it offers the user the following options: (1) Import the OMNeT++ sample simulations into the workspace; and (2) Download and install the INET Framework.
-
-![Image](images/431-first-steps-dialog.png)
-
-### "Install Simulation Models" Dialog
-
-INET installation is also available from the menu. It brings up a dialog with the list of simulation models available for automated installation, and lets the user choose. Currently only the INET Framework is listed there, but it is planned to add further models
-
-![Image](images/431-install-models-dialog.png)
-
-### Intro Pages
-
-When the IDE is started for the first time, it now displays some helpful introductory pages in the editor area: "Getting Started", "At a Glance" , "OMNeT++ Samples", etc. These pages are also available from the Help system (except the last one, which has a dedicated menu item in the Help menu.)
-
-![Image](images/431-intro-pages.png)
-
-## Further IDE improvements
-
-### More Usable Filter Hints
-
-In the Analysis Tool, if you filter for the module, hints for the statistic name filter will only show statistics recorded by that module. (In general, filter hints for a combo are now computed from the result items filtered by the other combos.)
-
-![Image](images/431-ana-filter-hints.png)
-
-### More Accessible "Go to" Actions
-
-In the Output Vector View (Analysis Tool), "Go to" actions are now shown in the context menu instead of the view's pulldown menu.
-
-![Image](images/431-ana-goto-actions.png)
-
-### Launching Improvement
-
-Trying to launch a closed project will now offer opening it.
-
-![Image](images/431-launching.png)
-
-# What's New in the OMNeT++/OMNEST 4.3 IDE
-
-### Computed Scalars
-
-Analysis tool: Added support for computed scalars. Read the updated the User Guide for further details.
-
-![Image](images/43-ana-computed-scalars.png)
-
-### Logarithmic X Axis
-
-Analysis tool: Added the 'Logarithmic X axis' option to scatter charts.
-
-![Image](images/43-ana-log-x-axis.png)
-
-### Full-Screen Mode
-
-Added full-screen mode (Ctrl-Shift-F11).
-
-![Image](images/43-full-screen-mode.png)
-
-### Updated Eclipse Platform
-
-The IDE is now based on Eclipse 3.8.2.
-
-![Image](images/43-eclipse-platform.png)
-
-# What's New in the OMNeT++/OMNEST 4.2 IDE
-
-## Platform
-
-### Updated Eclipse Platform
-
-The IDE is now based on Eclipse 3.7.1 and CDT 8.0.1.
-
-![Image](images/42-version.png)
-
-### Eclipse Marketplace
-
-You can use the Eclipse Marketplace to install additional features into the IDE by selecting
-
-*Help | Eclipse Marketplace...*
-
-![Image](images/42-marketplace.png)
-
-## NED Editor
-
-### Error Markers on Connections
-
-Connections with an error are now annotated with a marker in the graphical editor.
-
-![Image](images/42-ned-connection-errormarker.png)
-
-### Package Names in Graphical Editor
-
-The graphical editor now displays the package name at the top of the canvas.
-
-![Image](images/42-ned-packagename.png)
-
-### Visible Self-connections
-
-Connections that start and end at the same module are now represented by arcs in the top-right corner of the module. Previously, self-connections were represented only by a small arrow head.
-
-![Image](images/42-ned-selfconnection.png)
-
-### Rearranged Context Menu
-
-The context menu in the graphical editor has been rearranged to increase its usability.
-
-![Image](images/42-ned-context-menu.png)
-
-### Changing the Visual Appearance of the Modules
-
-A new Properties dialog has been introduced that lets you change the name, type, vector size and visual appearance of modules and channels. The dialog is accessible from the context menu or by pressing *Ctrl-Enter* after selecting an item or several items together.
-
-![Image](images/42-ned-properties.png)
-
-### Changing Module Type and Vector Index
-
-The 'General' tab in the properties dialog allows you to change the name, vector size and type of a module.
-
-![Image](images/42-ned-properties2.png)
-
-### Enhanced Type Selection Dialog
-
-The Open NED Type dialog now shows you the project name where the opened type is defined. This is especially useful if you are working with multiple open projects.
-
-![Image](images/42-ned-typeselectiondialog.png)
-
-### Excluding NED Packages
-
-The IDE now allows you to exclude specific NED packages from the NED path. NED files in those packages will not generate errors and they cannot be edited in the NED editor. This feature is useful for disabling certain parts of your project.
-
-![Image](images/42-ned-folderexclusion.png)
-
-## C++ Development
-
-### Clean Local Project Only
-
-The new 'Clean Local' action on the project context menu allows you to clean only the selected project without invoking the 'Clean' action on referenced projects. This is useful if your project references a third party project (e.g. the INET Framework) and you want to clean only your own project, but not the third party one.
-
-![Image](images/42-cpp-clean-local.png)
-
-### Partition your Project into Features
-
-The IDE now allows you to partition your projects into smaller parts called 'Features'. Features can depend on each other and can be enabled/disabled independently. The IDE handles the C++ source and NED package exlusion/inclusion automatically, based on your feature selection. Features can also define macros which will be passed to the compiler, so it is possible to write conditional code that depends on the enablement of certain features. This is especially useful for large projects like the INET Framework. See the User Guide for further details.
-
-![Image](images/42-cpp-features.png)
-
-## INI Editor
-
-### Rearranged INI Editor Pages
-
-The pages in the form based INI editor have been rearranged for better usability.
-
-![Image](images/42-ini-rearranged-editor-tree.png)
-
-## Launcher
-
-### Getting the Command Line
-
-The IDE launcher now prints out the command line to the console before starting your simulation. You can use this information to start your simulation from the command prompt.
-
-![Image](images/42-launcher-commandline.png)
-
-### Profiling with Valgrind
-
-On Linux systems, the IDE now allows you to start and profile your program using 'valgrind'. This allows you to detect memory errors and other programming mistakes. This feature is available only on Linux systems where valgrind is installed.
-
-![Image](images/42-launcher-profiling.png)
-
-## Sequence Chart
-
-### Enhanced Navigation
-
-The context menu now contains additional actions to move to a certain simulation event or simulation time.
-
-![Image](images/42-seq-gotoevent.png)
-
-# What's New in the OMNeT++/OMNEST 4.1 IDE
-
-## NED Editor
-
-### New Eclipse Platform
-
-The IDE is now based on Eclipse 3.5.2 and CDT 6.0.2.
-
-![Image](images/41-version.png)
-
-### Manual Palette Filtering
-
-Palette items in NED editor can be filtered with a substring search.
-
-![Image](images/41-ned-palette-filter.png)
-
-### Adaptive Palette Ordering
-
-Submodule types that are related to the currently used compound module and its submodules are displayed first in the NED editor palette. Submodules that are already used in the compound module are placed at the top. The @labels properties on the gates are also used to decide which other submodules can be connected to the current ones.
-
-![Image](images/41-ned-palette-adaptive.png)
-
-### Connection Chooser Enhancements
-
-When two modules are connected with a connection, the editor tries to guess which gates must be connected, based on @labels gate properties.
-
-![Image](images/41-ned-labels1.png)
-
-### Connection Rendering Enhancements
-
-Multiple and conditional connections can now be visually distinguished in the graphical editor.
-
-![Image](images/41-ned-connection-loop.png)
-
-### New Parameter Editor Dialog
-
-A parameter editor dialog has been added for channel and module parameters. It can be accessed using the context menu of the submodule or connection.
-
-![Image](images/41-ned-parameter-dialog.png)
-
-### Content Assist for Connections
-
-Content assist is now supported for connection parameters (delay, datarate etc.).
-
-![Image](images/41-ned-channel-assist.png)
-
-### Content Assist for Icons
-
-Content assist is available for icons by pressing *Ctrl+Space* inside a display string.
-
-![Image](images/41-ned-icon-assist.png)
-
-### Content Assist for Colors
-
-Content assist is available for colors by pressing *Ctrl+Space* inside a display string.
-
-![Image](images/41-ned-color-assist.png)
-
-### Content Assist for Statistics
-
-Content assist is available for statistics by pressing *Ctrl+Space* inside a @statistic property definition.
-
-![Image](images/41-ned-statistic-assist.png)
-
-### Support for @dynamic Property
-Modules can be tagged with the @dynamic property. Dynamic modules are handled exactly the same way as normal modules (i.e. content assist, validation and parameter lookup is working correctly), except that the simulation kernel does not instantiate them automatically during network setup. Dynamic modules are displayed as semi-transparent in the NED editor.
-
-![Image](images/41-ned-dynamic-module.png)
-
-## INI Editor
-
-### Enhanced Content Assist in Ini Files
-
-Content assist is now available for ini parameters and configuration options. For parameter values, content assist also offers the list of NED functions.
-
-![Image](images/41-ini-content-assist.png)
-
-### Channel Parameters in Ini Files
-
-Channel parameters can be set in ini files, too, using the `**.channel.parametername =` syntax.
-
-![Image](images/41-ini-channel-assist.png)
-
-### Statistics Configuration from Ini File
-
-Statistics can be configured in an ini file. Content assist is available for statistics-related options.
-
-![Image](images/41-ini-statistic-assist.png)
-
-## Module Hierarchy view
-
-### Statistics and Signals in Module Hierarchy
-
-In addition to parameters, the Module Hierarchy view now also displays the @statistic and @signal properties of the modules.
-
-![Image](images/41-module-view.png)
-
-## Launcher
-
-### Better Error Checking
-
-The simulation launcher now checks for errors in open projects before starting a simulation, and warns if there are any.
-
-![Image](images/41-errors-in-project.png)
-
-## Sequence Chart
-
-### Attach Vectors to Sequence Charts
-
-Attaching vectors to a Sequence Chart is more intuitive now.
-
-![Image](images/41-seq-vector-attach.png)
-
-### Show Related Vectors Only
-
-After choosing a vector file, the IDE only offers the vectors related to the selected module axis.
-
-![Image](images/41-seq-vector-attach2.png)
-
-### Method Calls on Sequence Charts
-
-Direct method calls can be shown in the sequence chart. Method calls are not displayed automatically, but can be turned on on the toolbar or in the sequence chart context menu.
-
-![Image](images/41-seq-methodcalls.png)
-
-## Result Analysis
-
-### New Tree View in Browse Data
-
-An "All" tab has been added to the Browse Data page, showing all simulation results in a tree. The tree can be configured freely to group the data several in different ways. Use the context menu to configure the levels in the tree view.
-
-![Image](images/41-ana-browse-data.png)
-
-### Redesigned Filter
-
-The filter interface on the Browse Data page has been reorganized to provide more space. Fields are also resizable by dragging the separators.
-
-![Image](images/41-ana-filter.png)
-
-### Properties for Dataset Nodes
-
-Property View for nodes on the Dataset page.
-
-![Image](images/41-ana-properties.png)
-
-### Properties for Data Items
-
-Property View for the data items on the Browse Data page
-
-![Image](images/41-ana-properties2.png)
-
-### Chart Sheet Columns
-
-The number of chart columns can be set for a Chart Sheet.
-
-![Image](images/41-ana-sheet-columncount.png)
-
-### Separate Horizontal and Vertical Zoom
-
-Separate horizontal and vertical zoom actions are available on the toolbar and in the context menu. The context menu has been reorganized for better usability.
-
-![Image](images/41-ana-new-zoom.png)
-
-### Charts on Sheet Fill the Window
-
-Charts in a Chart Sheet fill the window horizontally. The minimum chart width is also configurable.
-
-![Image](images/41-ana-fillwindow.png)
-
-### Chart SVG Export 1
-
-Charts can be exported in SVG format from the Dataset page's context menu.
-
-![Image](images/41-ana-export-chart.png)
-
-### Chart SVG Export 2
-
-Charts can be exported in SVG format from the chart context menu.
-
-![Image](images/41-ana-export-chart-from-sheet.png)
-
-### Editable Chart Line Titles
-
-Line titles on charts are editable now.
-
-![Image](images/41-ana-editable-line-titles.png)
-
-## Wizards
-
-### Add Your Own Wizards to the IDE
-
-New wizards can be contributed by open projects. (In the screenshot, the "New Queueing Model" wizard was contributed by the "queueinglib" sample project.)
-
-![Image](images/41-wiz-queueing.png)
-
-### Custom Wizard Pages
-
-Wizards contributed by projects may contain their own custom wizard pages.
-
-![Image](images/41-wiz-queueing2.png)
-
-### Topology Generation using Wizards
-
-The IDE also contributes several generic topology generator wizards.
-
-![Image](images/41-wiz-topology.png)
-
-### Custom Page for each Topology Generator
-
-Each topology generator has its own wizard page for configuration.
-
-![Image](images/41-wiz-topology-page.png)
-
-### Topology Import
-
-Importing a topology from an external file is also possible.
-
-![Image](images/41-wiz-topology-import.png)
-
-### Wizard Wizards
-
-There are several wizards that help creating other wizards. It is possible to create a wizards based on an already existing simulation directory, or based on an other wizard. Example wizards are also provided to help you quickly create your first wizard...
-
-![Image](images/41-wiz-wiz-menu.png)
-
-### New Wizard from an Existing One
-
-New wizards can be created by either copying and modifying an existing similar one or by generating some example code.
-
-![Image](images/41-wiz-wiz-selection.png)
-
-### New Wizards by Specifying their Widgets
-
-New wizards can be created by including some specific widgets as a starting point...
-
-![Image](images/41-wiz-wiz-controls.png)
-
-### New Wizards by Specifying their Variables
-
-New wizards can be created by textually specifying their input variables and the associated widget types.
-
-![Image](images/41-wiz-wiz-variables.png)
-
-### Wizard Cloning
-
-Existing wizards can be cloned and used as a starting point.
-
-![Image](images/41-wiz-wiz-clone.png)
-
-### Wizard Page Editor
-
-The wizard page (XSWT) editor and preview are available by double-clicking on XSWT files.
-
-![Image](images/41-wiz-xswt.png)
-
-### Wizard Template Editor
-
-Template editor with syntax highlight and content assist support is available to help you author new wizard content templates.
-
-![Image](images/41-wiz-ftl.png)
-
-## Extending the IDE
-
-### Automatic Plugin Activation
-
-The IDE now automatically discovers and activates all Eclipse plug-ins in a project's "plugins" folder. This feature allows you to distribute IDE extensions together with your project, and they will be automatically loaded and activated when your users open the project.
-
-![Image](images/41-plugin-running.png)
-
+<div>
+
+<!-- NOTE: To update, copy the <body> contents from doc/visual-changelog/index.html in the omnetpp repo -->
+
+<style>
+    h2 {margin-top: 60px;}
+    td:first-child {max-width: 200px;}
+    td {border-top: solid thin #b0b0b0; vertical-align: top;}
+    tr {vertical-align: top;}
+    img {border-style: none;}
+</style>
+
+<h1>Visual Changelog</h1>
+
+<h2 id="5.3">What's New in OMNeT++/OMNEST 5.3</h2>
+
+<h3>Qtenv</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Enhanced Histogram Inspectors</b></p></td>
+<td><p>Histogram inspector windows now show the lower and upper
+    outliers as extra bins (gray). Setting up the bins while
+    in the precollection phase can be forced from the toolbar.
+</p>
+<img width="500" src="images/53-qtenv-histogram.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Improved Message Printer API</b></p></td>
+<td><p>The Message Printer API was enhanced to allow the Message Log window
+    to display info in multiple columns.
+</p>
+<img width="700" src="images/53-qtenv-message-printer.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Message Printer Configuration</b></p></td>
+<td><p>Columns in the Message Log window and other options
+    can be turned on/off using a new configuration dialog.
+</p>
+<img width="300" src="images/53-qtenv-message-printer-config.png">
+</td></tr>
+
+<tr><td><p align="right"><b>ANSI Control Sequence Support</b></p></td>
+<td><p>Qtenv now supports ANSI control sequences for text styling:
+       foreground/background color, and bold/italic/underline text.
+       Styling is supported in both Message History view and Log view.
+</p>
+<img width="500" src="images/53-qtenv-logformatting.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Inspector Packet Mode</b></p></td>
+<td><p>The Object Inspector has a new mode called Packet mode. Packet mode
+    only shows fields that are considered packet content. You can mark fields
+    as packet content by adding the <tt>@packetData</tt> property to the field in the
+    message file.
+</p>
+<img width="600" src="images/53-qtenv-packet-mode-inspector.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Improved Animation</b></p></td>
+<td><p>The controller for smooth animation has been rewritten. The new algorithm is now able
+       to scale linearly, as long as the simulation can keep up.
+       The usability of the Animation Parameters dialog has also been improved: now it also
+       displays the current simulation speed. The speed display is colored red if the
+       simulation cannot keep up with the requested animation speed.
+</p>
+<img width="250" src="images/53-qtenv-animcontrols.png">
+</td></tr>
+</tbody></table>
+
+
+<h2 id="5.2">What's New in OMNeT++/OMNEST 5.2</h2>
+
+<h3>Qtenv</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Enhanced Animation Parameters Dialog</b></p></td>
+<td><p>Improved the appearance and usability of the Animation Parameters dialog.
+</p>
+<img width="600" src="images/52-qtenv-animcontrols.png">
+</td></tr>
+
+</tbody></table>
+
+
+<h3>IDE</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Automatic Configuration Switching on Launch</b></p></td>
+<td><p>The launcher now switches the project (and optionally all projects it
+        depends on) to the appropriate build configuration if necessary: Run
+        and Profile will perform RELEASE build, Debug will perform DEBUG build.
+</p>
+<img width="500" src="images/52-ide-switchconfig.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Build Before Launch Configuration</b></p></td>
+<td><p>A new "Build before launch" section was added to the Launch config
+        dialog, which allows you to control whether to switch build configuration
+        automatically or to ask before the build. The scope of build can also
+        configured; options are: "None", "This project", or "Project + dependencies".
+</p>
+<img width="800" src="images/52-ide-buildbeforelaunch.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Better Progress Reporting</b></p></td>
+<td><p>Better progress reporting and cancellation for batch runs in the Progress View:
+       It is now possible to cancel either individual runs or the whole batch.
+</p>
+<img width="800" src="images/52-ide-progress.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Statistics Data in the Analysis Tool</b></p></td>
+<td><p>The Histograms tab on the Browse Data page now includes "statistics"-
+       type results as well.  Additional columns on the page: "Kind", "SumWeights",
+       "#Bins", "Hist.Range". "Kind" indicates whether a result item is a "statistic"
+       or a "histogram", and whether it is weighted or unweighted.
+</p>
+<img width="800" src="images/52-ide-histograms.png">
+</td></tr>
+
+</tbody></table>
+
+<h2 id="5.1">What's New in OMNeT++/OMNEST 5.1</h2>
+
+<h3>Qtenv</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Updated Toolbar</b></p></td>
+<td><p>The simulation time display now has digit grouping and units turned on by
+       default for better readability. Settings can be changed in the context menu.
+</p>
+<img width="800" src="images/51-qtenv-toolbar.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Packet Animation Support</b></p></td>
+<td><p>Improvements on built-in animations: Messages sent with a nonzero propagation
+        delay are now animated properly (not instantaneously). Packets of nonzero
+        length are now displayed as "strips" when transmitted on a link with a
+        transmission rate and propagation delay. The animation of method call
+        hierarchies now represents the call graph better.
+</p>
+<img width="800" src="images/51-qtenv-anim1.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Smooth Animation API</b></p></td>
+<td><p>Added support for smooth custom animations. This means that simulation time is
+       interpolated between events, and the animation can be stopped between events.
+       The updated 'aloha' example highlights the use of the new smooth animation API.
+       The server and all hosts now have fixed positions (still random but
+       deterministic, and not using auto-layouting), so that their individual
+       propagation delays can be computed. Each transmitted packet is visualized
+       with a ring and many concentric circles, illustrating the propagation of the
+       electromagnetic wave. The visualization is faithful, e.g. multiple signals
+       visually overlapping at a receiver actually means a collision.
+</p>
+<img width="500" src="images/51-qtenv-anim2.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Animation Parameters</b></p></td>
+<td><p>A new 'Animation Parameters' window has been added where
+       one can view the current animation speed, framerate, and
+       other metrics.
+</p>
+<img width="800" src="images/51-qtenv-animcontrols.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Video Recording Support</b></p></td>
+<td><p>Added built-in support to record animation into a high quality video.
+       Press the record button on the toolbar for instructions.
+</p>
+<img width="600" src="images/51-qtenv-videorecording.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Histogram Inspectors</b></p></td>
+<td><p>Added graphical inspectors for histograms. They are enabled for any
+       cStatistic-based histogram objects, i.e. they are currently not available
+       for @statistic-based output histograms.
+</p>
+<img width="800" src="images/51-qtenv-histograms.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Vector Inspectors</b></p></td>
+<td><p>Added graphical inspectors for output vectors.
+</p>
+<img width="800" src="images/51-qtenv-vectors.png">
+</td></tr>
+
+</tbody></table>
+
+<h3>IDE</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>IDE Launcher</b></p></td>
+<td><p>In the Run/Debug Configurations dialog, the "OMNeT++ Simulation" form page
+        has been revised for usability and to better support simulation campaigns.
+        The launcher (code that schedules and actually runs the simulations and
+        arranges feedback in the Progress view and the Console) has also been
+        improved: The "Runs" form field now accepts a run filter expression that
+        can refer to iteration variables. Batch execution of simulations is now
+        controlled with two new spinner widgets ("Number of CPUs to use", "Runs per process".)
+        The form page now allows specifying time limits for the simulation
+        ("Simulation time limit", "CPU time limit" fields.) User interface selection
+        uses an editable combo instead of radio buttons. Added content assist
+        for Additional Arguments field and finally, the radio buttons have been replaced
+        by tri-state checkboxes (with on/off/grayed states, where the grayed state
+        means "no setting specified, let the inifile setting take effect".)
+        The consequent space saving allowed other options to be added to the form page:
+        "Verbose", "Stop batch on error", "Express mode", "Save stdout",
+        "Record scalar results", "Record vector results","Record eventlog".
+</p>
+<img width="800" src="images/51-ide-launcher.png">
+</td></tr>
+
+</tbody></table>
+
+<h2 id="5.0">What's New in OMNeT++/OMNEST 5.0</h2>
+
+<h3>Tkenv</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Improved Status Area</b></p></td>
+<td><p>The status area has been redesigned. The most prominent feature is the large
+displays showing the simulation time and event number on the right side of the toolbar.
+They display the last event when the simulation is not running, and the
+current event during animation. The status line below the toolbar shows information
+about the next event. When the simulation is running, this area switches
+to displaying performance data such as the current event/second value. Additional,
+more static or less important information has been moved to the bottom status bar.
+</p>
+<img width="800" src="images/50-tkenv-status-area.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Tkenv Canvas Support</b></p></td>
+<td><p>Tkenv has gained support for the Canvas API, a new facility that allows
+one to augment simulations with graphical elements. The screenshot is from the new
+Canvas example simulation.
+</p>
+<img width="800" src="images/50-tkenv-canvas.png">
+</td></tr>
+</tbody></table>
+
+<h3>Qtenv</h3>
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Qtenv - A New Qt-Based Runtime Environment</b></p></td>
+<td><p>Qtenv has been introduced to replace the aging Tcl/Tk-based runtime environment.
+The Qt toolkit provides better look and feel, a richer set of features, and at the same time delivers
+superior performance. In 5.0, the default runtime is still Tkenv, but users can optionally start
+the new runtime with Qtenv. This can be achieved by adding the "-u Qtenv" option on the command line,
+or by selecting Qtenv in the simulation's Run/Debug configuration in IDE.</p>
+<img width="800" src="images/50-qtenv-window.png">
+</td></tr>
+
+<tr><td><p align="right"><b>3D Visualization Using OpenSceneGraph and osgEarth</b></p></td>
+<td><p>Qtenv also allows one to visualize 3D scenes using the OpenSceneGraph and osgEarth libraries,
+a feature that could not be implemented using Tcl/Tk. One can switch between the 3D visualization
+and the traditional (2D) graphics using the module inspector's local toolbar. The screenshot
+shows one of the new example simulations.
+</p>
+<img width="800" src="images/50-qtenv-3d.png">
+</td></tr>
+
+</tbody></table>
+
+<h3>IDE</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Updated Eclipse Platform</b></p></td>
+<td><p>The IDE is now based on Eclipse 4.4.2 Luna and CDT 8.6.</p>
+<img src="images/50-eclipse-platform.png" width="500"><br>
+</td></tr>
+
+</tbody></table>
+
+<h2 id="4.6">What's New in OMNeT++/OMNEST 4.6</h2>
+
+<h3>Tkenv</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Improved zooming/panning support</b></p></td>
+<td><p>Use double click to zoom in around a point, and Shift + double click to zoom out.
+Use Ctrl + left mouse button to drag out a rectangle to zoom to (a.k.a. marquee zoom);
+right-click cancels marquee zoom. Use left mouse button for panning.</p>
+<img src="images/46-tkenv-marquee-zoom.png" width="500"><br>
+</td></tr>
+
+</tbody></table>
+
+<h3>IDE</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Updated Eclipse Platform</b></p></td>
+<td><p>The IDE is now based on Eclipse 4.4 Luna and CDT 8.4.</p>
+<img src="images/46-eclipse-platform.png" width="500"><br>
+</td></tr>
+
+</tbody></table>
+
+<h2 id="4.5">What's New in OMNeT++/OMNEST 4.5</h2>
+
+<h3>Tkenv</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Tkenv Usability Improvements</b></p></td>
+<td><p>The Tkenv GUI has been redesigned for single-window mode to improve
+   usability and user experience. New inspector windows can still
+     be opened, and they are kept always above the main window.</p>
+<img src="images/45-single-window.png">
+</td></tr>
+
+<tr><td><p align="right"><b>New Look and Feel</b></p></td>
+<td><p>Tkenv has also received a new, modern look
+   and feel, due to the use of the Ttk widgets and a custom Ttk theme.
+   This makes a huge difference in looks on all platforms, but especially on OS X.
+   See before (left) and after (right) screenshots.</p>
+<img src="images/45-newtheme.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Inspector Navigation History</b></p></td>
+<td><p>Inspectors are no longer tied to a single object and visited objects
+     are remembered as navigable history (back/forward/up). Local toolbars
+     were added to the upper right corner of the inspectors with navigation and
+     other context aware actions.</p>
+<img src="images/45-inspector-nav.png">
+</td></tr>
+
+<tr><td><p align="right"><b>New Message Tracing</b></p></td>
+<td><p>Tkenv now stores message sendings and also a clone of corresponding
+     message objects (cMessage), and can show them in the log window.
+     Message printer classes can be contributed to customize the
+     content of the log lines. Switching between the module log and
+     the message trace is possible using the local toolbar in the log
+     inspector window.</p>
+<img src="images/45-message-trace.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Optimized Status Area</b></p></td>
+<td><p>The status area is more concise now (two rows instead of three),
+       and shows more information at the same time.
+       A part of the status area can be turned off to free up vertical space (Ctrl+D).
+    </p>
+<img src="images/45-status-area.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Main Menu Cleanup</b></p></td>
+<td><p>We have reorganized the main menu, removed obsolete menu items
+       and added numerous smaller improvements:
+       additional hotkeys (Ctrl+Plus/Minus for Zoom, Ctrl+F5 Run Until,
+       Ctrl+Q Quit); on-demand scrollbars (i.e. they are hidden when not needed);
+       module graphics now remembers zoom level and settings per NED type; etc.
+    </p>
+<img src="images/45-menu-cleanup.png">
+</td></tr>
+
+</tbody></table>
+
+<h2 id="4.4">What's New in the OMNeT++/OMNEST 4.4 IDE</h2>
+
+<h3>Tkenv</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Animation Filtering</b></p></td>
+<td><p>This feature makes it possible to suppress animation of messages that you are not interested in (e.g. WLAN ACK
+frames, ARP exchanges, etc). Just right-click the message (either on the canvas or on the timeline), and choose
+"Exclude messages like '...' from animation" from the context menu. The filters can also be edited in the Simulation Options dialog.</p>
+<img src="images/44-tkenv-anim-filter.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Debug Next Event (Ctrl+F9)</b></p></td>
+<td><p>This function causes the simulation program to stop in the debugger just before entering the handleMessage() call.
+You just need to hit "Step Into" in your debugger to debug that event.</p>
+<img src="images/44-tkenv-debug-next-event.png">
+</td></tr>
+
+</tbody></table>
+
+<h3>IDE</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Based on Eclipse 4</b></p></td>
+<td><p>The IDE is now based on Eclipse 4.3.1 (Kepler) and CDT 8.2.1.</p>
+<img src="images/44-eclipse-platform.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Project-Specific Icons</b></p></td>
+<td><p>Images from the "images/" folder of the project and its dependencies are automatically
+    used by the NED editor, and added to the Tkenv image path when the simulation is launched.
+    (The per-project image path will be configurable in future versions.)</p>
+<img src="images/44-project-images.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Attach external debugger on error</b></p></td>
+<td><p>The simulation kernel can invoke an external debugger on an error. The Ini file editor
+allows you to specify the options related to the just-in-time debugging feature.</p>
+<img src="images/44-ini-attach-debugger.png">
+</td></tr>
+
+</tbody></table>
+
+
+<h2 id="4.3.1">What's New in the OMNeT++/OMNEST 4.3.1 IDE</h2>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<h3>More friendly to first-time users</h3>
+
+<tr><td><p align="right"><b>"First Steps" Dialog</b></p></td>
+<td><p>When the IDE is started with an empty workspace (e.g. on first-time
+    launch), it offers the user the following options: (1) Import the OMNeT++
+    sample simulations into the workspace; and (2) Download and install the
+    INET Framework.</p>
+<img src="images/431-first-steps-dialog.png">
+</td></tr>
+
+<tr><td><p align="right"><b>"Install Simulation Models" Dialog</b></p></td>
+<td><p>INET installation is also available from the menu. It brings up a dialog with the list of
+    simulation models available for automated installation, and lets the user
+    choose. Currently only the INET Framework is listed there, but it is
+    planned to add further models</p>
+<img src="images/431-install-models-dialog.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Intro Pages</b></p></td>
+<td><p>When the IDE is started for the first time, it now displays some helpful
+    introductory pages in the editor area: "Getting Started", "At a Glance" ,
+    "OMNeT++ Samples", etc. These pages are also available from the Help system
+    (except the last one, which has a dedicated menu item in the Help menu.)</p>
+<img src="images/431-intro-pages.png">
+</td></tr>
+
+</tbody></table>
+
+<h3>Further IDE improvements</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>More Usable Filter Hints</b></p></td>
+<td><p>In the Analysis Tool, if you filter for the module, hints for the statistic name
+    filter will only show statistics recorded by that module. (In general,
+    filter hints for a combo are now computed from the result items filtered
+    by the other combos.)</p>
+<img src="images/431-ana-filter-hints.png">
+</td></tr>
+
+<tr><td><p align="right"><b>More Accessible "Go to" Actions</b></p></td>
+<td><p>In the Output Vector View (Analysis Tool), "Go to" actions are now shown
+    in the context menu instead of the view's pulldown menu.</p>
+<img src="images/431-ana-goto-actions.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Launching Improvement</b></p></td>
+<td><p>Trying to launch a closed project will now offer opening it.</p>
+<img src="images/431-launching.png">
+</td></tr>
+
+</tbody></table>
+
+
+
+<h2 id="4.3">What's New in the OMNeT++/OMNEST 4.3 IDE</h2>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Computed Scalars</b></p></td>
+<td><p>Analysis tool: Added support for computed scalars. Read the updated the User Guide for further details.</p>
+<img src="images/43-ana-computed-scalars.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Logarithmic X Axis</b></p></td>
+<td><p>Analysis tool: Added the 'Logarithmic X axis' option to scatter charts.</p>
+<img src="images/43-ana-log-x-axis.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Full-Screen Mode</b></p></td>
+<td><p>Added full-screen mode (Ctrl-Shift-F11).</p>
+<img src="images/43-full-screen-mode.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Updated Eclipse Platform</b></p></td>
+<td><p>The IDE is now based on Eclipse 3.8.2.</p>
+<img src="images/43-eclipse-platform.png">
+</td></tr>
+
+</pre>
+</tbody></table>
+
+
+<h2 id="4.2">What's New in the OMNeT++/OMNEST 4.2 IDE</h2>
+
+<h3>Platform</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Updated Eclipse Platform
+</b></p></td><td><p>The IDE is now based on <a href="http://download.eclipse.org/eclipse/downloads/drops/R-3.7-201106131736/eclipse-news-part1.html">Eclipse 3.7.1</a>
+and <a href="http://wiki.eclipse.org/CDT/User/NewIn80">CDT 8.0.1.</a>
+(Click on the links to review the changes in Eclipse and CDT.)</p>
+<img src="images/42-version.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Eclipse Marketplace
+</b></p></td><td><p>You can use the Eclipse Marketplace to install additional
+features into the IDE by selecting <strong>Help | Eclipse Marketplace...</strong></p>
+<img src="images/42-marketplace.png">
+</td></tr>
+
+</tbody></table>
+
+<h3>NED Editor</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Error Markers on Connections
+</b></p></td><td><p>Connections with an error are now annotated with a marker
+in the graphical editor.</p>
+<img src="images/42-ned-connection-errormarker.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Package Names in Graphical Editor
+</b></p></td><td><p>The graphical editor now displays the package
+name at the top of the canvas.</p>
+<img src="images/42-ned-packagename.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Visible Self-connections
+</b></p></td><td><p>Connections that start and end at the same module are now
+represented by arcs in the top-right corner of the module. Previously, self-connections
+were represented only by a small arrow head. </p>
+<img src="images/42-ned-selfconnection.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Rearranged Context Menu
+</b></p></td><td><p>The context menu in the graphical editor has been rearranged
+to increase its usability.</p>
+<img src="images/42-ned-context-menu.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Changing the Visual Appearance of the Modules
+</b></p></td><td><p>A new Properties dialog has been introduced that lets you
+change the name, type, vector size and visual appearance of modules and channels.
+The dialog is accessible from the context menu or by pressing
+<strong>Ctrl-Enter</strong> after selecting an item or several items together.
+</p>
+<img src="images/42-ned-properties.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Changing Module Type and Vector Index
+</b></p></td><td><p>The 'General' tab in the properties dialog
+allows you to change the name, vector size and type of a module.
+</p>
+<img src="images/42-ned-properties2.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Enhanced Type Selection Dialog
+</b></p></td><td><p>The Open NED Type dialog now shows you the project name where
+the opened type is defined. This is especially useful if you are working with
+multiple open projects.</p>
+<img src="images/42-ned-typeselectiondialog.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Excluding NED Packages
+</b></p></td><td><p>The IDE now allows you to exclude specific NED packages
+from the NED path. NED files in those packages will not generate errors and they
+cannot be edited in the NED editor. This feature is useful for disabling certain
+parts of your project.</p>
+<img src="images/42-ned-folderexclusion.png">
+</td></tr>
+
+
+</tbody></table>
+
+
+<h3>C++ Development</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Clean Local Project Only
+</b></p></td><td><p>The new '<strong>Clean Local</strong>' action on the project context menu
+allows you to clean only the selected project without invoking the 'Clean' action
+on referenced projects. This is useful if your project references a third party project
+(e.g. the INET Framework) and you want to clean only your own project, but not the
+third party one.</p>
+<img src="images/42-cpp-clean-local.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Partition your Project into Features
+</b></p></td><td><p>The IDE now allows you to partition your projects into smaller
+parts called 'Features'. Features can depend on each other and can be enabled/disabled
+independently. The IDE handles the C++ source and NED package exlusion/inclusion
+automatically, based on your feature selection. Features can also define macros which
+will be passed to the compiler, so it is possible to write conditional code that depends
+on the enablement of certain features. This is especially useful for large projects
+like the INET Framework. See the User Guide for further details.</p>
+<img src="images/42-cpp-features.png"/>
+</td></tr>
+
+</tbody></table>
+
+<h3>INI Editor</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Rearranged INI Editor Pages
+</b></p></td><td><p>The pages in the form based INI editor have been rearranged
+for better usability.</p>
+<img src="images/42-ini-rearranged-editor-tree.png"/>
+</td></tr>
+
+</tbody></table>
+
+<h3>Launcher</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Getting the Command Line
+</b></p></td><td><p>The IDE launcher now prints out the command line to the console
+before starting your simulation. You can use this information to start
+your simulation from the command prompt.</p>
+<img src="images/42-launcher-commandline.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Profiling with Valgrind
+</b></p></td><td><p>On Linux systems, the IDE now allows you to start and profile
+your program using 'valgrind'. This allows you to detect memory errors and other
+programming mistakes. This feature is available only on Linux systems where
+valgrind is installed.</p>
+<img src="images/42-launcher-profiling.png"/>
+</td></tr>
+
+</tbody></table>
+
+<h3>Sequence Chart</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Enhanced Navigation
+</b></p></td><td><p>The context menu now contains additional actions to move to a
+certain simulation event or simulation time.</p>
+<img src="images/42-seq-gotoevent.png"/>
+</td></tr>
+
+</tbody></table>
+
+
+<h2 id="4.1">What's New in the OMNeT++/OMNEST 4.1 IDE</h2>
+
+<h3>NED Editor</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>New Eclipse Platform
+</b></p></td><td><p>The IDE is now based on Eclipse 3.5.2 and CDT 6.0.2.</p>
+<img src="images/41-version.png">
+</td></tr>
+
+<tr><td><p align="right"><b>Manual Palette Filtering
+</b></p></td><td><p>Palette items in NED editor can be filtered with a substring search.</p>
+<img src="images/41-ned-palette-filter.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Adaptive Palette Ordering
+</b></p></td><td><p>Submodule types that are related to the currently
+used compound module and its submodules are displayed first in the NED editor palette.
+Submodules that are already used in the compound module are placed at the top.
+The <b>@labels</b> properties on the gates are also used to decide which other
+submodules can be connected to the current ones.</p>
+<img src="images/41-ned-palette-adaptive.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Connection Chooser Enhancements
+</b></p></td><td><p>When two modules are connected with a connection, the editor
+tries to guess which gates must be connected, based on <b>@labels</b> gate properties.</p>
+<img src="images/41-ned-labels1.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Connection Rendering Enhancements
+</b></p></td><td><p>Multiple and conditional connections can now be visually distinguished in the graphical editor.</p>
+<img src="images/41-ned-connection-loop.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>New Parameter Editor Dialog
+</b></p></td><td><p>A parameter editor dialog has been added for channel and module
+parameters. It can be accessed using the context menu of the submodule or connection.</p>
+<img src="images/41-ned-parameter-dialog.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Content Assist for Connections
+</b></p></td><td><p>Content assist is now supported for connection parameters (delay, datarate etc.).</p>
+<img src="images/41-ned-channel-assist.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Content Assist for Icons
+</b></p></td><td><p>Content assist is available for icons by pressing <strong>Ctrl+Space</strong> inside a display string.</p>
+<img src="images/41-ned-icon-assist.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Content Assist for Colors
+</b></p></td><td><p>Content assist is available for colors by pressing <strong>Ctrl+Space</strong> inside a display string.</p>
+<img src="images/41-ned-color-assist.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Content Assist for Statistics
+</b></p></td><td><p>Content assist is available for statistics by pressing
+<strong>Ctrl+Space</strong> inside a <b>@statistic</b> property definition.</p>
+<img src="images/41-ned-statistic-assist.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Support for @dynamic Property
+</b></p></td><td><p>Modules can be tagged with the <b>@dynamic</b> property. Dynamic modules are handled
+exactly the same way as normal modules (i.e. content assist, validation and parameter lookup is working correctly),
+except that the simulation kernel does not instantiate them automatically during network setup. Dynamic modules
+are displayed as semi-transparent in the NED editor.</p>
+<img src="images/41-ned-dynamic-module.png"/>
+</td></tr>
+
+</tbody></table>
+
+<h3>INI Editor</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Enhanced Content Assist in Ini Files
+</b></p></td><td><p>Content assist is now available for ini parameters and configuration options.
+For parameter values, content assist also offers the list of NED functions.</p>
+<img src="images/41-ini-content-assist.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Channel Parameters in Ini Files
+</b></p></td><td><p>Channel parameters can be set in ini files, too, using
+the <b>**.channel.parametername =</b> syntax.</p>
+<img src="images/41-ini-channel-assist.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Statistics Configuration from Ini File
+</b></p></td><td><p>Statistics can be configured in an ini file. Content assist is available for statistics-related options.</p>
+<img src="images/41-ini-statistic-assist.png"/>
+</td></tr>
+
+</tbody></table>
+
+<h3>Module Hierarchy view</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Statistics and Signals in Module Hierarchy
+</b></p></td><td><p>In addition to parameters, the Module Hierarchy view
+now also displays the <strong>@statistic</strong> and <strong>@signal</strong> properties of the modules.</p>
+<img src="images/41-module-view.png"/>
+</td></tr>
+
+</tbody></table>
+
+<h3>Launcher</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Better Error Checking
+</b></p></td><td><p>The simulation launcher now checks for errors in open projects
+before starting a simulation, and warns if there are any.</p>
+<img src="images/41-errors-in-project.png"/>
+</td></tr>
+
+</tbody></table>
+
+<h3>Sequence Chart</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Attach Vectors to Sequence Charts
+</b></p></td><td><p>Attaching vectors to a Sequence Chart is more intuitive now.</p>
+<img src="images/41-seq-vector-attach.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Show Related Vectors Only
+</b></p></td><td><p>After choosing a vector file, the IDE only offers the vectors
+related to the selected module axis.</p>
+<img src="images/41-seq-vector-attach2.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Method Calls on Sequence Charts
+</b></p></td><td><p>Direct method calls can be shown in the sequence chart.
+Method calls are not displayed automatically, but can be turned on on the toolbar or in the
+sequence chart context menu.</p>
+<img src="images/41-seq-methodcalls.png"/>
+</td></tr>
+
+</tbody></table>
+
+<h3>Result Analysis</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>New Tree View in Browse Data
+</b></p></td><td><p>An "All" tab has been added to the Browse Data page, showing all simulation results in a tree. The tree can
+be configured freely to group the data several in different ways. Use the context menu to configure
+the levels in the tree view.</p>
+<img src="images/41-ana-browse-data.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Redesigned Filter
+</b></p></td><td><p>The filter interface on the Browse Data page has been reorganized to provide more space. Fields are also resizable by dragging the separators.</p>
+<img src="images/41-ana-filter.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Properties for Dataset Nodes
+</b></p></td><td><p>Property View for nodes on the Dataset page.</p>
+<img src="images/41-ana-properties.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Properties for Data Items
+</b></p></td><td><p>Property View for the data items on the Browse Data page</p>
+<img src="images/41-ana-properties2.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Chart Sheet Columns
+</b></p></td><td><p>The number of chart columns can be set for a Chart Sheet.</p>
+<img src="images/41-ana-sheet-columncount.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Separate Horizontal and Vertical Zoom
+</b></p></td><td><p>Separate horizontal and vertical zoom actions are available on the toolbar
+and in the context menu. The context menu has been reorganized for better usability.</p>
+<img src="images/41-ana-new-zoom.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Charts on Sheet Fill the Window
+</b></p></td><td><p>Charts in a Chart Sheet fill the window horizontally. The minimum chart width is also configurable.</p>
+<img src="images/41-ana-fillwindow.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Chart SVG Export 1
+</b></p></td><td><p>Charts can be exported in SVG format from the Dataset page's context menu.</p>
+<img src="images/41-ana-export-chart.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Chart SVG Export 2
+</b></p></td><td><p>Charts can be exported in SVG format from the chart context menu.</p>
+<img src="images/41-ana-export-chart-from-sheet.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Editable Chart Line Titles
+</b></p></td><td><p>Line titles on charts are editable now.</p>
+<img src="images/41-ana-editable-line-titles.png"/>
+</td></tr>
+
+</tbody></table>
+
+<h3>Wizards</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Add Your Own Wizards to the IDE
+</b></p></td><td><p>New wizards can be contributed by open projects. (In the screenshot, the
+"New Queueing Model" wizard was contributed by the "queueinglib" sample project.)</p>
+<img src="images/41-wiz-queueing.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Custom Wizard Pages
+</b></p></td><td><p>Wizards contributed by projects may contain their own custom wizard pages.</p>
+<img src="images/41-wiz-queueing2.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Topology Generation using Wizards
+</b></p></td><td><p>The IDE also contributes several generic topology generator wizards.</p>
+<img src="images/41-wiz-topology.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Custom Page for each Topology Generator
+</b></p></td><td><p>Each topology generator has its own wizard page for configuration.</p>
+<img src="images/41-wiz-topology-page.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Topology Import
+</b></p></td><td><p>Importing a topology from an external file is also possible.</p>
+<img src="images/41-wiz-topology-import.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Wizard Wizards
+</b></p></td><td><p>There are several wizards that help creating other wizards. It is possible to
+create a wizards based on an already existing simulation directory, or based on an other wizard.
+Example wizards are also provided to help you quickly create your first wizard...</p>
+<img src="images/41-wiz-wiz-menu.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>New Wizard from an Existing One
+</b></p></td><td><p>New wizards can be created by either copying and modifying an existing similar one or
+by generating some example code.</p>
+<img src="images/41-wiz-wiz-selection.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>New Wizards by Specifying their Widgets
+</b></p></td><td><p>New wizards can be created by including some specific widgets as a starting point...</p>
+<img src="images/41-wiz-wiz-controls.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>New Wizards by Specifying their Variables
+</b></p></td><td><p>New wizards can be created by textually specifying their input variables and the associated widget types.</p>
+<img src="images/41-wiz-wiz-variables.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Wizard Cloning
+</b></p></td><td><p>Existing wizards can be cloned and used as a starting point.</p>
+<img src="images/41-wiz-wiz-clone.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Wizard Page Editor
+</b></p></td><td><p>The wizard page (XSWT) editor and preview are available by double-clicking on XSWT files.</p>
+<img src="images/41-wiz-xswt.png"/>
+</td></tr>
+
+<tr><td><p align="right"><b>Wizard Template Editor
+</b></p></td><td><p>Template editor with syntax highlight and content assist support is available
+to help you author new wizard content templates.</p>
+<img src="images/41-wiz-ftl.png"/>
+</td></tr>
+
+</tbody></table>
+
+<h3>Extending the IDE</h3>
+
+<table cellpadding="10" cellspacing="0" > <colgroup> <col width="150"> <col width="500"> </colgroup>
+<tbody>
+
+<tr><td><p align="right"><b>Automatic Plugin Activation
+</b></p></td><td><p>The IDE now automatically discovers and activates all Eclipse plug-ins
+in a project's "plugins" folder. This feature allows you to distribute IDE extensions together
+with your project, and they will be automatically loaded and activated when your users open
+the project.</p>
+<img src="images/41-plugin-running.png"/>
+</td></tr>
+
+</tbody></table>
+
+</div>
