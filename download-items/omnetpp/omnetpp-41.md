@@ -19,8 +19,8 @@ tabs:
 ---
 
 This is the 4.1 release of the OMNeT++ platform. This package is for Windows,
-and contains the MinGW C++ compiler. Please check the Visual ChangeLog and the
-list of all changes since 4.0 (click 'more'). Detailed installation
-instructions: Install Guide (pdf).
+and contains the MinGW C++ compiler. Click More to see the Visual ChangeLog and the
+list of all changes since 4.0.
+
 
 

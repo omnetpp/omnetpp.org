@@ -7,15 +7,15 @@ date: 2010-05-31 00:00:00.000000000 +02:00
 author: Andras
 excerpt: "<div>\r\nDear everybody, we've just released the second (and hopefully last)
   release candidate of OMNeT++ 4.1. Please read the ChangeLog carefully to see what
-  has changed since the 4.0 version or check&nbsp;the visual&nbsp;<a href=\"doc/omnetpp41/ide-changelog/ide-changelog.html\"
-  mce_href=\"doc/omnetpp41/ide-changelog/ide-changelog.html\" target=\"_blank\">change
+  has changed since the 4.0 version or check&nbsp;the visual&nbsp;<a href=\"/documentation/visualchangelog/#4.1\"
+  mce_href=\"/documentation/visualchangelog/#4.1\">change
   log</a>&nbsp;to see the changes in the IDE.&nbsp;<a href=\"http://www.omnetpp.org/omnetpp/cat_view/1-omnet-releases/5-test-versions\"
   mce_href=\"http://www.omnetpp.org/omnetpp/cat_view/1-omnet-releases/5-test-versions\"
   target=\"_self\">Download and try it now</a>.\r\n</div>"
 category: Software
 ---
 <div>
-Dear everybody, we've just released the second (and hopefully last) release candidate of OMNeT++ 4.1. Please read the ChangeLog carefully to see what has changed since the 4.0 version or check&nbsp;the visual&nbsp;<a href="doc/omnetpp41/ide-changelog/ide-changelog.html" mce_href="doc/omnetpp41/ide-changelog/ide-changelog.html" target="_blank">change log</a>&nbsp;to see the changes in the IDE.&nbsp;<a href="http://www.omnetpp.org/omnetpp/cat_view/1-omnet-releases/5-test-versions" mce_href="http://www.omnetpp.org/omnetpp/cat_view/1-omnet-releases/5-test-versions" target="_self">Download and try it now</a>.
+Dear everybody, we've just released the second (and hopefully last) release candidate of OMNeT++ 4.1. Please read the ChangeLog carefully to see what has changed since the 4.0 version or check&nbsp;the visual&nbsp;<a href="/documentation/visualchangelog/#4.1" mce_href="/documentation/visualchangelog/#4.1" target="_blank">change log</a>&nbsp;to see the changes in the IDE.&nbsp;<a href="http://www.omnetpp.org/omnetpp/cat_view/1-omnet-releases/5-test-versions" mce_href="http://www.omnetpp.org/omnetpp/cat_view/1-omnet-releases/5-test-versions" target="_self">Download and try it now</a>.
 </div>
 
 

@@ -7,14 +7,13 @@ date: 2010-06-14 00:00:00.000000000 +02:00
 author: Andras
 excerpt: "<div>\r\nDear everybody, we're happy to announce the release of OMNeT++
   4.1. Please read the ChangeLog (below) to see what has changed since the 4.0 version
-  and check&nbsp;the <a href=\"doc/omnetpp41/ide-changelog/ide-changelog.html\" mce_href=\"doc/omnetpp41/ide-changelog/ide-changelog.html\"
-  target=\"_blank\">Visual ChangeLog</a>&nbsp;to see the changes in the IDE.&nbsp;<a
+  and check&nbsp;the <a href=\"/documentation/visualchangelog/#4.1\" mce_href=\"/documentation/visualchangelog/#4.1\">Visual ChangeLog</a>&nbsp;to see the changes in the IDE.&nbsp;<a
   href=\"/download/old\" mce_href=\"/download/old\"
   target=\"_self\">Download it now</a>.\r\n</div>"
 category: Software
 ---
 <div>
-Dear everybody, we're happy to announce the release of OMNeT++ 4.1. Please read the ChangeLog (below) to see what has changed since the 4.0 version and check&nbsp;the <a href="doc/omnetpp41/ide-changelog/ide-changelog.html" mce_href="doc/omnetpp41/ide-changelog/ide-changelog.html" target="_blank">Visual ChangeLog</a>&nbsp;to see the changes in the IDE.&nbsp;<a href="/download/old" mce_href="/download/old" target="_self">Download it now</a>.
+Dear everybody, we're happy to announce the release of OMNeT++ 4.1. Please read the ChangeLog (below) to see what has changed since the 4.0 version and check&nbsp;the <a href="/documentation/visualchangelog/#4.1" mce_href="/documentation/visualchangelog/#4.1">Visual ChangeLog</a>&nbsp;to see the changes in the IDE.&nbsp;<a href="/download/old" mce_href="/download/old" target="_self">Download it now</a>.
 </div>
 
 
