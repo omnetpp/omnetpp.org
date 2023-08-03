@@ -6,7 +6,7 @@ title: OMNeT++ 4.4
 date: 2014-02-21
 sortkey: "2014-02-21"
 category: omnetpp
-more-url: /software/2014/01/15/omnet-44-released
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-44-dec-2013
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.4/omnetpp-4.4-src.tgz

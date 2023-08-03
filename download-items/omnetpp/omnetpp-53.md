@@ -6,7 +6,7 @@ title: OMNeT++ 5.3
 date: 2018-04-12
 sortkey: "2018-04-12"
 category: omnetpp
-more-url: /software/2018/04/12/omnet-5-3-released.html
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-53-april-2018
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.3/omnetpp-5.3-src-linux.tgz

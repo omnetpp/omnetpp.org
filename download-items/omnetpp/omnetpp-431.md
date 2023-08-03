@@ -6,7 +6,7 @@ title: OMNeT++ 4.3.1
 date: 2013-09-21
 sortkey: "2013-09-21"
 category: omnetpp
-more-url: /software/2013/09/17/omnet-431-released
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-431-sept-2013
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.3.1/omnetpp-4.3.1-src.tgz

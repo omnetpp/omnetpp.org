@@ -6,7 +6,7 @@ title: OMNeT++ 5.1.1
 date: 2017-05-10
 sortkey: "2017-05-10"
 category: omnetpp
-more-url: /software/2017/04/03/omnet-5-1-released
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-511-may-2017
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.1.1/omnetpp-5.1.1-src-linux.tgz

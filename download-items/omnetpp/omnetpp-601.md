@@ -6,7 +6,7 @@ title: OMNeT++ 6.0.1
 date: 2022-09-01
 sortkey: "2022-09-01"
 category: omnetpp-current
-more-url: https://github.com/omnetpp/omnetpp/releases/tag/omnetpp-6.0.1
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-601-september-2022
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0.1/omnetpp-6.0.1-linux-x86_64.tgz

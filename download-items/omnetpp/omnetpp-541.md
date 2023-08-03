@@ -6,7 +6,7 @@ title: OMNeT++ 5.4.1
 date: 2018-06-29
 sortkey: "2018-06-29"
 category: omnetpp
-more-url: /software/2018/06/29/omnet-5-4-1-released
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-541-june-2018
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.4.1/omnetpp-5.4.1-src-linux.tgz

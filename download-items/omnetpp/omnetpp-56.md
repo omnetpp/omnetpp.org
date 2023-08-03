@@ -6,7 +6,7 @@ title: OMNeT++ 5.6
 date: 2020-01-13
 sortkey: "2020-01-13"
 category: omnetpp
-more-url: /software/2020/01/13/omnet-5-6-released
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-56-january-2020
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.6/omnetpp-5.6-src-linux.tgz

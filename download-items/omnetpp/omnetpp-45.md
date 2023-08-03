@@ -6,7 +6,7 @@ title: OMNeT++ 4.5
 date: 2014-07-16
 sortkey: "2014-07-16"
 category: omnetpp
-more-url: /software/2014/07/16/omnet-4-5-released
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-45-june-2014
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.5/omnetpp-4.5-src.tgz

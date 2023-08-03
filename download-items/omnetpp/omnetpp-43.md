@@ -6,7 +6,7 @@ title: OMNeT++ 4.3
 date: 2013-09-16
 sortkey: "2013-09-16"
 category: omnetpp
-more-url: /software/2013/04/02/omnet43release
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-43-march-2013
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.3/omnetpp-4.3-src.tgz

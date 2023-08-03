@@ -6,6 +6,7 @@ title: OMNeT++ 3.3p1 for GCC 7.3 (Ubuntu 18.04)
 date: 2008-10-30
 sortkey: "2008-10-30"
 category: omnetpp
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-33p1-oct-2006
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-3.3-ubuntu18.04/omnetpp-3.3-src-gcc73.tgz

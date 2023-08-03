@@ -6,7 +6,7 @@ title: OMNeT++ 4.2.2
 date: 2013-04-03
 sortkey: "2013-04-03"
 category: omnetpp
-more-url: /software/2012/03/26/omnet-422-released
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-422-march-2012
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.2.2/omnetpp-4.2.2-src.tgz

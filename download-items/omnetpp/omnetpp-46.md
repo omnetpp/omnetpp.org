@@ -6,7 +6,7 @@ title: OMNeT++ 4.6
 date: 2014-12-02
 sortkey: "2014-12-02"
 category: omnetpp
-more-url: /software/2014/12/02/omnet-4-6-released
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-46-dec-2014
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.6/omnetpp-4.6-src.tgz

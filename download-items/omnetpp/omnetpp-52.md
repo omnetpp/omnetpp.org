@@ -6,7 +6,7 @@ title: OMNeT++ 5.2
 date: 2017-10-02
 sortkey: "2017-10-02"
 category: omnetpp
-more-url: /software/2017/10/05/omnet-5-2-released
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-52-september-2017
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.2/omnetpp-5.2-src-linux.tgz
