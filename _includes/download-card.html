@@ -22,6 +22,8 @@
         {% if item.content %}<div>{{ item.content | markdownify }}</div>{% endif %}
         {% if item.keywords %}<p class="keywords">Keywords: {{ item.keywords }}</p>{% endif %}
         {% if item.more-url %}<a href="{{ item.more-url }}" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Read more</a>{% endif %}
+        {% if item.whatsnew-url %}<a href="{{ item.whatsnew-url }}" target="_blank" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">What's New</a>{% endif %}
+        {% if item.visualchangelog-url %}<a href="{{ item.visualchangelog-url }}" target="_blank" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Visual Change Log</a>{% endif %}
         {% unless item.tabs %}
         <div>
           {% if item.filesize %}Size:&nbsp;{{item.filesize | divided_by: 1048576}}MB&nbsp;&nbsp;{% endif %}

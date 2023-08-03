@@ -22,6 +22,8 @@ layout: default
         {{ content }}
       </div>
 
+      {% if page.details-url %}<a href="{{ page.details-url }}" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Details</a>{% endif %}
+
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
       {% endif %}

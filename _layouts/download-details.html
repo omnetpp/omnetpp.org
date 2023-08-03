@@ -6,6 +6,8 @@ layout: default
    {% assign item = page %}
    <div class="download-cards row">
    {% include download-card.html %}
+   {% if item.category != "omnetpp"%}
    <a href="/download/models-and-tools" class="waves-effect blue-grey btn-small"><i class="material-icons left">arrow_back</i>&nbsp;Back to List</a>
+   {% endif %}
    </div>
 </div>

@@ -6,7 +6,7 @@ title: OMNeT++ 5.7
 date: 2021-10-06
 sortkey: "2021-10-06"
 category: omnetpp
-more-url: /software/2021/10/06/omnet-5-7-released
+whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-57-sept-2021
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7/omnetpp-5.7-linux-x86_64.tgz
