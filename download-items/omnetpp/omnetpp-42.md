@@ -7,6 +7,7 @@ date: 2012-01-23
 sortkey: "2012-01-23"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-42-nov-2011
+visualchangelog-url: /documentation/visualchangelog#4.2
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.2/omnetpp-4.2-src.tgz

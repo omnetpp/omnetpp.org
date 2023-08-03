@@ -7,6 +7,7 @@ date: 2016-04-14
 sortkey: "2016-04-14"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-50-april-2016
+visualchangelog-url: /documentation/visualchangelog#5.0
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.0/omnetpp-5.0-src.tgz

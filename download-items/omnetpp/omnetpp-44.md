@@ -7,6 +7,7 @@ date: 2014-02-21
 sortkey: "2014-02-21"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-44-dec-2013
+visualchangelog-url: /documentation/visualchangelog#4.4
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.4/omnetpp-4.4-src.tgz
