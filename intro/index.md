@@ -20,9 +20,6 @@ into larger components and models using a high-level language _(NED)_. Reusabili
 has extensive GUI support, and due to its modular architecture, the simulation kernel (and models) can be embedded
 easily into your applications.
 
-Check the [screenshots](screenshots) or [videos](https://www.youtube.com/playlist?list=PL6XXfMqxC2Ccoot_Sl6ZIMjFon4e9ifd3)
-gallery if you are interested how the IDE and running simulations look like.
-
 ## Components
 
 The main ingredients of OMNeT++ are:

@@ -8,6 +8,8 @@ underMenu: Documentation
 
 * [Working with OMNeT++: Bird's-eye view](simulation-with-omnet)
 * [Overview of the Simulation IDE](ide-overview)
+* [Introductory videos](https://www.youtube.com/playlist?list=PL6XXfMqxC2Ccoot_Sl6ZIMjFon4e9ifd3)
+* [Screenshot gallery](../intro/screenshots)
 
 ## Tutorial
 
