@@ -87,9 +87,6 @@ redirect_from: "/index.php/"
         <div class="card omnetpp-blue lighten-1">
           <div class="card-content white-text white-underlined-link">
             <span class="card-title">Staying Informed</span>
-            <!--
-              <p><i class="fab fa-twitter"></i>&nbsp;<a href="https://twitter.com/omnetpp" target="_blank">Follow us on Twitter.</a></p>
-            -->
             <p><i class="fab fa-youtube"></i>&nbsp;<a href="https://www.youtube.com/channel/UCgLf7rEm3MJiBOC7CiQeZJQ" target="_blank">Subscribe to our channel.</a></p>
             <p><i class="fab fa-github"></i>&nbsp;<a href="https://github.com/omnetpp/omnetpp" target="_blank">Star the project on GitHub.</a></p>
             <p><i class="fas fa-envelope"></i>&nbsp;omnetpp-announcements<br>
