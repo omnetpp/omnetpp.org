@@ -54,6 +54,17 @@ CoRE), overlay/peer-to-peer networks (OverSim), or LTE (SimuLTE).
 We maintain a list of selected OMNeT++ models and model frameworks
 [here](/download/models-and-tools).
 
+## Simulation IDE
+
+The Simulation IDE is a powerful, feature-rich environment for developing,
+running, and evaluating simulation models. Please note that using the IDE is
+entirely optional; model development and execution are also possible and fully
+supported through the command line or alternative editors/IDEs.
+
+The following video provides a brief introduction to the IDE.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KUe_vrWbEJY" frameborder="0" allowfullscreen></iframe>
+
 ## Platforms
 
 The OMNeT++ simulation kernel is standard C++, and runs basically on all
