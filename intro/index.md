@@ -54,6 +54,39 @@ CoRE), overlay/peer-to-peer networks (OverSim), or LTE (SimuLTE).
 We maintain a list of selected OMNeT++ models and model frameworks
 [here](/download/models-and-tools).
 
+## Workflow
+
+Here is a a brief overview of the workflow for using OMNeT++:
+
+1. An OMNeT++ model is built from components (modules) which communicate by
+   exchanging messages. Modules can be nested, that is, several modules can be
+   grouped together to form a compound module. When creating the model, you need
+   to map your system into a hierarchy of communicating modules. (When you use a
+   model framework, this and the next two steps are mostly done for you.)
+
+2. Define the model structure in the NED language. You can edit NED in a text
+   editor or in the graphical editor of the Eclipse-based OMNeT++ Simulation
+   IDE.
+
+3. The active components of the model (simple modules) are programmed in C++,
+   using the simulation kernel and class library. C++ classes that represent
+   protocol headers are described in MSG files which are then translated into
+   C++ code.
+
+4. Provide a suitable `omnetpp.ini` file to hold OMNeT++ configuration and
+   parameters to your model. One ini file may hold several configurations which
+   can build on one another, and may even contain parameter studies.
+
+5. Build the simulation program and run it. You'll link the code with the
+   OMNeT++ simulation kernel and one of the user interfaces OMNeT++ provides.
+   There are command line and interactive, graphical user interfaces.
+
+6. Simulation results are written into output vector and output scalar files.
+   You can use the Analysis Tool powered by Pandas and Matplotlib in the
+   Simulation IDE to analyze and plot them. Event logs recorded from the
+   simulation can be viewed in the Sequence Chart Tool in the IDE. Result files
+   are text-based, so you can also process them with R, Matlab or other tools.
+
 ## Simulation IDE
 
 The Simulation IDE is a powerful, feature-rich environment for developing,
