@@ -298,85 +298,102 @@ the same filtering as the Sequence Chart.
 
 ## Result Analysis
 
-Simulations record their results into *vector* (for time series data) and *scalar* files (for scalars, histograms,
-statistical summaries, etc). These result files can be browsed and analyzed in the Python-powered Analysis Tool
-in the IDE. The Analysis Tool works equally well on the output of a single simulation run and the output from
-parameter studies or simulation batches which may be several hundred files, possibly in multiple directories.
+Simulations record their results into *vector* (for time series data) and
+*scalar* files (for scalars, histograms, statistical summaries, etc). These
+result files can be browsed and analyzed in the Python-powered Analysis Tool in
+the IDE. The Analysis Tool works equally well on the output of a single
+simulation run and the output from parameter studies or simulation batches which
+may be several hundred files, possibly in multiple directories.
 
 {: .captioned_image}
 ![](pictures/img18.png){: .materialboxed}
 *Specifying input files for data analysis*
 
-The first page in the editor is where the user can select input files for analysis. It lets the user edit a set of
-file name patterns or directory names that specify which result files to load. When the IDE expands the patterns,
-it displays the list of matched files under each one. The contents of files are also displayed in a tree structure.
+The first page in the editor is where the user can select input files for
+analysis. It lets the user edit a set of file name patterns or directory names
+that specify which result files to load. When the IDE expands the patterns, it
+displays the list of matched files under each one. The contents of files are
+also displayed in a tree structure.
 
 {: .captioned_image}
 ![](pictures/img19.png){: .materialboxed}
 *Browsing simulation results*
 
-The second page of the Analysis editor displays results (parameters, scalars, histograms, and vectors) from all files in
-tables and lets the user browse them. Results can be sorted and filtered. Simple filtering is possible with combo boxes,
-or when that is not enough, the user can write filter expressions in a generic pattern-matching expression
-language. Selected or filtered data can be immediately plotted.
+The second page of the Analysis editor displays results (parameters, scalars,
+histograms, and vectors) from all files in tables and lets the user browse them.
+Results can be sorted and filtered. Simple filtering is possible with combo
+boxes, or when that is not enough, the user can write filter expressions in a
+generic pattern-matching expression language. Selected or filtered data can be
+immediately plotted.
 
 {: .captioned_image}
 ![](pictures/img20.png){: .materialboxed}
 *Managing charts in the analysis*
 
-The third page displays the charts created during the analysis as icons. Charts can be selected, reordered by dragging,
-copied, pasted, renamed, deleted, opened, etc.
+The third page displays the charts created during the analysis as icons. Charts
+can be selected, reordered by dragging, copied, pasted, renamed, deleted,
+opened, etc.
 
-New charts are selected from a Chart Gallery, which contains a set of pre-defined charts for the most frequent needs.
-Charts are backed by Python scripts, which use the Pandas DataFrame as the central data structure. The user can freely
-edit the script of a chart, and can also save the result into the Chart Gallery for reuse as a new chart type.
-Charts are configured by dialogs that let the user select the data to be plotted, item colors, line types, markers,
-axis titles and more. (These settings are stored as chart *properties* that the script can access and take into account.)
-Plots are drawn either with the Matplotlib library or using the built-in plotting capabilities of the IDE.
+New charts are selected from a Chart Gallery, which contains a set of
+pre-defined charts for the most frequent needs. Charts are backed by Python
+scripts, which use the Pandas DataFrame as the central data structure. The user
+can freely edit the script of a chart, and can also save the result into the
+Chart Gallery for reuse as a new chart type. Charts are configured by dialogs
+that let the user select the data to be plotted, item colors, line types,
+markers, axis titles and more. (These settings are stored as chart *properties*
+that the script can access and take into account.) Plots are drawn either with
+the Matplotlib library or using the built-in plotting capabilities of the IDE.
 
-Since charts select their input from the result files using a filter expression, existing charts do not need to be re-created
-when the simulations are re-run -- they will automatically update and display the new data.
+Since charts select their input from the result files using a filter expression,
+existing charts do not need to be re-created when the simulations are re-run --
+they will automatically update and display the new data.
 
 {: .captioned_image}
 ![](pictures/img21.png){: .materialboxed}
 *A Line Chart*
 
-Line charts are typically drawn from time series data stored in vector files. Pre-processing of the data is possible in
-the script. The line chart component can be configured freely to display the vector data according to your needs.
+Line charts are typically drawn from time series data stored in vector files.
+Pre-processing of the data is possible in the script. The line chart component
+can be configured freely to display the vector data according to your needs.
 
 {: .captioned_image}
 ![](pictures/img22.png){: .materialboxed}
 *A Bar Chart*
 
-Bar charts are created from scalar results or scalar statistics of vectors or histograms. Relevant data can be grouped,
-and several display attributes can be set on the component.
+Bar charts are created from scalar results or scalar statistics of vectors or
+histograms. Relevant data can be grouped, and several display attributes can be
+set on the component.
 
 {: .captioned_image}
 ![](pictures/img23.png){: .materialboxed}
 *A Box and Whiskers Chart*
 
-This chart is just one example of the many types of charts that can be made using the integrated support for Matplotlib.
-It offers dozens of plot types out of the box, endless customizations, and proven high-quality output.
+This chart is just one example of the many types of charts that can be made
+using the integrated support for Matplotlib. It offers dozens of plot types out
+of the box, endless customizations, and proven high-quality output.
 
 {: .captioned_image}
 ![](pictures/img24.png){: .materialboxed}
 *Chart Properties Dialog*
 
-Charts have a set of properties that define their behavior and looks. These properties can be edited in a configuration
-dialog. For many input fields, autocompletion and smart suggestions are available.
+Charts have a set of properties that define their behavior and looks. These
+properties can be edited in a configuration dialog. For many input fields,
+autocompletion and smart suggestions are available.
 
 {: .captioned_image}
 ![](pictures/img25.png){: .materialboxed}
 *Chart Script Editor*
 
-With the embedded code editor, users are free to make any changes to the Python scripts powering each chart.
-The integrated editor is that of the PyDev project. It provides syntax highlighting, code navigation features, helpful
-tooltips, and code completion suggestions.
+With the embedded code editor, users are free to make any changes to the Python
+scripts powering each chart. The integrated editor is that of the PyDev project.
+It provides syntax highlighting, code navigation features, helpful tooltips, and
+code completion suggestions.
 
 {: .captioned_image}
 ![](pictures/img26.png){: .materialboxed}
 *Output Vector View*
 
-The Output Vector View can be used to inspect the raw numerical data when required. The user can select a vector on the
-Browse Data Page, and its content will be displayed here.
+The Output Vector View can be used to inspect the raw numerical data when
+required. The user can select a vector on the Browse Data Page, and its content
+will be displayed here.
 
