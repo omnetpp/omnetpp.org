@@ -23,14 +23,10 @@ tabs:
   filesize: 481184691
   md5: 425f80247e4fe71d54528f48f4126967
 
-- id: docker
-  download-page-url: https://hub.docker.com/r/omnetpp/omnetpp
-  description: $ docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" omnetpp/omnetpp:u20.04-5.7
-
 - id: core
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7.1/omnetpp-5.7.1-core.tgz
   filesize: 75412213
   md5: 8af6981c3e93eb91c51353b758b3c02f
 ---
 
-This is a modernized maintenance release of omnetpp-5.7.
+This is a modernized maintenance release of omnetpp-5.7. The primary objective of this release is to facilitate the execution of old simulation models, e.g. for reproducing simulation results or as a basis of porting them to more recent versions of OMNeT++.
