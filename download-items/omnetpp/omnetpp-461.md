@@ -10,7 +10,7 @@ whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-4
 visualchangelog-url: /documentation/visualchangelog#4.6
 tabs:
 - id: linux
-  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.6/omnetpp-4.6.1-src.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.6.1/omnetpp-4.6.1-src.tgz
 
 - id: macos
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.6.1/omnetpp-4.6.1-src.tgz
