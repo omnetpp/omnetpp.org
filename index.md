@@ -36,6 +36,9 @@ redirect_from: "/index.php/"
           {% else %}
             {{ post.content }}
           {% endif %}
+          {% if post.details-url %}
+            <a class="btn-small waves-effect grey lighten-2 black-text" href="{{ post.details-url | relative_url }}">Details</a>
+          {% endif %}
           {% capture counter %}{{ counter | append:'.' }}{% endcapture %}
         </div>
         {% endif %}
