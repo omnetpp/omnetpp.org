@@ -29,7 +29,11 @@ tabs:
   md5: 28822b9210e57b946f8bd09c701b855d
 
 ---
-This is a maintenance release of omnetpp-6.0. This release contains updated JRE and Eclipse dependencies for the IDE to fix several crashes with recent Gtk library versions on Linux. It also contains numerous fixes and enhancements to the simulation kernel, IDE, Qtenv and the python analysis packages.
+This is a maintenance release of omnetpp-6.0. This release contains updated
+JRE and Eclipse dependencies for the IDE to fix several crashes with recent
+Gtk library versions on Linux. It also contains numerous fixes to the simulation
+kernel, Qtenv, and the Analysis Tool and the NED Documentation Generator in
+the IDE.
 
 Experimental AARCH64 based versions are available for
 [Linux](https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0.2/omnetpp-6.0.2-linux-aarch64.tgz)
