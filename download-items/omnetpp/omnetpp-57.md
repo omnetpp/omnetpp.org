@@ -9,17 +9,17 @@ category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-57-sept-2021
 tabs:
 - id: linux
-  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7/omnetpp-5.7-linux-x86_64.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7/omnetpp-5.7-src-linux.tgz
   filesize: 332422125
   md5: 2b8dfc258b47c079d63a6b573b30f2f9
 
 - id: windows
-  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7/omnetpp-5.7-windows-x86_64.zip
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7/omnetpp-5.7-src-windows.zip
   filesize: 770704247
   md5: e6588fd745675984e45ae1d60b2146a9
 
 - id: macos
-  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7/omnetpp-5.7-macos-x86_64.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7/omnetpp-5.7-src-macosx.tgz
   filesize: 475812819
   md5: 850f41d57ac4a7250f3dd1efa903f7d1
 
@@ -28,7 +28,7 @@ tabs:
   description: $ docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" omnetpp/omnetpp:u20.04-5.7
 
 - id: core
-  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7/omnetpp-5.7-core.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7/omnetpp-5.7-src-core.tgz
   filesize: 75371971
   md5: 11a7d42a9197f52626dcecd575643ac4
 ---

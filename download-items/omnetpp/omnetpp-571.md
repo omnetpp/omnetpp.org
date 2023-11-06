@@ -19,7 +19,7 @@ tabs:
   md5: e3b88136616a7f8e1949d4d9f394cba7
 
 - id: macos
-  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7.1/omnetpp-5.7.1-src-macos.tgz
+  download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7.1/omnetpp-5.7.1-src-macosx.tgz
   filesize: 481184691
   md5: 425f80247e4fe71d54528f48f4126967
 
