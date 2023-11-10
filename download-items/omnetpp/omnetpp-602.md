@@ -20,8 +20,8 @@ tabs:
 
 - id: macos
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0.2/omnetpp-6.0.2-macos-x86_64.tgz
-  filesize: 537824104
-  md5: 394068f105768759466160057bcd2736
+  filesize: 538002558
+  md5: 9a4425ebce4ef4139d85da6f8f7b45ba
 
 - id: core
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0.2/omnetpp-6.0.2-core.tgz
