@@ -7,6 +7,7 @@ date: 2023-08-22
 sortkey: "2021-10-07"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-571-august-2023
+opp-env-command: opp_env install omnetpp-5.7.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7.1/omnetpp-5.7.1-src-linux.tgz

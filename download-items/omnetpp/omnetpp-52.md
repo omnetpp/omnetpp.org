@@ -8,6 +8,7 @@ sortkey: "2017-10-02"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-52-september-2017
 visualchangelog-url: /documentation/visualchangelog#5.2
+opp-env-command: opp_env install omnetpp-5.2.0
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.2/omnetpp-5.2-src-linux.tgz

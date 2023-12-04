@@ -7,6 +7,7 @@ date: 2017-12-11
 sortkey: "2017-12-11"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-521-december-2017
+opp-env-command: opp_env install omnetpp-5.2.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.2.1/omnetpp-5.2.1-src-linux.tgz

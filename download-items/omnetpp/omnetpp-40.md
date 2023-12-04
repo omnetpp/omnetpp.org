@@ -7,6 +7,7 @@ date: 2009-03-12
 sortkey: "2009-03-12"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-40-march-2009
+opp-env-command: opp_env install omnetpp-4.0.0
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.0/omnetpp-4.0p1-src.tgz

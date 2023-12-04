@@ -7,6 +7,7 @@ date: 2020-02-10
 sortkey: "2020-02-10"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-561-february-2020
+opp-env-command: opp_env install omnetpp-5.6.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.6.1/omnetpp-5.6.1-src-linux.tgz

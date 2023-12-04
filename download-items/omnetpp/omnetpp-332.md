@@ -7,6 +7,7 @@ date: 2023-08-08
 sortkey: "2008-10-26"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-332-august-2023
+opp-env-command: opp_env install omnetpp-3.3.2
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-3.3.2/omnetpp-3.3.2-src.tgz

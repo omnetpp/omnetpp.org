@@ -7,6 +7,7 @@ date: 2023-10-11
 sortkey: "2023-10-11"
 category: omnetpp-current
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-602-october-2023
+opp-env-command: opp_env install omnetpp-6.0.2
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0.2/omnetpp-6.0.2-linux-x86_64.tgz

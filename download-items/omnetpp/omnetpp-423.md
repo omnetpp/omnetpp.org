@@ -7,6 +7,7 @@ date: 2023-08-09
 sortkey: "2013-04-05"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-423-august-2023
+opp-env-command: opp_env install omnetpp-4.2.3
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.2.3/omnetpp-4.2.3-src.tgz

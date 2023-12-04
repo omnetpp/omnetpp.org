@@ -8,6 +8,7 @@ sortkey: "2014-12-02"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-46-dec-2014
 visualchangelog-url: /documentation/visualchangelog#4.6
+opp-env-command: opp_env install omnetpp-4.6.0
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.6/omnetpp-4.6-src.tgz

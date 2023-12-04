@@ -8,6 +8,7 @@ sortkey: "2014-07-17"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-451-august-2023
 visualchangelog-url: /documentation/visualchangelog#4.5
+opp-env-command: opp_env install omnetpp-4.5.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.5.1/omnetpp-4.5.1-src.tgz
