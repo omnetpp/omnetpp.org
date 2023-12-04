@@ -8,6 +8,7 @@ tags: model inet3 omnetpp5 omnetpp4
 keywords: aerospace, wireless, mobility, satellite
 github-url: https://github.com/inet-framework/cni-os3
 website-url: http://www-os3.kn.e-technik.tu-dortmund.de
+opp-env-command: opp_env install os3-latest
 ---
 
 OS³, the Open Source Satellite Simulator, was developed as a framework for

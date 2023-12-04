@@ -8,6 +8,7 @@ tags: model omnetpp5 inet3
 keywords: vehicular, automotive, ethernet, 802.1q, avb, srp, tsn, vlan
 github-url: https://gitlab.com/ipvs/nesting
 website-url: https://1.ieee802.org/protocol-simulations/
+opp-env-command: opp_env install nesting-latest
 ---
 
 NeSTiNg is a simulation model for Time-Sensitive Networking (TSN). It uses

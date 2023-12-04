@@ -8,6 +8,7 @@ tags: model inet3 inet2 inet1 omnetpp5 omnetpp4
 keywords: optical, wireless, hybrid, access network
 github-url: https://github.com/kyeongsoo/inet-hnrl
 website-url: https://github.com/kyeongsoo/inet-hnrl/wiki/INET-HNRL:-Models-for-Hybrid-Networking-Research
+opp-env-command: opp_env install inet_hnrl-latest
 ---
 
 This is a new fork of INET Framework developed for hybrid networking research.

@@ -12,6 +12,7 @@ tags: featured model framework omnetpp5 omnetpp4
 keywords: vehicular, automotive, canbus, fieldbus, flexray
 github-url: https://github.com/CoRE-RG/FiCo4OMNeT
 website-url: http://sim.core-rg.de/trac/wiki/FiCo4OMNeT_Background
+opp-env-command: opp_env install fico4omnet-latest
 ---
 
 FiCo4OMNeT implements fieldbus communication. At this point the model consists

@@ -11,6 +11,7 @@ sortkey: "10"
 tags: featured model omnetpp5 inet4
 keywords: manet, mobility, opportunistic networking
 github-url: https://github.com/ComNets-Bremen/OPS
+opp-env-command: opp_env install ops_allinone-latest
 ---
 
 OPS is a set of simulation models for the simulation of opportunistic networks.

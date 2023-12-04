@@ -7,6 +7,7 @@ category: models
 tags: model framework omnetpp4 omnetpp3 superseded
 keywords: manet, ad hoc, mobility, wireless, wsn, sensor, wpan, 802.15.4, power
 download-page-url: http://mixim.sourceforge.net
+opp-env-command: opp_env install mixim-latest
 ---
 
 MiXiM is an OMNeT++ modeling framework created for mobile and fixed wireless

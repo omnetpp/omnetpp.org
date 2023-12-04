@@ -13,6 +13,7 @@ keywords: tcp/ip, internet, lan, wan, manet, ad hoc, mobility, wpan, wsn, sensor
 github-url: https://github.com/inet-framework/inet/releases
 website-url: https://inet.omnetpp.org/
 more-url: https://inet.omnetpp.org/Introduction
+opp-env-command: opp_env install inet-latest
 ---
 
 INET Framework is an open-source model library for the OMNeT++ simulation

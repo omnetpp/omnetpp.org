@@ -7,6 +7,7 @@ years-active: 2019-
 tags: model omnetpp5 inet4
 keywords: tsch
 github-url: https://github.com/ComNetsHH/omnetpp-tsch
+opp-env-command: opp_env install tsch_allinone-latest
 ---
 
 Simulation model for IEEE 802.15.4e Time Slotted Channel Hopping (TSCH) with

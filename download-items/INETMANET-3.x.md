@@ -8,6 +8,7 @@ category: models
 tags: model framework inet3 omnetpp5 omnetpp4
 keywords: mobility, wireless, manet, ad hoc
 github-url: https://github.com/aarizaq/inetmanet-3.x
+opp-env-command: opp_env install inetmanet3-latest
 ---
 
 INETMANET is a fork of the INET Framework 3.x branch, containing additional

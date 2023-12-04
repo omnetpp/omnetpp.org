@@ -7,6 +7,7 @@ category: models
 tags: model omnetpp4 inet2
 keywords: canbus, fieldbus, vehicular, automotive
 website-url: https://sites.google.com/site/yutakaertl/omnetpp_canmodel
+opp-env-command: opp_env install can_allinone-latest
 ---
 
 A simulation model for CAN (Controller Area Network) for OMNeT++.

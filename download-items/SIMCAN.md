@@ -8,6 +8,7 @@ tags: model framework omnetpp4 inet2
 keywords: hpc, cloud, data center, storage network, mpi, performance
 download-page-url: http://antares.sip.ucm.es/cana/simcan/download.html
 website-url: http://antares.sip.ucm.es/cana/simcan/
+opp-env-command: opp_env install simcan-latest
 ---
 
 A simulation platform for modelling and simulating distributes architectures

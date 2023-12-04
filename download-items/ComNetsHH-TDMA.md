@@ -7,6 +7,7 @@ years-active: 2021
 tags: model omnetpp5 inet4
 keywords: tdma
 github-url: https://github.com/ComNetsHH/omnetpp-tdma
+opp-env-command: opp_env install omnet_tdma-latest
 ---
 
 A simple and abstract implementation of a TDMA MAC protocol for the INET

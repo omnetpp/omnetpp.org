@@ -8,6 +8,7 @@ tags: model omnetpp4 inet2
 keywords: cloud, performance
 download-page-url: https://sourceforge.net/projects/icancloudsim/
 website-url: https://www.arcos.inf.uc3m.es/old/icancloud/Home.html
+opp-env-command: opp_env install icancloud-latest
 ---
 
 iCanCloud is a simulation platform aimed at modeling and simulating cloud computing

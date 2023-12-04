@@ -10,6 +10,7 @@ tags: featured model framework inet4 omnetpp6 omnetpp5
 keywords: 3gpp, wireless, gsm, voip, 5g
 github-url: https://github.com/Unipisa/Simu5G
 website-url: https://simu5g.org
+opp-env-command: opp_env install simu5g-latest
 ---
 
 Simu5G is a simulator for 5G NewRadio and LTE/LTE-A networks for OMNeT++ and INET frameworks.

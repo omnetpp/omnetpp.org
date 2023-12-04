@@ -8,6 +8,7 @@ tags: model omnetpp4 omnetpp3
 keywords: ipv6, tcp, ipv4, udp, icmpv6, arp, nd, ethernet
 download-page-url: https://svn.tm.kit.edu/trac/OppBSD/downloads
 website-url: https://svn.tm.kit.edu/trac/OppBSD
+opp-env-command: opp_env install oppbsd-latest
 ---
 
 OppBSD integrates essential parts of the real FreeBSD networking stack into

@@ -7,6 +7,7 @@ category: models
 tags: model omnetpp4
 keywords: biology, cell, signaling
 github-url: https://github.com/dhuertas/cell-signaling
+opp-env-command: opp_env install cell-latest
 ---
 
 CellSignaling is a research project from GRXCA group at BarcelonaTECH,

@@ -7,6 +7,7 @@ years-active: 2018
 tags: model omnetpp5 inet4
 keywords: manet, mobility, opportunistic networking
 github-url: https://github.com/ComNets-Bremen/OPSLite
+opp-env-command: opp_env install opslite-latest
 ---
 
 A lightweight opportunistic networking simulator in OMNeT++

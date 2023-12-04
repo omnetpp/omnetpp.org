@@ -11,6 +11,7 @@ tags: featured model framework omnetpp6 omnetpp5 omnetpp4 omnetpp3 veins
 keywords: vanet, vehicular, mobility, ad hoc, ivc, 802.11p, 1609.4, wireless, cosimulation
 download-page-url: https://veins.car2x.org/download/
 website-url: https://veins.car2x.org
+opp-env-command: opp_env install veins-latest
 ---
 
 Veins is an open source Inter-Vehicular Communication (IVC) simulation framework

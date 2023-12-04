@@ -11,6 +11,7 @@ tags: featured model omnetpp4 omnetpp5 inet3
 keywords: vehicular, automotive, ethernet, as6802, ttethernet, 802.1q, avb, srp, tsn, vlan, 802.1p
 github-url: https://github.com/CoRE-RG/CoRE4INET
 website-url: https://core4inet.core-rg.de/trac/wiki/CoRE4INET_Background
+opp-env-command: opp_env install core4inet-latest
 ---
 
 CoRE4INET is an extension to the INET Framework for the event-based simulation

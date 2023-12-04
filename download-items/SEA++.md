@@ -7,6 +7,7 @@ category: models
 tags: model inet2 omnetpp4
 keywords: security, attack, sdn
 github-url: https://github.com/seapp/seapp_stable
+opp-env-command: opp_env install seapp-latest
 ---
 
 SEA++ is an attack simulator which helps the user to quantitatively evaluate the

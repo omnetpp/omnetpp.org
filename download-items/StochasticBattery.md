@@ -7,6 +7,7 @@ years-active: 2016-2017
 tags: model omnetpp5
 keywords: power
 github-url: https://github.com/brandte/stochastic_battery
+opp-env-command: opp_env install stochasticbattery-latest
 ---
 
 An OMNeT++ simulation for stochastic battery behavior. It implements the

@@ -7,6 +7,7 @@ years-active: 2018
 tags: model omnetpp5 inet3
 keywords: ethernet, lan, timing, gptp, 802.1as
 website-url: https://gitlab.amd.e-technik.uni-rostock.de/peter.danielis/gptp-implementation
+opp-env-command: opp_env install gptp-latest
 ---
 
 General Precision Time Protocol (gPTP), well known by IEEE 802.1AS standard,

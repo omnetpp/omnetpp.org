@@ -10,6 +10,7 @@ tags: featured model framework inet4 inet3 omnetpp6 omnetpp5 omnetpp4
 keywords: 3gpp, wireless, gsm, voip
 github-url: https://github.com/inet-framework/simulte
 website-url: https://simulte.com/
+opp-env-command: opp_env install simulte-latest
 ---
 
 SimuLTE is an innovative simulation tool that enables complex system-level

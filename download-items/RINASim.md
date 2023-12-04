@@ -11,6 +11,7 @@ tags: featured model framework omnetpp5 omnetpp4
 keywords: rina, network, architecture
 github-url: https://github.com/kvetak/RINA
 website-url: https://rinasim.omnetpp.org/
+opp-env-command: opp_env install rinasim-latest
 ---
 
 RINASim is a stand-alone OMNeT++ model framework for the simulation of

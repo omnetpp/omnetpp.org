@@ -21,6 +21,7 @@
                     {% endif %}{{ item.years-active | strip }}{% if item.date or item.years-active %},
                     {% endif %}{{ item.tags | strip }})
                 </time>
+                {% if item.opp-env-command %}<br>Install command: <code class="highlighter-rouge">{{ item.opp-env-command | replace:'opp_env','<a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a>' }}</code>{% endif %}
             </div>
         </div>
     </div>

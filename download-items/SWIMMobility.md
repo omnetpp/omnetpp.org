@@ -7,6 +7,7 @@ category: models
 tags: model omnetpp4 omnetpp5 inet3
 keywords: opportunistic networking, mobility, manet, ad hoc
 github-url: https://github.com/ComNets-Bremen/SWIMMobility
+opp-env-command: opp_env install swim_allinone-latest
 ---
 
 SWIMMobility is an implementation of the Small Worlds in Motion (SWIM) mobility model

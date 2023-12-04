@@ -7,6 +7,7 @@ category: models
 tags: model framework omnetpp4
 keywords: 802.15.4, wsn, sensor, wireless, wpan, tmac
 github-url: https://github.com/boulis/Castalia
+opp-env-command: opp_env install castalia-latest
 ---
 
 Castalia is a simulator for Wireless Sensor Networks (WSN), Body Area Networks

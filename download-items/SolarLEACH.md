@@ -7,6 +7,7 @@ category: models
 tags: model omnetpp3
 keywords: wireless, sensor, wsn, power
 download-file-url: https://github.com/omnetpp-models/archive/releases/download/archive/SolarLEACH-1.01.tgz
+opp-env-command: opp_env install solarleach-latest
 ---
 
 This is a simulation of LEACH (Low-Energy Adaptive Clustering Hierarchy), a

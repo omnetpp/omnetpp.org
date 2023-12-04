@@ -7,6 +7,7 @@ category: models
 tags: model omnetpp6
 keywords: afdx, ethernet, fieldbus, avionics
 github-url: https://github.com/badapplexx/AFDX
+opp-env-command: opp_env install afdx-latest
 ---
 
 - The model contains only the MAC layer implementation, higher layer functions are not implemented.

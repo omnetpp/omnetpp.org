@@ -12,6 +12,7 @@ tags: featured model framework omnetpp4 omnetpp5 inet1 inet3
 keywords: p2p, chord, kademlia, pastry, gia
 github-url: https://github.com/inet-framework/oversim
 website-url: http://www.oversim.org/
+opp-env-command: opp_env install oversim-latest
 ---
 
 OverSim is an open-source overlay and and peer-to-peer network simulation

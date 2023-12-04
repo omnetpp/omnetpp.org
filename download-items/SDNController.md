@@ -7,6 +7,7 @@ category: models
 tags: model omnetpp5 inet4
 keywords: sdn, openflow
 github-url: https://github.com/swiru95/omnetpp_sdncontroller
+opp-env-command: opp_env install gradys-latest
 ---
 
 SDN controller gives you an API to control switches by using OpenFlow v1.0.0 messages.

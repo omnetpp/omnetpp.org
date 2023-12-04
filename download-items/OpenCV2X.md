@@ -8,6 +8,7 @@ tags: model framework omnetpp5 simulte veins artery
 keywords: vanet, vehicular, mobility, ad hoc, v2x, wireless, cosimulation
 github-url: https://github.com/brianmc95/OpenCV2X
 website-url: http://www.cs.ucc.ie/cv2x/
+opp-env-command: opp_env install opencv2x_veins-latest
 ---
 
 OpenCV2X is an open source implementation of the 3GPP standard CV2X (Rel 14)

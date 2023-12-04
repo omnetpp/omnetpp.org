@@ -8,6 +8,7 @@ tags: model inet2 inet1 omnetpp4 omnetpp3
 keywords: traffic generation, topology generation
 website-url: https://projekte.tm.uka.de/trac/ReaSE/
 github-url: https://github.com/ToGaKIT/ReaSE
+opp-env-command: opp_env install rease-latest
 ---
 
 The ReaSE framework provides a graphical user interface for generation of NED

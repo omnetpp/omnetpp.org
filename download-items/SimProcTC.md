@@ -13,6 +13,7 @@ keywords: cluster computing, simulation campaign, batch run, statistics
 download-page-url: https://www.uni-due.de/~be0001/omnetpp/#Download
 github-url: https://github.com/dreibh/simproctc
 website-url: https://www.uni-due.de/~be0001/omnetpp/
+opp-env-command: opp_env install simproctc-latest
 ---
 
 The Simulation Processing Tool-Chain&nbsp;(SimProcTC) is a model-independent, flexible tool-chain for the setup, parallel run execution, results aggregation and data analysis for OMNeT++. It is based on [GNU R](https://www.r-project.org/) and [Reliable Server Pooling (RSerPool)](https://www.uni-due.de/~be0001/rserpool/).

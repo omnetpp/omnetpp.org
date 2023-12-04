@@ -7,6 +7,7 @@ category: models
 tags: model framework omnetpp5
 keywords: datacenter, cloud, traffic
 github-url: https://github.com/Mellanox/DCTrafficGen
+opp-env-command: opp_env install dctrafficgen-latest
 ---
 
 Data Center Network (DCN) research is gaining further momentum as the Cloud

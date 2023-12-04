@@ -8,6 +8,7 @@ tags: model inet4 inet3 omnetpp6 omnetpp5
 keywords: iot, lora, wsn, sensor, wireless
 website-url: https://flora.aalto.fi
 github-url: https://github.com/florasim/flora
+opp-env-command: opp_env install flora-latest
 ---
 
 FLoRa (Framework for LoRa) is a simulation framework for carrying out end-to-end

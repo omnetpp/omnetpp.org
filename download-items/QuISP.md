@@ -7,6 +7,7 @@ category: models
 tags: model framework omnetpp5
 keywords: quantum quantum-internet quantum-computing
 github-url: https://github.com/sfc-aqua/quisp
+opp-env-command: opp_env install quisp-latest
 ---
 
 The Quantum Internet Simulation Package (QuISP) is an event-driven simulation of

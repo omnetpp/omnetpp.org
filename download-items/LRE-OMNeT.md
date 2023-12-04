@@ -7,6 +7,7 @@ years-active: 2018-
 tags: model omnetpp5
 keywords: statistics, confidence, lre
 github-url: https://github.com/ComNetsHH/LRE-OMNeT
+opp-env-command: opp_env install lre_omnet-latest
 ---
 
 This project provides an integration of the Limited Relative Error (LRE)

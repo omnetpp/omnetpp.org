@@ -7,6 +7,7 @@ years-active: 2016-
 tags: model framework omnetpp6 omnetpp5 inet4
 keywords: mobility, wireless, manet, ad hoc
 github-url: https://github.com/aarizaq/inetmanet-4.x
+opp-env-command: opp_env install inetmanet4-latest
 ---
 
 INETMANET 4.x is a fork of the INET Framework 4.x branch, maintained by Alfonso

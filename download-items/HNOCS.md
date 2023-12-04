@@ -7,6 +7,7 @@ category: models
 tags: model framework omnetpp5 omnetpp4
 keywords: network-on-chip
 github-url: https://github.com/yanivbi/HNOCS
+opp-env-command: opp_env install hnocs-latest
 ---
 
 NoC simulation is a key for NoC architectures research resulting from the huge
