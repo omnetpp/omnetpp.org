@@ -10,24 +10,25 @@
         <div class="collapsible-header">
             <div style="width: 100%">
                 <div class="right" style="padding: 0.5rem;" >
+                        {% if item.opp-env-command %}<a  class="waves-effect waves-light yellow darken-4 btn-small" style="margin-left: 10px"><i class="fas fa-solid fa-wand-sparkles right"></i><span>opp_env</span></a>{% endif %}
                         {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn-small" style="margin-left: 10px"><i class="fas fa-globe right"></i><span>Website</span></a>{% endif %}
                         {% if item.github-url %}<a href="{{ item.github-url }}" target="_blank" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="fab fa-github right"></i><span>GitHub</span></a>{% endif %}
                         {% if item.torrent-url %}<a href="{{ item.torrent-url }}" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="fas fa-cloud-download-alt right"></i><span>Torrent</span></a>{% endif %}
                         {% if item.download-file-url %}<a href="{{ item.download-file-url }}" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="fas fa-download right"></i><span>Download</span></a>{% endif %}
                         {% if item.download-page-url %}<a href="{{ item.download-page-url }}" target="_blank" class="waves-effect waves-light green darken-3 btn-small" style="margin-left: 10px"><i class="fas fa-folder-open right"></i><span>Download</span></a>{% endif %}
-                </div>
+                    </div>
                 <span class="{{titleclass}}">{{ item.title }}</span>&nbsp;
                 <time>({{ item.date | strip }}{% if item.date and item.years-active %},
                     {% endif %}{{ item.years-active | strip }}{% if item.date or item.years-active %},
                     {% endif %}{{ item.tags | strip }})
                 </time>
-                {% if item.opp-env-command %}<br>Install command: <code class="highlighter-rouge">{{ item.opp-env-command | replace:'opp_env','<a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a>' }}</code>{% endif %}
             </div>
         </div>
     </div>
     <div class="collapsible-body">
     <div>
         <a href="{{item.url}}" class="right"><i class="material-icons grey-text" title="Permalink">open_in_new</i></a>
+        {% if item.opp-env-command %}<div>Install command: <code class="highlighter-rouge">{{ item.opp-env-command | replace:'opp_env','<a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a>' }}</code><br><br></div>{% endif %}
         {{ item.content | markdownify }}
         {% if item.keywords %}<p class="keywords">Keywords: {{ item.keywords }}</p>{% endif %}
     </div>
