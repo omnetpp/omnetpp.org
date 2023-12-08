@@ -8,6 +8,7 @@ tags: model inet4 omnetpp5
 keywords: wsn, sensor, wpan, dsme, 802.15.4, wireless
 github-url: https://github.com/openDSME/inet-dsme
 website-url: https://http://opendsme.org/
+opp-env-command: opp_env install opendsme_allinone-latest
 ---
 
 openDSME is an open source portable implementation of IEEE 802.15.4 DSME,

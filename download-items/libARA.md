@@ -7,6 +7,7 @@ years-active: 2012-2015
 tags: model inet1 omnetpp4
 keywords: antnet, aco, routing
 github-url: https://github.com/des-testbed/libara
+opp-env-command: opp_env install libara_allinone-latest
 ---
 
 An enhanceable framework for developing and testing the Ant Routing Algorithm

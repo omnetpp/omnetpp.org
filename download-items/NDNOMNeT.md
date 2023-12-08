@@ -7,6 +7,7 @@ years-active: 2018-
 tags: model inet3 omnetpp5
 keywords: ndn, iot
 github-url: https://github.com/amar-ox/NDNOMNeT
+opp-env-command: opp_env install ndnomnet-latest
 ---
 
 NDNOMNeT is an extension for OMNeT++ to simulate Named Data Networking (NDN) in
