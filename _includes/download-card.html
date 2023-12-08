@@ -25,10 +25,19 @@
         {% if item.whatsnew-url %}<a href="{{ item.whatsnew-url }}" target="_blank" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">What's New</a>{% endif %}
         {% if item.visualchangelog-url %}<a href="{{ item.visualchangelog-url }}" target="_blank" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Visual Change Log</a>{% endif %}
         {% if item.opp-env-command %}
-          <div><br>Install command: <code class="highlighter-rouge">{{ item.opp-env-command | replace:'opp_env','<a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a>' }}</code>
-            {% if item.category == "omnetpp-current" %}or <code class="highlighter-rouge"><a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a> install omnetpp-latest</code>{% endif %}
-          </div>
+        <div>
+          <span class="copy-container" style="margin-bottom: 20px;">Install command: <code class="highlighter-rouge content">{{ item.opp-env-command | replace:'opp_env','<a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a>' }}</code>
+          <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3"  style="padding: 0px 2px;"><i class="fa-regular fa-copy grey-text text-darken-3"></i></button> 
+          </span>
+
+          {% if item.category == "omnetpp-current" %}
+          <span class="copy-container" style="margin-bottom: 20px;">or <code class="highlighter-rouge content"><a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a> install omnetpp-latest</code>
+          <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3" style="padding: 0px 2px;"><i class="fa-regular fa-copy grey-text text-darken-3"></i></button> 
+          </span>
+          {% endif %}
+        </div>
         {% endif %}
+
         {% unless item.tabs %}
         <div>
           {% if item.filesize %}Size:&nbsp;{{item.filesize | divided_by: 1048576}}MB&nbsp;&nbsp;{% endif %}

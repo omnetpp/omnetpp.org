@@ -28,7 +28,14 @@
     <div class="collapsible-body">
     <div>
         <a href="{{item.url}}" class="right"><i class="material-icons grey-text" title="Permalink">open_in_new</i></a>
-        {% if item.opp-env-command %}<div>Install command: <code class="highlighter-rouge">{{ item.opp-env-command | replace:'opp_env','<a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a>' }}</code><br><br></div>{% endif %}
+        {% if item.opp-env-command %}
+          <div class="copy-container" style="margin-bottom: 20px;">Install command: <code class="highlighter-rouge content">{{ item.opp-env-command | replace:'opp_env','<a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a>' }}</code>
+          <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3" style="padding: 0px 2px;">
+            <i class="fa-regular fa-copy grey-text text-darken-3"></i>
+          </button> 
+          </div>
+        {% endif %}
+
         {{ item.content | markdownify }}
         {% if item.keywords %}<p class="keywords">Keywords: {{ item.keywords }}</p>{% endif %}
     </div>
