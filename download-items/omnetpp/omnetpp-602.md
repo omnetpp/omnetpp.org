@@ -11,8 +11,8 @@ opp-env-command: opp_env install omnetpp-6.0.2
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0.2/omnetpp-6.0.2-linux-x86_64.tgz
-  filesize: 393653616
-  md5: 1e5bfaafa7e5f5048c589737bbe9e6eb
+  filesize: 393796019
+  md5: fadde2d2e4da53962cd42958563405c6
 
 - id: windows
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0.2/omnetpp-6.0.2-windows-x86_64.zip
