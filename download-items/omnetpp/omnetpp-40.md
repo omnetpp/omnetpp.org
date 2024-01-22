@@ -7,7 +7,6 @@ date: 2009-03-12
 sortkey: "2009-03-12"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-40-march-2009
-opp-env-command: opp_env install omnetpp-4.0.0
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.0/omnetpp-4.0p1-src.tgz
@@ -17,6 +16,9 @@ tabs:
 
 - id: macos
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.0/omnetpp-4.0p1-src.tgz
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-4.0.0
 ---
 
 This is a major revision of the whole simulation platform, with fundamental changes in nearly every component.

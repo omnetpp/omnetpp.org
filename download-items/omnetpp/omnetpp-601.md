@@ -7,7 +7,6 @@ date: 2022-09-01
 sortkey: "2022-09-01"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-601-september-2022
-opp-env-command: opp_env install omnetpp-6.0.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0.1/omnetpp-6.0.1-linux-x86_64.tgz
@@ -29,12 +28,15 @@ tabs:
   filesize: 77918263
   md5: 7d89c7c8457fde74f21d24378962b753
 
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-6.0.1
 ---
-This is a maintenance release which contains more than two dozen bugfixes in
-the simulation runtime, the IDE, the Analysis Tool, the NED documentation generator 
-and Qtenv. The documentation was also updated in various places including the Install Guide. 
 
-An experimental AARCH64 based Linux version is available 
+This is a maintenance release which contains more than two dozen bugfixes in
+the simulation runtime, the IDE, the Analysis Tool, the NED documentation generator
+and Qtenv. The documentation was also updated in various places including the Install Guide.
+
+An experimental AARCH64 based Linux version is available
 [here](https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0.1/omnetpp-6.0.1-linux-aarch64.tgz).
 
 Read about the major 6.0 update [here](https://github.com/omnetpp/omnetpp/releases/tag/omnetpp-6.0).

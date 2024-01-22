@@ -7,7 +7,6 @@ date: 2017-12-11
 sortkey: "2017-12-11"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-521-december-2017
-opp-env-command: opp_env install omnetpp-5.2.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.2.1/omnetpp-5.2.1-src-linux.tgz
@@ -28,6 +27,9 @@ tabs:
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.2.1/omnetpp-5.2.1-src-core.tgz
   filesize: 64089911
   md5: a6685fc414ca86748edbbcfa1e7d0532
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-5.2.1
 ---
 
 Highlights of this release are the fine-tuning of result recording and

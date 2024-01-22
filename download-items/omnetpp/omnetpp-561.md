@@ -7,7 +7,6 @@ date: 2020-02-10
 sortkey: "2020-02-10"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-561-february-2020
-opp-env-command: opp_env install omnetpp-5.6.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.6.1/omnetpp-5.6.1-src-linux.tgz
@@ -32,6 +31,9 @@ tabs:
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.6.1/omnetpp-5.6.1-src-core.tgz
   filesize: 64084991
   md5: b0647617f240b6aee9ae9317d910295c
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-5.6.1
 ---
 
 This is primarily a bugfix release, with a small but practically quite useful NED feature (`@reconnect`) and minor additions to the simulation library.

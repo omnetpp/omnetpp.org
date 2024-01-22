@@ -8,7 +8,6 @@ sortkey: "2013-09-16"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-43-march-2013
 visualchangelog-url: /documentation/visualchangelog#4.3
-opp-env-command: opp_env install omnetpp-4.3.0
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.3/omnetpp-4.3-src.tgz
@@ -18,6 +17,9 @@ tabs:
 
 - id: macos
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.3/omnetpp-4.3-src.tgz
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-4.3.0
 ---
 
 This release contains several bugfixes and usability improvements compared to

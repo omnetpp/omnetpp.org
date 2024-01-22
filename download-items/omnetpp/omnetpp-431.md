@@ -7,7 +7,6 @@ date: 2013-09-21
 sortkey: "2013-09-21"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-431-sept-2013
-opp-env-command: opp_env install omnetpp-4.3.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.3.1/omnetpp-4.3.1-src.tgz
@@ -17,6 +16,9 @@ tabs:
 
 - id: macos
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.3.1/omnetpp-4.3.1-src.tgz
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-4.3.1
 ---
 
 The focus of this update is to help first-time users get familiar with OMNeT++

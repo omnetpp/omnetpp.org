@@ -7,7 +7,6 @@ date: 2018-06-29
 sortkey: "2018-06-29"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-541-june-2018
-opp-env-command: opp_env install omnetpp-5.4.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.4.1/omnetpp-5.4.1-src-linux.tgz
@@ -32,6 +31,9 @@ tabs:
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.4.1/omnetpp-5.4.1-src-core.tgz
   filesize: 63575167
   md5: f29b6cdba2c1c07f33ea15207cf59e1a
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-5.4.1
 ---
 
 This release contains last-minute features and improvements, mostly motivated by

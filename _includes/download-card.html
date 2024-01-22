@@ -27,12 +27,12 @@
         {% if item.opp-env-command %}
         <div>
           <span class="copy-container" style="margin-bottom: 20px;">Install command: <code class="highlighter-rouge content">{{ item.opp-env-command | replace:'opp_env','<a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a>' }}</code>
-          <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3"  style="padding: 0px 2px;"><i class="fa-regular fa-copy grey-text text-darken-3"></i></button> 
+          <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3"  style="padding: 0px 2px;"><i class="fa-regular fa-copy grey-text text-darken-3"></i></button>
           </span>
 
           {% if item.category == "omnetpp-current" %}
           <span class="copy-container" style="margin-bottom: 20px;">or <code class="highlighter-rouge content"><a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a> install omnetpp-latest</code>
-          <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3" style="padding: 0px 2px;"><i class="fa-regular fa-copy grey-text text-darken-3"></i></button> 
+          <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3" style="padding: 0px 2px;"><i class="fa-regular fa-copy grey-text text-darken-3"></i></button>
           </span>
           {% endif %}
         </div>
@@ -58,6 +58,7 @@
           {% if tab.id == "macos" %}<i class="fab fa-apple fa-lg"></i>&nbsp;MAC OS{% endif %}
           {% if tab.id == "docker" %}<i class="fab fa-docker fa-lg"></i>&nbsp;Docker{% endif %}
           {% if tab.id == "core" %}<i class="fas fa-file-archive"></i>&nbsp;CORE (Without IDE){% endif %}
+          {% if tab.id == "opp_env" %}<i class="fas fa-cubes"></i>&nbsp;opp_env{% endif %}
           {% if tab.name %}{{tab.name}}{% endif %}
           </a>
         </li>
@@ -76,6 +77,12 @@
           {% if tab.filesize%}Size:&nbsp;{{tab.filesize | divided_by: 1048576}}MB&nbsp;&nbsp;{% endif %}
           {% if tab.md5 %}MD5:&nbsp;{{tab.md5}}&nbsp;&nbsp;{% endif %}
           {% if tab.sha1 %}SHA1:&nbsp;{{tab.sha1}}&nbsp;&nbsp;{% endif %}
+          {% if tab.opp-env-command %}
+            Install <a href="https://github.com/omnetpp/opp_env#opp_env-automated-installation-of-omnet-simulation-frameworks" target="_blank">opp_env</a>, then enter: <code class="highlighter-rouge content">{{ tab.opp-env-command }}</code>
+              <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3" style="padding: 0px 2px;">
+                <i class="fa-regular fa-copy grey-text text-darken-3"></i>
+              </button>
+          {% endif %}
           </div>
           {% if tab.ipfs %}<div><a class="black-text" style="text-decoration: underline;" href="https://docs.ipfs.io/introduction/install/" target="_blank">IPFS</a>: {{tab.ipfs}}</div>{% endif %}
           {% if tab.description %}<div>{{tab.description}}</div>{% endif %}

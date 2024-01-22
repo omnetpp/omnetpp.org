@@ -7,7 +7,6 @@ date: 2019-06-13
 sortkey: "2019-06-13"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-551-june-2019
-opp-env-command: opp_env install omnetpp-5.5.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.5.1/omnetpp-5.5.1-src-linux.tgz
@@ -32,6 +31,9 @@ tabs:
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.5.1/omnetpp-5.5.1-src-core.tgz
   filesize: 64060909
   md5: 8aec0eb7ed81712bfa3583a4aa87209f
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-5.5.1
 ---
 
 This release contains several important fixes like JDK 11 and osgEarth 2.10 compatibility, a workaround for long CDT indexing times, and several improvements in the simulation library.

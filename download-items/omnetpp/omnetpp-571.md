@@ -7,7 +7,6 @@ date: 2023-08-22
 sortkey: "2021-10-07"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-571-august-2023
-opp-env-command: opp_env install omnetpp-5.7.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7.1/omnetpp-5.7.1-src-linux.tgz
@@ -28,6 +27,9 @@ tabs:
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.7.1/omnetpp-5.7.1-src-core.tgz
   filesize: 75412213
   md5: 8af6981c3e93eb91c51353b758b3c02f
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-5.7.1
 ---
 
 This is a modernized maintenance release of omnetpp-5.7. The primary objective of this release is to facilitate the execution of old simulation models, e.g. for reproducing simulation results or as a basis of porting them to more recent versions of OMNeT++.

@@ -7,7 +7,6 @@ date: 2022-04-13
 sortkey: "2022-04-13"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-60-april-2022
-opp-env-command: opp_env install omnetpp-6.0.0
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0/omnetpp-6.0-linux-x86_64.tgz
@@ -29,7 +28,9 @@ tabs:
   filesize: 77903473
   md5: eff4bbd7fcb26984bb9d0b2aa4875fe2
 
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-6.0.0
 ---
 
-This is the final 6.0 release. If you need an ARM based Linux version, please download 
+This is the final 6.0 release. If you need an ARM based Linux version, please download
 [this](https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.0/omnetpp-6.0-linux-aarch64.tgz).

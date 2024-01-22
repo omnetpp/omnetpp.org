@@ -7,7 +7,6 @@ date: 2020-05-20
 sortkey: "2020-05-20"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-562-may-2020
-opp-env-command: opp_env install omnetpp-5.6.2
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.6.2/omnetpp-5.6.2-src-linux.tgz
@@ -32,6 +31,9 @@ tabs:
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.6.2/omnetpp-5.6.2-src-core.tgz
   filesize: 64083550
   md5: f5d0abd930f2be4f9786b3ced3c71b2d
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-5.6.2
 ---
 
 ### Changes since version 5.6:

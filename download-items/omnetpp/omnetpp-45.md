@@ -8,7 +8,6 @@ sortkey: "2014-07-16"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-45-june-2014
 visualchangelog-url: /documentation/visualchangelog#4.5
-opp-env-command: opp_env install omnetpp-4.5.0
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.5/omnetpp-4.5-src.tgz
@@ -18,6 +17,9 @@ tabs:
 
 - id: macos
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.5/omnetpp-4.5-src.tgz
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-4.5.0
 ---
 
 The focus of version 4.5 was to improve the usability of the Graphical Runtime

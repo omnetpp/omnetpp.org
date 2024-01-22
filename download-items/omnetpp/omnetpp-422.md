@@ -7,7 +7,6 @@ date: 2013-04-03
 sortkey: "2013-04-03"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-422-march-2012
-opp-env-command: opp_env install omnetpp-4.2.2
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.2.2/omnetpp-4.2.2-src.tgz
@@ -17,6 +16,9 @@ tabs:
 
 - id: macos
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-4.2.2/omnetpp-4.2.2-src.tgz
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-4.2.2
 ---
 
 This is the second maintenance release of version 4.2 of the OMNeT++ platform.

@@ -8,7 +8,6 @@ sortkey: "2016-04-14"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-50-april-2016
 visualchangelog-url: /documentation/visualchangelog#5.0
-opp-env-command: opp_env install omnetpp-5.0.0
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.0/omnetpp-5.0-src.tgz
@@ -24,6 +23,9 @@ tabs:
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.0/omnetpp-5.0-src-macosx.tgz
   filesize: 259115847
   md5: ea79eb182d9fd41cdb46ca1977b2c5d0
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-5.0.0
 ---
 
 Release 5.0 is a result of development effort of nearly two years. This is a

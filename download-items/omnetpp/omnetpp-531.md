@@ -8,7 +8,6 @@ sortkey: "2018-04-13"
 category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/master/WHATSNEW.md#omnet-531-august-2023
 visualchangelog-url: /documentation/visualchangelog#5.3
-opp-env-command: opp_env install omnetpp-5.3.1
 tabs:
 - id: linux
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.3.1/omnetpp-5.3.1-src-linux.tgz
@@ -24,6 +23,9 @@ tabs:
   download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-5.3.1/omnetpp-5.3.1-src-core.tgz
   filesize: 63567500
   md5: 0ab5b47173765b2e0d16d02ad2d7f628
+
+- id: opp_env
+  opp-env-command: opp_env install omnetpp-5.3.1
 ---
 
 This is a modernized maintenance release of omnetpp-5.3. The primary objective of this release is to facilitate the execution of old simulation models, e.g. for reproducing simulation results or as a basis of porting them to more recent versions of OMNeT++.
