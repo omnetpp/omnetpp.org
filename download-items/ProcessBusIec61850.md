@@ -7,6 +7,7 @@ category: models
 tags: model inet3 omnetpp5
 keywords: electrical, grid, process, bus
 github-url: https://github.com/hectordelahoz/ProcessBusIec61850/
+opp-env-command: opp_env install processbus_allinone-latest
 ---
 
 This project contains an OMNeT++/INET extension to support IEC61850 process bus

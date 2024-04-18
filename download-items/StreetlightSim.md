@@ -8,6 +8,7 @@ tags: model omnetpp4
 keywords: iot, sumo, wsn, sensor, wireless, power, cosimulation
 download-page-url: http://www.streetlightsim.ecs.soton.ac.uk/downloadform.php
 website-url: http://www.streetlightsim.ecs.soton.ac.uk/
+opp-env-command: opp_env install streetlightsim-latest
 ---
 
 StreetlightSim is a research project at the Pervasive Systems Centre, University

@@ -7,6 +7,7 @@ years-active: 2021-
 tags: model framework omnetpp5 inet4
 keywords: sensor network, uav, autonomous, swarm
 github-url: https://github.com/brunoolivieri/gradys-simulations
+opp-env-command: opp_env install gradys-latest
 ---
 
 A simulation framework developed for the

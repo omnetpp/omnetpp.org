@@ -8,6 +8,7 @@ tags: model framework omnetpp5 veins
 keywords: vlc, visual light, vanet, vehicular, mobility, ad hoc, ivc, 802.11p, 1609.4, wireless
 github-url: https://github.com/veins/veins_vlc
 website-url: https://www2.tkn.tu-berlin.de/software/veins-vlc/
+opp-env-command: opp_env install veins_vlc-latest
 ---
 
 Veins VLC extends Veins vehicular network simulation framework with channel

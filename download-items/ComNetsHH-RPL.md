@@ -7,6 +7,7 @@ years-active: 2020-
 tags: model omnetpp5 inet4
 keywords: routing wireless wsn
 github-url: https://github.com/ComNetsHH/omnetpp-rpl
+opp-env-command: opp_env install rpl_allinone-latest
 ---
 
 An RPL routing protocol (Routing Protocol for Low-Power and Lossy Networks,

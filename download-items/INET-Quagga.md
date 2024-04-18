@@ -7,6 +7,7 @@ category: models
 tags: model inet1 omnetpp4 omnetpp3
 keywords: routing, ospfv2, ospfv3, ripv1, ripv2, ripng, bgpv4
 github-url: https://github.com/inet-framework/inet-quagga
+opp-env-command: opp_env install quagga-latest
 ---
 
 This is a port of the Quagga routing daemon into the INET Framework.

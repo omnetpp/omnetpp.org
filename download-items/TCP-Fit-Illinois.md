@@ -6,6 +6,7 @@ category: models
 years-active: 2014-2015
 tags: model inet2 omnetpp5
 github-url: https://github.com/SpyrosMArtel/TCP-Fit-Illinois
+opp-env-command: opp_env install tcp_fit_illinois-latest
 ---
 
 This project is an attempt to implement TCP-Fit and TCP-Illinois congestion
