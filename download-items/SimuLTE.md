@@ -6,12 +6,14 @@ logo: /images/logo/simulte.png
 logo-tooltip: SimuLTE - LTE user plane protocols
 sortkey: "02"
 category: models
-tags: featured model framework inet4 inet3 omnetpp6 omnetpp5 omnetpp4
+tags: featured model framework inet4 inet3 omnetpp6 omnetpp5 omnetpp4 superseded
 keywords: 3gpp, wireless, gsm, voip
 github-url: https://github.com/inet-framework/simulte
-website-url: https://simulte.com/
 opp-env-command: opp_env install simulte-latest
 ---
+
+**Note:** SimuLTE has been superseded by Simu5G, which contains support for
+both the LTE and 5G protocol stack.
 
 SimuLTE is an innovative simulation tool that enables complex system-level
 performance evaluation of LTE and LTE Advanced networks (3GPP Release 8

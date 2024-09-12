@@ -10,7 +10,7 @@ category: models
 tags: featured model framework omnetpp5 omnetpp4
 keywords: rina, network, architecture
 github-url: https://github.com/kvetak/RINA
-website-url: https://rinasim.omnetpp.org/
+website-url: https://kvetak.github.io/RINA/
 opp-env-command: opp_env install rinasim-latest
 ---
 
