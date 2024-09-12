@@ -7,9 +7,8 @@ category: models
 tags: model framework omnetpp4 omnetpp3
 keywords: 802.16e 2005, xmipv6, wimax, ipv6, dhcpv6, mobility
 github-url: https://github.com/tomaszmrugalski/numbat
-website-url: http://klub.com.pl/numbat/
 ---
 
-The goal of this project is to implement Mobile WiMax, IPv6 autoconfiguration
+The goal of this project was to implement Mobile WiMax, IPv6 autoconfiguration
 (with focus on DHCPv6) and some of the mobility related mechanisms in the
 OMNeT++ environment.

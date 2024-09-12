@@ -7,7 +7,6 @@ category: models
 tags: model inet3 omnetpp5 omnetpp4
 keywords: aerospace, wireless, mobility, satellite
 github-url: https://github.com/inet-framework/cni-os3
-website-url: http://www-os3.kn.e-technik.tu-dortmund.de
 opp-env-command: opp_env install os3-latest
 ---
 
@@ -18,7 +17,7 @@ protocols as easy as possible. OS³ is also be able to automatically import real
 satellite tracks and weather data to simulate conditions at a certain point in
 the past or in the future, and offer powerful visualization.
 
-OS³ enables a comfortable and thorough analysis of complex screnarios which may
+OS³ enables a comfortable and thorough analysis of complex scenarios which may
 be infeasible to test in reality. Starting anywhere from calculating attenuation
 losses for earth-bound receivers up to complex mobility scenarios, the variety
 of topics is only limited by creativity. For example, users are able to test new
