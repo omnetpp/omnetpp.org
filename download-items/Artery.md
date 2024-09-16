@@ -12,6 +12,7 @@ tags: featured model framework omnetpp5 inet3 veins
 keywords: veins, vanetza, vanet, car2x, v2x, vehicular, routing, its-g5
 website-url: http://artery.v2x-research.eu
 github-url: https://github.com/riebl/artery
+opp-env-command: opp_env install artery_allinone-latest
 ---
 
 Artery enables V2X simulations based on ETSI ITS-G5 protocols like GeoNetworking and BTP.

@@ -8,6 +8,7 @@ tags: model omnetpp5 omnetpp4 inet2
 keywords: security, attack
 github-url: https://github.com/robertomagan/neta_v1/releases
 website-url: https://nesg.ugr.es/index.php/en/neta-2
+opp-env-command: opp_env install neta_allinone-latest
 ---
 
 NETwork Attacks (NETA) is a framework devised to simulate attacks in
