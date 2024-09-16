@@ -7,7 +7,6 @@ category: models
 tags: model omnetpp4 inet1
 keywords: routing, xmipv6
 download-file-url: https://github.com/omnetpp-models/archive/releases/download/archive/inet-hipsim-v1030.tgz
-website-url: http://www.ict-optimix.eu/index.php/HIPSim
 ---
 
 HIPSim++ is a Host Identity Protocol (HIP) implementation for INET/OMNeT++,
