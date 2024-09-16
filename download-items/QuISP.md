@@ -7,6 +7,7 @@ category: models
 tags: model framework omnetpp5
 keywords: quantum quantum-internet quantum-computing
 github-url: https://github.com/sfc-aqua/quisp
+website-url: https://aqua.sfc.wide.ad.jp/quisp_website/
 opp-env-command: opp_env install quisp-latest
 ---
 
