@@ -26,7 +26,7 @@
         {% if item.visualchangelog-url %}<a href="{{ item.visualchangelog-url }}" target="_blank" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Visual Change Log</a>{% endif %}
         {% if item.opp-env-command %}
         <div>
-          <span class="copy-container" style="margin-bottom: 20px;">Recommended installation (<a>?</a>):
+          <span class="copy-container" style="margin-bottom: 20px;">Recommended installation:
           <code class="highlighter-rouge content" style="font-size: 0.9rem;">{{ item.opp-env-command | replace:'opp_env','<a href="https://omnetpp.org/opp_env" target="_blank">opp_env</a>' }}</code>
           <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3"  style="font-size: 75%; padding: 0px 2px; "><i class="fa-regular fa-copy grey-text text-darken-3"></i></button>
           </span>
