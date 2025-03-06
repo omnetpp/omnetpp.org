@@ -1,6 +1,13 @@
-# LEACH Protocol Wireless Sensor Network Simulation
-
-## Overview
+---
+download: true
+layout: download-details
+title: LEACH Protocol Wireless Sensor Network Simulation
+years-active: 2025
+category: models
+keywords: leach
+tags: model omnetpp6 inet4
+github-url: https://github.com/xcodebn/PiLeachProtocol
+---
 
 This project implements the Low-Energy Adaptive Clustering Hierarchy (LEACH) protocol, a pioneering energy-efficient routing algorithm for wireless sensor networks (WSNs) using OMNeT++ and INET.
 
