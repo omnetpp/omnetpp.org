@@ -2,6 +2,10 @@
 download: true
 layout: download-details
 title: inbaverSim - Content Centric Networks Simulation Framework
+logo: /images/logo/inbaversim.png
+logo-vertical-offset: 3px
+logo-tooltip: inbaverSim - Content Centric Networks Simulation Framework
+sortkey: "08"
 years-active: 2021-
 category: models
 keywords: ccn, icn, ndn
