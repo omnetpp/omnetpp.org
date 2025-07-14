@@ -5,7 +5,7 @@ layout: download-details
 title: OMNeT++ 6.1.0
 date: 2024-10-09
 sortkey: "2024-10-09"
-category: omnetpp-current
+category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/blob/omnetpp-6.1.0/WHATSNEW.md
 tabs:
 - id: linux.x86_64

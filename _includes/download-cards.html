@@ -6,7 +6,11 @@
 {% for item in sorted_pages %}
   {% if page.category_filter == item.category or page.category_filter == nil %}
     {% if page.featured_filter != true or item.tags contains "featured" %}
-      {% include download-card.html %}
+      {% if item.layout == "download-details-omnetpp" %}      
+        {% include download-card-omnetpp.html %}
+      {% else %}
+        {% include download-card.html %}
+      {% endif %}
     {% endif %}
   {% endif %}
 {% endfor %}
