@@ -42,7 +42,7 @@ tabs:
       Because of Msys posix emulation and NTFS filesystem limitations, this version is a LOT slower for development than the
       Linux or macOS versions. You will get much better performance if you use WSL2 (https://github.com/microsoft/WSL) and
       install the Linux version. Or even better, use `opp_env.wsl` to install `opp_env` directly on WSL2.
-    download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.2.0/omnetpp-6.2.0-windows-x86_64.zip
+    download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.2.0/omnetpp-6.2.0-windows-x86_64.7z
     filesize: 1208317137
     sha256: af60add38f208e408521cc1d0b0b6ac565169e8eaba78c54a1c9c9849ef81d5b
 
