@@ -36,7 +36,6 @@ tabs:
       automatically install the latest version of OMNeT++ for you.
     download-file-url: https://github.com/omnetpp/opp_env/releases/download/wsl/opp_env.wsl
     filesize: 196000000
-    sha256: 340f23080af68c751a4b528f47cca89172e0fc05946752de82fed866f8d9dcc4
   - arch: x86_64
     description: |
       This is a version of OMNeT++ built with MinGW. A snapshot of MinGW64 toolchain is bundled with this archive.
