@@ -7,24 +7,28 @@ date: 2025-07-14
 sortkey: "2025-07-14"
 category: omnetpp-current
 whatsnew-url: https://github.com/omnetpp/omnetpp/releases/tag/omnetpp-6.2.0
-opp-env-command: opp_env install omnetpp-6.2.0
 tabs:
 - id: opp_env
   opp-env-command: opp_env install omnetpp-6.2.0
 
 - id: linux
-  description: |
-    Use the `install.sh` script in the root directory of the archive to install dependencies and build OMNeT++.
-    Supported: Ubuntu, Debian, Fedora, openSUSE Leap, Arch Linux, AlmaLinux and other similar distros.
   downloads:
+  - opp_env: true
+    brief: We recommend using the `opp_env` package manager to install OMNeT++ and other models and frameworks.
   - arch: x86_64
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.2.0/omnetpp-6.2.0-linux-x86_64.tgz
     filesize: 415465426
     sha256: 75c7c08eb218adac9e6b29212026a8f8019dcf370709b5c435f40cd9abe067f6
+    description: |
+      Use the `install.sh` script in the root directory of the archive to install dependencies and build OMNeT++.
+      Supported: Ubuntu, Debian, Fedora, openSUSE Leap, Arch Linux, AlmaLinux and other similar distros.
   - arch: aarch64
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.2.0/omnetpp-6.2.0-linux-aarch64.tgz
     filesize: 414775096
     sha256: b9f4fcb443915f76c6961b25397e90908ba81c423f21c1626a592afe56d7edc9
+    description: |
+      Use the `install.sh` script in the root directory of the archive to install dependencies and build OMNeT++.
+      Supported: Ubuntu, Debian, Fedora, openSUSE Leap, Arch Linux, AlmaLinux and other similar distros.
 
 - id: windows
   downloads:
@@ -47,22 +51,31 @@ tabs:
     sha256: af60add38f208e408521cc1d0b0b6ac565169e8eaba78c54a1c9c9849ef81d5b
 
 - id: macos
-  description: |
-    OMNeT++ requires a properly installed version of Xcode Command Line Tools and Homebrew (https://brew.sh/).
-    Use the `install.sh` script in the root directory of the archive to install dependencies and build OMNeT++.
   downloads:
+  - opp_env: true
+    brief: We recommend using the `opp_env` package manager to install OMNeT++ and other models and frameworks.
   - arch: aarch64
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.2.0/omnetpp-6.2.0-macos-aarch64.tgz
     filesize: 413392144
     sha256: db8dd6cbb84bf3b9a78578aa61a1d1d1ec9a5e65579a6cd3561266d92cd7b695
+    description: |
+      OMNeT++ requires a properly installed version of Xcode Command Line Tools and Homebrew (https://brew.sh/).
+      Use the `install.sh` script in the root directory of the archive to install dependencies and build OMNeT++.
   - arch: x86_64
-    description: "NOTE: Make sure that the x86_64 version of `homebrew` is properly installed before executing the `install.sh` script."
+    description: |
+      OMNeT++ requires a properly installed version of Xcode Command Line Tools and Homebrew (https://brew.sh/).
+      Use the `install.sh` script in the root directory of the archive to install dependencies and build OMNeT++.
+      (Use this version ONLY if you have an Intel based Mac computer. Do not use this version on an Apple
+      Silicon Mac with Rosetta 2.)
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.2.0/omnetpp-6.2.0-macos-x86_64.tgz
     filesize: 414570246
     sha256: dcc02872814f3204d39e2e6d9b4b15a561438d5fb0b0cba06ca2523b648d6ba5
 
 - id: core
-  description: This is the architecture independent source version of OMNeT++. Useful for installing OMNeT++ on a system where no IDE is required.
+  description: |
+    This is the architecture independent source version of OMNeT++. Useful for installing OMNeT++ on a system where no
+    IDE or GUI is required. Use the `install.sh` script in the root directory of the archive to install all dependencies
+    and build OMNeT++. To install without `Qtenv` support, use `install.sh --no-gui`.
   downloads:
   - arch: generic
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-6.2.0/omnetpp-6.2.0-core.tgz
