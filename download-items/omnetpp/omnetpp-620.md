@@ -10,7 +10,15 @@ category: omnetpp-current
 whatsnew-url: https://github.com/omnetpp/omnetpp/releases/tag/omnetpp-@VERSION@
 tabs:
 - id: opp_env
-  opp-env-command: opp_env install omnetpp-@VERSION@
+  description: |
+    We recommend using the `opp_env` package manager to install OMNeT++ and other models and frameworks.
+    
+      - On Linux and macOS, install the [NIX](https://nixos.org/download/) package manager.
+        On Windows, install the [opp_env.wsl](https://github.com/omnetpp/opp_env/releases/download/wsl/opp_env.wsl)
+        WSL image.
+      - Install the [opp_env](https://github.com/omnetpp/opp_env/blob/main/INSTALL.md) package manager using `pip install opp-env`.
+      - Create a workspace directory and initialize it with `opp_env init`.
+      - Install OMNeT++ with `opp_env install omnetpp-@VERSION@`
 
 - id: linux
   downloads:
@@ -76,7 +84,7 @@ tabs:
   description: |
     This is the architecture independent source version of OMNeT++. Useful for installing OMNeT++ on a system where no
     IDE or GUI is required. Use the `install.sh` script in the root directory of the archive to install all dependencies
-    and build OMNeT++. To install without `Qtenv` support, use `install.sh --no-gui`.
+    and build OMNeT++. To install without Qtenv support, use `install.sh --no-gui`.
   downloads:
   - arch: generic
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-@VERSION@/omnetpp-@VERSION@-core.tgz
@@ -84,8 +92,11 @@ tabs:
     sha256: 2945d225d964e7cfea9c19ba21411b708d7f5c4eb1c4c8e065e3c2695b0814a7
 
 - id: docker
-  download-page-url: https://github.com/omnetpp/omnetpp/pkgs/container/omnetpp
-  description: $ docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" ghcr.io/omnetpp/omnetpp:u24.04-@VERSION@
+  description: |
+    Container images are available on the [GitHub Container Registry](https://github.com/orgs/omnetpp/packages?repo_name=omnetpp).
+
+
+    `docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" ghcr.io/omnetpp/omnetpp:u24.04-@VERSION@`
 
 ---
 Highlights of this release are the use of the LLDB debugger inside the IDE, as well as numerous Qtenv improvements: display of documentation brief in module/submodule tooltips, log filtering, and the display of an identicon.
