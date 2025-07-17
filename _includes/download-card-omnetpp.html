@@ -1,10 +1,6 @@
 <div class="card {{ item.tags }}">
     <div class="card-content">
-        {% capture titleclass %}
-            {% if item.tags contains 'featured' %}featured1{% endif %}
-            {% if item.tags contains 'merged' or item.tags contains 'superseded' %}superseded1{% endif %}
-        {% endcapture %}
-        <div class="left"><span class="card-title {{titleclass | strip}}">{{ item.title }}</span>
+        <div class="left"><span class="card-title">{{ item.title }}</span>
           {% if item.date %}<time><i class="far fa-calendar-alt"></i>&nbsp;{{item.date}}</time>&nbsp;&nbsp;{% endif %}
           {% if item.years-active %}<time><i class="far fa-calendar-alt"></i>&nbsp;{{item.years-active}}</time>&nbsp;&nbsp;{% endif %}
           {% if item.tags %}<time><i class="fas fa-tags"></i>&nbsp;{{item.tags}}</time>&nbsp;&nbsp;{% endif %}
@@ -15,20 +11,6 @@
         {% if item.more-url %}<a href="{{ item.more-url }}" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Read more</a>{% endif %}
         {% if item.whatsnew-url %}<a href="{{ item.whatsnew-url }}" target="_blank" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">What's New</a>{% endif %}
         {% if item.visualchangelog-url %}<a href="{{ item.visualchangelog-url }}" target="_blank" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Visual Change Log</a>{% endif %}
-        {% if item.opp-env-command %}
-        <div>
-          <span class="copy-container" style="margin-bottom: 20px;">Recommended installation:
-          <code class="highlighter-rouge content" style="font-size: 0.9rem;">{{ item.opp-env-command | replace:'opp_env','<a href="https://github.com/omnetpp/opp_env/blob/main/INSTALL.md" target="_blank">opp_env</a>' }}</code>
-          <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3"  style="font-size: 75%; padding: 0px 2px; "><i class="fa-regular fa-copy grey-text text-darken-3"></i></button>
-          </span>
-
-          {% if item.category == "omnetpp-current" %}
-          <span class="copy-container" style="margin-bottom: 20px;">or <code class="highlighter-rouge content"><a href="https://github.com/omnetpp/opp_env/blob/main/INSTALL.md" target="_blank">opp_env</a> install omnetpp-latest</code>
-          <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3" style="padding: 0px 2px;"><i class="fa-regular fa-copy grey-text text-darken-3"></i></button>
-          </span>
-          {% endif %}
-        </div>
-        {% endif %}
     </div>
 {% if item.tabs %}
    <div class="card-tabs grey lighten-2">
@@ -51,9 +33,6 @@
     <div class="card-content">
   {% for tab in item.tabs %}
       <div id="{{item.id}}_{{tab.id}}">
-          {% if item.website-url %}<a href="{{ item.website-url }}" target="_blank" class="waves-effect blue-grey btn-small right" style="margin-left: 10px"><i class="fas fa-globe right"></i>Website</a>{% endif %}
-          {% if item.github-url %}<a href="{{ item.github-url }}" target="_blank" class="waves-effect waves-light green darken-3 btn-small right" style="margin-left: 10px"><i class="fab fa-github right"></i>GitHub</a>{% endif %}
-          
           {% if tab.description %}
             <div style="margin-bottom: 15px; padding: 10px; background-color: #f5f5f5; border-radius: 4px;">
               {{tab.description}}
@@ -61,21 +40,62 @@
           {% endif %}
 
           {% if tab.opp-env-command %}
-            <div style="margin-bottom: 15px; padding: 10px; background-color: #f5f5f5; border-radius: 4px;">
-              Install <a href="https://github.com/omnetpp/opp_env/blob/main/INSTALL.md" target="_blank">opp_env</a>, then enter: <code class="highlighter-rouge content">{{ tab.opp-env-command }}</code>
-              <button class="copy-button waves-effect waves-dark btn-flat grey lighten-3" style="padding: 0px 2px;">
-                <i class="fa-regular fa-copy grey-text text-darken-3"></i>
-              </button>
+          <div style="margin-bottom: 15px; padding: 10px; background-color: #f5f5f5; border-radius: 4px;">
+            <div>
+              1. On Linux and macOS, install the <a href="https://nixos.org/download/" target="_blank">NIX</a> package manager.
+              <div class="copy-container">
+                <code class="highlighter-rouge content" style="font-size: 0.9rem;">sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --daemon</code>
+                <button class="copy-button waves-effect waves-dark btn-flat" style="padding: 0px 2px;"><i class="fa-regular fa-copy grey-text text-darken-3" style="background-color: transparent;"></i></button>
+              </div>
             </div>
+
+            <div>
+              2. Install the <a href="https://github.com/omnetpp/opp_env/blob/main/INSTALL.md" target="_blank">opp_env</a> package manager:
+              <div class="copy-container">
+                <code class="highlighter-rouge content" style="font-size: 0.9rem;">python3 -m pip install opp-env</code>
+                <button class="copy-button waves-effect waves-dark btn-flat" style="padding: 0px 2px;"><i class="fa-regular fa-copy grey-text text-darken-3" style="background-color: transparent;"></i></button>
+              </div>
+            </div>
+
+            <div>
+              3. Use <a href="https://github.com/omnetpp/opp_env/blob/main/README.md#usage" target="_blank">opp_env</a> to create a workspace:
+              <div>
+                <span class="copy-container" style="margin-bottom: 20px;">
+                  <code class="highlighter-rouge content" style="font-size: 0.9rem;">mkdir workspace && cd workspace && opp_env init</code>
+                  <button class="copy-button waves-effect waves-dark btn-flat"  style="font-size: 75%; padding: 0px 2px; "><i class="fa-regular fa-copy grey-text text-darken-3"></i></button>
+                </span>
+              </div>
+              then install OMNeT++:
+              <div>
+                <span class="copy-container" style="margin-bottom: 20px;">
+                  <code class="highlighter-rouge content" style="font-size: 0.9rem;">{{ tab.opp-env-command }}</code>
+                  <button class="copy-button waves-effect waves-dark btn-flat"  style="font-size: 75%; padding: 0px 2px; "><i class="fa-regular fa-copy grey-text text-darken-3"></i></button>
+                </span>
+      
+                {% if item.category == "omnetpp-current" %}
+                <span class="copy-container" style="margin-bottom: 20px;">
+                  or <code class="highlighter-rouge content">opp_env install omnetpp-latest</code>
+                  <button class="copy-button waves-effect waves-dark btn-flat" style="padding: 0px 2px;"><i class="fa-regular fa-copy grey-text text-darken-3"></i></button>
+                </span>
+                {% endif %}
+              </div>
+            </div>
+          </div>    
           {% endif %}
 
           {% if tab.downloads %}
             <div class="architecture-list">
+
               {% for download in tab.downloads %}
                 <div class="architecture-item" style="margin-bottom: 15px; padding: 10px; background-color: #f5f5f5; border-radius: 4px;">                  
                   
                   <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px;">
                     <div style="min-width: 180pt;">
+                      {% if download.opp_env %}
+                        <a class="waves-effect waves-light green darken-3 btn-small" style="margin-bottom: 5px; width: 180pt;" onclick="M.Tabs.getInstance(document.querySelector('.tabs')).select('{{item.id}}_opp_env')">
+                          <i class="fas fa-cubes right"></i>Use opp_env
+                        </a>
+                      {% endif %}
                       {% if download.download-file-url %}
                         <a href="{{ download.download-file-url }}" class="waves-effect waves-light green darken-3 btn-small" style="margin-bottom: 5px; width: 180pt;" onClick="if (typeof ga != 'undefined') { ga('send', 'event', 'omnetpp-download', 'download', '{{ download.download-file-url }}', null, null);}">
                           <i class="fas fa-download right"></i>Download {% if download.arch != 'generic' %}({{ download.arch }}){% endif %}
@@ -84,11 +104,17 @@
                     </div>
                     
                     <div style="flex-grow: 1;">
-                      {% assign filename = download.download-file-url | split: '/' | last %}
-                      <div><strong>File:</strong> {{ filename }}
-                                   {% if download.filesize %}({{download.filesize | divided_by: 1048576}}MB){% endif %}
-                      </div>
-                      {% if download.sha256 %}<div><strong>SHA256:</strong> {{download.sha256}}</div>{% endif %}
+                      {% if download.opp_env %}
+                        {{ download.brief }}
+                      {% endif %}
+
+                      {% if download.download-file-url %}
+                        {% assign filename = download.download-file-url | split: '/' | last %}
+                        <div><strong>File:</strong> {{ filename }}
+                                    {% if download.filesize %}({{download.filesize | divided_by: 1048576}}MB){% endif %}
+                        </div>
+                        {% if download.sha256 %}<div><strong>SHA256:</strong> {{download.sha256}}</div>{% endif %}
+                      {% endif %}
                     </div>
                   </div>
                   
