@@ -1,6 +1,6 @@
 <div class="card {{ item.tags }}">
     <div class="card-content">
-        <div class="left"><span class="card-title">{{ item.title }}</span>
+        <div class="left"><span class="card-title">{{ item.title | replace: '@VERSION@', item.version }}</span>
           {% if item.date %}<time><i class="far fa-calendar-alt"></i>&nbsp;{{item.date}}</time>&nbsp;&nbsp;{% endif %}
           {% if item.years-active %}<time><i class="far fa-calendar-alt"></i>&nbsp;{{item.years-active}}</time>&nbsp;&nbsp;{% endif %}
           {% if item.tags %}<time><i class="fas fa-tags"></i>&nbsp;{{item.tags}}</time>&nbsp;&nbsp;{% endif %}
@@ -8,9 +8,9 @@
         <div style="clear: both;"></div>
         {% if item.content %}<div>{{ item.content | markdownify }}</div>{% endif %}
         {% if item.keywords %}<p class="keywords">Keywords: {{ item.keywords }}</p>{% endif %}
-        {% if item.more-url %}<a href="{{ item.more-url }}" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Read more</a>{% endif %}
-        {% if item.whatsnew-url %}<a href="{{ item.whatsnew-url }}" target="_blank" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">What's New</a>{% endif %}
-        {% if item.visualchangelog-url %}<a href="{{ item.visualchangelog-url }}" target="_blank" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Visual Change Log</a>{% endif %}
+        {% if item.more-url %}<a href="{{ item.more-url | replace: '@VERSION@', item.version }}" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Read more</a>{% endif %}
+        {% if item.whatsnew-url %}<a href="{{ item.whatsnew-url | replace: '@VERSION@', item.version }}" target="_blank" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">What's New</a>{% endif %}
+        {% if item.visualchangelog-url %}<a href="{{ item.visualchangelog-url | replace: '@VERSION@', item.version }}" target="_blank" class="waves-effect btn-small black-text grey lighten-2" style="margin-top: 4px;">Visual Change Log</a>{% endif %}
     </div>
 {% if item.tabs %}
    <div class="card-tabs grey lighten-2">
@@ -35,7 +35,7 @@
       <div id="{{item.id}}_{{tab.id}}">
           {% if tab.description %}
             <div style="margin-bottom: 15px; padding: 10px; background-color: #f5f5f5; border-radius: 4px;">
-              {{tab.description}}
+              {{ tab.description | replace: '@VERSION@', item.version }}
             </div>
           {% endif %}
 
@@ -68,7 +68,7 @@
               then install OMNeT++:
               <div>
                 <span class="copy-container" style="margin-bottom: 20px;">
-                  <code class="highlighter-rouge content" style="font-size: 0.9rem;">{{ tab.opp-env-command }}</code>
+                  <code class="highlighter-rouge content" style="font-size: 0.9rem;">{{ tab.opp-env-command | replace: '@VERSION@', item.version }}</code>
                   <button class="copy-button waves-effect waves-dark btn-flat"  style="font-size: 75%; padding: 0px 2px; "><i class="fa-regular fa-copy grey-text text-darken-3"></i></button>
                 </span>
       
@@ -97,7 +97,8 @@
                         </a>
                       {% endif %}
                       {% if download.download-file-url %}
-                        <a href="{{ download.download-file-url }}" class="waves-effect waves-light green darken-3 btn-small" style="margin-bottom: 5px; width: 180pt;" onClick="if (typeof ga != 'undefined') { ga('send', 'event', 'omnetpp-download', 'download', '{{ download.download-file-url }}', null, null);}">
+                        {% assign download_url = download.download-file-url | replace: '@VERSION@', item.version %}
+                        <a href="{{ download_url }}" class="waves-effect waves-light green darken-3 btn-small" style="margin-bottom: 5px; width: 180pt;" onClick="if (typeof ga != 'undefined') { ga('send', 'event', 'omnetpp-download', 'download', '{{ download_url }}', null, null);}">
                           <i class="fas fa-download right"></i>Download {% if download.arch != 'generic' %}({{ download.arch }}){% endif %}
                         </a>
                       {% endif %}
@@ -109,7 +110,7 @@
                       {% endif %}
 
                       {% if download.download-file-url %}
-                        {% assign filename = download.download-file-url | split: '/' | last %}
+                        {% assign filename = download.download-file-url | replace: '@VERSION@', item.version | split: '/' | last %}
                         <div><strong>File:</strong> {{ filename }}
                                     {% if download.filesize %}({{download.filesize | divided_by: 1048576}}MB){% endif %}
                         </div>
@@ -118,7 +119,7 @@
                     </div>
                   </div>
                   
-                  {% if download.description %}<div style="margin-top: 10px;">{{download.description}}</div>{% endif %}
+                  {% if download.description %}<div style="margin-top: 10px;">{{download.description | replace: '@VERSION@', item.version }}</div>{% endif %}
                 </div>
               {% endfor %}
             </div>
