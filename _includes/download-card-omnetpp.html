@@ -35,7 +35,7 @@
       <div id="{{item.id}}_{{tab.id}}">
           {% if tab.description %}
             <div style="margin-bottom: 15px; padding: 10px; background-color: #f5f5f5; border-radius: 4px;">
-              {{ tab.description | replace: '@VERSION@', item.version }}
+              {{ tab.description | replace: '@VERSION@', item.version | markdownify }}
             </div>
           {% endif %}
 
@@ -106,7 +106,7 @@
                     
                     <div style="flex-grow: 1;">
                       {% if download.opp_env %}
-                        {{ download.brief }}
+                        {{ download.brief | replace: '@VERSION@', item.version | markdownify }}
                       {% endif %}
 
                       {% if download.download-file-url %}
@@ -119,7 +119,7 @@
                     </div>
                   </div>
                   
-                  {% if download.description %}<div style="margin-top: 10px;">{{download.description | replace: '@VERSION@', item.version }}</div>{% endif %}
+                  {% if download.description %}<div style="margin-top: 10px;">{{download.description | replace: '@VERSION@', item.version | markdownify }}</div>{% endif %}
                 </div>
               {% endfor %}
             </div>
