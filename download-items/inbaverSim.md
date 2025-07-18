@@ -3,6 +3,7 @@ download: true
 layout: download-details
 title: inbaverSim - Content Centric Networks Simulation Framework
 logo: /images/logo/inbaversim.png
+logo-scale-height: 1.5
 logo-vertical-offset: -1px
 logo-tooltip: inbaverSim - Content Centric Networks Simulation Framework
 sortkey: "07"
