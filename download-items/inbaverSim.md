@@ -2,11 +2,16 @@
 download: true
 layout: download-details
 title: inbaverSim - Content Centric Networks Simulation Framework
+logo: /images/logo/inbaversim.png
+logo-vertical-offset: -1px
+logo-tooltip: inbaverSim - Content Centric Networks Simulation Framework
+sortkey: "07"
 years-active: 2021-
 category: models
 keywords: ccn, icn, ndn
-tags: model omnetpp6 inet4
+tags: featured model omnetpp6 inet4
 github-url: https://github.com/ComNets-Bremen/inbaverSim
+opp-env-command: opp_env install inbaversim-latest
 ---
 
 inbaverSim is an OMNeT++ model framework to simulate Content Centric Networks
