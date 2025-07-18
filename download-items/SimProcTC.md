@@ -5,6 +5,7 @@ title: SimProcTC - Simulation Processing Tool-Chain
 logo: /images/logo/simproctc.svg
 logo-scale-height: 1.5
 logo-tooltip: SimProcTC - Simulation Processing Tool-Chain
+logo-vertical-offset: 5px
 years-active: 2008-
 sortkey: "08"
 category: tools

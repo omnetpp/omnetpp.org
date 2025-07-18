@@ -5,6 +5,7 @@ title: RSPSIM - Reliable Server Pooling (RSerPool) Simulation
 logo: /images/logo/rserpool-project.svg
 logo-scale-height: 1.5
 logo-tooltip: RSPSIM - Reliable Server Pooling (RSerPool) Simulation
+logo-vertical-offset: 7px
 sortkey: "07"
 category: models
 years-active: 2004-
