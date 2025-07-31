@@ -38,7 +38,7 @@
         
         // If no OS-specific tab is found, the first tab will be selected by default
       });
-    }, 3000); // Small delay to ensure tabs are initialized
+    }, 1000); // Small delay to ensure tabs are initialized
     
     $('.materialboxed').materialbox();
 

@@ -13,11 +13,15 @@ tabs:
   description: |
     We recommend using the `opp_env` package manager to install OMNeT++ and other models and frameworks.
     
-      - On Linux and macOS, install the [NIX](https://nixos.org/download/) package manager.
-        On Windows, install the [opp_env.wsl](https://github.com/omnetpp/opp_env/releases/download/wsl/opp_env.wsl)
-        WSL image.
-      - Install the [opp_env](https://github.com/omnetpp/opp_env/blob/main/INSTALL.md) package manager using `pip install opp-env`.
-      - Create a workspace directory and initialize it with `opp_env init`.
+      - On Linux and macOS:
+        - Install the [NIX](https://nixos.org/download/) package manager.
+        - Install the [opp_env](https://github.com/omnetpp/opp_env/blob/main/INSTALL.md) package manager
+          using `pip install opp-env`.
+        - Create a workspace directory and initialize it with `opp_env init`.
+      - On Windows:
+        - Install the [opp_env.wsl](https://github.com/omnetpp/opp_env/releases/download/wsl/opp_env.wsl)
+          WSL image. (Make sure you have WSL 2.4.4 or later on your machine.)
+        - Start the downloaded image and follow the instructions on the first run.
       - Install OMNeT++ with `opp_env install omnetpp-@VERSION@`
 
 - id: linux
@@ -46,7 +50,8 @@ tabs:
       RECOMMENDED: This is a Windows Subsystem for Linux (WSL2) image containing `opp_env` which lets you easily install
       any version of OMNeT++ and its dependencies (and a lot of other 3rd-party models and frameworks).
       Just download and start the image file. As long as you have WSL 2.4.4 or later on your machine, it will
-      automatically install the latest version of OMNeT++ for you.
+      automatically install `opp_env`. On the first run, choose 'manual installation' and then install the OMNeT++
+      with `opp_env install omnetpp-@VERSION@`.
     download-file-url: https://github.com/omnetpp/opp_env/releases/download/wsl/opp_env.wsl
     filesize: 196000000
   - arch: x86_64
@@ -93,7 +98,7 @@ tabs:
 
 - id: docker
   description: |
-    Container images are available on the [GitHub Container Registry](https://github.com/orgs/omnetpp/packages?repo_name=omnetpp).
+    Container images are available at the [GitHub Container Registry](https://github.com/orgs/omnetpp/packages?repo_name=omnetpp).
 
 
     `docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" ghcr.io/omnetpp/omnetpp:u24.04-@VERSION@`
