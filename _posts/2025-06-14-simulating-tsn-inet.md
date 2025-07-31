@@ -2,9 +2,8 @@
 layout: post
 title:  Tutorial on Time-Sensitive Networking with INET
 category: Articles
-details-url: /files/Simulating_Time-Sensitive_Networking_using_the_INET_Framework_2025.pdf
 ---
-Rostock, Germany - The OMNeT++ development team was invited to present a tutorial on Time-Sensitive Networking (TSN) at the 21st IEEE International Conference on Factory Communication Systems (WFCS 2025). The conference took place in Rostock, Germany, from June 10-13, 2025.
+Rostock, Germany - The OMNeT++ development team was invited to present a tutorial on Time-Sensitive Networking (TSN) at the 21st IEEE International Conference on Factory Communication Systems (WFCS 2025). The conference took place in Rostock, Germany, from June 10-13, 2025. [Presentation Slides.](https://omnetpp.org/files/Simulating_Time-Sensitive_Networking_using_the_INET_Framework_2025.pdf)
 
 The 90-minute tutorial, "Simulating Time-Sensitive Networking (TSN) with OMNeT++ and INET," was held on the conference's Tutorial Day. It was presented by Levente Mészáros, a Senior Software Engineer for the OMNeT++/INET Framework.
 
