@@ -64,6 +64,8 @@ redirect_from: "/index.php/"
         <div class="card omnetpp-blue accent-4">
           <div class="card-content white-text white-underlined-link">
             <span class="card-title">Asking Questions</span>
+            <p><i class="fas fa-book"></i>&nbsp;<strong>OMNeT++ Gemini Notebook</strong></p>
+            <p><a class="white-text" href="https://nb.omnetpp.org" target="_blank">Chat with the AI</a> about OMNeT++</p>
             <p><i class="fas fa-comments"></i>&nbsp;<strong>OMNeT++ Forum</strong></p>
               <p>Visit the <a href="https://forum.omnetpp.org" target="_blank"><b>OMNeT++ Forum</b></a>.</p>
               <small><p>For generic discussion, asking for help, etc.</p></small>
@@ -79,7 +81,8 @@ redirect_from: "/index.php/"
           <div class="card-content white-text white-underlined-link">
             <span class="card-title">Tips for New Users</span>
             <p>Check out the&nbsp;<a href="https://docs.omnetpp.org/tutorials/tictoc/" target="_blank">TicToc tutorial</a>,
-              browse the <a href="/documentation">documentation</a> and the <a href="/download/models-and-tools">model catalog</a>.
+              browse the <a href="/documentation">documentation</a> and the <a href="/download/models-and-tools">model catalog</a> or
+              <a href="https://nb.omnetpp.org" target="_blank">chat with AI</a> about OMNeT++.
               Watch <a href="https://www.youtube.com/playlist?list=PL6XXfMqxC2Ccoot_Sl6ZIMjFon4e9ifd3" target="_blank">introductory
               videos</a>, and explore the featured network simulation projects (see banner).</p>
           </div>
