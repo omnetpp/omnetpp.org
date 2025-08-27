@@ -3,6 +3,8 @@ layout: page
 title:  Simplifying OMNeT++ Model Installations with opp_env
 ---
 
+> NOTE: For installing `opp_env`, visit [opp_env on GitHub](https://github.com/omnetpp/opp_env/blob/main/INSTALL.md) for instructions.
+
 Do you like using the `pip` command for installing Python packages? Pip makes package installation a breeze. Now imagine if you could install OMNeT++ simulation models and model frameworks just as easily.
 
 ## The Problem: Manual Installation Hassles
@@ -96,29 +98,8 @@ $ opp_env shell -w my_workspace --init --install simu5g-latest
 
 This creates a working environment with just one command!
 
-### Installing opp_env
-
-To try this yourself:
-
-1. Install `opp_env` via pip:
-
-    ```bash
-    $ pip install opp_env
-    ```
-
-2. Set up Nix: You’ll need a recent version of Nix, which is best installed from their website.
-
-#### Why Nix Matters
-
-opp_env relies on the Nix package manager to ensure compatibility. Nix provides the appropriate versions of the compiler, libraries, and other packages needed to ensure that models build and run without requiring manual adjustments. This emphasis on repeatable builds is crucial for creating reproducible simulations, which are vital for scientific publications and research.
-
 ### Learn More
 
 After installing `opp_env`, use `-h` (or `--help`) to access general help, or `opp_env <subcommand> -h` for detailed guidance on a specific subcommand (e.g., `opp_env install -h`). The help includes extensive descriptions and practical examples for all available options.
 
 For installation instructions and more detailed information, check out the project’s GitHub page: [opp_env on GitHub](https://github.com/omnetpp/opp_env).
-
-
-
-
-
