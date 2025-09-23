@@ -19,6 +19,6 @@ opp-env-command: opp_env install simproctc-latest
 
 The Simulation Processing Tool-Chain&nbsp;(SimProcTC) is a model-independent, flexible tool-chain for the setup, parallel run execution, results aggregation and data analysis for OMNeT++. It is based on [GNU R](https://www.r-project.org/) and [Reliable Server Pooling (RSerPool)](https://www.nntb.no/~dreibh/rserpool/).
 
-A detailed description of SimProcTC can be found in Appendix&nbsp;B of "[Evaluation and Optimisation of Multi-Path Transport using the Stream Control Transmission Protocol](https://duepublico2.uni-due.de/servlets/MCRFileNodeServlet/duepublico_derivate_00029737/Dre2012_final.pdf#appendix.B)".
+A detailed description of SimProcTC can be found in Appendix&nbsp;B of T.&nbsp;Dreibholz, "[Evaluation and Optimisation of Multi-Path Transport using the Stream Control Transmission Protocol](https://duepublico2.uni-due.de/servlets/MCRFileNodeServlet/duepublico_derivate_00029737/Dre2012_final.pdf#appendix.B)".
 
 Author: [Thomas Dreibholz](https://www.nntb.no/~dreibh/), [Simula Research Laboratory](https://www.simula.no/)
