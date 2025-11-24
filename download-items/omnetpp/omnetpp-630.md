@@ -100,7 +100,13 @@ tabs:
   description: |
     Container images are available at the [GitHub Container Registry](https://github.com/orgs/omnetpp/packages?repo_name=omnetpp).
 
+    To run in distrobox (recommended, GUI supported):
+    
+    `distrobox assemble create --file  https://github.com/omnetpp/omnetpp/releases/download/omnetpp-@VERSION@/omnetpp-@VERSION@-distrobox.ini`
 
+
+    To run a container with OMNeT++ (core version, no GUI):
+    
     `docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" ghcr.io/omnetpp/omnetpp:u24.04-@VERSION@`
 
 ---
