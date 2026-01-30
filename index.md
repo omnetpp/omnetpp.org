@@ -52,28 +52,15 @@ redirect_from: "/index.php/"
         <a href="/intro" id="start-button" style="width: 100%; margin: 8px 0 8px 0px;" class="btn-large waves-effect waves-light omnetpp-blue accent-4">Get Started</a>
         <a href="/download" id="download-button" style="width: 100%; margin: 8px 0 8px 0px;" class="btn-large waves-effect waves-light green darken-3">Download</a>
 
+        <a href="https://ai.omnetpp.org" target="_blank" id="ask-ai-button" style="width: 100%; margin: 8px 0 8px 0px;" class="btn-large waves-effect waves-light orange darken-3">Ask the AI Expert</a>
+
         <div class="card omnetpp-blue accent-4">
           <div class="card-content white-text white-underlined-link">
             <span class="card-title">GitHub Repository</span>
             <p>OMNeT++ source code and development history:<br/>
             <i class="fab fa-github"></i>&nbsp;<a href="https://github.com/omnetpp/omnetpp" target="_blank">omnetpp/omnetpp</a>
             </p>
-          </div>
-        </div>
-
-        <div class="card omnetpp-blue accent-4">
-          <div class="card-content white-text white-underlined-link">
-            <span class="card-title">Asking Questions</span>
-            <p><i class="fas fa-book"></i>&nbsp;<strong>OMNeT++ Gemini Notebook</strong></p>
-            <p><a class="white-text" href="https://nb.omnetpp.org" target="_blank">Chat with the AI</a> about OMNeT++</p>
-            <p><i class="fas fa-comments"></i>&nbsp;<strong>OMNeT++ Forum</strong></p>
-              <p>Visit the <a href="https://forum.omnetpp.org" target="_blank"><b>OMNeT++ Forum</b></a>.</p>
-              <small><p>For generic discussion, asking for help, etc.</p></small>
-            <p><i class="fab fa-stack-overflow"></i>&nbsp;<strong>StackOverflow</strong></p>
-              <p>Use the <a href="https://stackoverflow.com/questions/tagged/omnet%2b%2b" target="_blank"><b>omnet++</b></a> tag.</p>
-              <small><p>For OMNeT++-related programming questions.</p></small>
-            <p><i class="fas fa-envelope"></i>&nbsp;<strong>Mailing list archive</strong></p>
-              <p><a href="https://groups.google.com/forum/#!forum/omnetpp" target="_blank">Browse</a> the mailing list archive</p>              
+            <p><i class="fas fa-comments"></i>&nbsp;<a href="https://forum.omnetpp.org" target="_blank">OMNeT++ Forum</a></p>
           </div>
         </div>
 
@@ -82,7 +69,7 @@ redirect_from: "/index.php/"
             <span class="card-title">Tips for New Users</span>
             <p>Check out the&nbsp;<a href="https://docs.omnetpp.org/tutorials/tictoc/" target="_blank">TicToc tutorial</a>,
               browse the <a href="/documentation">documentation</a> and the <a href="/download/models-and-tools">model catalog</a> or
-              <a href="https://nb.omnetpp.org" target="_blank">chat with AI</a> about OMNeT++.
+              <a href="https://ai.omnetpp.org" target="_blank">chat with an AI</a> about OMNeT++.
               Watch <a href="https://www.youtube.com/playlist?list=PL6XXfMqxC2Ccoot_Sl6ZIMjFon4e9ifd3" target="_blank">introductory
               videos</a>, and explore the featured network simulation projects (see banner).</p>
           </div>

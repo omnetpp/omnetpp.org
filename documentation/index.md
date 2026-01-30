@@ -3,6 +3,9 @@ layout: page
 title: OMNeT++ Documentation
 underMenu: Documentation
 ---
+> Consult with our [OMNeT++](https://ai.omnetpp.org) and [INET](https://ai-inet.omnetpp.org) AI Experts!
+>
+> You can interactively explore the simulator, ask questions, and get answers to speed up your learning process.
 
 ## Introductions
 
