@@ -9,6 +9,7 @@ keywords: mobility, v2x, vehicular, vanet, hla, rti, cosimulation
 github-url: https://github.com/eclipse-mosaic/mosaic
 download-page-url: https://www.dcaiti.tu-berlin.de/research/simulation/downloads/
 website-url: https://www.dcaiti.tu-berlin.de/research/simulation/mosaic/
+opp-env-command: opp_env install eclipse_mosaic_allinone-latest
 ---
 
 MOSAIC ([alternative web site](https://eclipse.dev/mosaic/)) is a multi-scale

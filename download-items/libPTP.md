@@ -7,6 +7,7 @@ category: models
 tags: model omnetpp4 inet2
 keywords: timing, libptp
 github-url: https://github.com/w-wallner/libPTP
+opp-env-command: opp_env install libptp-latest
 ---
 
 LibPTP is an implementation of the Precision Time Protocol (PTP) as it is specified in IEEE 1588-2008

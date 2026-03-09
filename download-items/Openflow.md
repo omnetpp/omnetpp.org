@@ -7,7 +7,7 @@ years-active: 2013-
 tags: model inet2 inet3 inet4 omnetpp4 omnetpp5 omnetpp6
 keywords: ethernet, sdn
 github-url: https://github.com/inet-framework/openflow
-opp-env-command: opp_env install openflow-latest
+opp-env-command: opp_env install openflow4core-latest
 ---
 
 Simulation model of the OpenFlow system based on the OpenFlow switch

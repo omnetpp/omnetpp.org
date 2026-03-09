@@ -8,6 +8,7 @@ tags: model framework omnetpp6 veins
 keywords: vanet, vehicular, mobility, ad hoc, ivc, 802.11p, 1609.4, aerospace, wireless, satellite
 github-url: https://github.com/veins/space_veins/
 website-url: https://sat.car2x.org/
+opp-env-command: opp_env install space_veins_allinone-latest
 ---
 
 space_Veins is an extension of Veins which integrates satellites as additional
