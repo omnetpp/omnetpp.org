@@ -42,6 +42,11 @@ tutorials and technical articles about diverse OMNeT++-related topics. Topics in
 * Debugging C++ on Linux: State of art, and tips on improving the debugging experience
 * Result analysis using Python, Pandas and Matplotlib
 
+## Demos and Showcases
+
+* [AI Chat Showcase: Finding a 3-Way Collision in Aloha](ai-demos/aloha/showcase) 
+* [AI Chat Showcase: Diagnosing a Clock Synchronization Anomaly in a TSN Network](ai-demos/tsn/showcase) 
+
 ## Older versions
 
 * [OMNeT++ 5.6 Simulation Manual](/doc/omnetpp5/manual) ([pdf](/doc/omnetpp5/SimulationManual.pdf))
