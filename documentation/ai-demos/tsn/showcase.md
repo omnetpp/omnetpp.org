@@ -79,14 +79,17 @@ and sets all other oscillators to 0 ppm:
 
 ```ini
 # Original: random drift oscillators with varying rates
--**.tsnClock*.clock.oscillator.typename = "RandomDriftOscillator"
--**.oscillator.driftRate = uniform(-100ppm, 100ppm)
--**.oscillator.driftRateChange = uniform(-1ppm, 1ppm)
+**.tsnClock*.clock.oscillator.typename = "RandomDriftOscillator"
+**.oscillator.driftRate = uniform(-100ppm, 100ppm)
+**.oscillator.driftRateChange = uniform(-1ppm, 1ppm)
+```
+was changed to:
 
+```ini
 # Modified: deterministic constant drift, only on the switch
-+**.oscillator.typename = "ConstantDriftOscillator"
-+**.tsnSwitch.clock.oscillator.driftRate = 100ppm
-+**.oscillator.driftRate = 0ppm
+**.oscillator.typename = "ConstantDriftOscillator"
+**.tsnSwitch.clock.oscillator.driftRate = 100ppm
+**.oscillator.driftRate = 0ppm
 ```
 
 With this setup, the user expects the switch's `neighborRateRatio` to be
