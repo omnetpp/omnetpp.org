@@ -1,12 +1,12 @@
 ---
-id: omnetpp-630
+id: omnetpp-640
 download: true
 layout: download-details-omnetpp
-version: 6.3.0
+version: 6.4.0
 title: OMNeT++ @VERSION@
-date: 2025-11-12
-sortkey: "2025-11-12"
-category: omnetpp
+date: 2026-05-08
+sortkey: "2026-05-08"
+category: omnetpp-current
 whatsnew-url: https://github.com/omnetpp/omnetpp/releases/tag/omnetpp-@VERSION@
 tabs:
 - id: opp_env
@@ -30,15 +30,15 @@ tabs:
     brief: We recommend using the `opp_env` package manager to install OMNeT++ and other models and frameworks.
   - arch: x86_64
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-@VERSION@/omnetpp-@VERSION@-linux-x86_64.tgz
-    filesize: 415252013
-    sha256: 86137d49f8fc2be2b14c451c7a7bdd9a727b5f233333b8013084e31ea0e62d88
+    filesize: 422878463
+    sha256: 2dd2cfbd388e50e843f5713716f065e878df7bb104b69f3435f740b37b21d459
     description: |
       Use the `install.sh` script in the root directory of the archive to install dependencies and build OMNeT++.
       Supported: Ubuntu, Debian, Fedora, openSUSE Leap, Arch Linux, AlmaLinux and other similar distros.
   - arch: aarch64
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-@VERSION@/omnetpp-@VERSION@-linux-aarch64.tgz
-    filesize: 414705641
-    sha256: 19657ceb16646e3c2e0938981f9ad55fb75a8f1737b00dbc0bf50b710750357a
+    filesize: 422016513
+    sha256: 13099125c95f636f37fc4d23e2ed8c9fa81e8396e90879673e86a80647c148cd
     description: |
       Use the `install.sh` script in the root directory of the archive to install dependencies and build OMNeT++.
       Supported: Ubuntu, Debian, Fedora, openSUSE Leap, Arch Linux, AlmaLinux and other similar distros.
@@ -61,8 +61,8 @@ tabs:
       Linux or macOS versions. You will get much better performance if you use WSL2 (https://github.com/microsoft/WSL) and
       install the Linux version. Or even better, use `opp_env.wsl` to install `opp_env` directly on WSL2.
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-@VERSION@/omnetpp-@VERSION@-windows-x86_64.7z
-    filesize: 1207916788
-    sha256: 699657074cdf1d0346f3fd456e2501c39d16ef225b039da6df60d7ceb063c91a
+    filesize: 1209918370
+    sha256: 3c0957fe466332bcf441f132ac0fe102986c96699f50fee03abbcafbdc4504ab
 
 - id: macos
   downloads:
@@ -70,8 +70,8 @@ tabs:
     brief: We recommend using the `opp_env` package manager to install OMNeT++ and other models and frameworks.
   - arch: aarch64
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-@VERSION@/omnetpp-@VERSION@-macos-aarch64.tgz
-    filesize: 413486879
-    sha256: a01de508ec73a9c4cb8a6646b4c65556acb602f68264b59ad97c11d5ad4fbfab
+    filesize: 419564914
+    sha256: 11fe0600066b70fe6bde52c1deb90a5dc2701fb579819ec03372011f6f900d0f
     description: |
       OMNeT++ requires a properly installed version of Xcode Command Line Tools and Homebrew (https://brew.sh/).
       Use the `install.sh` script in the root directory of the archive to install dependencies and build OMNeT++.
@@ -82,8 +82,8 @@ tabs:
       (Use this version ONLY if you have an Intel based Mac computer. Do not use this version on an Apple
       Silicon Mac with Rosetta 2.)
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-@VERSION@/omnetpp-@VERSION@-macos-x86_64.tgz
-    filesize: 414675124
-    sha256: 2fdc971228b135ec3f760fb9fe0cfc4674107699a743a8dffb831f4d69aa5b70
+    filesize: 420953404
+    sha256: e2297e02082444e2ab446e015ef21f04ca2e9da053e56199e13bcad609b3bf70
 
 - id: core
   description: |
@@ -93,8 +93,8 @@ tabs:
   downloads:
   - arch: generic
     download-file-url: https://github.com/omnetpp/omnetpp/releases/download/omnetpp-@VERSION@/omnetpp-@VERSION@-core.tgz
-    filesize: 79856430
-    sha256: 8bfe89e36c0fc1e80853b46e27c01cff670002fdd2abdba989e8148240748fd1
+    filesize: 80150650
+    sha256: db8de41f2503772aa627fbd99901078fd7a9db9942df9f284de40f7704053bbb
 
 - id: docker
   description: |
@@ -107,13 +107,15 @@ tabs:
 
     To run a container with OMNeT++ (core version, no GUI):
     
-    `docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" ghcr.io/omnetpp/omnetpp:u24.04-@VERSION@`
+    `docker run --rm -it -v "$(pwd):/root/models" -u "$(id -u):$(id -g)" ghcr.io/omnetpp/omnetpp:u26.04-@VERSION@`
 
 ---
-This release focuses on incremental improvements and refinements rather than
-introducing major new features. Key enhancements include Analysis Tool
-improvements such as configurable bin setup for "histogram from vectors" charts,
-global menu support in Qtenv, enhanced dark theme support throughout the IDE,
-and various other usability and stability improvements across the platform.
+This release brings major improvements to the simulation kernel's numerical
+stability, a redesigned WATCH mechanism with full STL container inspection, a
+pluggable RNG manager, and significant NED editor enhancements including figure
+rendering, rename refactoring, and new display string features. The Qtenv
+inspector and the IDE also received substantial usability improvements.
 
-Issues [fixed](https://github.com/omnetpp/omnetpp/issues?q=is%3Aissue+is%3Aclosed+milestone%3A6.3) in version 6.3.0.
+Issues [fixed](https://github.com/omnetpp/omnetpp/issues?q=is%3Aissue+is%3Aclosed+milestone%3A6.4) in version 6.4.0.
+
+Read the [What's New](https://github.com/omnetpp/omnetpp/blob/omnetpp-6.4.0/WHATSNEW.md) page for more details.
