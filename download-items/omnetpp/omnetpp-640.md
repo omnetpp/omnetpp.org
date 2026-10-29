@@ -6,7 +6,7 @@ version: 6.4.0
 title: OMNeT++ @VERSION@
 date: 2026-05-08
 sortkey: "2026-05-08"
-category: omnetpp-current
+category: omnetpp
 whatsnew-url: https://github.com/omnetpp/omnetpp/releases/tag/omnetpp-@VERSION@
 tabs:
 - id: opp_env
