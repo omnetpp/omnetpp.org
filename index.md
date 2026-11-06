@@ -55,6 +55,17 @@ redirect_from: "/index.php/"
         <a href="https://ai.omnetpp.org" target="_blank" id="ask-ai-button" style="width: 100%; margin: 8px 0 8px 0px;" class="btn-large waves-effect waves-light orange darken-3">Ask the AI Expert</a>
 
         <div class="card omnetpp-blue accent-4">
+          <div class="card-image">
+            <a href="/gallery"><img src="/images/screenshots/qtenv-packet-animation.png" alt="OMNeT++ screenshot"></a>
+          </div>
+          <div class="card-content white-text white-underlined-link">
+            <span class="card-title">Gallery</span>
+            <p>Browse <a href="/gallery">screenshots</a> of OMNeT++ in action and watch the
+              <a href="https://www.youtube.com/playlist?list=PL6XXfMqxC2Ccoot_Sl6ZIMjFon4e9ifd3" target="_blank">introductory videos</a>.</p>
+          </div>
+        </div>
+
+        <div class="card omnetpp-blue accent-4">
           <div class="card-content white-text white-underlined-link">
             <span class="card-title">GitHub Repository</span>
             <p>OMNeT++ source code and development history:<br/>
@@ -68,7 +79,7 @@ redirect_from: "/index.php/"
           <div class="card-content white-text white-underlined-link">
             <span class="card-title">Tips for New Users</span>
             <p>Check out the&nbsp;<a href="https://docs.omnetpp.org/tutorials/tictoc/" target="_blank">TicToc tutorial</a>,
-              browse the <a href="/documentation">documentation</a> and the <a href="/download/models-and-tools">model catalog</a> or
+              browse the <a href="https://doc.omnetpp.org" target="_blank">documentation</a> and the <a href="/download/models-and-tools">model catalog</a> or
               <a href="https://ai.omnetpp.org" target="_blank">chat with an AI</a> about OMNeT++.
               Watch <a href="https://www.youtube.com/playlist?list=PL6XXfMqxC2Ccoot_Sl6ZIMjFon4e9ifd3" target="_blank">introductory
               videos</a>, and explore the featured network simulation projects (see banner).</p>

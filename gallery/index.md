@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Screenshots
+title: Gallery
+redirect_from: "/intro/screenshots/"
 screenshots:
 - url: /images/screenshots/qtenv-main.png
   caption: "The Qtenv simulation runtime"
@@ -43,6 +44,8 @@ screenshots:
 - url: /images/screenshots/ide-seqchart-1.png
   caption: "IDE - Another sequence chart"
 ---
+
+Watch the [Introductory videos](https://www.youtube.com/playlist?list=PL6XXfMqxC2Ccoot_Sl6ZIMjFon4e9ifd3) on YouTube.
 
 <ul style="display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: flex-start">
 {% for item in page.screenshots %}

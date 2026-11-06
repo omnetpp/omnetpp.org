@@ -3,7 +3,6 @@
 - name: Download
   link: /download
 - name: Documentation
-  link: /documentation
+  link: https://doc.omnetpp.org
 - name: Simulation Models and Tools
   link: /download/models-and-tools
-
