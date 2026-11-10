@@ -4,5 +4,6 @@
   link: /download
 - name: Documentation
   link: https://doc.omnetpp.org
+  external: true
 - name: Simulation Models and Tools
   link: /download/models-and-tools

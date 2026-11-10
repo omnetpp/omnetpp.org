@@ -21,7 +21,7 @@
                 </li>
               {% else %}
                 <li{% if page.underMenu == item.name %} class="active"{% endif %}>
-                   <a href="{{ item.link }}">{{ item.name }}</a>
+                   <a href="{{ item.link }}"{% if item.external %} target="_blank"{% endif %}>{{ item.name }}{% if item.external %}<span class="fas fa-external-link-alt nav-external-icon"></span>{% endif %}</a>
                 </li>
               {% endif %}
             {% endfor %}
@@ -32,7 +32,7 @@
               {% if item.submenu %}
               {% else %}
                 <li{% if page.underMenu == item.name %} class="active"{% endif %}>
-                   <a href="{{ item.link }}">{{ item.name }}</a>
+                   <a href="{{ item.link }}"{% if item.external %} target="_blank"{% endif %}>{{ item.name }}{% if item.external %}<span class="fas fa-external-link-alt nav-external-icon"></span>{% endif %}</a>
                 </li>
               {% endif %}
             {% endfor %}
